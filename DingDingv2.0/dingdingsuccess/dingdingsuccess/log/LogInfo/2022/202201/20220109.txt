@@ -1,0 +1,7 @@
+
+ 
+记录时间：2022-01-09 15:12:34,869 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 

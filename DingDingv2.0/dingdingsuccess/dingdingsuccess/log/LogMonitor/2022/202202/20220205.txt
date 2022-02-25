@@ -1,0 +1,256 @@
+
+ 
+记录时间：2022-02-05 11:24:51,982 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/5 11:24:51  结束时间：2022/2/5 11:24:51 总 时 间：56秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:24:51,992 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/5 11:24:51  结束时间：2022/2/5 11:24:51 总 时 间：72秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:24:53,290 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/5 11:24:51  结束时间：2022/2/5 11:24:53 总 时 间：56秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:24:53,291 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/5 11:24:51  结束时间：2022/2/5 11:24:53 总 时 间：72秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:24:56,066 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/5 11:24:56  结束时间：2022/2/5 11:24:56 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:24:56,066 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/5 11:24:56  结束时间：2022/2/5 11:24:56 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:24:56,182 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/5 11:24:56  结束时间：2022/2/5 11:24:56 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:24:56,182 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/5 11:24:56  结束时间：2022/2/5 11:24:56 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:08,414 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2022/2/5 11:25:08  结束时间：2022/2/5 11:25:08 总 时 间：49秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:08,414 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2022/2/5 11:25:08  结束时间：2022/2/5 11:25:08 总 时 间：49秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:08,468 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2022/2/5 11:25:08  结束时间：2022/2/5 11:25:08 总 时 间：49秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:08,468 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2022/2/5 11:25:08  结束时间：2022/2/5 11:25:08 总 时 间：49秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:45,423 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/5 11:25:45  结束时间：2022/2/5 11:25:45 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:45,423 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/5 11:25:45  结束时间：2022/2/5 11:25:45 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:45,424 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/5 11:25:45  结束时间：2022/2/5 11:25:45 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:45,424 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/5 11:25:45  结束时间：2022/2/5 11:25:45 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:52,296 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2022/2/5 11:25:52  结束时间：2022/2/5 11:25:52 总 时 间：1秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:52,296 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2022/2/5 11:25:52  结束时间：2022/2/5 11:25:52 总 时 间：1秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:52,301 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2022/2/5 11:25:52  结束时间：2022/2/5 11:25:52 总 时 间：1秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 11:25:52,302 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2022/2/5 11:25:52  结束时间：2022/2/5 11:25:52 总 时 间：1秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:00,952 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/5 14:43:00  结束时间：2022/2/5 14:43:00 总 时 间：43秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:00,963 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/5 14:43:00  结束时间：2022/2/5 14:43:00 总 时 间：59秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:03,239 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/5 14:43:00  结束时间：2022/2/5 14:43:03 总 时 间：43秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:03,239 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/5 14:43:00  结束时间：2022/2/5 14:43:03 总 时 间：59秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:16,801 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/5 14:43:16  结束时间：2022/2/5 14:43:16 总 时 间：33秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:16,801 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/5 14:43:16  结束时间：2022/2/5 14:43:16 总 时 间：33秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:18,000 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/5 14:43:16  结束时间：2022/2/5 14:43:18 总 时 间：33秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:18,000 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/5 14:43:16  结束时间：2022/2/5 14:43:18 总 时 间：33秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:25,021 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2022/2/5 14:43:24  结束时间：2022/2/5 14:43:25 总 时 间：30秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:25,021 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2022/2/5 14:43:24  结束时间：2022/2/5 14:43:25 总 时 间：30秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:25,063 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2022/2/5 14:43:25  结束时间：2022/2/5 14:43:25 总 时 间：30秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-05 14:43:25,063 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2022/2/5 14:43:25  结束时间：2022/2/5 14:43:25 总 时 间：30秒
+        Form：
+ 

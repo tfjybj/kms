@@ -1,0 +1,160 @@
+
+ 
+记录时间：2022-02-22 15:39:44,286 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/22 15:39:44  结束时间：2022/2/22 15:39:44 总 时 间：66秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:39:44,296 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/22 15:39:44  结束时间：2022/2/22 15:39:44 总 时 间：83秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:39:47,614 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/22 15:39:44  结束时间：2022/2/22 15:39:47 总 时 间：66秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:39:47,614 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/22 15:39:44  结束时间：2022/2/22 15:39:47 总 时 间：83秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:39:59,692 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/22 15:39:59  结束时间：2022/2/22 15:39:59 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:39:59,692 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/22 15:39:59  结束时间：2022/2/22 15:39:59 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:40:01,787 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/22 15:39:59  结束时间：2022/2/22 15:40:01 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:40:01,788 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/22 15:39:59  结束时间：2022/2/22 15:40:01 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:41:57,137 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/22 15:41:57  结束时间：2022/2/22 15:41:57 总 时 间：50秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:41:57,151 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/22 15:41:57  结束时间：2022/2/22 15:41:57 总 时 间：70秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:41:59,256 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/22 15:41:57  结束时间：2022/2/22 15:41:59 总 时 间：50秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 15:41:59,257 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/22 15:41:57  结束时间：2022/2/22 15:41:59 总 时 间：70秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 16:08:07,806 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/22 16:08:07  结束时间：2022/2/22 16:08:07 总 时 间：61秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 16:08:07,820 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/22 16:08:07  结束时间：2022/2/22 16:08:07 总 时 间：80秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 16:08:10,185 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/22 16:08:07  结束时间：2022/2/22 16:08:10 总 时 间：61秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 16:08:10,185 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/22 16:08:07  结束时间：2022/2/22 16:08:10 总 时 间：80秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 16:20:30,661 
+线程ID:[61] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/22 16:20:30  结束时间：2022/2/22 16:20:30 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 16:20:30,724 
+线程ID:[61] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/22 16:20:30  结束时间：2022/2/22 16:20:30 总 时 间：115秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 16:20:35,224 
+线程ID:[61] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/22 16:20:30  结束时间：2022/2/22 16:20:35 总 时 间：36秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-22 16:20:35,240 
+线程ID:[61] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/22 16:20:30  结束时间：2022/2/22 16:20:35 总 时 间：115秒
+        Form：
+ 

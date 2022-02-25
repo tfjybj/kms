@@ -1,0 +1,287 @@
+
+ 
+记录时间：2022-01-08 19:35:05,716 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 19:35:05,825 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 20:00:14,191 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:05:06,959 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 21:05:06,959 
+线程ID:[23] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 21:05:07,068 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:05:07,068 
+线程ID:[23] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:11:27,949 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"193316476111911211641647107","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\",\"date\":\"2022/1/8 21:05:06\",\"calendarid\":\"NmFQcGg4bXVpYm1penJCRFpRWkVSQT09\",\"usagetime\":\"2021/8/11 21:00:00-2021/8/11 21:30:00\"}}}","userId":"19331647611191121","content":"{\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\",\"date\":\"2022/1/8 21:05:06\",\"calendarid\":\"NmFQcGg4bXVpYm1penJCRFpRWkVSQT09\",\"usagetime\":\"2021/8/11 21:00:00-2021/8/11 21:30:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-08 21:11:27,965 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：193316476111911211641647107
+ 
+
+ 
+记录时间：2022-01-08 21:11:27,965 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["1"],"params":{"result":"0","date":"2022/1/8 21:05:06","calendarid":"NmFQcGg4bXVpYm1penJCRFpRWkVSQT09","usagetime":"2021/8/11 21:00:00-2021/8/11 21:30:00"}}}
+ 
+
+ 
+记录时间：2022-01-08 21:20:00,824 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 21:20:00,824 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 21:20:00,840 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 21:20:00,856 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:20:00,856 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:20:00,871 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:32:28,918 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"1640523016292823891641648001","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/8 21:20:00\",\"calendarid\":\"TmxvbkV1emxWOFVubTh6ZExzTDJPUT09\",\"usagetime\":\"2021/12/15 21:15:00-2021/12/15 21:30:00\"}}}","userId":"164052301629282389","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/8 21:20:00\",\"calendarid\":\"TmxvbkV1emxWOFVubTh6ZExzTDJPUT09\",\"usagetime\":\"2021/12/15 21:15:00-2021/12/15 21:30:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-08 21:32:28,918 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：1640523016292823891641648001
+ 
+
+ 
+记录时间：2022-01-08 21:32:28,918 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/1/8 21:20:00","calendarid":"TmxvbkV1emxWOFVubTh6ZExzTDJPUT09","usagetime":"2021/12/15 21:15:00-2021/12/15 21:30:00"}}}
+ 
+
+ 
+记录时间：2022-01-08 21:32:33,012 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"1640523016292823891641648001","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\",\"date\":\"2022/1/8 21:20:00\",\"calendarid\":\"TmxvbkV1emxWOFVubTh6ZExzTDJPUT09\",\"usagetime\":\"2021/12/15 21:15:00-2021/12/15 21:30:00\"}}}","userId":"164052301629282389","content":"{\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\",\"date\":\"2022/1/8 21:20:00\",\"calendarid\":\"TmxvbkV1emxWOFVubTh6ZExzTDJPUT09\",\"usagetime\":\"2021/12/15 21:15:00-2021/12/15 21:30:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-08 21:32:33,012 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：1640523016292823891641648001
+ 
+
+ 
+记录时间：2022-01-08 21:32:33,012 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["1"],"params":{"result":"0","date":"2022/1/8 21:20:00","calendarid":"TmxvbkV1emxWOFVubTh6ZExzTDJPUT09","usagetime":"2021/12/15 21:15:00-2021/12/15 21:30:00"}}}
+ 
+
+ 
+记录时间：2022-01-08 21:32:39,825 
+线程ID:[23] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"1641455739","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"calendarid\":\"ZmNLNGpSdzFJN21wZnJObENtdVdHdz09\",\"title\":\"鲲鹏\"}}}","userId":"164052301629282389","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"calendarid\":\"ZmNLNGpSdzFJN21wZnJObENtdVdHdz09\",\"title\":\"鲲鹏\"}}}"}
+ 
+
+ 
+记录时间：2022-01-08 21:32:39,825 
+线程ID:[23] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：1641455739
+ 
+
+ 
+记录时间：2022-01-08 21:32:39,825 
+线程ID:[23] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","calendarid":"ZmNLNGpSdzFJN21wZnJObENtdVdHdz09","title":"鲲鹏"}}}
+ 
+
+ 
+记录时间：2022-01-08 21:32:42,294 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"1641455739","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\"}}}","userId":"164052301629282389","content":"{\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-08 21:32:42,294 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：1641455739
+ 
+
+ 
+记录时间：2022-01-08 21:32:42,294 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["1"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-08 21:35:01,896 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 21:35:01,896 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 21:35:01,927 
+线程ID:[24] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:35:01,927 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:36:26,605 
+线程ID:[45] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"0367162951209743641641648902","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\",\"date\":\"2022/1/8 21:35:01\",\"calendarid\":\"UU4rYTdycVNDWm0vWXJMYU5CVStnUT09\",\"usagetime\":\"2020/10/3 21:30:00-2020/10/3 21:30:00\"}}}","userId":"036716295120974364","content":"{\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\",\"date\":\"2022/1/8 21:35:01\",\"calendarid\":\"UU4rYTdycVNDWm0vWXJMYU5CVStnUT09\",\"usagetime\":\"2020/10/3 21:30:00-2020/10/3 21:30:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-08 21:36:26,605 
+线程ID:[45] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：0367162951209743641641648902
+ 
+
+ 
+记录时间：2022-01-08 21:36:26,605 
+线程ID:[45] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["1"],"params":{"result":"0","date":"2022/1/8 21:35:01","calendarid":"UU4rYTdycVNDWm0vWXJMYU5CVStnUT09","usagetime":"2020/10/3 21:30:00-2020/10/3 21:30:00"}}}
+ 
+
+ 
+记录时间：2022-01-08 21:54:59,842 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-08 21:54:59,873 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-08 21:58:40,542 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"063901336981831641650100","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/8 21:54:59\",\"calendarid\":\"VTVGMHoyRzd1TXM2UHpDdks3RWh6dz09\",\"title\":\"精灵\",\"usagetime\":\"2022/1/9 19:00:00-2022/1/9 20:00:00\"}}}","userId":"06390133698183","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/8 21:54:59\",\"calendarid\":\"VTVGMHoyRzd1TXM2UHpDdks3RWh6dz09\",\"title\":\"精灵\",\"usagetime\":\"2022/1/9 19:00:00-2022/1/9 20:00:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-08 21:58:40,542 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：063901336981831641650100
+ 
+
+ 
+记录时间：2022-01-08 21:58:40,542 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/1/8 21:54:59","calendarid":"VTVGMHoyRzd1TXM2UHpDdks3RWh6dz09","title":"精灵","usagetime":"2022/1/9 19:00:00-2022/1/9 20:00:00"}}}
+ 
+
+ 
+记录时间：2022-01-08 21:58:40,542 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/1/8 21:54:59
+ 

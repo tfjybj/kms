@@ -1,0 +1,14 @@
+
+ 
+记录时间：2022-02-15 19:16:16,529 
+线程ID:[6] 
+日志级别：  ERROR 
+错误描述：发送卡片错误信息：编码uidDecryptError,code: 400, 消息接收者UID解码错误 request id: 6DD96414-8B00-7A56-9B73-19EBA973A9D9
+ 
+
+ 
+记录时间：2022-02-15 19:16:49,128 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：发送卡片错误信息：编码uidDecryptError,code: 400, 消息接收者UID解码错误 request id: C515D2D5-D97E-7C68-BCB9-F412F79219C5
+ 

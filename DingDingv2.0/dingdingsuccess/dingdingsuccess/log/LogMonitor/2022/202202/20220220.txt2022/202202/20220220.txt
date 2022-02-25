@@ -1,0 +1,160 @@
+
+ 
+记录时间：2022-02-20 17:11:11,052 
+线程ID:[105] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/20 17:11:10  结束时间：2022/2/20 17:11:11 总 时 间：590秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:11,083 
+线程ID:[105] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/20 17:11:10  结束时间：2022/2/20 17:11:11 总 时 间：681秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:13,396 
+线程ID:[105] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/20 17:11:11  结束时间：2022/2/20 17:11:13 总 时 间：590秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:13,396 
+线程ID:[105] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/20 17:11:11  结束时间：2022/2/20 17:11:13 总 时 间：681秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:16,505 
+线程ID:[105] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/20 17:11:16  结束时间：2022/2/20 17:11:16 总 时 间：74秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:16,505 
+线程ID:[105] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/20 17:11:16  结束时间：2022/2/20 17:11:16 总 时 间：75秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:19,380 
+线程ID:[106] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/20 17:11:19  结束时间：2022/2/20 17:11:19 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:19,380 
+线程ID:[106] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/20 17:11:19  结束时间：2022/2/20 17:11:19 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:40,725 
+线程ID:[106] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/20 17:11:19  结束时间：2022/2/20 17:11:40 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:40,725 
+线程ID:[106] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/20 17:11:19  结束时间：2022/2/20 17:11:40 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:40,725 
+线程ID:[105] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/20 17:11:16  结束时间：2022/2/20 17:11:40 总 时 间：74秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 17:11:40,725 
+线程ID:[105] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/20 17:11:16  结束时间：2022/2/20 17:11:40 总 时 间：75秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 19:06:22,874 
+线程ID:[100] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/20 19:06:22  结束时间：2022/2/20 19:06:22 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 19:06:22,874 
+线程ID:[100] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/20 19:06:22  结束时间：2022/2/20 19:06:22 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 19:06:22,890 
+线程ID:[100] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/20 19:06:22  结束时间：2022/2/20 19:06:22 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 19:06:22,890 
+线程ID:[100] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/20 19:06:22  结束时间：2022/2/20 19:06:22 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 19:06:25,187 
+线程ID:[100] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/20 19:06:25  结束时间：2022/2/20 19:06:25 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 19:06:25,187 
+线程ID:[100] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/20 19:06:25  结束时间：2022/2/20 19:06:25 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 19:06:25,202 
+线程ID:[100] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/20 19:06:25  结束时间：2022/2/20 19:06:25 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-20 19:06:25,202 
+线程ID:[100] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/20 19:06:25  结束时间：2022/2/20 19:06:25 总 时 间：0秒
+        Form：
+ 

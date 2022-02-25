@@ -1,0 +1,286 @@
+
+ 
+记录时间：2021-12-24 15:23:48,003 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 15:23:47  结束时间：2021/12/24 15:23:47 总 时 间：52秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 15:23:48,015 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 15:23:47  结束时间：2021/12/24 15:23:48 总 时 间：71秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 15:23:50,231 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 15:23:48  结束时间：2021/12/24 15:23:50 总 时 间：52秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 15:23:50,233 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 15:23:48  结束时间：2021/12/24 15:23:50 总 时 间：71秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 15:23:59,268 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：MultiSIMAlarmForJsonParam:+o8bZ/djM5ULYKPcANJDsB+W6y90/M0aydHVj/7MtMsrVsJ9UF4mMxdyzVlfulkMa2T4ieZfnld3/dDkp3YbecFnX+E4IVfWz+hnFDTmkcq6rFq9DZ3LlFvRnctbLiAp
+ 
+
+ 
+记录时间：2021-12-24 15:38:53,332 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 15:38:53  结束时间：2021/12/24 15:38:53 总 时 间：48秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 15:38:53,349 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 15:38:53  结束时间：2021/12/24 15:38:53 总 时 间：77秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 15:38:55,250 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 15:38:53  结束时间：2021/12/24 15:38:55 总 时 间：48秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 15:38:55,251 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 15:38:53  结束时间：2021/12/24 15:38:55 总 时 间：77秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 15:39:03,151 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：MultiSIMAlarmForJsonParam:+o8bZ/djM5ULYKPcANJDsB+W6y90/M0aydHVj/7MtMsrVsJ9UF4mMxdyzVlfulkMa2T4ieZfnld3/dDkp3YbecFnX+E4IVfWz+hnFDTmkcq6rFq9DZ3LlFvRnctbLiAp
+ 
+
+ 
+记录时间：2021-12-24 16:10:27,119 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 16:10:27  结束时间：2021/12/24 16:10:27 总 时 间：54秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:10:27,146 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 16:10:27  结束时间：2021/12/24 16:10:27 总 时 间：91秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:10:29,245 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 16:10:27  结束时间：2021/12/24 16:10:29 总 时 间：54秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:10:29,245 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 16:10:27  结束时间：2021/12/24 16:10:29 总 时 间：91秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:10:32,772 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2021/12/24 16:10:32  结束时间：2021/12/24 16:10:32 总 时 间：66秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:10:32,772 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2021/12/24 16:10:32  结束时间：2021/12/24 16:10:32 总 时 间：66秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:10:34,578 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2021/12/24 16:10:32  结束时间：2021/12/24 16:10:34 总 时 间：66秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:10:34,579 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2021/12/24 16:10:32  结束时间：2021/12/24 16:10:34 总 时 间：66秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:16:52,405 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 16:16:52  结束时间：2021/12/24 16:16:52 总 时 间：34秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:16:52,419 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 16:16:52  结束时间：2021/12/24 16:16:52 总 时 间：53秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:16:53,982 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 16:16:52  结束时间：2021/12/24 16:16:53 总 时 间：34秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:16:53,983 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 16:16:52  结束时间：2021/12/24 16:16:53 总 时 间：53秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:17:00,089 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2021/12/24 16:16:59  结束时间：2021/12/24 16:17:00 总 时 间：101秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:17:00,090 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2021/12/24 16:16:59  结束时间：2021/12/24 16:17:00 总 时 间：101秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:17:01,580 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2021/12/24 16:17:00  结束时间：2021/12/24 16:17:01 总 时 间：101秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:17:01,581 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2021/12/24 16:17:00  结束时间：2021/12/24 16:17:01 总 时 间：101秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:17:03,980 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2021/12/24 16:17:03  结束时间：2021/12/24 16:17:03 总 时 间：86秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:17:03,980 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2021/12/24 16:17:03  结束时间：2021/12/24 16:17:03 总 时 间：87秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:17:04,082 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2021/12/24 16:17:03  结束时间：2021/12/24 16:17:04 总 时 间：86秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 16:17:04,082 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2021/12/24 16:17:03  结束时间：2021/12/24 16:17:04 总 时 间：87秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 17:04:15,588 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 17:04:15  结束时间：2021/12/24 17:04:15 总 时 间：39秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 17:04:15,600 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 17:04:15  结束时间：2021/12/24 17:04:15 总 时 间：57秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 17:04:17,642 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 17:04:15  结束时间：2021/12/24 17:04:17 总 时 间：39秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 17:04:17,642 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2021/12/24 17:04:15  结束时间：2021/12/24 17:04:17 总 时 间：57秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 18:46:28,588 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 18:46:28  结束时间：2021/12/24 18:46:28 总 时 间：38秒
+        Form：
+ 
+
+ 
+记录时间：2021-12-24 18:46:28,597 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2021/12/24 18:46:28  结束时间：2021/12/24 18:46:28 总 时 间：52秒
+        Form：
+ 

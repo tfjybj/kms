@@ -1,0 +1,87 @@
+
+ 
+记录时间：2022-02-18 17:14:14,610 
+线程ID:[26] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-18 17:14:14,876 
+线程ID:[25] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-18 17:14:20,673 
+线程ID:[37] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-18 17:14:20,767 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-18 17:14:30,549 
+线程ID:[26] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-18 17:14:30,595 
+线程ID:[20] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-18 17:14:37,815 
+线程ID:[36] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-18 17:14:38,080 
+线程ID:[38] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-18 17:14:39,205 
+线程ID:[36] 
+日志级别：  ERROR 
+错误描述：发送卡片错误信息：编码systemBusy,code: 500, 系统繁忙 request id: CBCB8708-96C3-79A3-A570-27657B3A4B6C
+ 

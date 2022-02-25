@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfService.Entity" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfService.Entity" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfCalendarInfoEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CalendarInfoEntity" nillable="true" type="tns:CalendarInfoEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCalendarInfoEntity" nillable="true" type="tns:ArrayOfCalendarInfoEntity" />
+  <xs:complexType name="CalendarInfoEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Approver" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AttendCount" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CalendarID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CreateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsEnd" type="xs:int" />
+      <xs:element minOccurs="0" name="IsStart" type="xs:int" />
+      <xs:element minOccurs="0" name="Organizer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrganizerID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OutTrackID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoomName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SendPeople" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UpdateTime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CalendarInfoEntity" nillable="true" type="tns:CalendarInfoEntity" />
+  <xs:complexType name="RoomInfoEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FrontMin" type="xs:int" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="LockNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LockState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MinUseNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="RoomName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UpdateTime" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RoomInfoEntity" nillable="true" type="tns:RoomInfoEntity" />
+  <xs:complexType name="ArrayOfRoomInfoEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RoomInfoEntity" nillable="true" type="tns:RoomInfoEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRoomInfoEntity" nillable="true" type="tns:ArrayOfRoomInfoEntity" />
+  <xs:complexType name="BasicDataEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="LowerTime" type="xs:int" />
+      <xs:element minOccurs="0" name="UpdateTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UpperTime" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BasicDataEntity" nillable="true" type="tns:BasicDataEntity" />
+</xs:schema>

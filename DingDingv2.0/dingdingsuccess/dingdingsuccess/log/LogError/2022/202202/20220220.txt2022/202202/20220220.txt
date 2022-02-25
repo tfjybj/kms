@@ -1,0 +1,90 @@
+
+ 
+记录时间：2022-02-20 18:17:10,679 
+线程ID:[19] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 29
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-20 18:18:42,356 
+线程ID:[57] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 29
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-20 18:20:01,141 
+线程ID:[19] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 29
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-20 18:30:02,420 
+线程ID:[57] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 29
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-20 21:20:02,500 
+线程ID:[64] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 25
+ 
+
+ 
+记录时间：2022-02-20 21:20:02,516 
+线程ID:[33] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3893
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 

@@ -1,0 +1,1627 @@
+
+ 
+记录时间：2022-02-20 07:05:04,415 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:05:05,430 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:40:08,155 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:41:33,190 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:42:26,333 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:42:57,990 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:43:14,413 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:43:25,617 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:53:04,312 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:05,882 
+线程ID:[26] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:11,226 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:19,493 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:21,400 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:22,306 
+线程ID:[26] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:23,822 
+线程ID:[27] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:26,072 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:27,166 
+线程ID:[27] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:28,901 
+线程ID:[26] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:31,448 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:32,683 
+线程ID:[26] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:54:33,902 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 07:55:03,578 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:05:04,470 
+线程ID:[34] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:05:06,158 
+线程ID:[36] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:05:06,345 
+线程ID:[34] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:05:08,799 
+线程ID:[35] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:05:12,330 
+线程ID:[35] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:05:14,721 
+线程ID:[35] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:20:03,006 
+线程ID:[46] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:48:36,880 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:53:49,815 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:53:49,909 
+线程ID:[15] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:53:49,909 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 08:55:43,789 
+线程ID:[14] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 09:05:04,264 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 09:05:04,295 
+线程ID:[15] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 09:05:04,545 
+线程ID:[14] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 09:05:05,701 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 09:14:06,360 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 09:19:56,376 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 09:24:00,324 
+线程ID:[15] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 10:05:04,079 
+线程ID:[32] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 10:05:04,329 
+线程ID:[33] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 10:05:05,548 
+线程ID:[32] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 11:05:04,628 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 11:05:04,690 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 11:50:03,930 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 11:55:03,655 
+线程ID:[14] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 12:05:04,190 
+线程ID:[24] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 13:50:02,622 
+线程ID:[22] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 14:05:04,324 
+线程ID:[37] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 14:24:26,840 
+线程ID:[59] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 14:35:04,129 
+线程ID:[73] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:05:02,984 
+线程ID:[74] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:17:25,794 
+线程ID:[56] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:18:03,923 
+线程ID:[53] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:18:04,094 
+线程ID:[55] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:18:04,157 
+线程ID:[56] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:20:09,745 
+线程ID:[55] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-20 15:20:09,917 
+线程ID:[55] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-20 15:20:10,855 
+线程ID:[51] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:20:10,855 
+线程ID:[56] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:20:32,091 
+线程ID:[56] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-20 15:20:32,169 
+线程ID:[55] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-20 15:20:33,450 
+线程ID:[55] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:20:33,560 
+线程ID:[56] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:21:37,283 
+线程ID:[56] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:21:37,283 
+线程ID:[51] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:21:37,408 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:35:03,294 
+线程ID:[42] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 15:35:03,341 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 16:05:02,266 
+线程ID:[94] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 
+
+ 
+记录时间：2022-02-20 16:05:03,438 
+线程ID:[92] 
+日志级别：  ERROR 
+错误描述：日程限制添加判断问题：没有终结点在侦听可以接受消息的 http://192.168.60.140:82/Service.svc。这通常是由于不正确的地址或者 SOAP 操作导致的。如果存在此情况，请参见 InnerException 以了解详细信息。  具体信息：
+Server stack trace: 
+   在 System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   在 System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   在 System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 dingdingsuccess.KmsServiceReference.IService.PushRoom(String calendarID, String userID)
+   在 dingdingsuccess.KmsServiceReference.ServiceClient.PushRoom(String calendarID, String userID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\Connected Services\KmsServiceReference\Reference.cs:行号 3894
+   在 dingdingsuccess.LimitBLL.CalendarLimit.IsCalendars(String unionID, String events, String ddID) 位置 E:\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs:行号 34
+ 

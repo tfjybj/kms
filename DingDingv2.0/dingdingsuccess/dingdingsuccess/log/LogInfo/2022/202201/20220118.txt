@@ -1,0 +1,2114 @@
+
+ 
+记录时间：2022-01-18 00:21:13,943 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：你好呀，钥匙领取
+ 
+
+ 
+记录时间：2022-01-18 00:21:15,756 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 07:25:58,459 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：日程组织者：何静芳
+ 
+
+ 
+记录时间：2022-01-18 07:25:58,474 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 07:25:58,506 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：121
+ 
+
+ 
+记录时间：2022-01-18 07:25:58,506 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 07:36:29,009 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：日程组织者：王梦杰
+ 
+
+ 
+记录时间：2022-01-18 07:36:29,009 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 07:36:29,009 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：60
+ 
+
+ 
+记录时间：2022-01-18 07:36:29,009 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：推送房间名称:不死鸟
+ 
+
+ 
+记录时间：2022-01-18 07:36:29,040 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-18 07:36:29,072 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 07:43:39,143 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：日程组织者：吕世良
+ 
+
+ 
+记录时间：2022-01-18 07:43:39,143 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 07:43:39,143 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 07:43:54,331 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：日程组织者：杨睿
+ 
+
+ 
+记录时间：2022-01-18 07:43:54,331 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 07:43:54,331 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 07:52:46,173 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：日程组织者：任亚兵
+ 
+
+ 
+记录时间：2022-01-18 07:52:46,173 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 07:52:46,173 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：120
+ 
+
+ 
+记录时间：2022-01-18 07:52:46,188 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 07:55:02,509 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：日程组织者：邱慕夏
+ 
+
+ 
+记录时间：2022-01-18 07:55:02,509 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 07:55:02,509 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 07:55:52,808 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：日程组织者：杨贺铮
+ 
+
+ 
+记录时间：2022-01-18 07:55:52,808 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 07:55:52,824 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：230
+ 
+
+ 
+记录时间：2022-01-18 07:55:52,824 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 08:05:11,464 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程组织者：王倩
+ 
+
+ 
+记录时间：2022-01-18 08:05:11,464 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 08:05:11,464 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 08:05:13,120 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 08:05:13,120 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 08:05:13,120 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 08:05:14,105 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：日程组织者：吴振硕
+ 
+
+ 
+记录时间：2022-01-18 08:05:14,105 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 08:05:14,105 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 08:05:18,886 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程组织者：邱慕夏
+ 
+
+ 
+记录时间：2022-01-18 08:05:18,902 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 08:05:18,902 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 08:20:02,170 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：日程组织者：李金轩
+ 
+
+ 
+记录时间：2022-01-18 08:20:02,185 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 08:20:02,185 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 08:42:00,368 
+线程ID:[130] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 08:42:00,368 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 08:42:00,556 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：发送消息错误码：systemBusy
+ 
+
+ 
+记录时间：2022-01-18 08:42:00,556 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：消息错误描述：code: 500, 系统繁忙 request id: 2C046C66-21C1-79BF-BFFE-75CAF4A0698B
+ 
+
+ 
+记录时间：2022-01-18 08:49:59,864 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 08:50:00,067 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 08:58:59,768 
+线程ID:[128] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 09:03:58,707 
+线程ID:[129] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 09:04:58,679 
+线程ID:[110] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 09:05:02,413 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 09:05:02,413 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 09:05:02,413 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 09:09:59,852 
+线程ID:[128] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 09:12:18,875 
+线程ID:[128] 
+日志级别：  INFO  
+日志描述：日程组织者：郭元明
+ 
+
+ 
+记录时间：2022-01-18 09:12:18,875 
+线程ID:[128] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 09:12:18,875 
+线程ID:[128] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：4380
+ 
+
+ 
+记录时间：2022-01-18 09:12:18,875 
+线程ID:[128] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 09:38:18,306 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：日程组织者：何伟康
+ 
+
+ 
+记录时间：2022-01-18 09:38:18,353 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 09:38:18,353 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 10:05:02,881 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 10:05:02,881 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 10:05:02,881 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 10:07:59,984 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 10:08:00,093 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 10:12:00,169 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 10:14:00,207 
+线程ID:[86] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 10:15:00,069 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 10:15:00,132 
+线程ID:[86] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 10:24:10,303 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：日程组织者：李赛男
+ 
+
+ 
+记录时间：2022-01-18 10:24:10,303 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 10:24:10,366 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：60
+ 
+
+ 
+记录时间：2022-01-18 10:24:10,366 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：推送房间名称:鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 10:24:10,366 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-18 10:24:10,397 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 10:24:59,618 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 10:54:35,029 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：日程组织者：何伟康
+ 
+
+ 
+记录时间：2022-01-18 10:54:35,029 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 10:54:35,029 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 11:05:01,713 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 11:05:01,728 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 11:05:01,728 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 11:30:26,938 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程组织者：谷艳爽
+ 
+
+ 
+记录时间：2022-01-18 11:30:26,954 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 11:30:26,954 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：60
+ 
+
+ 
+记录时间：2022-01-18 11:30:26,954 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：推送房间名称:鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 11:30:26,954 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-18 11:30:26,985 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 11:31:00,768 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"26691600611796880681642476627","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 11:30:26\",\"calendarid\":\"Y1k2MDIrWnlYVWhmb3J4TndwdTlkdz09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 11:45:00-2022/1/18 12:45:00\"}}}","userId":"2669160061179688068","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 11:30:26\",\"calendarid\":\"Y1k2MDIrWnlYVWhmb3J4TndwdTlkdz09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 11:45:00-2022/1/18 12:45:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 11:31:00,768 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：26691600611796880681642476627
+ 
+
+ 
+记录时间：2022-01-18 11:31:00,768 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/1/18 11:30:26","calendarid":"Y1k2MDIrWnlYVWhmb3J4TndwdTlkdz09","title":"鲲鹏","usagetime":"2022/1/18 11:45:00-2022/1/18 12:45:00"}}}
+ 
+
+ 
+记录时间：2022-01-18 11:31:00,784 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/1/18 11:30:26
+ 
+
+ 
+记录时间：2022-01-18 11:31:02,878 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：Y1k2MDIrWnlYVWhmb3J4TndwdTlkdz09 :2669160061179688068鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 11:32:00,475 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 11:50:01,676 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：日程组织者：田宇航
+ 
+
+ 
+记录时间：2022-01-18 11:50:01,676 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 11:50:01,676 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 11:55:02,583 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程组织者：刘延强
+ 
+
+ 
+记录时间：2022-01-18 11:55:02,583 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 11:55:02,583 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 12:30:00,059 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 12:32:00,050 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 12:34:00,073 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 12:39:00,059 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 12:41:00,034 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 13:44:52,357 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：日程组织者：谷艳爽
+ 
+
+ 
+记录时间：2022-01-18 13:44:52,357 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 13:44:52,357 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：60
+ 
+
+ 
+记录时间：2022-01-18 13:44:52,357 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：推送房间名称:鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 13:44:52,357 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-18 13:44:52,389 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 13:44:58,936 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"26691600611796880681642484692","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 13:44:52\",\"calendarid\":\"TWVZYzNIWCtLVUhQS0FSajVIdWVNUT09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 13:45:00-2022/1/18 14:45:00\"}}}","userId":"2669160061179688068","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 13:44:52\",\"calendarid\":\"TWVZYzNIWCtLVUhQS0FSajVIdWVNUT09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 13:45:00-2022/1/18 14:45:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 13:44:58,936 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：26691600611796880681642484692
+ 
+
+ 
+记录时间：2022-01-18 13:44:58,936 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/1/18 13:44:52","calendarid":"TWVZYzNIWCtLVUhQS0FSajVIdWVNUT09","title":"鲲鹏","usagetime":"2022/1/18 13:45:00-2022/1/18 14:45:00"}}}
+ 
+
+ 
+记录时间：2022-01-18 13:44:58,936 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/1/18 13:44:52
+ 
+
+ 
+记录时间：2022-01-18 13:45:00,217 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：TWVZYzNIWCtLVUhQS0FSajVIdWVNUT09 :2669160061179688068鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 13:46:00,049 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 13:50:00,828 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 13:50:03,219 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：日程组织者：孙景辉
+ 
+
+ 
+记录时间：2022-01-18 13:50:03,219 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 13:50:03,219 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 13:51:59,350 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 14:00:00,533 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 14:05:02,409 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：日程组织者：马康
+ 
+
+ 
+记录时间：2022-01-18 14:05:02,409 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 14:05:02,409 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 14:05:03,222 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：日程组织者：周晓倩
+ 
+
+ 
+记录时间：2022-01-18 14:05:03,238 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 14:05:03,238 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 14:10:39,710 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 14:14:08,252 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 14:14:13,565 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 14:17:58,328 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981642486454","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 14:17:58,328 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981642486454
+ 
+
+ 
+记录时间：2022-01-18 14:17:58,328 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9559729841093","currentLoggedUserId":"728507109","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9559729841093"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 14:17:59,859 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981642486454","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 14:17:59,859 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981642486454
+ 
+
+ 
+记录时间：2022-01-18 14:17:59,859 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9559729841093","currentLoggedUserId":"728507109","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9559729841093"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,062 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981642486454","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,062 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981642486454
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,062 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9559729841093","currentLoggedUserId":"728507109","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9559729841093"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,234 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981642486454","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,234 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981642486454
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,234 
+线程ID:[47] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9559729841093","currentLoggedUserId":"728507109","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9559729841093"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,453 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981642486454","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,453 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981642486454
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,453 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9559729841093","currentLoggedUserId":"728507109","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9559729841093"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,922 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981642486454","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"1\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"1\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,922 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981642486454
+ 
+
+ 
+记录时间：2022-01-18 14:18:00,922 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9559729841093","currentLoggedUserId":"728507109","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9559729841093"},"cardPrivateData":{"actionIds":["1"],"params":{"result":"1"}}}
+ 
+
+ 
+记录时间：2022-01-18 14:18:01,094 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981642486454","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"1\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9559729841093\",\"currentLoggedUserId\":\"728507109\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9559729841093\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"1\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 14:18:01,094 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981642486454
+ 
+
+ 
+记录时间：2022-01-18 14:18:01,094 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9559729841093","currentLoggedUserId":"728507109","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9559729841093"},"cardPrivateData":{"actionIds":["1"],"params":{"result":"1"}}}
+ 
+
+ 
+记录时间：2022-01-18 14:35:01,735 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 14:35:01,735 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 14:35:01,735 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 15:05:05,068 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：日程组织者：夏诗曼
+ 
+
+ 
+记录时间：2022-01-18 15:05:05,068 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：周晓倩
+ 
+
+ 
+记录时间：2022-01-18 15:05:05,130 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 15:05:05,130 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 15:05:05,177 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 15:05:05,177 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 15:35:02,982 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 15:35:02,982 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 15:35:02,982 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,317 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：日程组织者：周晓倩
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,317 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,317 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,427 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：日程组织者：赵媛
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,442 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,442 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,708 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程组织者：仇天朔
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,708 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 16:05:02,708 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 16:05:05,536 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程组织者：任书含
+ 
+
+ 
+记录时间：2022-01-18 16:05:05,536 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 16:05:05,536 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 16:35:03,371 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 16:35:03,387 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 16:35:03,387 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 16:35:41,295 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：日程组织者：李赛男
+ 
+
+ 
+记录时间：2022-01-18 16:35:41,311 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 16:35:41,389 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：60
+ 
+
+ 
+记录时间：2022-01-18 16:35:41,389 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：推送房间名称:鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 16:35:41,389 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-18 16:35:41,545 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 16:35:47,718 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"0419133516265664101642494941","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 16:35:41\",\"calendarid\":\"OWIxMkhMZ2ZBU3BrU1prSkRXTXJ0UT09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 16:45:00-2022/1/18 17:45:00\"}}}","userId":"041913351626566410","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 16:35:41\",\"calendarid\":\"OWIxMkhMZ2ZBU3BrU1prSkRXTXJ0UT09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 16:45:00-2022/1/18 17:45:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 16:35:47,718 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：0419133516265664101642494941
+ 
+
+ 
+记录时间：2022-01-18 16:35:47,718 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/1/18 16:35:41","calendarid":"OWIxMkhMZ2ZBU3BrU1prSkRXTXJ0UT09","title":"鲲鹏","usagetime":"2022/1/18 16:45:00-2022/1/18 17:45:00"}}}
+ 
+
+ 
+记录时间：2022-01-18 16:35:47,733 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/1/18 16:35:41
+ 
+
+ 
+记录时间：2022-01-18 16:35:48,593 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：OWIxMkhMZ2ZBU3BrU1prSkRXTXJ0UT09 :041913351626566410鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 16:36:06,406 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：钥匙领取
+ 
+
+ 
+记录时间：2022-01-18 16:36:06,500 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 16:44:15,168 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：日程组织者：谷艳爽
+ 
+
+ 
+记录时间：2022-01-18 16:44:15,168 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 16:44:15,168 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：60
+ 
+
+ 
+记录时间：2022-01-18 16:44:15,168 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：推送房间名称:鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 16:44:15,168 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-18 16:44:15,199 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 16:44:21,028 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"26691600611796880681642495455","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 16:44:15\",\"calendarid\":\"aGc0NWpYeW1DTENVK1FZQmd0cWpMQT09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 16:45:00-2022/1/18 17:45:00\"}}}","userId":"2669160061179688068","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 16:44:15\",\"calendarid\":\"aGc0NWpYeW1DTENVK1FZQmd0cWpMQT09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 16:45:00-2022/1/18 17:45:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 16:44:21,028 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：26691600611796880681642495455
+ 
+
+ 
+记录时间：2022-01-18 16:44:21,028 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/1/18 16:44:15","calendarid":"aGc0NWpYeW1DTENVK1FZQmd0cWpMQT09","title":"鲲鹏","usagetime":"2022/1/18 16:45:00-2022/1/18 17:45:00"}}}
+ 
+
+ 
+记录时间：2022-01-18 16:44:21,028 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/1/18 16:44:15
+ 
+
+ 
+记录时间：2022-01-18 16:44:22,559 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：aGc0NWpYeW1DTENVK1FZQmd0cWpMQT09 :2669160061179688068鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 16:45:00,577 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 17:05:02,831 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：日程组织者：周晓倩
+ 
+
+ 
+记录时间：2022-01-18 17:05:02,831 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 17:05:02,831 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 17:13:34,861 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：王梦杰
+ 
+
+ 
+记录时间：2022-01-18 17:13:35,470 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 17:13:35,470 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：60
+ 
+
+ 
+记录时间：2022-01-18 17:13:35,470 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 17:13:35,470 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-18 17:13:35,501 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 17:13:41,689 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"1640523016292823891642497215","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 17:13:35\",\"calendarid\":\"OVBicmcrRU02NUlvbVlYdGpSeFV2QT09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 18:00:00-2022/1/18 19:00:00\"}}}","userId":"164052301629282389","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 17:13:35\",\"calendarid\":\"OVBicmcrRU02NUlvbVlYdGpSeFV2QT09\",\"title\":\"鲲鹏\",\"usagetime\":\"2022/1/18 18:00:00-2022/1/18 19:00:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 17:13:41,689 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：1640523016292823891642497215
+ 
+
+ 
+记录时间：2022-01-18 17:13:41,689 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/1/18 17:13:35","calendarid":"OVBicmcrRU02NUlvbVlYdGpSeFV2QT09","title":"鲲鹏","usagetime":"2022/1/18 18:00:00-2022/1/18 19:00:00"}}}
+ 
+
+ 
+记录时间：2022-01-18 17:13:41,689 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/1/18 17:13:35
+ 
+
+ 
+记录时间：2022-01-18 17:13:43,517 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：OVBicmcrRU02NUlvbVlYdGpSeFV2QT09 :164052301629282389鲲鹏
+ 
+
+ 
+记录时间：2022-01-18 17:15:00,178 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 17:25:26,416 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程组织者：赵丹丹
+ 
+
+ 
+记录时间：2022-01-18 17:25:26,416 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 17:25:26,416 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：540
+ 
+
+ 
+记录时间：2022-01-18 17:25:26,416 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 17:30:00,134 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 17:30:00,384 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 17:35:01,229 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 17:35:01,229 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 17:35:01,229 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 17:35:02,120 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：日程组织者：卢佳宽
+ 
+
+ 
+记录时间：2022-01-18 17:35:02,120 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 17:35:02,120 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 17:50:02,842 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：田宇航
+ 
+
+ 
+记录时间：2022-01-18 17:50:02,842 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 17:50:02,842 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 19:21:19,035 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：日程组织者：谷艳爽
+ 
+
+ 
+记录时间：2022-01-18 19:21:19,035 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：判断时间大小：1
+ 
+
+ 
+记录时间：2022-01-18 19:21:19,035 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：下限时间：25上限时间：60日程分钟数：60
+ 
+
+ 
+记录时间：2022-01-18 19:21:19,035 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：推送房间名称:不死鸟
+ 
+
+ 
+记录时间：2022-01-18 19:21:19,035 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-01-18 19:21:19,066 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 19:21:25,941 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"26691600611796880681642504879","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 19:21:19\",\"calendarid\":\"cHFUR0F5NDNzeFlEamMwZVJmaldLdz09\",\"title\":\"不死鸟\",\"usagetime\":\"2022/1/18 19:30:00-2022/1/18 20:30:00\"}}}","userId":"2669160061179688068","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/1/18 19:21:19\",\"calendarid\":\"cHFUR0F5NDNzeFlEamMwZVJmaldLdz09\",\"title\":\"不死鸟\",\"usagetime\":\"2022/1/18 19:30:00-2022/1/18 20:30:00\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 19:21:25,941 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：26691600611796880681642504879
+ 
+
+ 
+记录时间：2022-01-18 19:21:25,941 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/1/18 19:21:19","calendarid":"cHFUR0F5NDNzeFlEamMwZVJmaldLdz09","title":"不死鸟","usagetime":"2022/1/18 19:30:00-2022/1/18 20:30:00"}}}
+ 
+
+ 
+记录时间：2022-01-18 19:21:25,941 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/1/18 19:21:19
+ 
+
+ 
+记录时间：2022-01-18 19:21:27,269 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：cHFUR0F5NDNzeFlEamMwZVJmaldLdz09 :2669160061179688068不死鸟
+ 
+
+ 
+记录时间：2022-01-18 19:22:00,099 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-18 19:27:29,620 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0323103463305127701642416563","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"032310346330512770","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 19:27:29,620 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：0323103463305127701642416563
+ 
+
+ 
+记录时间：2022-01-18 19:27:29,620 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9550337043358","currentLoggedUserId":"79970443","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"79970443:2680652793","platformBizId":"9550337043358"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,010 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0323103463305127701642416563","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"032310346330512770","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,010 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：0323103463305127701642416563
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,010 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9550337043358","currentLoggedUserId":"79970443","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"79970443:2680652793","platformBizId":"9550337043358"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,182 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0323103463305127701642416563","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"032310346330512770","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,182 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：0323103463305127701642416563
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,182 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9550337043358","currentLoggedUserId":"79970443","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"79970443:2680652793","platformBizId":"9550337043358"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,385 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0323103463305127701642416563","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"032310346330512770","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,385 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：0323103463305127701642416563
+ 
+
+ 
+记录时间：2022-01-18 19:27:31,385 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9550337043358","currentLoggedUserId":"79970443","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"79970443:2680652793","platformBizId":"9550337043358"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 19:27:32,229 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0323103463305127701642416563","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"1\"}}}","userId":"032310346330512770","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"1\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 19:27:32,229 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：0323103463305127701642416563
+ 
+
+ 
+记录时间：2022-01-18 19:27:32,229 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9550337043358","currentLoggedUserId":"79970443","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"79970443:2680652793","platformBizId":"9550337043358"},"cardPrivateData":{"actionIds":["1"],"params":{"result":"1"}}}
+ 
+
+ 
+记录时间：2022-01-18 19:27:32,448 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0323103463305127701642416563","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"1\"}}}","userId":"032310346330512770","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"1\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 19:27:32,448 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：0323103463305127701642416563
+ 
+
+ 
+记录时间：2022-01-18 19:27:32,448 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9550337043358","currentLoggedUserId":"79970443","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"79970443:2680652793","platformBizId":"9550337043358"},"cardPrivateData":{"actionIds":["1"],"params":{"result":"1"}}}
+ 
+
+ 
+记录时间：2022-01-18 19:27:33,073 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0323103463305127701642416563","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}","userId":"032310346330512770","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9550337043358\",\"currentLoggedUserId\":\"79970443\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"79970443:2680652793\",\"platformBizId\":\"9550337043358\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"0\"}}}"}
+ 
+
+ 
+记录时间：2022-01-18 19:27:33,073 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：0323103463305127701642416563
+ 
+
+ 
+记录时间：2022-01-18 19:27:33,073 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9550337043358","currentLoggedUserId":"79970443","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"79970443:2680652793","platformBizId":"9550337043358"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"0"}}}
+ 
+
+ 
+记录时间：2022-01-18 19:35:02,928 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：日程组织者：商俊帅
+ 
+
+ 
+记录时间：2022-01-18 19:35:02,943 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 19:35:02,943 
+线程ID:[65] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:01:10,344 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：日程组织者：杜博文
+ 
+
+ 
+记录时间：2022-01-18 21:01:10,344 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:01:10,344 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:05:02,717 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：田晓歌
+ 
+
+ 
+记录时间：2022-01-18 21:05:02,717 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:05:02,717 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:05:02,951 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-01-18 21:05:02,951 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:05:02,951 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:05:03,951 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程组织者：贺天远
+ 
+
+ 
+记录时间：2022-01-18 21:05:03,967 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:05:03,967 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:18:56,074 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：武梓龙
+ 
+
+ 
+记录时间：2022-01-18 21:18:56,089 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:18:56,089 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:20:02,484 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：吴振硕
+ 
+
+ 
+记录时间：2022-01-18 21:20:02,484 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程组织者：仇天朔
+ 
+
+ 
+记录时间：2022-01-18 21:20:02,484 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:20:02,484 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:20:02,484 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:20:02,484 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:35:00,942 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：日程组织者：刘延强
+ 
+
+ 
+记录时间：2022-01-18 21:35:00,942 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:35:00,942 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-01-18 21:35:00,973 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程组织者：田宇航
+ 
+
+ 
+记录时间：2022-01-18 21:35:00,989 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：判断时间大小：-1
+ 
+
+ 
+记录时间：2022-01-18 21:35:00,989 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 

@@ -1,0 +1,98 @@
+
+ 
+记录时间：2022-01-16 15:54:06,924 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-16 15:54:07,041 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：发送消息错误码：uidDecryptError
+ 
+
+ 
+记录时间：2022-01-16 15:54:07,041 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：消息错误描述：code: 400, 消息接收者UID解码错误 request id: 728BD5F2-1C32-74A1-AA86-E2247E989070
+ 
+
+ 
+记录时间：2022-01-16 15:55:28,871 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-16 15:55:28,977 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：发送消息错误码：uidDecryptError
+ 
+
+ 
+记录时间：2022-01-16 15:55:28,979 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：消息错误描述：code: 400, 消息接收者UID解码错误 request id: 8D43BF01-4D5E-7736-8DC7-612DE48FA45B
+ 
+
+ 
+记录时间：2022-01-16 15:56:40,754 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-16 15:56:40,862 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：发送消息错误码：uidDecryptError
+ 
+
+ 
+记录时间：2022-01-16 15:56:40,862 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：消息错误描述：code: 400, 消息接收者UID解码错误 request id: 001F036F-88B1-7263-81B2-2A36BF8AB560
+ 
+
+ 
+记录时间：2022-01-16 17:17:30,140 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-16 17:17:42,548 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-16 17:17:56,120 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-16 17:17:58,344 
+线程ID:[6] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 
+
+ 
+记录时间：2022-01-16 19:05:54,087 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：参数查看错误描述：AlibabaCloud.SDK.Dingtalkim_1_0.Models.SendInteractiveCardRequest+SendInteractiveCardRequestCardData
+ 

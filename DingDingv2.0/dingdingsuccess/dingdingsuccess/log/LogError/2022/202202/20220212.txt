@@ -1,0 +1,66 @@
+
+ 
+记录时间：2022-02-12 21:01:51,041 
+线程ID:[158] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 28
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-12 21:05:00,847 
+线程ID:[181] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 28
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-12 21:05:01,300 
+线程ID:[176] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 28
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-12 21:06:10,663 
+线程ID:[183] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 28
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-12 21:20:01,010 
+线程ID:[176] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 28
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 
+
+ 
+记录时间：2022-02-12 21:20:01,088 
+线程ID:[180] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：未能解析此远程名称: 'oapi.dingtalk.com'  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 130
+   在 dingdingsuccess.AccessToken.GetAccessToken() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\AccessToken.cs:行号 28
+   在 dingdingsuccess.DingDingUnidnID.unionid(String code) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingDingUnidnID.cs:行号 19
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 54
+ 

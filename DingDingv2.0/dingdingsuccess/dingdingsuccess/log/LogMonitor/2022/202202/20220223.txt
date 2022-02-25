@@ -1,0 +1,160 @@
+
+ 
+记录时间：2022-02-23 14:26:20,293 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/23 14:26:20  结束时间：2022/2/23 14:26:20 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:26:20,293 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/23 14:26:20  结束时间：2022/2/23 14:26:20 总 时 间：1秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:26:20,325 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/23 14:26:20  结束时间：2022/2/23 14:26:20 总 时 间：0秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:26:20,325 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/23 14:26:20  结束时间：2022/2/23 14:26:20 总 时 间：1秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:26:27,653 
+线程ID:[120] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/23 14:26:27  结束时间：2022/2/23 14:26:27 总 时 间：89秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:26:27,653 
+线程ID:[120] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Index 开始时间：2022/2/23 14:26:27  结束时间：2022/2/23 14:26:27 总 时 间：90秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:26:54,764 
+线程ID:[120] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/23 14:26:27  结束时间：2022/2/23 14:26:54 总 时 间：89秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:26:54,764 
+线程ID:[120] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Index 开始时间：2022/2/23 14:26:27  结束时间：2022/2/23 14:26:54 总 时 间：90秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:27:11,953 
+线程ID:[124] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2022/2/23 14:27:11  结束时间：2022/2/23 14:27:11 总 时 间：50秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:27:11,953 
+线程ID:[124] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HelpController ActionName:Api 开始时间：2022/2/23 14:27:11  结束时间：2022/2/23 14:27:11 总 时 间：50秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:27:11,984 
+线程ID:[124] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2022/2/23 14:27:11  结束时间：2022/2/23 14:27:11 总 时 间：50秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 14:27:11,984 
+线程ID:[124] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HelpController ViewName:Api 开始时间：2022/2/23 14:27:11  结束时间：2022/2/23 14:27:11 总 时 间：50秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 18:04:06,025 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/23 18:04:05  结束时间：2022/2/23 18:04:06 总 时 间：39秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 18:04:06,034 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/23 18:04:05  结束时间：2022/2/23 18:04:06 总 时 间：53秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 18:04:07,812 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/23 18:04:06  结束时间：2022/2/23 18:04:07 总 时 间：39秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 18:04:07,813 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/23 18:04:06  结束时间：2022/2/23 18:04:07 总 时 间：53秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 18:24:14,014 
+线程ID:[61] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/23 18:24:13  结束时间：2022/2/23 18:24:14 总 时 间：38秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 18:24:14,029 
+线程ID:[61] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/2/23 18:24:13  结束时间：2022/2/23 18:24:14 总 时 间：95秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 18:24:24,233 
+线程ID:[61] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/23 18:24:14  结束时间：2022/2/23 18:24:24 总 时 间：38秒
+        Form：
+ 
+
+ 
+记录时间：2022-02-23 18:24:24,233 
+线程ID:[61] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/2/23 18:24:14  结束时间：2022/2/23 18:24:24 总 时 间：95秒
+        Form：
+ 

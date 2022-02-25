@@ -1,0 +1,21 @@
+
+ 
+记录时间：2022-02-13 14:32:34,562 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：发送卡片错误信息：编码Forbidden.AccessDenied.AccessTokenPermissionDenied,code: 403, 没有调用该接口的权限，接口权限申请参考：https://open.dingtalk.com/document/orgapp-server/add-api-permission request id: DAF0507E-8094-79EB-88A0-EE1E9EFB70C0
+ 
+
+ 
+记录时间：2022-02-13 14:33:37,341 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：发送卡片错误信息：编码Forbidden.AccessDenied.AccessTokenPermissionDenied,code: 403, 没有调用该接口的权限，接口权限申请参考：https://open.dingtalk.com/document/orgapp-server/add-api-permission request id: 57A5F6D6-F1E3-79C6-835B-81BC5ED9F8AC
+ 
+
+ 
+记录时间：2022-02-13 14:36:38,796 
+线程ID:[11] 
+日志级别：  ERROR 
+错误描述：发送卡片错误信息：编码uidDecryptError,code: 400, 消息接收者UID解码错误 request id: E29563EC-B0A0-7B67-95C7-ED2229DDC03F
+ 
