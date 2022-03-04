@@ -1,0 +1,46 @@
+
+ 
+记录时间：2022-02-26 10:07:26,562 
+线程ID:[48] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,577 
+线程ID:[42] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：远程服务器返回错误: (400) 错误的请求。  具体信息：   在 System.Net.HttpWebRequest.GetResponse()
+   在 dingdingsuccess.HttpHelper.HttpGet(String url, String token, Int32 i) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\HttpHelper.cs:行号 160
+   在 dingdingsuccess.DingDingInterface.DingCalendarDetails.SelectCalendarInfo(String unionId, String eventID) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\DingCalendarDetails.cs:行号 31
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 60
+ 
+
+ 
+记录时间：2022-02-26 13:59:54,145 
+线程ID:[14] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/19931867091/DwGDkdYHDn8DjyxZpFbrso
+ 
+
+ 
+记录时间：2022-02-26 13:59:54,145 
+线程ID:[14] 
+日志级别：  ERROR 
+错误描述：判断用户是否存在职责链的错误信息：未将对象引用设置到对象的实例。  具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 31
+ 
+
+ 
+记录时间：2022-02-26 13:59:54,160 
+线程ID:[14] 
+日志级别：  ERROR 
+错误描述：机器人消息接收回调错误信息：未将对象引用设置到对象的实例。       具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 41
+   在 dingdingsuccess.Controllers.DDCallBackController.ReceiveMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 298
+ 

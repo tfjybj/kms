@@ -47,7 +47,7 @@ namespace dingdingsuccess.BobotHandler
             catch (Exception e)
             {
                 LoggerHelper.Error("判断用权限职责链的错误信息：" + e.Message + "\n具体信息：" + e.StackTrace+"\n具体参数信息："+userResourceUrl);
-                throw;
+                
             }
 
 

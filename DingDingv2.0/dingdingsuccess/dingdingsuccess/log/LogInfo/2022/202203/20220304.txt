@@ -1,0 +1,3450 @@
+
+ 
+记录时间：2022-03-04 07:05:05,167 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646348705168
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,167 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:741b3c7a24e430cea9d20e133a805baa
+当前时间：1646348705168
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,230 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"03062939605879"},"request_id":"prb7w0jjf1er"}
+当前时间：1646348705230
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,230 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ii0Yjmys6cxmmFtbFp0cDqAiEiE
+当前时间：1646348705230
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,230 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"0108383310171220717"},"request_id":"15wr9feollzte"}
+当前时间：1646348705230
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,230 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：BiigkSBiiB00JWxnP2p4iipuwiEiE
+当前时间：1646348705230
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,245 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646348705246
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,245 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ii0Yjmys6cxmmFtbFp0cDqAiEiE/calendars/primary/events/OVpWamdVcU1wcWJzditBaGo4VEJrZz09_1646434800000
+当前时间：1646348705246
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,245 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646348705246
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,245 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/BiigkSBiiB00JWxnP2p4iipuwiEiE/calendars/primary/events/UjRodHZSM1JXN3RLS3FmQlN4ZEh0Zz09_1646434800000
+当前时间：1646348705246
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,433 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646348705433
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,433 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646348705433
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,464 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：OVpWamdVcU1wcWJzditBaGo4VEJrZz09_1646434800000、03062939605879
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646348705464
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,464 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：UjRodHZSM1JXN3RLS3FmQlN4ZEh0Zz09_1646434800000、0108383310171220717
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646348705464
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,464 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ii0Yjmys6cxmmFtbFp0cDqAiEiE
+当前时间：1646348705464
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,464 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：BiigkSBiiB00JWxnP2p4iipuwiEiE
+当前时间：1646348705464
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,495 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646348705496
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,495 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ii0Yjmys6cxmmFtbFp0cDqAiEiE/calendars/primary/events/OVpWamdVcU1wcWJzditBaGo4VEJrZz09_1646434800000
+当前时间：1646348705496
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,495 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646348705496
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,495 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/BiigkSBiiB00JWxnP2p4iipuwiEiE/calendars/primary/events/UjRodHZSM1JXN3RLS3FmQlN4ZEh0Zz09_1646434800000
+当前时间：1646348705496
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,558 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程组织者：刘文彬~鸿嘉~110621036
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646348705558
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,558 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：陈涵
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646348705558
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,683 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646348705683
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,745 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"162663613220353924"},"request_id":"ikn0igy41lyu"}
+当前时间：1646348705746
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,745 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：YMSiSoiPdwiiFYER6QGIevgXgiEiE
+当前时间：1646348705746
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,761 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646348705761
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,761 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/YMSiSoiPdwiiFYER6QGIevgXgiEiE/calendars/primary/events/ZmpBakRmS01LREQrakU3RklWQk5jdz09_1646434800000
+当前时间：1646348705761
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,823 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646348705824
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,823 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：ZmpBakRmS01LREQrakU3RklWQk5jdz09_1646434800000、162663613220353924
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646348705824
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,823 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：YMSiSoiPdwiiFYER6QGIevgXgiEiE
+当前时间：1646348705824
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,855 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646348705855
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,855 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/YMSiSoiPdwiiFYER6QGIevgXgiEiE/calendars/primary/events/ZmpBakRmS01LREQrakU3RklWQk5jdz09_1646434800000
+当前时间：1646348705855
+ 
+
+ 
+记录时间：2022-03-04 07:05:05,917 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：日程组织者：何新生
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646348705918
+ 
+
+ 
+记录时间：2022-03-04 07:05:06,808 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646348706808
+ 
+
+ 
+记录时间：2022-03-04 07:05:06,808 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646348706808
+ 
+
+ 
+记录时间：2022-03-04 07:05:06,808 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646348706808
+ 
+
+ 
+记录时间：2022-03-04 07:05:06,808 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646348706808
+ 
+
+ 
+记录时间：2022-03-04 07:05:06,808 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646348706808
+ 
+
+ 
+记录时间：2022-03-04 07:05:06,808 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646348706808
+ 
+
+ 
+记录时间：2022-03-04 07:08:43,001 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：审批事件参数：审批类型bpms_instance_change审批id2VSex_QgTDG4b69OKnsAOA06541646348920
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\BpmsEvent.cs
+行数：18
+当前时间：1646348923001
+ 
+
+ 
+记录时间：2022-03-04 07:33:22,744 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646350402745
+ 
+
+ 
+记录时间：2022-03-04 07:33:22,838 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"193155041423363469"},"request_id":"vmb2r91bcv0z"}
+当前时间：1646350402839
+ 
+
+ 
+记录时间：2022-03-04 07:33:22,838 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：VtvCRWbALBYFzhoujMdt5wiEiE
+当前时间：1646350402839
+ 
+
+ 
+记录时间：2022-03-04 07:33:22,869 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646350402870
+ 
+
+ 
+记录时间：2022-03-04 07:33:22,869 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/VtvCRWbALBYFzhoujMdt5wiEiE/calendars/primary/events/MC9BMGhEK1FFUlpZazAwWjJJdFdCUT09
+当前时间：1646350402870
+ 
+
+ 
+记录时间：2022-03-04 07:33:23,057 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646350403057
+ 
+
+ 
+记录时间：2022-03-04 07:33:23,104 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：MC9BMGhEK1FFUlpZazAwWjJJdFdCUT09、193155041423363469
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646350403104
+ 
+
+ 
+记录时间：2022-03-04 07:33:23,104 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：VtvCRWbALBYFzhoujMdt5wiEiE
+当前时间：1646350403104
+ 
+
+ 
+记录时间：2022-03-04 07:33:23,135 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646350403135
+ 
+
+ 
+记录时间：2022-03-04 07:33:23,135 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/VtvCRWbALBYFzhoujMdt5wiEiE/calendars/primary/events/MC9BMGhEK1FFUlpZazAwWjJJdFdCUT09
+当前时间：1646350403135
+ 
+
+ 
+记录时间：2022-03-04 07:33:23,197 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：宋文轩
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646350403198
+ 
+
+ 
+记录时间：2022-03-04 07:33:24,979 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：库房+false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646350404979
+ 
+
+ 
+记录时间：2022-03-04 07:33:24,979 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:库房+false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646350404979
+ 
+
+ 
+记录时间：2022-03-04 07:33:24,994 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：数组参数：库房--false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\CardMessageBLL\SendCardMessage.cs
+行数：32
+当前时间：1646350404995
+ 
+
+ 
+记录时间：2022-03-04 07:33:24,994 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\CardMessageBLL\SendCardMessage.cs
+行数：51
+当前时间：1646350404995
+ 
+
+ 
+记录时间：2022-03-04 07:33:30,994 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送会议室卡片body体中参数：{"outTrackId":"1931550414233634691646350404995","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"467092794\",\"mid\":\"9952960979021\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"467092794:2680652793\",\"platformBizId\":\"9952960979021\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/3/4 7:33:24\",\"result\":\"1\",\"calendarid\":\"MC9BMGhEK1FFUlpZazAwWjJJdFdCUT09\",\" specialRoom\":\"false\",\"title\":\"库房\",\"usagetime\":\"2022/3/4 7:40:00-2022/3/4 8:40:00\"}}}","userId":"193155041423363469","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"467092794\",\"mid\":\"9952960979021\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"467092794:2680652793\",\"platformBizId\":\"9952960979021\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/3/4 7:33:24\",\"result\":\"1\",\"calendarid\":\"MC9BMGhEK1FFUlpZazAwWjJJdFdCUT09\",\" specialRoom\":\"false\",\"title\":\"库房\",\"usagetime\":\"2022/3/4 7:40:00-2022/3/4 8:40:00\"}}}"}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：43
+当前时间：1646350410995
+ 
+
+ 
+记录时间：2022-03-04 07:33:30,994 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送会议室卡片获取唯一卡片消息标识：1931550414233634691646350404995
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：47
+当前时间：1646350410995
+ 
+
+ 
+记录时间：2022-03-04 07:33:30,994 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"467092794","mid":"9952960979021","isSingleConv":"1","platform":"im","cid":"467092794:2680652793","platformBizId":"9952960979021"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"2022/3/4 7:33:24","result":"1","calendarid":"MC9BMGhEK1FFUlpZazAwWjJJdFdCUT09"," specialRoom":"false","title":"库房","usagetime":"2022/3/4 7:40:00-2022/3/4 8:40:00"}}}
+当前时间：1646350410995
+ 
+
+ 
+记录时间：2022-03-04 07:33:30,994 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送会议室卡片点击返回数据：2022/3/4 7:33:24
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：73
+当前时间：1646350410995
+ 
+
+ 
+记录时间：2022-03-04 07:33:31,026 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：更新卡片信息：1931550414233634691646350404995System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\UpdateCardMessage.cs
+行数：77
+当前时间：1646350411026
+ 
+
+ 
+记录时间：2022-03-04 07:33:31,088 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：返回参数日程类型：false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：89
+当前时间：1646350411089
+ 
+
+ 
+记录时间：2022-03-04 07:33:31,088 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：点击会议室申请卡片同意按钮
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：90
+当前时间：1646350411089
+ 
+
+ 
+记录时间：2022-03-04 07:33:32,713 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：MC9BMGhEK1FFUlpZazAwWjJJdFdCUT09 :193155041423363469库房
+当前时间：1646350412714
+ 
+
+ 
+记录时间：2022-03-04 07:33:34,073 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：审批事件参数：审批类型bpms_instance_change审批idVzBh7YFPRxKOuvXT3uDRSg06541646350411
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\BpmsEvent.cs
+行数：18
+当前时间：1646350414073
+ 
+
+ 
+记录时间：2022-03-04 07:51:10,898 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646351470898
+ 
+
+ 
+记录时间：2022-03-04 07:51:10,960 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"30236464291145798"},"request_id":"oq3g8xvil92g"}
+当前时间：1646351470961
+ 
+
+ 
+记录时间：2022-03-04 07:51:10,960 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：mPsmiiCSiincmLgtSiPXoVtvAiEiE
+当前时间：1646351470961
+ 
+
+ 
+记录时间：2022-03-04 07:51:10,992 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646351470992
+ 
+
+ 
+记录时间：2022-03-04 07:51:10,992 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/mPsmiiCSiincmLgtSiPXoVtvAiEiE/calendars/primary/events/WmZVT3daK0ZiSldIQXdhZkpjblJDQT09
+当前时间：1646351470992
+ 
+
+ 
+记录时间：2022-03-04 07:51:11,132 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646351471133
+ 
+
+ 
+记录时间：2022-03-04 07:51:11,132 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：WmZVT3daK0ZiSldIQXdhZkpjblJDQT09、30236464291145798
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646351471133
+ 
+
+ 
+记录时间：2022-03-04 07:51:11,132 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：mPsmiiCSiincmLgtSiPXoVtvAiEiE
+当前时间：1646351471133
+ 
+
+ 
+记录时间：2022-03-04 07:51:11,163 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646351471164
+ 
+
+ 
+记录时间：2022-03-04 07:51:11,163 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/mPsmiiCSiincmLgtSiPXoVtvAiEiE/calendars/primary/events/WmZVT3daK0ZiSldIQXdhZkpjblJDQT09
+当前时间：1646351471164
+ 
+
+ 
+记录时间：2022-03-04 07:51:11,226 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：日程组织者：赵媛
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646351471226
+ 
+
+ 
+记录时间：2022-03-04 07:51:12,273 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：不死鸟+false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646351472273
+ 
+
+ 
+记录时间：2022-03-04 07:51:12,273 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：推送房间名称:不死鸟+false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646351472273
+ 
+
+ 
+记录时间：2022-03-04 07:51:12,273 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：数组参数：不死鸟--false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\CardMessageBLL\SendCardMessage.cs
+行数：32
+当前时间：1646351472273
+ 
+
+ 
+记录时间：2022-03-04 07:51:12,273 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\CardMessageBLL\SendCardMessage.cs
+行数：51
+当前时间：1646351472273
+ 
+
+ 
+记录时间：2022-03-04 07:51:45,071 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：推送会议室卡片body体中参数：{"outTrackId":"302364642911457981646351472273","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9963041738234\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9963041738234\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/3/4 7:51:12\",\"result\":\"1\",\"calendarid\":\"WmZVT3daK0ZiSldIQXdhZkpjblJDQT09\",\" specialRoom\":\"false\",\"title\":\"不死鸟\",\"usagetime\":\"2022/3/4 8:00:00-2022/3/4 12:00:00\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9963041738234\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9963041738234\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/3/4 7:51:12\",\"result\":\"1\",\"calendarid\":\"WmZVT3daK0ZiSldIQXdhZkpjblJDQT09\",\" specialRoom\":\"false\",\"title\":\"不死鸟\",\"usagetime\":\"2022/3/4 8:00:00-2022/3/4 12:00:00\"}}}"}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：43
+当前时间：1646351505071
+ 
+
+ 
+记录时间：2022-03-04 07:51:45,071 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：推送会议室卡片获取唯一卡片消息标识：302364642911457981646351472273
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：47
+当前时间：1646351505071
+ 
+
+ 
+记录时间：2022-03-04 07:51:45,071 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"728507109","mid":"9963041738234","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9963041738234"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"2022/3/4 7:51:12","result":"1","calendarid":"WmZVT3daK0ZiSldIQXdhZkpjblJDQT09"," specialRoom":"false","title":"不死鸟","usagetime":"2022/3/4 8:00:00-2022/3/4 12:00:00"}}}
+当前时间：1646351505071
+ 
+
+ 
+记录时间：2022-03-04 07:51:45,071 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：推送会议室卡片点击返回数据：2022/3/4 7:51:12
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：73
+当前时间：1646351505071
+ 
+
+ 
+记录时间：2022-03-04 07:51:45,102 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：更新卡片信息：302364642911457981646351472273System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\UpdateCardMessage.cs
+行数：77
+当前时间：1646351505102
+ 
+
+ 
+记录时间：2022-03-04 07:51:45,164 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：返回参数日程类型：false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：89
+当前时间：1646351505165
+ 
+
+ 
+记录时间：2022-03-04 07:51:45,164 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：点击会议室申请卡片同意按钮
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：90
+当前时间：1646351505165
+ 
+
+ 
+记录时间：2022-03-04 07:51:45,992 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：WmZVT3daK0ZiSldIQXdhZkpjblJDQT09 :30236464291145798不死鸟
+当前时间：1646351505993
+ 
+
+ 
+记录时间：2022-03-04 07:51:47,836 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：审批事件参数：审批类型bpms_instance_change审批idQjZ6yLOwRf2HMsDI0Ucj_Q06541646351505
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\BpmsEvent.cs
+行数：18
+当前时间：1646351507837
+ 
+
+ 
+记录时间：2022-03-04 07:52:24,572 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：审批事件参数：审批类型bpms_instance_change审批idQjZ6yLOwRf2HMsDI0Ucj_Q06541646351505
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\BpmsEvent.cs
+行数：18
+当前时间：1646351544572
+ 
+
+ 
+记录时间：2022-03-04 07:52:32,650 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981646351549119","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"true\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9963025724123\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9963025724123\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"WmZVT3daK0ZiSldIQXdhZkpjblJDQT09\",\"userid\":\"30236464291145798\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"true\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9963025724123\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9963025724123\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"WmZVT3daK0ZiSldIQXdhZkpjblJDQT09\",\"userid\":\"30236464291145798\"}}}"}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：137
+当前时间：1646351552650
+ 
+
+ 
+记录时间：2022-03-04 07:52:32,650 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981646351549119
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：147
+当前时间：1646351552650
+ 
+
+ 
+记录时间：2022-03-04 07:52:32,650 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"true","currentLoggedUserId":"728507109","mid":"9963025724123","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9963025724123"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"不死鸟","result":"1","calendarid":"WmZVT3daK0ZiSldIQXdhZkpjblJDQT09","userid":"30236464291145798"}}}
+当前时间：1646351552650
+ 
+
+ 
+记录时间：2022-03-04 07:52:32,650 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：钥匙领取传入后端参数：30236464291145798    WmZVT3daK0ZiSldIQXdhZkpjblJDQT09
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：179
+当前时间：1646351552650
+ 
+
+ 
+记录时间：2022-03-04 07:52:32,681 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：更新卡片信息：302364642911457981646351549119System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\UpdateCardMessage.cs
+行数：77
+当前时间：1646351552682
+ 
+
+ 
+记录时间：2022-03-04 07:52:35,603 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：审批事件参数：审批类型bpms_instance_change审批idVzBh7YFPRxKOuvXT3uDRSg06541646350411
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\BpmsEvent.cs
+行数：18
+当前时间：1646351555604
+ 
+
+ 
+记录时间：2022-03-04 07:53:23,917 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：金鹰
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：291
+当前时间：1646351603917
+ 
+
+ 
+记录时间：2022-03-04 07:53:24,073 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：19931867073
+当前时间：1646351604074
+ 
+
+ 
+记录时间：2022-03-04 07:53:24,151 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+当前时间：1646351604152
+ 
+
+ 
+记录时间：2022-03-04 07:53:24,151 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：46
+当前时间：1646351604152
+ 
+
+ 
+记录时间：2022-03-04 07:53:24,151 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：49
+当前时间：1646351604152
+ 
+
+ 
+记录时间：2022-03-04 07:53:25,042 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的参数信息：郭丽敏、金鹰
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：53
+当前时间：1646351605042
+ 
+
+ 
+记录时间：2022-03-04 07:53:25,042 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链接口地址：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID={0}&data={1}&name={2}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：57
+当前时间：1646351605042
+ 
+
+ 
+记录时间：2022-03-04 07:53:25,042 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=245941474724241632&data=请到研发中心领取钥匙：金鹰&name=郭丽敏
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：59
+当前时间：1646351605042
+ 
+
+ 
+记录时间：2022-03-04 07:53:27,167 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：管理员钥匙领取回调body参数：{"outTrackId":"2459414747242416321646351605058","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"596681237\",\"mid\":\"9953296565687\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"596681237:2680652793\",\"platformBizId\":\"9953296565687\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"dataContent\":\"金鹰\",\"data\":\"请到研发中心领取钥匙：金鹰\"}}}","userId":"245941474724241632","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"596681237\",\"mid\":\"9953296565687\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"596681237:2680652793\",\"platformBizId\":\"9953296565687\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"dataContent\":\"金鹰\",\"data\":\"请到研发中心领取钥匙：金鹰\"}}}"}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：334
+当前时间：1646351607168
+ 
+
+ 
+记录时间：2022-03-04 07:53:27,167 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：管理员钥匙领取·
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：365
+当前时间：1646351607168
+ 
+
+ 
+记录时间：2022-03-04 07:53:27,526 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：更新卡片信息：2459414747242416321646351605058System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\UpdateCardMessage.cs
+行数：77
+当前时间：1646351607527
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,076 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646351704076
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,138 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"015964141036391627"},"request_id":"w1oy2t50bn3b"}
+当前时间：1646351704139
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,138 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：9UVNeeWuZMGmFtbFp0cDqAiEiE
+当前时间：1646351704139
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,170 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646351704170
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,170 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/9UVNeeWuZMGmFtbFp0cDqAiEiE/calendars/primary/events/eW5GWkpyWlhGdUh6d0JvbXp6OW50QT09_1646437800000
+当前时间：1646351704170
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,310 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646351704311
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,310 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：eW5GWkpyWlhGdUh6d0JvbXp6OW50QT09_1646437800000、015964141036391627
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646351704311
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,310 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：9UVNeeWuZMGmFtbFp0cDqAiEiE
+当前时间：1646351704311
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,341 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646351704342
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,341 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/9UVNeeWuZMGmFtbFp0cDqAiEiE/calendars/primary/events/eW5GWkpyWlhGdUh6d0JvbXp6OW50QT09_1646437800000
+当前时间：1646351704342
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,404 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：日程组织者：邱慕夏
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646351704405
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,420 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646351704420
+ 
+
+ 
+记录时间：2022-03-04 07:55:04,420 
+线程ID:[34] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646351704420
+ 
+
+ 
+记录时间：2022-03-04 07:56:47,641 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：鲲鹏
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：291
+当前时间：1646351807642
+ 
+
+ 
+记录时间：2022-03-04 07:56:47,782 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：19931867073
+当前时间：1646351807782
+ 
+
+ 
+记录时间：2022-03-04 07:56:47,813 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+当前时间：1646351807814
+ 
+
+ 
+记录时间：2022-03-04 07:56:47,813 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：46
+当前时间：1646351807814
+ 
+
+ 
+记录时间：2022-03-04 07:56:47,813 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：49
+当前时间：1646351807814
+ 
+
+ 
+记录时间：2022-03-04 07:56:48,829 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的参数信息：郭丽敏、鲲鹏
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：53
+当前时间：1646351808829
+ 
+
+ 
+记录时间：2022-03-04 07:56:48,829 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链接口地址：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID={0}&data={1}&name={2}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：57
+当前时间：1646351808829
+ 
+
+ 
+记录时间：2022-03-04 07:56:48,829 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=245941474724241632&data=请到研发中心领取钥匙：鲲鹏&name=郭丽敏
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：59
+当前时间：1646351808829
+ 
+
+ 
+记录时间：2022-03-04 07:56:50,719 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：管理员钥匙领取回调body参数：{"outTrackId":"2459414747242416321646351808845","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"596681237\",\"mid\":\"9953232862963\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"596681237:2680652793\",\"platformBizId\":\"9953232862963\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"dataContent\":\"鲲鹏\",\"data\":\"请到研发中心领取钥匙：鲲鹏\"}}}","userId":"245941474724241632","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"596681237\",\"mid\":\"9953232862963\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"596681237:2680652793\",\"platformBizId\":\"9953232862963\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"dataContent\":\"鲲鹏\",\"data\":\"请到研发中心领取钥匙：鲲鹏\"}}}"}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：334
+当前时间：1646351810720
+ 
+
+ 
+记录时间：2022-03-04 07:56:50,719 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：管理员钥匙领取·
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：365
+当前时间：1646351810720
+ 
+
+ 
+记录时间：2022-03-04 07:56:51,016 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：更新卡片信息：2459414747242416321646351808845System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\UpdateCardMessage.cs
+行数：77
+当前时间：1646351811017
+ 
+
+ 
+记录时间：2022-03-04 07:58:30,675 
+线程ID:[45] 
+日志级别：  INFO  
+日志描述：审批事件参数：审批类型bpms_instance_change审批id5BVbe2beSb2PHU2ffVOLCw06541646351908
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\BpmsEvent.cs
+行数：18
+当前时间：1646351910676
+ 
+
+ 
+记录时间：2022-03-04 07:59:52,818 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：审批事件参数：审批类型bpms_instance_change审批id5BVbe2beSb2PHU2ffVOLCw06541646351908
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\BpmsEvent.cs
+行数：18
+当前时间：1646351992819
+ 
+
+ 
+记录时间：2022-03-04 08:04:37,497 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：独角兽
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：291
+当前时间：1646352277498
+ 
+
+ 
+记录时间：2022-03-04 08:04:37,638 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：19931866120
+当前时间：1646352277638
+ 
+
+ 
+记录时间：2022-03-04 08:04:37,669 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+当前时间：1646352277670
+ 
+
+ 
+记录时间：2022-03-04 08:04:37,669 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：46
+当前时间：1646352277670
+ 
+
+ 
+记录时间：2022-03-04 08:04:37,669 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：49
+当前时间：1646352277670
+ 
+
+ 
+记录时间：2022-03-04 08:04:37,700 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的参数信息：何海娥、独角兽
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：53
+当前时间：1646352277701
+ 
+
+ 
+记录时间：2022-03-04 08:04:37,700 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链接口地址：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID={0}&data={1}&name={2}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：57
+当前时间：1646352277701
+ 
+
+ 
+记录时间：2022-03-04 08:04:37,700 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=682444680320408739&data=请到研发中心领取钥匙：独角兽&name=何海娥
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\ResourcesHandler.cs
+行数：59
+当前时间：1646352277701
+ 
+
+ 
+记录时间：2022-03-04 08:04:40,341 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：管理员钥匙领取回调body参数：{"outTrackId":"6824446803204087391646352278357","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"1641132363\",\"mid\":\"9946928246759\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"1641132363:2680652793\",\"platformBizId\":\"9946928246759\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"dataContent\":\"独角兽\",\"data\":\"请到研发中心领取钥匙：独角兽\"}}}","userId":"682444680320408739","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"1641132363\",\"mid\":\"9946928246759\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"1641132363:2680652793\",\"platformBizId\":\"9946928246759\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"dataContent\":\"独角兽\",\"data\":\"请到研发中心领取钥匙：独角兽\"}}}"}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：334
+当前时间：1646352280342
+ 
+
+ 
+记录时间：2022-03-04 08:04:40,341 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：管理员钥匙领取·
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：365
+当前时间：1646352280342
+ 
+
+ 
+记录时间：2022-03-04 08:04:40,669 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：更新卡片信息：6824446803204087391646352278357System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\UpdateCardMessage.cs
+行数：77
+当前时间：1646352280670
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,592 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352305592
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,639 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"5ddxhxl8q4h5"}
+当前时间：1646352305639
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,639 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+当前时间：1646352305639
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,670 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352305670
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,670 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/M0pzbzhUczlqeURSYnBCSkpVbkFnZz09_1646438400000
+当前时间：1646352305670
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,826 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646352305827
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,826 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：M0pzbzhUczlqeURSYnBCSkpVbkFnZz09_1646438400000、19331647611191121
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646352305827
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,826 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+当前时间：1646352305827
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,842 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352305842
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,842 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/M0pzbzhUczlqeURSYnBCSkpVbkFnZz09_1646438400000
+当前时间：1646352305842
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,920 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646352305920
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,920 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646352305920
+ 
+
+ 
+记录时间：2022-03-04 08:05:05,920 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646352305920
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,764 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352306764
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,811 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"3016372518849616"},"request_id":"o3snxc9ms7pp"}
+当前时间：1646352306811
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,811 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+当前时间：1646352306811
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,842 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352306842
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,842 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/L1dDOXlOcUtGeUdhL2g3M2hldVpvdz09_1646956800000
+当前时间：1646352306842
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,904 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646352306905
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,904 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：L1dDOXlOcUtGeUdhL2g3M2hldVpvdz09_1646956800000、3016372518849616
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646352306905
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,904 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+当前时间：1646352306905
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,936 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352306936
+ 
+
+ 
+记录时间：2022-03-04 08:05:06,936 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/L1dDOXlOcUtGeUdhL2g3M2hldVpvdz09_1646956800000
+当前时间：1646352306936
+ 
+
+ 
+记录时间：2022-03-04 08:05:07,014 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：日程组织者：王倩
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646352307014
+ 
+
+ 
+记录时间：2022-03-04 08:05:07,014 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646352307014
+ 
+
+ 
+记录时间：2022-03-04 08:05:07,014 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646352307014
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,702 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352317702
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,764 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"183703270221533242"},"request_id":"dzul33og90hs"}
+当前时间：1646352317764
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,764 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Pme49ii78Yk8ER6QGIevgXgiEiE
+当前时间：1646352317764
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,795 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352317796
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,795 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Pme49ii78Yk8ER6QGIevgXgiEiE/calendars/primary/events/Y1N0STF2RjZqeGpEYXJ1WGMzWG5MUT09_1646438400000
+当前时间：1646352317796
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,858 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646352317858
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,858 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：Y1N0STF2RjZqeGpEYXJ1WGMzWG5MUT09_1646438400000、183703270221533242
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646352317858
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,858 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Pme49ii78Yk8ER6QGIevgXgiEiE
+当前时间：1646352317858
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,873 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352317874
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,873 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Pme49ii78Yk8ER6QGIevgXgiEiE/calendars/primary/events/Y1N0STF2RjZqeGpEYXJ1WGMzWG5MUT09_1646438400000
+当前时间：1646352317874
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,936 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：日程组织者：吴振硕
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646352317936
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,951 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646352317952
+ 
+
+ 
+记录时间：2022-03-04 08:05:17,951 
+线程ID:[52] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646352317952
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,280 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352319280
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,326 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"682444680320408739"},"request_id":"pva1ebst8fvm"}
+当前时间：1646352319327
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,326 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SiifDYAGxWa6ZB7GP0JMmEwiEiE
+当前时间：1646352319327
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,358 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352319358
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,358 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SiifDYAGxWa6ZB7GP0JMmEwiEiE/calendars/primary/events/UHUvUC9rOURGdmRuQnVyLzhJNnFGZz09_1646956800000
+当前时间：1646352319358
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,420 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646352319421
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,420 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：UHUvUC9rOURGdmRuQnVyLzhJNnFGZz09_1646956800000、682444680320408739
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646352319421
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,420 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SiifDYAGxWa6ZB7GP0JMmEwiEiE
+当前时间：1646352319421
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,451 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646352319452
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,451 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SiifDYAGxWa6ZB7GP0JMmEwiEiE/calendars/primary/events/UHUvUC9rOURGdmRuQnVyLzhJNnFGZz09_1646956800000
+当前时间：1646352319452
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,514 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：日程组织者：何海娥
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646352319514
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,514 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646352319514
+ 
+
+ 
+记录时间：2022-03-04 08:05:19,514 
+线程ID:[40] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646352319514
+ 
+
+ 
+记录时间：2022-03-04 08:20:03,816 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646353203817
+ 
+
+ 
+记录时间：2022-03-04 08:20:03,879 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"0649265813858"},"request_id":"4om0stg8a8fx"}
+当前时间：1646353203879
+ 
+
+ 
+记录时间：2022-03-04 08:20:03,879 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：B6jriSILYCBiS4G2iiG73bVFgiEiE
+当前时间：1646353203879
+ 
+
+ 
+记录时间：2022-03-04 08:20:03,910 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646353203910
+ 
+
+ 
+记录时间：2022-03-04 08:20:03,910 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/B6jriSILYCBiS4G2iiG73bVFgiEiE/calendars/primary/events/THpSeGc1UmNNekF4eU9yaFB1VFptdz09_1646439300000
+当前时间：1646353203910
+ 
+
+ 
+记录时间：2022-03-04 08:20:04,066 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646353204067
+ 
+
+ 
+记录时间：2022-03-04 08:20:04,066 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：THpSeGc1UmNNekF4eU9yaFB1VFptdz09_1646439300000、0649265813858
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646353204067
+ 
+
+ 
+记录时间：2022-03-04 08:20:04,066 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：B6jriSILYCBiS4G2iiG73bVFgiEiE
+当前时间：1646353204067
+ 
+
+ 
+记录时间：2022-03-04 08:20:04,098 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646353204098
+ 
+
+ 
+记录时间：2022-03-04 08:20:04,098 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/B6jriSILYCBiS4G2iiG73bVFgiEiE/calendars/primary/events/THpSeGc1UmNNekF4eU9yaFB1VFptdz09_1646439300000
+当前时间：1646353204098
+ 
+
+ 
+记录时间：2022-03-04 08:20:04,160 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：日程组织者：李金轩
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646353204160
+ 
+
+ 
+记录时间：2022-03-04 08:20:04,160 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646353204160
+ 
+
+ 
+记录时间：2022-03-04 08:20:04,160 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646353204160
+ 
+
+ 
+记录时间：2022-03-04 08:25:08,121 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：管理员归还钥匙回调地址body参数：{"outTrackId":"6824446803204087391646352280529","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"true\",\"currentLoggedUserId\":\"1641132363\",\"mid\":\"9953328977998\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"1641132363:2680652793\",\"platformBizId\":\"9953328977998\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"请归还您领取的独角兽会议室钥匙。\",\"result\":\"1\",\"userid\":\"682444680320408739\",\"PromptText\":\"温馨提示：归还钥匙步骤是先进行点击卡片归还按钮，然后将钥匙放入锁中\"}}}","userId":"682444680320408739","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"true\",\"currentLoggedUserId\":\"1641132363\",\"mid\":\"9953328977998\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"1641132363:2680652793\",\"platformBizId\":\"9953328977998\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"请归还您领取的独角兽会议室钥匙。\",\"result\":\"1\",\"userid\":\"682444680320408739\",\"PromptText\":\"温馨提示：归还钥匙步骤是先进行点击卡片归还按钮，然后将钥匙放入锁中\"}}}"}
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs
+行数：421
+当前时间：1646353508121
+ 
+
+ 
+记录时间：2022-03-04 08:25:08,308 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：更新卡片信息：6824446803204087391646352280529System.Collections.Generic.Dictionary`2+ValueCollection[System.String,System.String]
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\DingDingInterface\UpdateCardMessage.cs
+行数：77
+当前时间：1646353508309
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,012 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646354105012
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,074 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"036637184121041819"},"request_id":"ef19m7urbmfp"}
+当前时间：1646354105075
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,074 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：IZtz789yqLmmFtbFp0cDqAiEiE
+当前时间：1646354105075
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,090 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646354105090
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,090 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/IZtz789yqLmmFtbFp0cDqAiEiE/calendars/primary/events/dW9OVm0zZUEwREs2b01rWmZ5OHdHZz09_1646613000000
+当前时间：1646354105090
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,246 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646354105246
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,246 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：dW9OVm0zZUEwREs2b01rWmZ5OHdHZz09_1646613000000、036637184121041819
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646354105246
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,246 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：IZtz789yqLmmFtbFp0cDqAiEiE
+当前时间：1646354105246
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,277 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646354105278
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,277 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/IZtz789yqLmmFtbFp0cDqAiEiE/calendars/primary/events/dW9OVm0zZUEwREs2b01rWmZ5OHdHZz09_1646613000000
+当前时间：1646354105278
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,340 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：日程组织者：刘新阳
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646354105340
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,355 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646354105356
+ 
+
+ 
+记录时间：2022-03-04 08:35:05,355 
+线程ID:[81] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646354105356
+ 
+
+ 
+记录时间：2022-03-04 08:54:24,354 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：审批事件参数：审批类型bpms_instance_change审批id2VSex_QgTDG4b69OKnsAOA06541646348920
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\BpmsEvent.cs
+行数：18
+当前时间：1646355264354
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,479 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355265479
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,541 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"125526415821489541"},"request_id":"5uoe8mzx35um"}
+当前时间：1646355265542
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,541 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：2Tt92cAHsBFcYr5CLiPF1NwiEiE
+当前时间：1646355265542
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,572 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355265573
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,572 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/2Tt92cAHsBFcYr5CLiPF1NwiEiE/calendars/primary/events/bVhkTmdzQVc2L1o2U0kzdnJNNnZ1UT09
+当前时间：1646355265573
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,713 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646355265714
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,713 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：bVhkTmdzQVc2L1o2U0kzdnJNNnZ1UT09、125526415821489541
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646355265714
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,713 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：2Tt92cAHsBFcYr5CLiPF1NwiEiE
+当前时间：1646355265714
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,744 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355265745
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,744 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/2Tt92cAHsBFcYr5CLiPF1NwiEiE/calendars/primary/events/bVhkTmdzQVc2L1o2U0kzdnJNNnZ1UT09
+当前时间：1646355265745
+ 
+
+ 
+记录时间：2022-03-04 08:54:25,822 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程组织者：刘鹏远
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646355265823
+ 
+
+ 
+记录时间：2022-03-04 08:54:26,291 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646355266292
+ 
+
+ 
+记录时间：2022-03-04 08:54:26,291 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646355266292
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,660 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355626661
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,660 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355626661
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,676 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355626676
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,707 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2669160061179688068"},"request_id":"ot1pzaiswzfa"}
+当前时间：1646355626708
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,707 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：3hUSbPWwZUfiP9iSQUZdccpwiEiE
+当前时间：1646355626708
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,723 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2669160061179688068"},"request_id":"zy4jc0nnff0m"}
+当前时间：1646355626723
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,723 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：3hUSbPWwZUfiP9iSQUZdccpwiEiE
+当前时间：1646355626723
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,723 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2669160061179688068"},"request_id":"5um8ahfmd3vm"}
+当前时间：1646355626723
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,723 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：3hUSbPWwZUfiP9iSQUZdccpwiEiE
+当前时间：1646355626723
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,723 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355626723
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,723 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/3hUSbPWwZUfiP9iSQUZdccpwiEiE/calendars/primary/events/NGtQenJlSXJiV3YyRTZFYnpCTzNQZz09_1644022800000
+当前时间：1646355626723
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,738 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355626739
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,738 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/3hUSbPWwZUfiP9iSQUZdccpwiEiE/calendars/primary/events/NGtQenJlSXJiV3YyRTZFYnpCTzNQZz09_1641344400000
+当前时间：1646355626739
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,754 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355626755
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,754 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/3hUSbPWwZUfiP9iSQUZdccpwiEiE/calendars/primary/events/NGtQenJlSXJiV3YyRTZFYnpCTzNQZz09_1646442000000
+当前时间：1646355626755
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,910 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355626911
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,957 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2669160061179688068"},"request_id":"15q61cosh5jzd"}
+当前时间：1646355626958
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,957 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：3hUSbPWwZUfiP9iSQUZdccpwiEiE
+当前时间：1646355626958
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,988 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355626989
+ 
+
+ 
+记录时间：2022-03-04 09:00:26,988 
+线程ID:[64] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/3hUSbPWwZUfiP9iSQUZdccpwiEiE/calendars/primary/events/NGtQenJlSXJiV3YyRTZFYnpCTzNQZz09
+当前时间：1646355626989
+ 
+
+ 
+记录时间：2022-03-04 09:05:05,778 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355905778
+ 
+
+ 
+记录时间：2022-03-04 09:05:05,840 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"07615724576826"},"request_id":"ncszlcq7d2k9"}
+当前时间：1646355905841
+ 
+
+ 
+记录时间：2022-03-04 09:05:05,840 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：7t0DdUV7ZtciSdjq78tlRpAiEiE
+当前时间：1646355905841
+ 
+
+ 
+记录时间：2022-03-04 09:05:05,871 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355905872
+ 
+
+ 
+记录时间：2022-03-04 09:05:05,871 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/7t0DdUV7ZtciSdjq78tlRpAiEiE/calendars/primary/events/MDl4UXNLT2o1MkNaN0lnd1crTU0rQT09_1646442000000
+当前时间：1646355905872
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,028 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646355906028
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,028 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：MDl4UXNLT2o1MkNaN0lnd1crTU0rQT09_1646442000000、07615724576826
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646355906028
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,028 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：7t0DdUV7ZtciSdjq78tlRpAiEiE
+当前时间：1646355906028
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,059 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355906059
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,059 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/7t0DdUV7ZtciSdjq78tlRpAiEiE/calendars/primary/events/MDl4UXNLT2o1MkNaN0lnd1crTU0rQT09_1646442000000
+当前时间：1646355906059
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,121 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：日程组织者：胡东月
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646355906122
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,121 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646355906122
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,121 
+线程ID:[57] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646355906122
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,762 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355906762
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,824 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"fmfmeiwcqt1g"}
+当前时间：1646355906825
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,824 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+当前时间：1646355906825
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,856 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355906856
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,856 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/MzljSzRBTEpudDEzYmhxZ1h0enQ0dz09_1646442000000
+当前时间：1646355906856
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,918 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646355906919
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,918 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：MzljSzRBTEpudDEzYmhxZ1h0enQ0dz09_1646442000000、19331647611191121
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646355906919
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,918 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+当前时间：1646355906919
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,949 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646355906950
+ 
+
+ 
+记录时间：2022-03-04 09:05:06,949 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/MzljSzRBTEpudDEzYmhxZ1h0enQ0dz09_1646442000000
+当前时间：1646355906950
+ 
+
+ 
+记录时间：2022-03-04 09:05:07,043 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646355907044
+ 
+
+ 
+记录时间：2022-03-04 09:05:07,043 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646355907044
+ 
+
+ 
+记录时间：2022-03-04 09:05:07,043 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646355907044
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,563 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646356053563
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,563 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646356053563
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,625 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"296753556726115529"},"request_id":"h2mso18tsadu"}
+当前时间：1646356053626
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,625 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：nZGvYbCAii2UiSdjq78tlRpAiEiE
+当前时间：1646356053626
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,625 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"296753556726115529"},"request_id":"kuf55g7c37f2"}
+当前时间：1646356053626
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,625 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：nZGvYbCAii2UiSdjq78tlRpAiEiE
+当前时间：1646356053626
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,657 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646356053657
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,657 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/nZGvYbCAii2UiSdjq78tlRpAiEiE/calendars/primary/events/NGtQenJlSXJiV3YyRTZFYnpCTzNQZz09_1644022800000
+当前时间：1646356053657
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,657 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646356053657
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,657 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/nZGvYbCAii2UiSdjq78tlRpAiEiE/calendars/primary/events/NGtQenJlSXJiV3YyRTZFYnpCTzNQZz09
+当前时间：1646356053657
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,828 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646356053829
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,828 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646356053829
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,891 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"296753556726115529"},"request_id":"16h8hgm1kphd2"}
+当前时间：1646356053891
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,891 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：nZGvYbCAii2UiSdjq78tlRpAiEiE
+当前时间：1646356053891
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,891 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"296753556726115529"},"request_id":"on5fvfy3yb5p"}
+当前时间：1646356053891
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,891 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：nZGvYbCAii2UiSdjq78tlRpAiEiE
+当前时间：1646356053891
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,922 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646356053923
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,922 
+线程ID:[58] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/nZGvYbCAii2UiSdjq78tlRpAiEiE/calendars/primary/events/NGtQenJlSXJiV3YyRTZFYnpCTzNQZz09_1646442000000
+当前时间：1646356053923
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,922 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646356053923
+ 
+
+ 
+记录时间：2022-03-04 09:07:33,922 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/nZGvYbCAii2UiSdjq78tlRpAiEiE/calendars/primary/events/NGtQenJlSXJiV3YyRTZFYnpCTzNQZz09_1641344400000
+当前时间：1646356053923
+ 
+
+ 
+记录时间：2022-03-04 09:34:06,777 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357646777
+ 
+
+ 
+记录时间：2022-03-04 09:34:06,855 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"215069303232288482"},"request_id":"8b62uoj7fhul"}
+当前时间：1646357646855
+ 
+
+ 
+记录时间：2022-03-04 09:34:06,855 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Eu9GPnqv0L0ER6QGIevgXgiEiE
+当前时间：1646357646855
+ 
+
+ 
+记录时间：2022-03-04 09:34:06,870 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357646871
+ 
+
+ 
+记录时间：2022-03-04 09:34:06,870 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Eu9GPnqv0L0ER6QGIevgXgiEiE/calendars/primary/events/Y0N5THBpNzJPQkF0KytHb2lhVERVUT09
+当前时间：1646357646871
+ 
+
+ 
+记录时间：2022-03-04 09:34:15,418 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357655418
+ 
+
+ 
+记录时间：2022-03-04 09:34:15,464 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"193155041423363469"},"request_id":"3vp8c8kkdfym"}
+当前时间：1646357655465
+ 
+
+ 
+记录时间：2022-03-04 09:34:15,464 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：VtvCRWbALBYFzhoujMdt5wiEiE
+当前时间：1646357655465
+ 
+
+ 
+记录时间：2022-03-04 09:34:15,496 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357655496
+ 
+
+ 
+记录时间：2022-03-04 09:34:15,496 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/VtvCRWbALBYFzhoujMdt5wiEiE/calendars/primary/events/Y0N5THBpNzJPQkF0KytHb2lhVERVUT09
+当前时间：1646357655496
+ 
+
+ 
+记录时间：2022-03-04 09:37:43,924 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357863924
+ 
+
+ 
+记录时间：2022-03-04 09:37:43,924 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357863924
+ 
+
+ 
+记录时间：2022-03-04 09:37:43,971 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"3016372518849616"},"request_id":"71w96h7rfseh"}
+当前时间：1646357863971
+ 
+
+ 
+记录时间：2022-03-04 09:37:43,971 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+当前时间：1646357863971
+ 
+
+ 
+记录时间：2022-03-04 09:37:43,986 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"3016372518849616"},"request_id":"zg00nw12nlo6"}
+当前时间：1646357863987
+ 
+
+ 
+记录时间：2022-03-04 09:37:43,986 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+当前时间：1646357863987
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,002 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357864003
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,002 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/aDNtUEprM2t1UmRhVGw3Mm4yMG11dz09
+当前时间：1646357864003
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,002 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357864003
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,002 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/aDNtUEprM2t1UmRhVGw3Mm4yMG11dz09_1643932800000
+当前时间：1646357864003
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,080 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357864081
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,080 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357864081
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,127 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"3016372518849616"},"request_id":"4tk0765mrjlz"}
+当前时间：1646357864128
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,127 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+当前时间：1646357864128
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,127 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"3016372518849616"},"request_id":"s42831ff1fvw"}
+当前时间：1646357864128
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,127 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+当前时间：1646357864128
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,158 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357864159
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,158 
+线程ID:[11] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/aDNtUEprM2t1UmRhVGw3Mm4yMG11dz09_1649030400000
+当前时间：1646357864159
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,158 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357864159
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,158 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/aDNtUEprM2t1UmRhVGw3Mm4yMG11dz09_1646352000000
+当前时间：1646357864159
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,190 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357864190
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,236 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"3016372518849616"},"request_id":"4zpq5vow126u"}
+当前时间：1646357864237
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,236 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+当前时间：1646357864237
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,268 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357864268
+ 
+
+ 
+记录时间：2022-03-04 09:37:44,268 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/aDNtUEprM2t1UmRhVGw3Mm4yMG11dz09_1641254400000
+当前时间：1646357864268
+ 
+
+ 
+记录时间：2022-03-04 09:39:56,209 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357996210
+ 
+
+ 
+记录时间：2022-03-04 09:39:56,272 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"186320152024241297"},"request_id":"2zw2qq6wfu0l"}
+当前时间：1646357996272
+ 
+
+ 
+记录时间：2022-03-04 09:39:56,272 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：35jrIDpCiPtC4RQrmlaiPj5AiEiE
+当前时间：1646357996272
+ 
+
+ 
+记录时间：2022-03-04 09:39:56,287 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646357996288
+ 
+
+ 
+记录时间：2022-03-04 09:39:56,287 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/35jrIDpCiPtC4RQrmlaiPj5AiEiE/calendars/primary/events/Y0N5THBpNzJPQkF0KytHb2lhVERVUT09
+当前时间：1646357996288
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,679 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358039679
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,726 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"193155041423363469"},"request_id":"1056tne7abf6l"}
+当前时间：1646358039726
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,726 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：VtvCRWbALBYFzhoujMdt5wiEiE
+当前时间：1646358039726
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,757 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358039758
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,757 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/VtvCRWbALBYFzhoujMdt5wiEiE/calendars/primary/events/VlJmL1B1aUdpUDJ4bEtVM1A3Njhadz09
+当前时间：1646358039758
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,866 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646358039867
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,960 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：VlJmL1B1aUdpUDJ4bEtVM1A3Njhadz09、193155041423363469
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646358039961
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,960 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：VtvCRWbALBYFzhoujMdt5wiEiE
+当前时间：1646358039961
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,991 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358039992
+ 
+
+ 
+记录时间：2022-03-04 09:40:39,991 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/VtvCRWbALBYFzhoujMdt5wiEiE/calendars/primary/events/VlJmL1B1aUdpUDJ4bEtVM1A3Njhadz09
+当前时间：1646358039992
+ 
+
+ 
+记录时间：2022-03-04 09:40:40,054 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：日程组织者：宋文轩
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646358040054
+ 
+
+ 
+记录时间：2022-03-04 09:40:40,491 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646358040492
+ 
+
+ 
+记录时间：2022-03-04 09:40:40,491 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646358040492
+ 
+
+ 
+记录时间：2022-03-04 09:40:42,585 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358042586
+ 
+
+ 
+记录时间：2022-03-04 09:40:42,632 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"285649331336642900"},"request_id":"4uqsgvp61lho"}
+当前时间：1646358042633
+ 
+
+ 
+记录时间：2022-03-04 09:40:42,632 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：kuPnbabZqxr4G2iiG73bVFgiEiE
+当前时间：1646358042633
+ 
+
+ 
+记录时间：2022-03-04 09:40:42,663 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358042664
+ 
+
+ 
+记录时间：2022-03-04 09:40:42,663 
+线程ID:[21] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/kuPnbabZqxr4G2iiG73bVFgiEiE/calendars/primary/events/VlJmL1B1aUdpUDJ4bEtVM1A3Njhadz09
+当前时间：1646358042664
+ 
+
+ 
+记录时间：2022-03-04 09:40:43,601 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358043601
+ 
+
+ 
+记录时间：2022-03-04 09:40:43,648 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"193320501129217912"},"request_id":"1g6mi0faobc8"}
+当前时间：1646358043648
+ 
+
+ 
+记录时间：2022-03-04 09:40:43,648 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：diPT9dSiScJSfiP9iSQUZdccpwiEiE
+当前时间：1646358043648
+ 
+
+ 
+记录时间：2022-03-04 09:40:43,679 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358043680
+ 
+
+ 
+记录时间：2022-03-04 09:40:43,679 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/diPT9dSiScJSfiP9iSQUZdccpwiEiE/calendars/primary/events/VlJmL1B1aUdpUDJ4bEtVM1A3Njhadz09
+当前时间：1646358043680
+ 
+
+ 
+记录时间：2022-03-04 09:40:57,117 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358057117
+ 
+
+ 
+记录时间：2022-03-04 09:40:57,164 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"193155041423363469"},"request_id":"10twzzldvgu2c"}
+当前时间：1646358057164
+ 
+
+ 
+记录时间：2022-03-04 09:40:57,164 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：VtvCRWbALBYFzhoujMdt5wiEiE
+当前时间：1646358057164
+ 
+
+ 
+记录时间：2022-03-04 09:40:57,195 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358057196
+ 
+
+ 
+记录时间：2022-03-04 09:40:57,195 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/VtvCRWbALBYFzhoujMdt5wiEiE/calendars/primary/events/VlJmL1B1aUdpUDJ4bEtVM1A3Njhadz09
+当前时间：1646358057196
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,279 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358886279
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,341 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"1020051968847252"},"request_id":"ngyqjd8h1uxl"}
+当前时间：1646358886342
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,341 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：fY0g4ZGfaR5cYr5CLiPF1NwiEiE
+当前时间：1646358886342
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,357 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358886358
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,357 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/fY0g4ZGfaR5cYr5CLiPF1NwiEiE/calendars/primary/events/dVJ3L2QrSFI5bVkyZFlpd2RhQmJPdz09
+当前时间：1646358886358
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,529 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646358886529
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,529 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：dVJ3L2QrSFI5bVkyZFlpd2RhQmJPdz09、1020051968847252
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646358886529
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,529 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：fY0g4ZGfaR5cYr5CLiPF1NwiEiE
+当前时间：1646358886529
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,545 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646358886545
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,545 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/fY0g4ZGfaR5cYr5CLiPF1NwiEiE/calendars/primary/events/dVJ3L2QrSFI5bVkyZFlpd2RhQmJPdz09
+当前时间：1646358886545
+ 
+
+ 
+记录时间：2022-03-04 09:54:46,607 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646358886608
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,217 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646359506217
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,279 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"wyfj7ix21gh5"}
+当前时间：1646359506280
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,279 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+当前时间：1646359506280
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,310 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646359506311
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,310 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/SEFOb3hDZzBaU0pPKy9EaEhJTGpDZz09_1646445600000
+当前时间：1646359506311
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,467 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：39
+当前时间：1646359506467
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,467 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：日程事件用户信息日程ID、钉ID：SEFOb3hDZzBaU0pPKy9EaEhJTGpDZz09_1646445600000、19331647611191121
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：41
+当前时间：1646359506467
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,467 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+当前时间：1646359506467
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,482 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：获取访问token:0631c94206af3db48bd7fad9be4d605d
+当前时间：1646359506483
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,482 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/SEFOb3hDZzBaU0pPKy9EaEhJTGpDZz09_1646445600000
+当前时间：1646359506483
+ 
+
+ 
+记录时间：2022-03-04 10:05:06,592 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：32
+当前时间：1646359506592
+ 
+
+ 
+记录时间：2022-03-04 10:05:07,342 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\CalendarLimit.cs
+行数：35
+当前时间：1646359507342
+ 
+
+ 
+记录时间：2022-03-04 10:05:07,342 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+具体位置：C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\EventStrategy\CalendarEvent.cs
+行数：44
+当前时间：1646359507342
+ 

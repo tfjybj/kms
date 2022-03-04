@@ -218,6 +218,7 @@
     <Compile Include="Controllers\DDCallBackController.cs" />
     <Compile Include="Controllers\ManagerMessageController.cs" />
     <Compile Include="Controllers\SendMessageController.cs" />
+    <Compile Include="DingDingEntity\BpmsEventEntity.cs" />
     <Compile Include="DingDingEntity\RobotMessagesEntity.cs" />
     <Compile Include="DingDingInterface\AccessToken.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -260,6 +261,9 @@
     <Compile Include="DingDingEntity\CallBackMessageEntity.cs" />
     <Compile Include="CardMessageBLL\SendCardMessage.cs" />
     <Compile Include="CardMessageBLL\GroupMessage.cs" />
+    <Compile Include="EventStrategy\BpmsEvent.cs" />
+    <Compile Include="EventStrategy\CalendarEvent.cs" />
+    <Compile Include="EventStrategy\EventType.cs" />
     <Compile Include="KMSDAL\UserGroupDAL.cs" />
     <Compile Include="LimitBLL\CalendarLimit.cs" />
     <Compile Include="LimitBLL\GetConfig.cs" />
@@ -276,7 +280,6 @@
     <Compile Include="DingDingEntity\DingMessageEntity.cs" />
     <Compile Include="DingDingEntity\UserEntity.cs" />
     <Compile Include="DingDingInterface\DingDingUnidnID.cs" />
-    <Compile Include="DingDingEntity\CalendarEntity.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DingDingEntity\DingDingBackEntity.cs" />
@@ -353,20 +356,20 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="bin\Log4.config" />
     <Content Include="Properties\DataSources\System.Data.DataTable.datasource" />
-    <None Include="Connected Services\KmsServiceReference\Service12.wsdl" />
-    <None Include="Connected Services\KmsServiceReference\Service511.xsd">
+    <None Include="Connected Services\KmsServiceReference\Service13.wsdl" />
+    <None Include="Connected Services\KmsServiceReference\Service516.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\KmsServiceReference\Service512.xsd">
+    <None Include="Connected Services\KmsServiceReference\Service517.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\KmsServiceReference\Service513.xsd">
+    <None Include="Connected Services\KmsServiceReference\Service518.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\KmsServiceReference\Service514.xsd">
+    <None Include="Connected Services\KmsServiceReference\Service519.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\KmsServiceReference\Service515.xsd">
+    <None Include="Connected Services\KmsServiceReference\Service520.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\KmsServiceReference\Service55.xsd">

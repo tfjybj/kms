@@ -1,0 +1,111 @@
+
+ 
+记录时间：2022-02-28 13:19:50,621 
+线程ID:[22] 
+日志级别：  ERROR 
+错误描述：更新卡片错误信息：编码systemBusy,code: 500, 系统繁忙 request id: F8C39177-B98C-7855-BE70-B1FD9D65B005
+ 
+
+ 
+记录时间：2022-02-28 13:56:38,706 
+线程ID:[17] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/19931867091/DwGDkdYHDn8DjyxZpFbrso
+ 
+
+ 
+记录时间：2022-02-28 13:56:38,706 
+线程ID:[17] 
+日志级别：  ERROR 
+错误描述：判断用户是否存在职责链的错误信息：未将对象引用设置到对象的实例。  具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 31
+ 
+
+ 
+记录时间：2022-02-28 13:56:38,706 
+线程ID:[17] 
+日志级别：  ERROR 
+错误描述：机器人消息接收回调错误信息：未将对象引用设置到对象的实例。       具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 41
+   在 dingdingsuccess.Controllers.DDCallBackController.ReceiveMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 298
+ 
+
+ 
+记录时间：2022-02-28 13:56:52,863 
+线程ID:[21] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/19931867091/DwGDkdYHDn8DjyxZpFbrso
+ 
+
+ 
+记录时间：2022-02-28 13:56:52,863 
+线程ID:[21] 
+日志级别：  ERROR 
+错误描述：判断用户是否存在职责链的错误信息：未将对象引用设置到对象的实例。  具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 31
+ 
+
+ 
+记录时间：2022-02-28 13:56:52,863 
+线程ID:[21] 
+日志级别：  ERROR 
+错误描述：机器人消息接收回调错误信息：未将对象引用设置到对象的实例。       具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 41
+   在 dingdingsuccess.Controllers.DDCallBackController.ReceiveMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 298
+ 
+
+ 
+记录时间：2022-02-28 21:37:23,405 
+线程ID:[18] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/13603214967/DwGDkdYHDn8DjyxZpFbrso
+ 
+
+ 
+记录时间：2022-02-28 21:37:23,405 
+线程ID:[18] 
+日志级别：  ERROR 
+错误描述：判断用户是否存在职责链的错误信息：未将对象引用设置到对象的实例。  具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 31
+ 
+
+ 
+记录时间：2022-02-28 21:37:23,405 
+线程ID:[18] 
+日志级别：  ERROR 
+错误描述：机器人消息接收回调错误信息：未将对象引用设置到对象的实例。       具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 41
+   在 dingdingsuccess.Controllers.DDCallBackController.ReceiveMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 298
+ 
+
+ 
+记录时间：2022-02-28 21:37:40,124 
+线程ID:[22] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/13603214967/DwGDkdYHDn8DjyxZpFbrso
+ 
+
+ 
+记录时间：2022-02-28 21:37:40,124 
+线程ID:[22] 
+日志级别：  ERROR 
+错误描述：判断用户是否存在职责链的错误信息：未将对象引用设置到对象的实例。  具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 31
+ 
+
+ 
+记录时间：2022-02-28 21:37:40,124 
+线程ID:[22] 
+日志级别：  ERROR 
+错误描述：机器人消息接收回调错误信息：未将对象引用设置到对象的实例。       具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 50
+   在 dingdingsuccess.BobotHandler.PhoneHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\PhoneHandler.cs:行号 41
+   在 dingdingsuccess.Controllers.DDCallBackController.ReceiveMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 298
+ 

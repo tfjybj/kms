@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using dingdingsuccess.Log4;
 using Tea;
 using Tea.Utils;
+using dingdingsuccess.LimitBLL;
 
 namespace dingdingsuccess.DingDingInterface
 {
@@ -45,7 +46,7 @@ namespace dingdingsuccess.DingDingInterface
             string text = JsonConvert.SerializeObject(textContent);
             AlibabaCloud.SDK.Dingtalkrobot_1_0.Models.BatchSendOTORequest batchSendOTORequest = new AlibabaCloud.SDK.Dingtalkrobot_1_0.Models.BatchSendOTORequest
             {
-                RobotCode = "dingefydqbitushwpwyd",
+                RobotCode = GetConfig.GetConfigValue("basicData", "Robotkey"),
                 UserIds = new List<string>
                 {
                     userID

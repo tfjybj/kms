@@ -5,6 +5,8 @@
  */
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using dingdingsuccess.LimitBLL;
 using dingdingsuccess.Log4;
 namespace dingdingsuccess.CardMessageBLL
 {
@@ -27,7 +29,7 @@ namespace dingdingsuccess.CardMessageBLL
             try
             {
                 string[] sArray = roomName.Split('+');
-                LoggerHelper.Info("数组参数：" + sArray[0] + "--" + sArray[1]);
+                LoggerHelper.Info("数组参数：" + sArray[0] + "--" + sArray[1]+"\n具体位置："+LoggerHelper.GetCurSourceFileName()+"\n行数："+LoggerHelper.GetLineNum());
                 if (sArray.Length > 1)
                 {
                     Dictionary<string, string> cardDataCardParamMap = new Dictionary<string, string>
@@ -41,19 +43,19 @@ namespace dingdingsuccess.CardMessageBLL
                     { "CallbackRouteKey","KMS-CardMessage"},//对应会议室申请卡片消息的回调函数的映射地址
                     { "userid",userID},
                     { "specialRoom",sArray[1].ToString()},
-                    { "CardTemplateId","f91c5e16-9071-454e-878f-b2333fe91d8e"},
+                    { "CardTemplateId",GetConfig.GetConfigValue("cardID","PushRoomCard")},
                     { "outTrackId",userID+GetTimeStamp()}
                     };
                     //卡片消息中的参数
 
-                    LoggerHelper.Info("发送会议室推送卡片消息字典参数：" + cardDataCardParamMap);
+                    LoggerHelper.Info("发送会议室推送卡片消息字典参数：" + cardDataCardParamMap.Values+"\n具体位置："+LoggerHelper.GetCurSourceFileName()+"\n行数："+LoggerHelper.GetLineNum());
                     SampleCardMessage.SendCardMessage(cardDataCardParamMap);
                 }
 
             }
             catch (Exception e)
             {
-                LoggerHelper.Error("B层发送消息错误日志：" + e.Message + "  具体信息：" + e.StackTrace);
+                LoggerHelper.Error("B层发送消息错误日志：" + e.Message + "\n具体信息：" + e.StackTrace);
 
             }
 
@@ -80,7 +82,7 @@ namespace dingdingsuccess.CardMessageBLL
                 { "userid",userID},
                 { "outTrackId",userID+GetTimeStamp()},
                  { "CallbackRouteKey","KMS-GetKeyMessage"},//对应领取钥匙卡片消息的回调函数的映射地址
-                { "CardTemplateId","d49903da-e783-4f48-82bb-d6a59773d62a"}
+                { "CardTemplateId",GetConfig.GetConfigValue("cardID","GetKeyCard")}
             };
 
             try
@@ -123,7 +125,7 @@ namespace dingdingsuccess.CardMessageBLL
                     { "CallbackRouteKey","KMS-DutyCallBack"},//对应领取钥匙卡片消息的回调函数的映射地址
                     { "true","1"},
                     { "false","0"},
-                    { "CardTemplateId","c2053a09-7f94-4597-bb6d-0005dca5ec11"}
+                    { "CardTemplateId",GetConfig.GetConfigValue("cardID","DutyCard")}
                 };
                 SampleCardMessage.SendCardMessage(cardDataCardParamMap);
                 return result;
@@ -159,7 +161,7 @@ namespace dingdingsuccess.CardMessageBLL
 
                 { "outTrackId",OutTrackId},
                  {"CallbackRouteKey","KMS-GetKeyMessage"},//对应领取钥匙卡片消息的回调函数的映射地址
-                { "CardTemplateId","d49903da-e783-4f48-82bb-d6a59773d62a"},
+                { "CardTemplateId",GetConfig.GetConfigValue("cardID","GetKeyCard")},
                 {"overtime", "1" }
             };
 
@@ -190,11 +192,12 @@ namespace dingdingsuccess.CardMessageBLL
 
                     { "calendarid",calendarID},
                     { "received","归还"},
-                    { "date",roomName},
+                    { "date",string.Format("请归还您领取的{0}会议室钥匙。",roomName)},
+                    { "PromptText",ConfigurationManager.ConnectionStrings["PromptText"].ConnectionString},
                     { "userid",userID},
                     { "outTrackId",userID+GetTimeStamp()},
                     { "CallbackRouteKey","KMS-ReturnKeyMessage"},//对应归还钥匙卡片消息的回调函数的映射地址
-                    { "CardTemplateId","da2593d5-6613-4f80-9d2c-795a69775ce5"}
+                    { "CardTemplateId",GetConfig.GetConfigValue("cardID","ReturnKeyCard")}
 
                 };
                 returnCardID = cardDataCardParamMap["outTrackId"];
@@ -313,7 +316,7 @@ namespace dingdingsuccess.CardMessageBLL
                 { "userid",managerID},
                 { "outTrackId",managerID+GetTimeStamp()},
                 { "CallbackRouteKey","KMS-ManagerGetKey"},//对应归还钥匙卡片消息的回调函数的映射地址
-                { "CardTemplateId","6b4f4a8a-2940-46f7-b8a4-9ece7b5671c9"},
+                { "CardTemplateId",GetConfig.GetConfigValue("cardID","ManagerGetKeyCard")},
                 { "agree","领取" },
                 { "cancel","取消"},
                 { "dataContent",content},
@@ -342,11 +345,12 @@ namespace dingdingsuccess.CardMessageBLL
                 Dictionary<string, string> cardDataCardParamMap = new Dictionary<string, string>
                 {
                     { "received","归还"},
-                    { "date",roomName},
+                    { "date",string.Format("请归还您领取的{0}会议室钥匙。",roomName)},
+                    { "PromptText",ConfigurationManager.ConnectionStrings["PromptText"].ConnectionString},
                     { "userid",userID},
                     { "outTrackId",userID+GetTimeStamp()},
                     { "CallbackRouteKey","KMS-ManagerReturnKey"},//对应归还钥匙卡片消息的回调函数的映射地址
-                    { "CardTemplateId","da2593d5-6613-4f80-9d2c-795a69775ce5"}
+                    { "CardTemplateId",GetConfig.GetConfigValue("cardID","ReturnKeyCard")}
 
                 };
                 returnCardID = cardDataCardParamMap["outTrackId"];

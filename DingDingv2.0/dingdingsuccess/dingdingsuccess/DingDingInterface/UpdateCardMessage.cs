@@ -74,6 +74,7 @@ namespace dingdingsuccess
             };
             try
             {
+                LoggerHelper.Info("更新卡片信息：" +updateInteractiveCardRequest.OutTrackId+ cardDataCardParamMap.Values+ "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
                 client.UpdateInteractiveCardWithOptions(updateInteractiveCardRequest, updateInteractiveCardHeaders, new AlibabaCloud.TeaUtil.Models.RuntimeOptions());
             }
             catch (TeaException err)
@@ -81,7 +82,7 @@ namespace dingdingsuccess
                 if (!AlibabaCloud.TeaUtil.Common.Empty(err.Code) && !AlibabaCloud.TeaUtil.Common.Empty(err.Message))
                 {
                     // err 中含有 code 和 message 属性，可帮助开发定位问题
-                    LoggerHelper.Error("更新卡片错误信息："+"编码"+err.Code+","+err.Message);
+                    LoggerHelper.Error("更新卡片错误信息："+"编码"+err.Code+","+err.Message+"\n堆栈信息"+err.StackTrace+"、"+err.Source);
                 }
             }
             catch (Exception _err)

@@ -29,19 +29,11 @@ namespace dingdingsuccess.LimitBLL
             {
                 //查询日程详情
                 CalendarDetailsEntity calendarDetailsModel = dingCalendar.SelectCalendarInfo(unionID, events);
-                LoggerHelper.Info("日程组织者：" + calendarDetailsModel.organizer.displayName);
+                LoggerHelper.Info("日程组织者：" + calendarDetailsModel.organizer.displayName+"\n具体位置："+LoggerHelper.GetCurSourceFileName()+"\n行数："+LoggerHelper.GetLineNum());
                 //查询符合的会议室
                 string roomname = client.PushRoom(events, ddID);
-                LoggerHelper.Info("判断日程是否需要发送会议室卡片,会议室名称：" + roomname);
+                LoggerHelper.Info("判断日程是否需要发送会议室卡片,会议室名称：" + roomname+"\n具体位置："+LoggerHelper.GetCurSourceFileName()+"\n行数："+LoggerHelper.GetLineNum());
 
-                //if (calendarDetailsModel.onlineMeetingInfo != null)
-                //{
-                //    LoggerHelper.Info("会议类型是否为空："+calendarDetailsModel.onlineMeetingInfo.type);
-                //    if (calendarDetailsModel.onlineMeetingInfo.type == "dingtalk")
-                //    {
-                //        return result;
-                //    }
-                //}
                 //判断房间是否空
                 if (roomname != null)
                 {

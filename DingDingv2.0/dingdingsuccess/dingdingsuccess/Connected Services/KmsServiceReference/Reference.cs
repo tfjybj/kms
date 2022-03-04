@@ -15,12 +15,15 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CalendarInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/WcfService.Entity")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CalendarInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
     [System.SerializableAttribute()]
     public partial class CalendarInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ApproveIDField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string ApproverField;
@@ -30,6 +33,9 @@ namespace dingdingsuccess.KmsServiceReference {
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string CalendarIDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int CalendarIsVoidField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
         private string ContentField;
@@ -87,6 +93,19 @@ namespace dingdingsuccess.KmsServiceReference {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ApproveID {
+            get {
+                return this.ApproveIDField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ApproveIDField, value) != true)) {
+                    this.ApproveIDField = value;
+                    this.RaisePropertyChanged("ApproveID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Approver {
             get {
                 return this.ApproverField;
@@ -121,6 +140,19 @@ namespace dingdingsuccess.KmsServiceReference {
                 if ((object.ReferenceEquals(this.CalendarIDField, value) != true)) {
                     this.CalendarIDField = value;
                     this.RaisePropertyChanged("CalendarID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int CalendarIsVoid {
+            get {
+                return this.CalendarIsVoidField;
+            }
+            set {
+                if ((this.CalendarIsVoidField.Equals(value) != true)) {
+                    this.CalendarIsVoidField = value;
+                    this.RaisePropertyChanged("CalendarIsVoid");
                 }
             }
         }
@@ -332,7 +364,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="DingMessageModel", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="DingMessageModel", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class DingMessageModel : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -409,7 +441,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Link", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Link", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Link : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -502,7 +534,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="SendApproveModel", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SendApproveModel", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class SendApproveModel : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -659,7 +691,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Form_Component_Values", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Form_Component_Values", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Form_Component_Values : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -720,7 +752,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="SendApproveRe_valueModel", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SendApproveRe_valueModel", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class SendApproveRe_valueModel : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -829,7 +861,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class ApproveContentTask : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -921,7 +953,7 @@ namespace dingdingsuccess.KmsServiceReference {
         
         [System.Diagnostics.DebuggerStepThroughAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-        [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Process_Instance", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+        [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Process_Instance", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
         [System.SerializableAttribute()]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.DingMessageModel))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.Link))]
@@ -950,6 +982,7 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.Start))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.AgreeRequestModel))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.Request))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ApproveInstanceModel))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<string>))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<object>))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.CalendarInfoEntity>))]
@@ -1224,7 +1257,7 @@ namespace dingdingsuccess.KmsServiceReference {
         
         [System.Diagnostics.DebuggerStepThroughAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-        [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Form1_Component_Values", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+        [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Form1_Component_Values", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
         [System.SerializableAttribute()]
         public partial class Form1_Component_Values : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
             
@@ -1332,7 +1365,7 @@ namespace dingdingsuccess.KmsServiceReference {
         
         [System.Diagnostics.DebuggerStepThroughAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-        [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Operation_Records", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+        [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Operation_Records", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
         [System.SerializableAttribute()]
         public partial class Operation_Records : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
             
@@ -1424,7 +1457,7 @@ namespace dingdingsuccess.KmsServiceReference {
         
         [System.Diagnostics.DebuggerStepThroughAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-        [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Task", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+        [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Task", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
         [System.SerializableAttribute()]
         public partial class Task : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
             
@@ -1581,7 +1614,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="UserCodeModel", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="UserCodeModel", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class UserCodeModel : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -1642,7 +1675,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="SelectCalendarModel", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SelectCalendarModel", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class SelectCalendarModel : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -1911,7 +1944,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Attendee", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Attendee", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Attendee : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2004,7 +2037,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="End", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="End", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class End : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2081,7 +2114,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Location", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Location", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Location : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2126,7 +2159,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Onlinemeetinginfo", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Onlinemeetinginfo", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Onlinemeetinginfo : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2203,7 +2236,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Organizer", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Organizer", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Organizer : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2296,7 +2329,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Recurrence", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Recurrence", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Recurrence : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2357,7 +2390,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Pattern", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Pattern", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Pattern : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2466,7 +2499,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Range", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Range", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Range : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2543,7 +2576,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Start", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Start", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Start : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2620,7 +2653,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="AgreeRequestModel", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AgreeRequestModel", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class AgreeRequestModel : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2665,7 +2698,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Request", Namespace="http://schemas.datacontract.org/2004/07/WcfService.DingDingModel")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Request", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
     [System.SerializableAttribute()]
     public partial class Request : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2774,7 +2807,212 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="RoomInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/WcfService.Entity")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ApproveInstanceModel", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
+    [System.SerializableAttribute()]
+    public partial class ApproveInstanceModel : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string EventTypeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string corpIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long createTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private long finishTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string processCodeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string processInstanceIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string resultField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string staffIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string titleField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string typeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string urlField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string EventType {
+            get {
+                return this.EventTypeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.EventTypeField, value) != true)) {
+                    this.EventTypeField = value;
+                    this.RaisePropertyChanged("EventType");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string corpId {
+            get {
+                return this.corpIdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.corpIdField, value) != true)) {
+                    this.corpIdField = value;
+                    this.RaisePropertyChanged("corpId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long createTime {
+            get {
+                return this.createTimeField;
+            }
+            set {
+                if ((this.createTimeField.Equals(value) != true)) {
+                    this.createTimeField = value;
+                    this.RaisePropertyChanged("createTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public long finishTime {
+            get {
+                return this.finishTimeField;
+            }
+            set {
+                if ((this.finishTimeField.Equals(value) != true)) {
+                    this.finishTimeField = value;
+                    this.RaisePropertyChanged("finishTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string processCode {
+            get {
+                return this.processCodeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.processCodeField, value) != true)) {
+                    this.processCodeField = value;
+                    this.RaisePropertyChanged("processCode");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string processInstanceId {
+            get {
+                return this.processInstanceIdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.processInstanceIdField, value) != true)) {
+                    this.processInstanceIdField = value;
+                    this.RaisePropertyChanged("processInstanceId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string result {
+            get {
+                return this.resultField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.resultField, value) != true)) {
+                    this.resultField = value;
+                    this.RaisePropertyChanged("result");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string staffId {
+            get {
+                return this.staffIdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.staffIdField, value) != true)) {
+                    this.staffIdField = value;
+                    this.RaisePropertyChanged("staffId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string title {
+            get {
+                return this.titleField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.titleField, value) != true)) {
+                    this.titleField = value;
+                    this.RaisePropertyChanged("title");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string type {
+            get {
+                return this.typeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.typeField, value) != true)) {
+                    this.typeField = value;
+                    this.RaisePropertyChanged("type");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string url {
+            get {
+                return this.urlField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.urlField, value) != true)) {
+                    this.urlField = value;
+                    this.RaisePropertyChanged("url");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="RoomInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
     [System.SerializableAttribute()]
     public partial class RoomInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -2931,7 +3169,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="BasicDataEntity", Namespace="http://schemas.datacontract.org/2004/07/WcfService.Entity")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="BasicDataEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
     [System.SerializableAttribute()]
     public partial class BasicDataEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -3040,7 +3278,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ManagerRecordEntity", Namespace="http://schemas.datacontract.org/2004/07/WcfService.Entity")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ManagerRecordEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
     [System.SerializableAttribute()]
     public partial class ManagerRecordEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -3245,7 +3483,7 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ErrorInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/WcfService.Entity")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ErrorInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
     [System.SerializableAttribute()]
     public partial class ErrorInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
@@ -3556,6 +3794,12 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/SendApprove", ReplyAction="http://tempuri.org/IService/SendApproveResponse")]
         System.Threading.Tasks.Task SendApproveAsync(string calendarID, string userID, string roomName);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetApproveResult", ReplyAction="http://tempuri.org/IService/GetApproveResultResponse")]
+        void GetApproveResult(dingdingsuccess.KmsServiceReference.ApproveInstanceModel approveContent);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetApproveResult", ReplyAction="http://tempuri.org/IService/GetApproveResultResponse")]
+        System.Threading.Tasks.Task GetApproveResultAsync(dingdingsuccess.KmsServiceReference.ApproveInstanceModel approveContent);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/AutoSendApprove", ReplyAction="http://tempuri.org/IService/AutoSendApproveResponse")]
         void AutoSendApprove(string calendarID, string userID, string roomName);
         
@@ -3629,10 +3873,10 @@ namespace dingdingsuccess.KmsServiceReference {
         System.Threading.Tasks.Task<int> UpdateLockStateAsync(string roomName, string LockState);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetRoom", ReplyAction="http://tempuri.org/IService/GetRoomResponse")]
-        string GetRoom(string room);
+        string GetRoom(string room, string managerID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetRoom", ReplyAction="http://tempuri.org/IService/GetRoomResponse")]
-        System.Threading.Tasks.Task<string> GetRoomAsync(string room);
+        System.Threading.Tasks.Task<string> GetRoomAsync(string room, string managerID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/InsertRoomRecord", ReplyAction="http://tempuri.org/IService/InsertRoomRecordResponse")]
         void InsertRoomRecord(dingdingsuccess.KmsServiceReference.ManagerRecordEntity managerRecord);
@@ -3986,6 +4230,14 @@ namespace dingdingsuccess.KmsServiceReference {
             return base.Channel.SendApproveAsync(calendarID, userID, roomName);
         }
         
+        public void GetApproveResult(dingdingsuccess.KmsServiceReference.ApproveInstanceModel approveContent) {
+            base.Channel.GetApproveResult(approveContent);
+        }
+        
+        public System.Threading.Tasks.Task GetApproveResultAsync(dingdingsuccess.KmsServiceReference.ApproveInstanceModel approveContent) {
+            return base.Channel.GetApproveResultAsync(approveContent);
+        }
+        
         public void AutoSendApprove(string calendarID, string userID, string roomName) {
             base.Channel.AutoSendApprove(calendarID, userID, roomName);
         }
@@ -4082,12 +4334,12 @@ namespace dingdingsuccess.KmsServiceReference {
             return base.Channel.UpdateLockStateAsync(roomName, LockState);
         }
         
-        public string GetRoom(string room) {
-            return base.Channel.GetRoom(room);
+        public string GetRoom(string room, string managerID) {
+            return base.Channel.GetRoom(room, managerID);
         }
         
-        public System.Threading.Tasks.Task<string> GetRoomAsync(string room) {
-            return base.Channel.GetRoomAsync(room);
+        public System.Threading.Tasks.Task<string> GetRoomAsync(string room, string managerID) {
+            return base.Channel.GetRoomAsync(room, managerID);
         }
         
         public void InsertRoomRecord(dingdingsuccess.KmsServiceReference.ManagerRecordEntity managerRecord) {

@@ -32,7 +32,7 @@ namespace dingdingsuccess.Log4
             }
             else
             {
-                LogError.Error(errorMsg);
+                LogError.Error(errorMsg + "\n当前时间：" + GetTimeStamp());
             }
         }
 
@@ -49,7 +49,7 @@ namespace dingdingsuccess.Log4
             }
             else
             {
-                LogInfo.Info(msg);
+                LogInfo.Info(msg+"\n当前时间："+ GetTimeStamp());
             }
         }
 
@@ -61,5 +61,50 @@ namespace dingdingsuccess.Log4
         {
             LogMonitor.Info(msg);
         }
+
+
+        /// <summary>
+        /// 取当前源码的源文件名
+        /// </summary>
+        /// <returns></returns>
+        public static string GetCurSourceFileName()
+        {
+            System.Diagnostics.StackTrace st = new System.Diagnostics.StackTrace(1, true);
+
+            return st.GetFrame(0).GetFileName();
+
+        }
+        ///<summary>
+        /// 取得当前源码的哪一行
+        /// </summary>
+        /// <returns></returns>
+        public static int GetLineNum()
+        {
+            System.Diagnostics.StackTrace st = new System.Diagnostics.StackTrace(1, true);
+            return st.GetFrame(0).GetFileLineNumber();
+        }
+
+        #region 获取当前时间的时间戳
+        /// <summary>
+        /// 获取当前时间的时间戳
+        /// </summary>
+        /// <returns>时间戳</returns>
+        private static string GetTimeStamp()
+        {
+            //DateTime dateStart = new DateTime(1970, 1, 1, 8, 0, 0);
+            //int timeStamp = Convert.ToInt32((DateTime.Now - dateStart).TotalSeconds);
+
+            //TimeSpan ts = new TimeSpan(DateTime.Now.Ticks);
+            //;
+            //long time = (DateTime.Now.ToUniversalTime().Ticks - 621355968000000000) / 10000000;
+
+            //return ts.TotalSeconds.ToString();
+            //获取当前时间戳，截至毫秒
+            double intResult = 0;
+            System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1));
+            intResult = (DateTime.Now - startTime).TotalMilliseconds;
+            return Math.Round(intResult, 0).ToString();
+        }
+        #endregion
     }
 }

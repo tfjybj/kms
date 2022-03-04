@@ -1,8 +1,9 @@
-﻿using System;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年2月23日16点54分
+ * 描述：审批事件实体
+ */
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
 namespace dingdingsuccess
 {
 

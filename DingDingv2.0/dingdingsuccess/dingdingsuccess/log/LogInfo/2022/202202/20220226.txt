@@ -1,0 +1,7903 @@
+
+ 
+记录时间：2022-02-26 01:00:58,376 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:01184ce285393f94ab438a4973393145
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,376 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:7fe32349470b3732952dca675a00ee9b
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,517 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01674903682871"},"request_id":"7o7anndglkg0"}
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,517 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01674903682871"},"request_id":"10u8c8oq83s30"}
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,517 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：iSxuwpEp8wiPqmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,517 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：iSxuwpEp8wiPqmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,548 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:01184ce285393f94ab438a4973393145
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,548 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/iSxuwpEp8wiPqmFtbFp0cDqAiEiE/calendars/primary/events/a0pqVUU5SzdBQ1licFpaQ1JjZGNQZz09
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,548 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:01184ce285393f94ab438a4973393145
+ 
+
+ 
+记录时间：2022-02-26 01:00:58,548 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/iSxuwpEp8wiPqmFtbFp0cDqAiEiE/calendars/primary/events/a0pqVUU5SzdBQ1licFpaQ1JjZGNQZz09
+ 
+
+ 
+记录时间：2022-02-26 07:05:05,945 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,008 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,023 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"162663613220353924"},"request_id":"pxplgl5bf5uh"}
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,023 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：YMSiSoiPdwiiFYER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,055 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,055 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/YMSiSoiPdwiiFYER6QGIevgXgiEiE/calendars/primary/events/ZmpBakRmS01LREQrakU3RklWQk5jdz09_1645916400000
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,055 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"0108383310171220717"},"request_id":"nh5ns64nakb1"}
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,055 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：BiigkSBiiB00JWxnP2p4iipuwiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,086 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,086 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/BiigkSBiiB00JWxnP2p4iipuwiEiE/calendars/primary/events/UjRodHZSM1JXN3RLS3FmQlN4ZEh0Zz09_1645916400000
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,258 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,258 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,320 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：UjRodHZSM1JXN3RLS3FmQlN4ZEh0Zz09_1645916400000、0108383310171220717
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,320 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：ZmpBakRmS01LREQrakU3RklWQk5jdz09_1645916400000、162663613220353924
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,320 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：BiigkSBiiB00JWxnP2p4iipuwiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,320 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：YMSiSoiPdwiiFYER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,336 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,336 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/YMSiSoiPdwiiFYER6QGIevgXgiEiE/calendars/primary/events/ZmpBakRmS01LREQrakU3RklWQk5jdz09_1645916400000
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,336 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,336 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/BiigkSBiiB00JWxnP2p4iipuwiEiE/calendars/primary/events/UjRodHZSM1JXN3RLS3FmQlN4ZEh0Zz09_1645916400000
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,414 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：陈涵
+ 
+
+ 
+记录时间：2022-02-26 07:05:06,430 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程组织者：何新生
+ 
+
+ 
+记录时间：2022-02-26 07:05:07,601 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 07:05:07,601 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 07:05:07,601 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 07:05:07,601 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,315 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,393 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"296840350335694370"},"request_id":"643tbbs0ix27"}
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,393 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：z8WYiSnU67Kn4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,425 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,425 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/z8WYiSnU67Kn4G2iiG73bVFgiEiE/calendars/primary/events/UmducFE0MjZKK1RmaWNWN2o4eGRaZz09
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,612 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,659 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：UmducFE0MjZKK1RmaWNWN2o4eGRaZz09、296840350335694370
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,659 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：z8WYiSnU67Kn4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,690 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,690 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/z8WYiSnU67Kn4G2iiG73bVFgiEiE/calendars/primary/events/UmducFE0MjZKK1RmaWNWN2o4eGRaZz09
+ 
+
+ 
+记录时间：2022-02-26 07:31:41,753 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：贾玉珍
+ 
+
+ 
+记录时间：2022-02-26 07:31:42,706 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：库房+false
+ 
+
+ 
+记录时间：2022-02-26 07:31:42,706 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:库房+false
+ 
+
+ 
+记录时间：2022-02-26 07:31:42,706 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：数组参数：库房--false
+ 
+
+ 
+记录时间：2022-02-26 07:31:42,706 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 07:31:59,285 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"2968403503356943701645831902706","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"719812453\",\"mid\":\"9909425020312\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"719812453:2680652793\",\"platformBizId\":\"9909425020312\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/2/26 7:31:42\",\"result\":\"1\",\"calendarid\":\"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09\",\" specialRoom\":\"false\",\"title\":\"库房\",\"usagetime\":\"2022/2/26 7:30:00-2022/2/26 8:30:00\"}}}","userId":"296840350335694370","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"719812453\",\"mid\":\"9909425020312\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"719812453:2680652793\",\"platformBizId\":\"9909425020312\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/2/26 7:31:42\",\"result\":\"1\",\"calendarid\":\"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09\",\" specialRoom\":\"false\",\"title\":\"库房\",\"usagetime\":\"2022/2/26 7:30:00-2022/2/26 8:30:00\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 07:31:59,285 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：2968403503356943701645831902706
+ 
+
+ 
+记录时间：2022-02-26 07:31:59,285 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"719812453","mid":"9909425020312","isSingleConv":"1","platform":"im","cid":"719812453:2680652793","platformBizId":"9909425020312"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"2022/2/26 7:31:42","result":"1","calendarid":"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09"," specialRoom":"false","title":"库房","usagetime":"2022/2/26 7:30:00-2022/2/26 8:30:00"}}}
+ 
+
+ 
+记录时间：2022-02-26 07:31:59,285 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/2/26 7:31:42
+ 
+
+ 
+记录时间：2022-02-26 07:31:59,394 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：返回参数日程类型：false
+ 
+
+ 
+记录时间：2022-02-26 07:32:00,159 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：UmducFE0MjZKK1RmaWNWN2o4eGRaZz09 :296840350335694370库房
+ 
+
+ 
+记录时间：2022-02-26 07:32:02,597 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"2968403503356943701645831920082","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"719812453\",\"mid\":\"9904177897084\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"719812453:2680652793\",\"platformBizId\":\"9904177897084\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"库房\",\"result\":\"1\",\"calendarid\":\"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09\",\"userid\":\"296840350335694370\"}}}","userId":"296840350335694370","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"719812453\",\"mid\":\"9904177897084\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"719812453:2680652793\",\"platformBizId\":\"9904177897084\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"库房\",\"result\":\"1\",\"calendarid\":\"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09\",\"userid\":\"296840350335694370\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 07:32:02,597 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：2968403503356943701645831920082
+ 
+
+ 
+记录时间：2022-02-26 07:32:02,597 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"719812453","mid":"9904177897084","isSingleConv":"1","platform":"im","cid":"719812453:2680652793","platformBizId":"9904177897084"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"库房","result":"1","calendarid":"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09","userid":"296840350335694370"}}}
+ 
+
+ 
+记录时间：2022-02-26 07:32:02,597 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：钥匙领取传入后端参数：296840350335694370    UmducFE0MjZKK1RmaWNWN2o4eGRaZz09
+ 
+
+ 
+记录时间：2022-02-26 07:33:38,115 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"2968403503356943701645831922926","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"库房\",\"result\":\"1\",\"calendarid\":\"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09\",\"userid\":\"296840350335694370\"}}}","userId":"296840350335694370","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"库房\",\"result\":\"1\",\"calendarid\":\"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09\",\"userid\":\"296840350335694370\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 07:33:38,115 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取归还钥匙卡片消息唯一标识：2968403503356943701645831922926
+ 
+
+ 
+记录时间：2022-02-26 07:33:38,115 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"date":"库房","result":"1","calendarid":"UmducFE0MjZKK1RmaWNWN2o4eGRaZz09","userid":"296840350335694370"}}}
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,257 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,319 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"220145194326444613"},"request_id":"xsqq4o09mhpw"}
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,319 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：E45WmF86uMf4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,351 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,351 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/E45WmF86uMf4G2iiG73bVFgiEiE/calendars/primary/events/WktWd3dJS0thS0VWVHo5ZkFQUkg2Zz09
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,522 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,522 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：WktWd3dJS0thS0VWVHo5ZkFQUkg2Zz09、220145194326444613
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,522 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：E45WmF86uMf4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,538 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,538 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/E45WmF86uMf4G2iiG73bVFgiEiE/calendars/primary/events/WktWd3dJS0thS0VWVHo5ZkFQUkg2Zz09
+ 
+
+ 
+记录时间：2022-02-26 07:44:04,616 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程组织者：杨秉隆
+ 
+
+ 
+记录时间：2022-02-26 07:44:05,319 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 07:44:05,319 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,540 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,602 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"30236464291145798"},"request_id":"3q4dm1ltee3l"}
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,602 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：mPsmiiCSiincmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,634 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,634 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/mPsmiiCSiincmLgtSiPXoVtvAiEiE/calendars/primary/events/RC80WlBvNlNFRXVPMTNnSnZSR1dtQT09
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,696 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,696 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：RC80WlBvNlNFRXVPMTNnSnZSR1dtQT09、30236464291145798
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,696 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：mPsmiiCSiincmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,727 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,727 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/mPsmiiCSiincmLgtSiPXoVtvAiEiE/calendars/primary/events/RC80WlBvNlNFRXVPMTNnSnZSR1dtQT09
+ 
+
+ 
+记录时间：2022-02-26 07:45:11,790 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程组织者：赵媛
+ 
+
+ 
+记录时间：2022-02-26 07:45:12,040 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：不死鸟+false
+ 
+
+ 
+记录时间：2022-02-26 07:45:12,040 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：推送房间名称:不死鸟+false
+ 
+
+ 
+记录时间：2022-02-26 07:45:12,040 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：数组参数：不死鸟--false
+ 
+
+ 
+记录时间：2022-02-26 07:45:12,040 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 07:45:32,119 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"302364642911457981645832712040","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9894640599860\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9894640599860\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"date\":\"2022/2/26 7:45:12\",\"result\":\"0\",\"calendarid\":\"RC80WlBvNlNFRXVPMTNnSnZSR1dtQT09\",\"title\":\"不死鸟\",\"usagetime\":\"2022/2/26 8:00:00-2022/2/26 9:00:00\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9894640599860\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9894640599860\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"date\":\"2022/2/26 7:45:12\",\"result\":\"0\",\"calendarid\":\"RC80WlBvNlNFRXVPMTNnSnZSR1dtQT09\",\"title\":\"不死鸟\",\"usagetime\":\"2022/2/26 8:00:00-2022/2/26 9:00:00\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 07:45:32,119 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：302364642911457981645832712040
+ 
+
+ 
+记录时间：2022-02-26 07:45:32,119 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"728507109","mid":"9894640599860","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9894640599860"},"cardPrivateData":{"actionIds":["1"],"params":{"date":"2022/2/26 7:45:12","result":"0","calendarid":"RC80WlBvNlNFRXVPMTNnSnZSR1dtQT09","title":"不死鸟","usagetime":"2022/2/26 8:00:00-2022/2/26 9:00:00"}}}
+ 
+
+ 
+记录时间：2022-02-26 07:45:32,119 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/2/26 7:45:12
+ 
+
+ 
+记录时间：2022-02-26 07:46:11,995 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,057 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"30236464291145798"},"request_id":"10hbi6qd7jz06"}
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,057 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：mPsmiiCSiincmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,073 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,073 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/mPsmiiCSiincmLgtSiPXoVtvAiEiE/calendars/primary/events/VWdZVFhoaDFYampOSC91YjhzS0xYZz09
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,151 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,151 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：VWdZVFhoaDFYampOSC91YjhzS0xYZz09、30236464291145798
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,151 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：mPsmiiCSiincmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,182 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,182 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/mPsmiiCSiincmLgtSiPXoVtvAiEiE/calendars/primary/events/VWdZVFhoaDFYampOSC91YjhzS0xYZz09
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,245 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程组织者：赵媛
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,479 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：不死鸟+false
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,479 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：推送房间名称:不死鸟+false
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,479 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：数组参数：不死鸟--false
+ 
+
+ 
+记录时间：2022-02-26 07:46:12,479 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 07:46:34,089 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"302364642911457981645832772479","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9886720112280\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9886720112280\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/2/26 7:46:12\",\"result\":\"1\",\"calendarid\":\"VWdZVFhoaDFYampOSC91YjhzS0xYZz09\",\" specialRoom\":\"false\",\"title\":\"不死鸟\",\"usagetime\":\"2022/2/26 8:00:00-2022/2/26 12:00:00\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9886720112280\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9886720112280\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/2/26 7:46:12\",\"result\":\"1\",\"calendarid\":\"VWdZVFhoaDFYampOSC91YjhzS0xYZz09\",\" specialRoom\":\"false\",\"title\":\"不死鸟\",\"usagetime\":\"2022/2/26 8:00:00-2022/2/26 12:00:00\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 07:46:34,089 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：302364642911457981645832772479
+ 
+
+ 
+记录时间：2022-02-26 07:46:34,089 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"728507109","mid":"9886720112280","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9886720112280"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"2022/2/26 7:46:12","result":"1","calendarid":"VWdZVFhoaDFYampOSC91YjhzS0xYZz09"," specialRoom":"false","title":"不死鸟","usagetime":"2022/2/26 8:00:00-2022/2/26 12:00:00"}}}
+ 
+
+ 
+记录时间：2022-02-26 07:46:34,089 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/2/26 7:46:12
+ 
+
+ 
+记录时间：2022-02-26 07:46:34,183 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：返回参数日程类型：false
+ 
+
+ 
+记录时间：2022-02-26 07:46:34,839 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：VWdZVFhoaDFYampOSC91YjhzS0xYZz09 :30236464291145798不死鸟
+ 
+
+ 
+记录时间：2022-02-26 07:47:02,121 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981645832820246","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9886688499939\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9886688499939\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"VWdZVFhoaDFYampOSC91YjhzS0xYZz09\",\"userid\":\"30236464291145798\"}}}","userId":"30236464291145798","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"728507109\",\"mid\":\"9886688499939\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"728507109:2680652793\",\"platformBizId\":\"9886688499939\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"VWdZVFhoaDFYampOSC91YjhzS0xYZz09\",\"userid\":\"30236464291145798\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 07:47:02,121 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：302364642911457981645832820246
+ 
+
+ 
+记录时间：2022-02-26 07:47:02,121 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"728507109","mid":"9886688499939","isSingleConv":"1","platform":"im","cid":"728507109:2680652793","platformBizId":"9886688499939"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"不死鸟","result":"1","calendarid":"VWdZVFhoaDFYampOSC91YjhzS0xYZz09","userid":"30236464291145798"}}}
+ 
+
+ 
+记录时间：2022-02-26 07:47:02,121 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：钥匙领取传入后端参数：30236464291145798    VWdZVFhoaDFYampOSC91YjhzS0xYZz09
+ 
+
+ 
+记录时间：2022-02-26 07:47:48,982 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,044 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"06390133698183"},"request_id":"5fyfa9pafrgs"}
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,044 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：wKNcsuoaxiS6LgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,075 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,075 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/wKNcsuoaxiS6LgtSiPXoVtvAiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,278 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,278 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09、06390133698183
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,278 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：wKNcsuoaxiS6LgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,310 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,310 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/wKNcsuoaxiS6LgtSiPXoVtvAiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,372 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程组织者：杨贺铮
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,622 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 07:47:49,622 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 07:47:54,997 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:47:55,044 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"215069303232288482"},"request_id":"5fcifxrct4zu"}
+ 
+
+ 
+记录时间：2022-02-26 07:47:55,044 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Eu9GPnqv0L0ER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:47:55,075 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:47:55,075 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Eu9GPnqv0L0ER6QGIevgXgiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:47:57,044 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:47:57,091 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2669160061179688068"},"request_id":"4zydrnnuezd3"}
+ 
+
+ 
+记录时间：2022-02-26 07:47:57,091 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：3hUSbPWwZUfiP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:47:57,122 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:47:57,122 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/3hUSbPWwZUfiP9iSQUZdccpwiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:48:42,952 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,014 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"041913351626566410"},"request_id":"zrdoed3zucqt"}
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,014 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：sYY31zsIuu7ZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,030 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,030 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/sYY31zsIuu7ZvQcr6rQWOgiEiE/calendars/primary/events/amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,108 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,108 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09、041913351626566410
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,108 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：sYY31zsIuu7ZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,139 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,139 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/sYY31zsIuu7ZvQcr6rQWOgiEiE/calendars/primary/events/amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,202 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：日程组织者：李赛男
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,436 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：不死鸟+false
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,436 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：推送房间名称:不死鸟+false
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,436 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：数组参数：不死鸟--false
+ 
+
+ 
+记录时间：2022-02-26 07:48:43,436 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 07:48:45,280 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:48:45,327 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2669160061179688068"},"request_id":"ro29htb8xie0"}
+ 
+
+ 
+记录时间：2022-02-26 07:48:45,327 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：3hUSbPWwZUfiP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:48:45,342 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:48:45,342 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/3hUSbPWwZUfiP9iSQUZdccpwiEiE/calendars/primary/events/amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09
+ 
+
+ 
+记录时间：2022-02-26 07:48:48,092 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"0419133516265664101645832923437","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"isRead\":\"false\",\"currentLoggedUserId\":\"102623166\",\"mid\":\"9894672525909\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"102623166:2680652793\",\"platformBizId\":\"9894672525909\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/2/26 7:48:43\",\"result\":\"1\",\"calendarid\":\"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09\",\" specialRoom\":\"false\",\"title\":\"不死鸟\",\"usagetime\":\"2022/2/26 8:00:00-2022/2/26 12:00:00\"}}}","userId":"041913351626566410","content":"{\"context\":{\"senderId\":\"2680652793\",\"isRead\":\"false\",\"currentLoggedUserId\":\"102623166\",\"mid\":\"9894672525909\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"102623166:2680652793\",\"platformBizId\":\"9894672525909\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/2/26 7:48:43\",\"result\":\"1\",\"calendarid\":\"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09\",\" specialRoom\":\"false\",\"title\":\"不死鸟\",\"usagetime\":\"2022/2/26 8:00:00-2022/2/26 12:00:00\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 07:48:48,092 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：0419133516265664101645832923437
+ 
+
+ 
+记录时间：2022-02-26 07:48:48,092 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","isRead":"false","currentLoggedUserId":"102623166","mid":"9894672525909","isSingleConv":"1","platform":"im","cid":"102623166:2680652793","platformBizId":"9894672525909"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"2022/2/26 7:48:43","result":"1","calendarid":"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09"," specialRoom":"false","title":"不死鸟","usagetime":"2022/2/26 8:00:00-2022/2/26 12:00:00"}}}
+ 
+
+ 
+记录时间：2022-02-26 07:48:48,092 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/2/26 7:48:43
+ 
+
+ 
+记录时间：2022-02-26 07:48:48,186 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：返回参数日程类型：false
+ 
+
+ 
+记录时间：2022-02-26 07:48:48,842 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09 :041913351626566410不死鸟
+ 
+
+ 
+记录时间：2022-02-26 07:49:15,906 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:49:15,968 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"1907456508938304"},"request_id":"w8jltp0muxmf"}
+ 
+
+ 
+记录时间：2022-02-26 07:49:15,968 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：iidoZpFSHAwVcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:49:15,999 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:49:15,999 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/iidoZpFSHAwVcYr5CLiPF1NwiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:49:34,000 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:49:34,047 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"06390133698183"},"request_id":"5m8h5ar5idkd"}
+ 
+
+ 
+记录时间：2022-02-26 07:49:34,047 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：wKNcsuoaxiS6LgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:49:34,078 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:49:34,078 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/wKNcsuoaxiS6LgtSiPXoVtvAiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:49:36,469 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:49:36,516 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"215069303232288482"},"request_id":"xy5ierbwsq2v"}
+ 
+
+ 
+记录时间：2022-02-26 07:49:36,516 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Eu9GPnqv0L0ER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:49:36,547 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:49:36,547 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Eu9GPnqv0L0ER6QGIevgXgiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:49:38,594 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0419133516265664101645832940031","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"isRead\":\"false\",\"currentLoggedUserId\":\"102623166\",\"mid\":\"9886784104046\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"102623166:2680652793\",\"platformBizId\":\"9886784104046\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09\",\"userid\":\"041913351626566410\"}}}","userId":"041913351626566410","content":"{\"context\":{\"senderId\":\"2680652793\",\"isRead\":\"false\",\"currentLoggedUserId\":\"102623166\",\"mid\":\"9886784104046\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"102623166:2680652793\",\"platformBizId\":\"9886784104046\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09\",\"userid\":\"041913351626566410\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 07:49:38,594 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：0419133516265664101645832940031
+ 
+
+ 
+记录时间：2022-02-26 07:49:38,594 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","isRead":"false","currentLoggedUserId":"102623166","mid":"9886784104046","isSingleConv":"1","platform":"im","cid":"102623166:2680652793","platformBizId":"9886784104046"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"不死鸟","result":"1","calendarid":"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09","userid":"041913351626566410"}}}
+ 
+
+ 
+记录时间：2022-02-26 07:49:38,594 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：钥匙领取传入后端参数：041913351626566410    amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09
+ 
+
+ 
+记录时间：2022-02-26 07:49:54,079 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:49:54,125 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2669160061179688068"},"request_id":"7ju9tas9lw8q"}
+ 
+
+ 
+记录时间：2022-02-26 07:49:54,125 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：3hUSbPWwZUfiP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:49:54,157 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:49:54,157 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/3hUSbPWwZUfiP9iSQUZdccpwiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,159 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,222 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"03062926117711"},"request_id":"5zcl49mny23o"}
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,222 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：gqvQiSHN6wiSemFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,237 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,237 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/gqvQiSHN6wiSemFtbFp0cDqAiEiE/calendars/primary/events/eHdrNjNmREVOR2RtWG9JNlFuWEUxUT09
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,315 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,315 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：eHdrNjNmREVOR2RtWG9JNlFuWEUxUT09、03062926117711
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,315 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：gqvQiSHN6wiSemFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,331 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,331 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/gqvQiSHN6wiSemFtbFp0cDqAiEiE/calendars/primary/events/eHdrNjNmREVOR2RtWG9JNlFuWEUxUT09
+ 
+
+ 
+记录时间：2022-02-26 07:51:22,409 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：日程组织者：何静芳
+ 
+
+ 
+记录时间：2022-02-26 07:51:23,206 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 07:51:23,206 
+线程ID:[43] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 07:54:36,008 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:54:36,055 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"163844601727292492"},"request_id":"8qaod0bv1y6h"}
+ 
+
+ 
+记录时间：2022-02-26 07:54:36,055 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：6JSiijtVHbwYiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:54:36,086 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:54:36,086 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/6JSiijtVHbwYiSdjq78tlRpAiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 07:54:52,821 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:54:52,883 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"191237334620075094"},"request_id":"h2cb7e4xwfsm"}
+ 
+
+ 
+记录时间：2022-02-26 07:54:52,883 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：G1OzsrAYkqnZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:54:52,899 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:54:52,899 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/G1OzsrAYkqnZvQcr6rQWOgiEiE/calendars/primary/events/amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,368 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,415 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"015964141036391627"},"request_id":"5jxbwsbz532d"}
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,415 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：9UVNeeWuZMGmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,446 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,446 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/9UVNeeWuZMGmFtbFp0cDqAiEiE/calendars/primary/events/eW5GWkpyWlhGdUh6d0JvbXp6OW50QT09_1645919400000
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,509 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,509 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：eW5GWkpyWlhGdUh6d0JvbXp6OW50QT09_1645919400000、015964141036391627
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,509 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：9UVNeeWuZMGmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,540 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,540 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/9UVNeeWuZMGmFtbFp0cDqAiEiE/calendars/primary/events/eW5GWkpyWlhGdUh6d0JvbXp6OW50QT09_1645919400000
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,602 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：日程组织者：邱慕夏
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,618 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 07:55:01,618 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,118 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,165 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2307073234851223"},"request_id":"odg1ur2ym0vj"}
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,165 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oaR7BhJR78EFzhoujMdt5wiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,196 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,196 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oaR7BhJR78EFzhoujMdt5wiEiE/calendars/primary/events/MzlpY2g4TkVQNTRIcjUra0U5QzRnQT09
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,259 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,259 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：MzlpY2g4TkVQNTRIcjUra0U5QzRnQT09、2307073234851223
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,259 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oaR7BhJR78EFzhoujMdt5wiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,290 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,290 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oaR7BhJR78EFzhoujMdt5wiEiE/calendars/primary/events/MzlpY2g4TkVQNTRIcjUra0U5QzRnQT09
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,353 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：日程组织者：杨睿
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,743 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 07:55:09,743 
+线程ID:[59] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 07:58:46,358 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:58:46,405 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2328216806-413716666"},"request_id":"58isszpz6jym"}
+ 
+
+ 
+记录时间：2022-02-26 07:58:46,405 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：OlV584P3I2PZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 07:58:46,436 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 07:58:46,436 
+线程ID:[60] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/OlV584P3I2PZvQcr6rQWOgiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 08:05:03,931 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:03,978 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"245941474724241632"},"request_id":"h27w6u35xqib"}
+ 
+
+ 
+记录时间：2022-02-26 08:05:03,978 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,009 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,009 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/WWszd21xOXBZRmVWR1crQUs3NE1xQT09_1648252800000
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,181 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,181 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：WWszd21xOXBZRmVWR1crQUs3NE1xQT09_1648252800000、245941474724241632
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,181 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,212 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,212 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/WWszd21xOXBZRmVWR1crQUs3NE1xQT09_1648252800000
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,274 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：日程组织者：郑天娇
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,274 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 08:05:04,274 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,009 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,071 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"wojh3trp2pp0"}
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,071 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,103 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,103 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/M0pzbzhUczlqeURSYnBCSkpVbkFnZz09_1645920000000
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,165 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,165 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：M0pzbzhUczlqeURSYnBCSkpVbkFnZz09_1645920000000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,165 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,181 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,228 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"183703270221533242"},"request_id":"uibm5th5jkp1"}
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,228 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Pme49ii78Yk8ER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,259 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,259 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/M0pzbzhUczlqeURSYnBCSkpVbkFnZz09_1645920000000
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,259 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,259 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Pme49ii78Yk8ER6QGIevgXgiEiE/calendars/primary/events/Y1N0STF2RjZqeGpEYXJ1WGMzWG5MUT09_1645920000000
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,337 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,337 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,337 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,431 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,431 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：Y1N0STF2RjZqeGpEYXJ1WGMzWG5MUT09_1645920000000、183703270221533242
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,431 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Pme49ii78Yk8ER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,462 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,462 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Pme49ii78Yk8ER6QGIevgXgiEiE/calendars/primary/events/Y1N0STF2RjZqeGpEYXJ1WGMzWG5MUT09_1645920000000
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,525 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：日程组织者：吴振硕
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,525 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 08:05:05,525 
+线程ID:[71] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,025 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,072 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"132458164035488397"},"request_id":"8p3gi2tlr4m0"}
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,072 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：e1vFdfiiOWVy4RQrmlaiPj5AiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,103 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,103 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/e1vFdfiiOWVy4RQrmlaiPj5AiEiE/calendars/primary/events/NTg1S3gySW54U0FiZVlQNHB2cmF4Zz09_1646438400000
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,165 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,165 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：NTg1S3gySW54U0FiZVlQNHB2cmF4Zz09_1646438400000、132458164035488397
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,165 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：e1vFdfiiOWVy4RQrmlaiPj5AiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,197 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,197 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/e1vFdfiiOWVy4RQrmlaiPj5AiEiE/calendars/primary/events/NTg1S3gySW54U0FiZVlQNHB2cmF4Zz09_1646438400000
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,259 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：日程组织者：贺天远
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,259 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 08:05:10,259 
+线程ID:[69] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 08:05:11,853 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:11,962 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"245941474724241632"},"request_id":"47qg5qofr76d"}
+ 
+
+ 
+记录时间：2022-02-26 08:05:11,962 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:11,978 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:11,978 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/Q3g5Z3dFMEhHRkJPdVMwR0VOYlFqZz09_1648252800000
+ 
+
+ 
+记录时间：2022-02-26 08:05:12,056 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 08:05:12,056 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：Q3g5Z3dFMEhHRkJPdVMwR0VOYlFqZz09_1648252800000、245941474724241632
+ 
+
+ 
+记录时间：2022-02-26 08:05:12,056 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:05:12,087 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:05:12,087 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/Q3g5Z3dFMEhHRkJPdVMwR0VOYlFqZz09_1648252800000
+ 
+
+ 
+记录时间：2022-02-26 08:05:12,150 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：日程组织者：郑天娇
+ 
+
+ 
+记录时间：2022-02-26 08:05:12,150 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 08:05:12,150 
+线程ID:[70] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 08:08:36,874 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:08:36,936 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"186269675120169101"},"request_id":"5n62wwlkyvsw"}
+ 
+
+ 
+记录时间：2022-02-26 08:08:36,936 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：I2m6iimWsnoiSiP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:08:36,968 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:08:36,968 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/I2m6iimWsnoiSiP9iSQUZdccpwiEiE/calendars/primary/events/ZFl0UlpkNWEwUU5kN2oxdXFUeDJQZz09
+ 
+
+ 
+记录时间：2022-02-26 08:08:37,155 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 08:08:37,155 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：ZFl0UlpkNWEwUU5kN2oxdXFUeDJQZz09、186269675120169101
+ 
+
+ 
+记录时间：2022-02-26 08:08:37,155 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：I2m6iimWsnoiSiP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:08:37,186 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:08:37,186 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/I2m6iimWsnoiSiP9iSQUZdccpwiEiE/calendars/primary/events/ZFl0UlpkNWEwUU5kN2oxdXFUeDJQZz09
+ 
+
+ 
+记录时间：2022-02-26 08:08:37,233 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：日程组织者：何伟康
+ 
+
+ 
+记录时间：2022-02-26 08:08:37,624 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 08:08:37,624 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 08:12:27,786 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:12:27,833 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"7eyjhfif7nup"}
+ 
+
+ 
+记录时间：2022-02-26 08:12:27,833 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:12:27,864 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:12:27,864 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/L2QwVFZpUTBRb1NHaHRFWE5aT0piQT09
+ 
+
+ 
+记录时间：2022-02-26 08:19:02,312 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：库房
+ 
+
+ 
+记录时间：2022-02-26 08:19:02,484 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：19931867091
+ 
+
+ 
+记录时间：2022-02-26 08:19:02,546 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 08:19:02,546 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 08:19:02,546 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 08:19:02,578 
+线程ID:[50] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=3016372518849616&data=请到研发中心领取钥匙：库房&name=王倩
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,173 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,236 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"0649265813858"},"request_id":"en97ha4qxh78"}
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,236 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：B6jriSILYCBiS4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,251 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,251 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/B6jriSILYCBiS4G2iiG73bVFgiEiE/calendars/primary/events/THpSeGc1UmNNekF4eU9yaFB1VFptdz09_1645920900000
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,423 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,423 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：THpSeGc1UmNNekF4eU9yaFB1VFptdz09_1645920900000、0649265813858
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,423 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：B6jriSILYCBiS4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,454 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,454 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/B6jriSILYCBiS4G2iiG73bVFgiEiE/calendars/primary/events/THpSeGc1UmNNekF4eU9yaFB1VFptdz09_1645920900000
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,517 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：日程组织者：李金轩
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,517 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 08:20:02,517 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 08:26:02,370 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：鲲鹏
+ 
+
+ 
+记录时间：2022-02-26 08:26:02,526 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：19931867091
+ 
+
+ 
+记录时间：2022-02-26 08:26:02,558 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 08:26:02,558 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 08:26:02,558 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 08:26:02,573 
+线程ID:[27] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=3016372518849616&data=请到研发中心领取钥匙：鲲鹏&name=王倩
+ 
+
+ 
+记录时间：2022-02-26 08:51:49,614 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:51:49,676 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"201358075736556444"},"request_id":"uufyf2ku6xl2"}
+ 
+
+ 
+记录时间：2022-02-26 08:51:49,676 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：qAVURTJdjasiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 08:51:49,708 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 08:51:49,708 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/qAVURTJdjasiSdjq78tlRpAiEiE/calendars/primary/events/amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09
+ 
+
+ 
+记录时间：2022-02-26 09:05:02,869 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:05:02,932 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"07615724576826"},"request_id":"wyfj0pcvtqhy"}
+ 
+
+ 
+记录时间：2022-02-26 09:05:02,932 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：7t0DdUV7ZtciSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:05:02,963 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:05:02,963 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/7t0DdUV7ZtciSdjq78tlRpAiEiE/calendars/primary/events/MDl4UXNLT2o1MkNaN0lnd1crTU0rQT09_1645923600000
+ 
+
+ 
+记录时间：2022-02-26 09:05:03,104 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 09:05:03,166 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：MDl4UXNLT2o1MkNaN0lnd1crTU0rQT09_1645923600000、07615724576826
+ 
+
+ 
+记录时间：2022-02-26 09:05:03,166 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：7t0DdUV7ZtciSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:05:03,197 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:05:03,197 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/7t0DdUV7ZtciSdjq78tlRpAiEiE/calendars/primary/events/MDl4UXNLT2o1MkNaN0lnd1crTU0rQT09_1645923600000
+ 
+
+ 
+记录时间：2022-02-26 09:05:03,260 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：日程组织者：胡东月
+ 
+
+ 
+记录时间：2022-02-26 09:05:03,275 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 09:05:03,275 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 09:05:05,963 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:05:08,432 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"nhuovgrbyt5q"}
+ 
+
+ 
+记录时间：2022-02-26 09:05:11,291 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:05:11,307 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:05:11,307 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/MzljSzRBTEpudDEzYmhxZ1h0enQ0dz09_1645923600000
+ 
+
+ 
+记录时间：2022-02-26 09:05:11,369 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 09:05:12,885 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：MzljSzRBTEpudDEzYmhxZ1h0enQ0dz09_1645923600000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 09:05:12,885 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:05:12,916 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:05:12,916 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/MzljSzRBTEpudDEzYmhxZ1h0enQ0dz09_1645923600000
+ 
+
+ 
+记录时间：2022-02-26 09:05:12,979 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 09:05:12,979 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 09:05:12,979 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,458 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,583 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"296840350335694370"},"request_id":"105udjlzab2op"}
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,583 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：z8WYiSnU67Kn4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,614 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,614 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/z8WYiSnU67Kn4G2iiG73bVFgiEiE/calendars/primary/events/Z1BIVjhQK3VTdm10NktTbnloQTRMdz09
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,786 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,786 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：Z1BIVjhQK3VTdm10NktTbnloQTRMdz09、296840350335694370
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,786 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：z8WYiSnU67Kn4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,817 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,817 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/z8WYiSnU67Kn4G2iiG73bVFgiEiE/calendars/primary/events/Z1BIVjhQK3VTdm10NktTbnloQTRMdz09
+ 
+
+ 
+记录时间：2022-02-26 09:11:36,895 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：日程组织者：贾玉珍
+ 
+
+ 
+记录时间：2022-02-26 09:11:37,411 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 09:11:37,411 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 09:11:58,724 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:11:58,771 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"211633513929715906"},"request_id":"5um83pw6waxs"}
+ 
+
+ 
+记录时间：2022-02-26 09:11:58,771 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：6RI89X61xFmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:11:58,802 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:11:58,802 
+线程ID:[31] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/6RI89X61xFmLgtSiPXoVtvAiEiE/calendars/primary/events/Z1BIVjhQK3VTdm10NktTbnloQTRMdz09
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,370 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,449 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"03062926117711"},"request_id":"5c7hiiahetmq"}
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,449 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：gqvQiSHN6wiSemFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,480 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,480 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/gqvQiSHN6wiSemFtbFp0cDqAiEiE/calendars/primary/events/OGUzek5FaXNWMDVhc0NMRDFBMkt0UT09
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,652 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,683 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：OGUzek5FaXNWMDVhc0NMRDFBMkt0UT09、03062926117711
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,683 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：gqvQiSHN6wiSemFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,714 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,714 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/gqvQiSHN6wiSemFtbFp0cDqAiEiE/calendars/primary/events/OGUzek5FaXNWMDVhc0NMRDFBMkt0UT09
+ 
+
+ 
+记录时间：2022-02-26 09:35:21,777 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：何静芳
+ 
+
+ 
+记录时间：2022-02-26 09:35:22,214 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 09:35:22,214 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 09:40:38,738 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:40:38,801 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"296753556726115529"},"request_id":"14thvc8ak3igh"}
+ 
+
+ 
+记录时间：2022-02-26 09:40:38,801 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：nZGvYbCAii2UiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:40:38,832 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:40:38,832 
+线程ID:[13] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/nZGvYbCAii2UiSdjq78tlRpAiEiE/calendars/primary/events/Z1BIVjhQK3VTdm10NktTbnloQTRMdz09
+ 
+
+ 
+记录时间：2022-02-26 09:59:53,784 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:59:53,831 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"151707514223045972"},"request_id":"f8zzk24qsopr"}
+ 
+
+ 
+记录时间：2022-02-26 09:59:53,831 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：sMDe3LfxuTEER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:59:53,862 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:59:53,862 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/sMDe3LfxuTEER6QGIevgXgiEiE/calendars/primary/events/TzVxQWlGUzNLdDgvYUpRMmxMQ3Y3QT09
+ 
+
+ 
+记录时间：2022-02-26 09:59:54,034 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 09:59:54,034 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：TzVxQWlGUzNLdDgvYUpRMmxMQ3Y3QT09、151707514223045972
+ 
+
+ 
+记录时间：2022-02-26 09:59:54,034 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：sMDe3LfxuTEER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 09:59:54,050 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 09:59:54,050 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/sMDe3LfxuTEER6QGIevgXgiEiE/calendars/primary/events/TzVxQWlGUzNLdDgvYUpRMmxMQ3Y3QT09
+ 
+
+ 
+记录时间：2022-02-26 09:59:54,128 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：日程组织者：夏诗曼
+ 
+
+ 
+记录时间：2022-02-26 09:59:54,534 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 09:59:54,534 
+线程ID:[30] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,745 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,792 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"zrq8i70jj7by"}
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,792 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,823 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,823 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/SEFOb3hDZzBaU0pPKy9EaEhJTGpDZz09_1645927200000
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,886 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,933 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"3vpedzbbadt4"}
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,933 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,964 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:05:03,964 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/c1pxVGwvZlcxSDYvbmhWOXRudld4dz09_1648260000000
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,027 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,027 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：SEFOb3hDZzBaU0pPKy9EaEhJTGpDZz09_1645927200000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,027 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,058 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,058 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/SEFOb3hDZzBaU0pPKy9EaEhJTGpDZz09_1645927200000
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,089 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,089 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：c1pxVGwvZlcxSDYvbmhWOXRudld4dz09_1648260000000、01286569423473
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,089 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,120 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,120 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/c1pxVGwvZlcxSDYvbmhWOXRudld4dz09_1648260000000
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,120 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,120 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,120 
+线程ID:[39] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,183 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：日程组织者：纪争光
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,183 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 10:05:04,183 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,265 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,265 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,265 
+线程ID:[48] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,312 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"2r134ladj08o"}
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,312 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,327 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,327 
+线程ID:[48] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"5oncgilpvebr"}
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,327 
+线程ID:[48] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,327 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"4aacb8ibky0a"}
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,327 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,343 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,343 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/K3lrUjFWdm43OFJBYnJrMEVGSFZOdz09
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,358 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,358 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/c1pxVGwvZlcxSDYvbmhWOXRudld4dz09_1645840800000
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,358 
+线程ID:[48] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,358 
+线程ID:[48] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/c1pxVGwvZlcxSDYvbmhWOXRudld4dz09_1648260000000
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,452 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"643n2yfoh23j"}
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,452 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,483 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:26,483 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/c1pxVGwvZlcxSDYvbmhWOXRudld4dz09
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,546 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,562 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,609 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"6fxey45rc1ro"}
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,609 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,609 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"3uhx6aywub77"}
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,609 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,640 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,640 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,640 
+线程ID:[46] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/K3lrUjFWdm43OFJBYnJrMEVGSFZOdz09
+ 
+
+ 
+记录时间：2022-02-26 10:07:30,640 
+线程ID:[42] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/K3lrUjFWdm43OFJBYnJrMEVGSFZOdz09
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,750 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,844 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"3016372518849616"},"request_id":"56phvbvry7m2"}
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,844 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,875 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,875 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/RFE2ZjVGa2RMWkZFQmVyZzRzNXhiZz09
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,938 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,938 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：RFE2ZjVGa2RMWkZFQmVyZzRzNXhiZz09、3016372518849616
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,938 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：SgS9mOkPBhVcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,969 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 10:08:06,969 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/SgS9mOkPBhVcYr5CLiPF1NwiEiE/calendars/primary/events/RFE2ZjVGa2RMWkZFQmVyZzRzNXhiZz09
+ 
+
+ 
+记录时间：2022-02-26 10:08:07,031 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：日程组织者：王倩
+ 
+
+ 
+记录时间：2022-02-26 10:08:07,422 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 10:08:07,422 
+线程ID:[49] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,542 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,558 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,605 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"02583106197968"},"request_id":"4jk4wslxuwlz"}
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,605 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：9rg0SoCD94KmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,605 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"10w0s0gkqc8pq"}
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,605 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,636 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,636 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/9rg0SoCD94KmFtbFp0cDqAiEiE/calendars/primary/events/YlpnblVPTFdTWXpwL2crc28rTFRSZz09_1645930800000
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,636 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,636 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/ZnB6UGVLdHdMQW9BRUtUUG80K0MzZz09_1645930800000
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,823 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,823 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,870 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：ZnB6UGVLdHdMQW9BRUtUUG80K0MzZz09_1645930800000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,870 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：YlpnblVPTFdTWXpwL2crc28rTFRSZz09_1645930800000、02583106197968
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,870 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,870 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：9rg0SoCD94KmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,886 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,886 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/ZnB6UGVLdHdMQW9BRUtUUG80K0MzZz09_1645930800000
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,901 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,901 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/9rg0SoCD94KmFtbFp0cDqAiEiE/calendars/primary/events/YlpnblVPTFdTWXpwL2crc28rTFRSZz09_1645930800000
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,964 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,964 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：敬城
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,980 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,980 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,980 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 11:05:05,980 
+线程ID:[8] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,709 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,756 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"164052301629282389"},"request_id":"q5msw2vjb1ka"}
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,756 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ky4kC3mWeILZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,787 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,787 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ky4kC3mWeILZvQcr6rQWOgiEiE/calendars/primary/events/WEwrOG9NV1hEQkZVNEtSaC9RczVHZz09
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,959 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,959 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：WEwrOG9NV1hEQkZVNEtSaC9RczVHZz09、164052301629282389
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,959 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ky4kC3mWeILZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,991 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:11:41,991 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ky4kC3mWeILZvQcr6rQWOgiEiE/calendars/primary/events/WEwrOG9NV1hEQkZVNEtSaC9RczVHZz09
+ 
+
+ 
+记录时间：2022-02-26 11:11:42,053 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：日程组织者：王梦杰
+ 
+
+ 
+记录时间：2022-02-26 11:11:42,475 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：黑马+false
+ 
+
+ 
+记录时间：2022-02-26 11:11:42,475 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：推送房间名称:黑马+false
+ 
+
+ 
+记录时间：2022-02-26 11:11:42,475 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：数组参数：黑马--false
+ 
+
+ 
+记录时间：2022-02-26 11:11:42,475 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,656 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,703 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"164052301629282389"},"request_id":"ntxthc40zb5n"}
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,703 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ky4kC3mWeILZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,734 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,734 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ky4kC3mWeILZvQcr6rQWOgiEiE/calendars/primary/events/MEhoTVk3WmlFNFJSNzRwemdvWnlaQT09
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,891 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,891 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：MEhoTVk3WmlFNFJSNzRwemdvWnlaQT09、164052301629282389
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,891 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ky4kC3mWeILZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,922 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,922 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ky4kC3mWeILZvQcr6rQWOgiEiE/calendars/primary/events/MEhoTVk3WmlFNFJSNzRwemdvWnlaQT09
+ 
+
+ 
+记录时间：2022-02-26 11:17:39,984 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：王梦杰
+ 
+
+ 
+记录时间：2022-02-26 11:17:40,359 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：黑马+false
+ 
+
+ 
+记录时间：2022-02-26 11:17:40,359 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:黑马+false
+ 
+
+ 
+记录时间：2022-02-26 11:17:40,359 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：数组参数：黑马--false
+ 
+
+ 
+记录时间：2022-02-26 11:17:40,359 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 11:18:15,001 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"1640523016292823891645845460360","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9905649699124\",\"currentLoggedUserId\":\"398136916\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"398136916:2680652793\",\"platformBizId\":\"9905649699124\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\",\"date\":\"2022/2/26 11:17:40\",\"calendarid\":\"MEhoTVk3WmlFNFJSNzRwemdvWnlaQT09\",\"title\":\"黑马\",\"usagetime\":\"2022/2/26 11:30:00-2022/2/26 12:00:00\"}}}","userId":"164052301629282389","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9905649699124\",\"currentLoggedUserId\":\"398136916\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"398136916:2680652793\",\"platformBizId\":\"9905649699124\"},\"cardPrivateData\":{\"actionIds\":[\"1\"],\"params\":{\"result\":\"0\",\"date\":\"2022/2/26 11:17:40\",\"calendarid\":\"MEhoTVk3WmlFNFJSNzRwemdvWnlaQT09\",\"title\":\"黑马\",\"usagetime\":\"2022/2/26 11:30:00-2022/2/26 12:00:00\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 11:18:15,001 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：1640523016292823891645845460360
+ 
+
+ 
+记录时间：2022-02-26 11:18:15,001 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9905649699124","currentLoggedUserId":"398136916","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"398136916:2680652793","platformBizId":"9905649699124"},"cardPrivateData":{"actionIds":["1"],"params":{"result":"0","date":"2022/2/26 11:17:40","calendarid":"MEhoTVk3WmlFNFJSNzRwemdvWnlaQT09","title":"黑马","usagetime":"2022/2/26 11:30:00-2022/2/26 12:00:00"}}}
+ 
+
+ 
+记录时间：2022-02-26 11:18:15,017 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/2/26 11:17:40
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,353 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,415 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"164052301629282389"},"request_id":"10cfuz9genykd"}
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,415 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ky4kC3mWeILZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,447 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,447 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ky4kC3mWeILZvQcr6rQWOgiEiE/calendars/primary/events/R3FjY0xBenFwaG9WaHZqRlV5MzhHdz09
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,603 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,603 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：R3FjY0xBenFwaG9WaHZqRlV5MzhHdz09、164052301629282389
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,603 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ky4kC3mWeILZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,634 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,634 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ky4kC3mWeILZvQcr6rQWOgiEiE/calendars/primary/events/R3FjY0xBenFwaG9WaHZqRlV5MzhHdz09
+ 
+
+ 
+记录时间：2022-02-26 11:23:22,697 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：日程组织者：王梦杰
+ 
+
+ 
+记录时间：2022-02-26 11:23:23,103 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：黑马+false
+ 
+
+ 
+记录时间：2022-02-26 11:23:23,103 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：推送房间名称:黑马+false
+ 
+
+ 
+记录时间：2022-02-26 11:23:23,103 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：数组参数：黑马--false
+ 
+
+ 
+记录时间：2022-02-26 11:23:23,103 
+线程ID:[35] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,277 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,339 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"164052301629282389"},"request_id":"44kqaeusjlck"}
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,339 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ky4kC3mWeILZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,371 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,371 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ky4kC3mWeILZvQcr6rQWOgiEiE/calendars/primary/events/OStYVXZzbVdhQzZlK0Q5cEZCWjc0UT09
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,449 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,449 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：OStYVXZzbVdhQzZlK0Q5cEZCWjc0UT09、164052301629282389
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,449 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ky4kC3mWeILZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,464 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,464 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ky4kC3mWeILZvQcr6rQWOgiEiE/calendars/primary/events/OStYVXZzbVdhQzZlK0Q5cEZCWjc0UT09
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,543 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：日程组织者：王梦杰
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,777 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：黑马+false
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,777 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：推送房间名称:黑马+false
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,777 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：数组参数：黑马--false
+ 
+
+ 
+记录时间：2022-02-26 11:24:45,777 
+线程ID:[33] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 11:25:56,357 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"0419133516265664101645832978829","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09\",\"userid\":\"041913351626566410\"}}}","userId":"041913351626566410","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09\",\"userid\":\"041913351626566410\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 11:25:56,357 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：获取归还钥匙卡片消息唯一标识：0419133516265664101645832978829
+ 
+
+ 
+记录时间：2022-02-26 11:25:56,357 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"date":"不死鸟","result":"1","calendarid":"amUyMUlmU1ZteGR2UTB3alB5ZmF0dz09","userid":"041913351626566410"}}}
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,161 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,223 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"166213675929589683"},"request_id":"ifivk4vzlwhl"}
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,223 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：aGIiPuXeiSz4KLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,254 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,254 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/aGIiPuXeiSz4KLgtSiPXoVtvAiEiE/calendars/primary/events/bE56L1MvelNCdVp1S1d2M0ZLeEc4dz09_1645933500000
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,426 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,473 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：bE56L1MvelNCdVp1S1d2M0ZLeEc4dz09_1645933500000、166213675929589683
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,473 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：aGIiPuXeiSz4KLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,489 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,489 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/aGIiPuXeiSz4KLgtSiPXoVtvAiEiE/calendars/primary/events/bE56L1MvelNCdVp1S1d2M0ZLeEc4dz09_1645933500000
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,551 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：田宇航
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,582 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 11:50:04,582 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 11:53:41,119 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"302364642911457981645832822481","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"VWdZVFhoaDFYampOSC91YjhzS0xYZz09\",\"userid\":\"30236464291145798\"}}}","userId":"30236464291145798","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"VWdZVFhoaDFYampOSC91YjhzS0xYZz09\",\"userid\":\"30236464291145798\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 11:53:41,119 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取归还钥匙卡片消息唯一标识：302364642911457981645832822481
+ 
+
+ 
+记录时间：2022-02-26 11:53:41,119 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"date":"不死鸟","result":"1","calendarid":"VWdZVFhoaDFYampOSC91YjhzS0xYZz09","userid":"30236464291145798"}}}
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,309 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,372 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"036716295120974364"},"request_id":"525z69khmt7z"}
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,372 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：WqjKYUHhNCKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,387 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,387 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/WqjKYUHhNCKmFtbFp0cDqAiEiE/calendars/primary/events/cGxVWjVIWVovMUhrZnAyaHR3T0I1Zz09_1645933800000
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,544 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,544 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：cGxVWjVIWVovMUhrZnAyaHR3T0I1Zz09_1645933800000、036716295120974364
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,544 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：WqjKYUHhNCKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,575 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,575 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/WqjKYUHhNCKmFtbFp0cDqAiEiE/calendars/primary/events/cGxVWjVIWVovMUhrZnAyaHR3T0I1Zz09_1645933800000
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,637 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：刘延强
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,637 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 11:55:03,637 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 13:06:12,998 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,217 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"03062926117711"},"request_id":"wlioymd66n89"}
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,217 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：gqvQiSHN6wiSemFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,248 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,248 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/gqvQiSHN6wiSemFtbFp0cDqAiEiE/calendars/primary/events/RzNkcjh6VDAzUUljNXJxUzU5ai9kZz09
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,420 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,467 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：RzNkcjh6VDAzUUljNXJxUzU5ai9kZz09、03062926117711
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,467 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：gqvQiSHN6wiSemFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,498 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,498 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/gqvQiSHN6wiSemFtbFp0cDqAiEiE/calendars/primary/events/RzNkcjh6VDAzUUljNXJxUzU5ai9kZz09
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,561 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：何静芳
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,967 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 13:06:13,967 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,488 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,550 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"0930016736300895"},"request_id":"5ds1jl5z299w"}
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,550 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Nkhx4tmzcpAiE
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,581 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,581 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Nkhx4tmzcpAiE/calendars/primary/events/YklHL0R6ZTVYTkZjQnhZUmtNVE1JZz09_1645940700000
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,753 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,800 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：YklHL0R6ZTVYTkZjQnhZUmtNVE1JZz09_1645940700000、0930016736300895
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,800 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Nkhx4tmzcpAiE
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,831 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,831 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Nkhx4tmzcpAiE/calendars/primary/events/YklHL0R6ZTVYTkZjQnhZUmtNVE1JZz09_1645940700000
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,894 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：孙景辉
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,909 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 13:50:04,909 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,526 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,588 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"032310346330512770"},"request_id":"3i7io0qhw8qx"}
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,588 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：niiRiPiSEvbn46mFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,604 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,604 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/niiRiPiSEvbn46mFtbFp0cDqAiEiE/calendars/primary/events/WHUwOE1uZ1B0MnFCeGg2aFd0VVcrQT09
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,776 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,776 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：WHUwOE1uZ1B0MnFCeGg2aFd0VVcrQT09、032310346330512770
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,776 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：niiRiPiSEvbn46mFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,807 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,807 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/niiRiPiSEvbn46mFtbFp0cDqAiEiE/calendars/primary/events/WHUwOE1uZ1B0MnFCeGg2aFd0VVcrQT09
+ 
+
+ 
+记录时间：2022-02-26 13:54:23,869 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：日程组织者：盖鹏军
+ 
+
+ 
+记录时间：2022-02-26 13:54:24,276 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 13:54:24,276 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 13:55:57,779 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:55:57,826 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"2307073234851223"},"request_id":"7y98lu9cu2yn"}
+ 
+
+ 
+记录时间：2022-02-26 13:55:57,826 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oaR7BhJR78EFzhoujMdt5wiEiE
+ 
+
+ 
+记录时间：2022-02-26 13:55:57,857 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:55:57,857 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oaR7BhJR78EFzhoujMdt5wiEiE/calendars/primary/events/N0N5RGNDNW5UTER4bUlrcXVkZ1BHQT09
+ 
+
+ 
+记录时间：2022-02-26 13:55:58,013 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 13:55:58,013 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：N0N5RGNDNW5UTER4bUlrcXVkZ1BHQT09、2307073234851223
+ 
+
+ 
+记录时间：2022-02-26 13:55:58,013 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oaR7BhJR78EFzhoujMdt5wiEiE
+ 
+
+ 
+记录时间：2022-02-26 13:55:58,044 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 13:55:58,044 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oaR7BhJR78EFzhoujMdt5wiEiE/calendars/primary/events/N0N5RGNDNW5UTER4bUlrcXVkZ1BHQT09
+ 
+
+ 
+记录时间：2022-02-26 13:55:58,107 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：日程组织者：杨睿
+ 
+
+ 
+记录时间：2022-02-26 13:55:58,513 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 13:55:58,513 
+线程ID:[19] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 13:59:19,816 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：鲲鹏
+ 
+
+ 
+记录时间：2022-02-26 13:59:19,972 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：19931867091
+ 
+
+ 
+记录时间：2022-02-26 13:59:20,050 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 13:59:20,050 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 13:59:20,050 
+线程ID:[15] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 13:59:53,957 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：鲲鹏
+ 
+
+ 
+记录时间：2022-02-26 13:59:54,098 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：19931867091
+ 
+
+ 
+记录时间：2022-02-26 14:05:00,653 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：精灵
+ 
+
+ 
+记录时间：2022-02-26 14:05:00,825 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：18730628608
+ 
+
+ 
+记录时间：2022-02-26 14:05:00,856 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 14:05:00,856 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 14:05:00,856 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 14:05:00,856 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=163844601727292492&data=请到研发中心领取钥匙：精灵&name=武梓龙
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,544 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,606 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"1907456508938304"},"request_id":"h4fehab7y1kc"}
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,606 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：iidoZpFSHAwVcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,638 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,638 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/iidoZpFSHAwVcYr5CLiPF1NwiEiE/calendars/primary/events/UGN0VHFxYTdPQ3JvUWdzbkdpWHVWQT09_1646460000000
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,794 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,794 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：UGN0VHFxYTdPQ3JvUWdzbkdpWHVWQT09_1646460000000、1907456508938304
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,794 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：iidoZpFSHAwVcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,825 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,825 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/iidoZpFSHAwVcYr5CLiPF1NwiEiE/calendars/primary/events/UGN0VHFxYTdPQ3JvUWdzbkdpWHVWQT09_1646460000000
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,888 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：日程组织者：王卫
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,888 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 14:05:03,888 
+线程ID:[22] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 14:05:04,935 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:05:04,997 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"02641262517632"},"request_id":"4haag45k1q3f"}
+ 
+
+ 
+记录时间：2022-02-26 14:05:04,997 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：IAwxdypgqcCmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,028 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,028 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/IAwxdypgqcCmFtbFp0cDqAiEiE/calendars/primary/events/YUJTQnZ3MFFQdGZEamNXV3cyc3diZz09_1645941600000
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,091 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,091 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：YUJTQnZ3MFFQdGZEamNXV3cyc3diZz09_1645941600000、02641262517632
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,091 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：IAwxdypgqcCmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,122 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,122 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/IAwxdypgqcCmFtbFp0cDqAiEiE/calendars/primary/events/YUJTQnZ3MFFQdGZEamNXV3cyc3diZz09_1645941600000
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,185 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：日程组织者：马康
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,185 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 14:05:05,185 
+线程ID:[25] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,403 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,465 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"125526415821489541"},"request_id":"5ddxbg5ft0r6"}
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,465 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：2Tt92cAHsBFcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,496 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,496 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/2Tt92cAHsBFcYr5CLiPF1NwiEiE/calendars/primary/events/TjhkQURDT2piTUhFQzliK3Nza2t3UT09
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,652 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,652 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：TjhkQURDT2piTUhFQzliK3Nza2t3UT09、125526415821489541
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,652 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：2Tt92cAHsBFcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,668 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,668 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/2Tt92cAHsBFcYr5CLiPF1NwiEiE/calendars/primary/events/TjhkQURDT2piTUhFQzliK3Nza2t3UT09
+ 
+
+ 
+记录时间：2022-02-26 14:14:29,746 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：日程组织者：刘鹏远
+ 
+
+ 
+记录时间：2022-02-26 14:14:30,121 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 14:14:30,121 
+线程ID:[37] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 14:31:12,210 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：领取钥匙：库房
+ 
+
+ 
+记录时间：2022-02-26 14:31:12,351 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：19931867091
+ 
+
+ 
+记录时间：2022-02-26 14:31:12,382 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 14:31:12,382 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 14:31:12,382 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 14:31:12,382 
+线程ID:[53] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=3016372518849616&data=请到研发中心领取钥匙：库房&name=王倩
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,560 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,622 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"7lgk7fakgdwj"}
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,622 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,638 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,638 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/UElUWXE2T3FHNmhkMnhoUjhwMGFEdz09_1645943400000
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,779 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,779 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：UElUWXE2T3FHNmhkMnhoUjhwMGFEdz09_1645943400000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,794 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,810 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,810 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/UElUWXE2T3FHNmhkMnhoUjhwMGFEdz09_1645943400000
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,872 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,888 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 14:35:04,888 
+线程ID:[51] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 14:52:23,778 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:52:23,841 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"201358075736556444"},"request_id":"eg0lk9c06wnw"}
+ 
+
+ 
+记录时间：2022-02-26 14:52:23,841 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：qAVURTJdjasiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:52:23,872 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:52:23,872 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/qAVURTJdjasiSdjq78tlRpAiEiE/calendars/primary/events/OVM4anZJYmZMVE85WjFlRHhKNEZDZz09
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,013 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,013 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：OVM4anZJYmZMVE85WjFlRHhKNEZDZz09、201358075736556444
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,013 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：qAVURTJdjasiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,044 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,044 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/qAVURTJdjasiSdjq78tlRpAiEiE/calendars/primary/events/OVM4anZJYmZMVE85WjFlRHhKNEZDZz09
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,106 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：日程组织者：邓礼梅
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,481 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：不死鸟+false
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,481 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：推送房间名称:不死鸟+false
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,481 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：数组参数：不死鸟--false
+ 
+
+ 
+记录时间：2022-02-26 14:52:24,481 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 14:52:30,685 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"2013580757365564441645858344482","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"484943747\",\"mid\":\"9912065368100\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"484943747:2680652793\",\"platformBizId\":\"9912065368100\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/2/26 14:52:24\",\"result\":\"1\",\"calendarid\":\"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09\",\" specialRoom\":\"false\",\"title\":\"不死鸟\",\"usagetime\":\"2022/2/26 15:00:00-2022/2/26 15:10:00\"}}}","userId":"201358075736556444","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"484943747\",\"mid\":\"9912065368100\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"484943747:2680652793\",\"platformBizId\":\"9912065368100\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"2022/2/26 14:52:24\",\"result\":\"1\",\"calendarid\":\"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09\",\" specialRoom\":\"false\",\"title\":\"不死鸟\",\"usagetime\":\"2022/2/26 15:00:00-2022/2/26 15:10:00\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 14:52:30,685 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：2013580757365564441645858344482
+ 
+
+ 
+记录时间：2022-02-26 14:52:30,685 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"484943747","mid":"9912065368100","isSingleConv":"1","platform":"im","cid":"484943747:2680652793","platformBizId":"9912065368100"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"2022/2/26 14:52:24","result":"1","calendarid":"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09"," specialRoom":"false","title":"不死鸟","usagetime":"2022/2/26 15:00:00-2022/2/26 15:10:00"}}}
+ 
+
+ 
+记录时间：2022-02-26 14:52:30,685 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/2/26 14:52:24
+ 
+
+ 
+记录时间：2022-02-26 14:52:30,778 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：返回参数日程类型：false
+ 
+
+ 
+记录时间：2022-02-26 14:52:31,419 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：OVM4anZJYmZMVE85WjFlRHhKNEZDZz09 :201358075736556444不死鸟
+ 
+
+ 
+记录时间：2022-02-26 14:53:33,780 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"2013580757365564441645858380077","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"484943747\",\"mid\":\"9889632009953\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"484943747:2680652793\",\"platformBizId\":\"9889632009953\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09\",\"userid\":\"201358075736556444\"}}}","userId":"201358075736556444","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"484943747\",\"mid\":\"9889632009953\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"484943747:2680652793\",\"platformBizId\":\"9889632009953\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09\",\"userid\":\"201358075736556444\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 14:53:33,780 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：2013580757365564441645858380077
+ 
+
+ 
+记录时间：2022-02-26 14:53:33,780 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"484943747","mid":"9889632009953","isSingleConv":"1","platform":"im","cid":"484943747:2680652793","platformBizId":"9889632009953"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"不死鸟","result":"1","calendarid":"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09","userid":"201358075736556444"}}}
+ 
+
+ 
+记录时间：2022-02-26 14:53:33,780 
+线程ID:[85] 
+日志级别：  INFO  
+日志描述：钥匙领取传入后端参数：201358075736556444    OVM4anZJYmZMVE85WjFlRHhKNEZDZz09
+ 
+
+ 
+记录时间：2022-02-26 14:53:35,249 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"2013580757365564441645858380077","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"484943747\",\"mid\":\"9889632009953\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"484943747:2680652793\",\"platformBizId\":\"9889632009953\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09\",\"userid\":\"201358075736556444\"}}}","userId":"201358075736556444","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[2680652793],\"isRead\":\"false\",\"currentLoggedUserId\":\"484943747\",\"mid\":\"9889632009953\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"484943747:2680652793\",\"platformBizId\":\"9889632009953\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09\",\"userid\":\"201358075736556444\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 14:53:35,249 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：获取领取钥匙卡片消息唯一标识：2013580757365564441645858380077
+ 
+
+ 
+记录时间：2022-02-26 14:53:35,249 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":[2680652793],"isRead":"false","currentLoggedUserId":"484943747","mid":"9889632009953","isSingleConv":"1","platform":"im","cid":"484943747:2680652793","platformBizId":"9889632009953"},"cardPrivateData":{"actionIds":["2"],"params":{"date":"不死鸟","result":"1","calendarid":"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09","userid":"201358075736556444"}}}
+ 
+
+ 
+记录时间：2022-02-26 14:53:35,249 
+线程ID:[82] 
+日志级别：  INFO  
+日志描述：钥匙领取传入后端参数：201358075736556444    OVM4anZJYmZMVE85WjFlRHhKNEZDZz09
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,688 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,688 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,688 
+线程ID:[72] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,735 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"245941474724241632"},"request_id":"5ac9zkymcw2e"}
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,735 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,735 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"245941474724241632"},"request_id":"6doydgwujwst"}
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,735 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,735 
+线程ID:[72] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"245941474724241632"},"request_id":"vtw5hmyiuzlr"}
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,735 
+线程ID:[72] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,766 
+线程ID:[72] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,766 
+线程ID:[72] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/WWszd21xOXBZRmVWR1crQUs3NE1xQT09
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,766 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,766 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/WWszd21xOXBZRmVWR1crQUs3NE1xQT09_1645833600000
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,766 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,766 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/WWszd21xOXBZRmVWR1crQUs3NE1xQT09_1643155200000
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,953 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:20,969 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:21,000 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"245941474724241632"},"request_id":"5df836ljspug"}
+ 
+
+ 
+记录时间：2022-02-26 15:04:21,000 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:04:21,016 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"245941474724241632"},"request_id":"3nrrdona7hty"}
+ 
+
+ 
+记录时间：2022-02-26 15:04:21,016 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：oLQzIWvlERwiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:04:21,032 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:21,032 
+线程ID:[79] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/WWszd21xOXBZRmVWR1crQUs3NE1xQT09_1640476800000
+ 
+
+ 
+记录时间：2022-02-26 15:04:21,047 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:04:21,047 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/oLQzIWvlERwiSdjq78tlRpAiEiE/calendars/primary/events/WWszd21xOXBZRmVWR1crQUs3NE1xQT09_1648252800000
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,126 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,189 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"162663613220353924"},"request_id":"wlioyppxp0u2"}
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,189 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：YMSiSoiPdwiiFYER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,204 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,204 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/YMSiSoiPdwiiFYER6QGIevgXgiEiE/calendars/primary/events/UUsrWW5uZVJ2ZGQrTVhiSlg1MzU0UT09_1645945200000
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,283 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,283 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：UUsrWW5uZVJ2ZGQrTVhiSlg1MzU0UT09_1645945200000、162663613220353924
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,283 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：YMSiSoiPdwiiFYER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,298 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,298 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/YMSiSoiPdwiiFYER6QGIevgXgiEiE/calendars/primary/events/UUsrWW5uZVJ2ZGQrTVhiSlg1MzU0UT09_1645945200000
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,361 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：日程组织者：何新生
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,376 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 15:05:04,376 
+线程ID:[73] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 15:07:23,286 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：领取钥匙body体中参数：{"outTrackId":"2013580757365564441645858416078","corpId":"ding22b125a2c7cb0a8e","value":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09\",\"userid\":\"201358075736556444\"}}}","userId":"201358075736556444","content":"{\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"date\":\"不死鸟\",\"result\":\"1\",\"calendarid\":\"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09\",\"userid\":\"201358075736556444\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 15:07:23,286 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：获取归还钥匙卡片消息唯一标识：2013580757365564441645858416078
+ 
+
+ 
+记录时间：2022-02-26 15:07:23,286 
+线程ID:[67] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"cardPrivateData":{"actionIds":["2"],"params":{"date":"不死鸟","result":"1","calendarid":"OVM4anZJYmZMVE85WjFlRHhKNEZDZz09","userid":"201358075736556444"}}}
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,424 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,487 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"5um840ph1ph4"}
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,487 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,518 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,518 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/bjVwNmlENVVlU0lxcWJudk1MclFOUT09_1645947000000
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,690 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,737 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：bjVwNmlENVVlU0lxcWJudk1MclFOUT09_1645947000000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,737 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,768 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,768 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/bjVwNmlENVVlU0lxcWJudk1MclFOUT09_1645947000000
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,830 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,862 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 15:35:05,862 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,049 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,127 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"163654111820074176"},"request_id":"f1zv75rfuj2j"}
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,127 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：uFDmtf8O2LBcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,143 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,143 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/uFDmtf8O2LBcYr5CLiPF1NwiEiE/calendars/primary/events/WHA5RS9Ca2x6dDVaWklRMThqcWhZZz09_1645948800000
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,190 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,237 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"191237334620075094"},"request_id":"15be5ta8goikb"}
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,237 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：G1OzsrAYkqnZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,268 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,268 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/G1OzsrAYkqnZvQcr6rQWOgiEiE/calendars/primary/events/T2ZZZkYxWG1BLzU2VWVKTUZMY2wzQT09_1646467200000
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,299 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,331 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,346 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：T2ZZZkYxWG1BLzU2VWVKTUZMY2wzQT09_1646467200000、191237334620075094
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,346 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：WHA5RS9Ca2x6dDVaWklRMThqcWhZZz09_1645948800000、163654111820074176
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,346 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：G1OzsrAYkqnZvQcr6rQWOgiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,346 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：uFDmtf8O2LBcYr5CLiPF1NwiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,377 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,377 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/G1OzsrAYkqnZvQcr6rQWOgiEiE/calendars/primary/events/T2ZZZkYxWG1BLzU2VWVKTUZMY2wzQT09_1646467200000
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,440 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：日程组织者：任亚兵
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,440 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,440 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/uFDmtf8O2LBcYr5CLiPF1NwiEiE/calendars/primary/events/WHA5RS9Ca2x6dDVaWklRMThqcWhZZz09_1645948800000
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,471 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,471 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,502 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：任书含
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,502 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,502 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,518 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,565 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"30236464291145798"},"request_id":"16ha1ellzzm5k"}
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,565 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：mPsmiiCSiincmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,596 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,596 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/mPsmiiCSiincmLgtSiPXoVtvAiEiE/calendars/primary/events/cHY0SjV6eTBLbE9keU5WN1VhelFzdz09_1645948800000
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,643 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,643 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：cHY0SjV6eTBLbE9keU5WN1VhelFzdz09_1645948800000、30236464291145798
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,643 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：mPsmiiCSiincmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,674 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,674 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/mPsmiiCSiincmLgtSiPXoVtvAiEiE/calendars/primary/events/cHY0SjV6eTBLbE9keU5WN1VhelFzdz09_1645948800000
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,737 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：日程组织者：赵媛
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,737 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 16:05:04,737 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,633 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,695 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"151707514223045972"},"request_id":"vzm0vbs5t8sj"}
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,695 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：sMDe3LfxuTEER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,726 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,726 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/sMDe3LfxuTEER6QGIevgXgiEiE/calendars/primary/events/VFFtTGpwT1I0blZ5QzhNaWlvZEh0dz09
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,883 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,929 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：VFFtTGpwT1I0blZ5QzhNaWlvZEh0dz09、151707514223045972
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,929 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：sMDe3LfxuTEER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,961 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:28:38,961 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/sMDe3LfxuTEER6QGIevgXgiEiE/calendars/primary/events/VFFtTGpwT1I0blZ5QzhNaWlvZEh0dz09
+ 
+
+ 
+记录时间：2022-02-26 16:28:39,023 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：夏诗曼
+ 
+
+ 
+记录时间：2022-02-26 16:28:39,445 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 16:28:39,445 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,656 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,718 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"15p8966pkqvpo"}
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,718 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,734 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,734 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/NURNNWdUUTVWVlF5N01hMFQzMUdzdz09_1645950600000
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,906 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,906 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：NURNNWdUUTVWVlF5N01hMFQzMUdzdz09_1645950600000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,906 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,937 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,937 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/NURNNWdUUTVWVlF5N01hMFQzMUdzdz09_1645950600000
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,999 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,999 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 16:35:02,999 
+线程ID:[18] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,223 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,285 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"620waotl2qci"}
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,285 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,317 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,317 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/bVk4aDV1UllIWk9BaU5Xb3FQUm41dz09_1645954200000
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,473 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,535 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：bVk4aDV1UllIWk9BaU5Xb3FQUm41dz09_1645954200000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,535 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,551 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,551 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/bVk4aDV1UllIWk9BaU5Xb3FQUm41dz09_1645954200000
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,613 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,645 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 17:35:05,645 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,450 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,512 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"166213675929589683"},"request_id":"10ms3ygu0sbbx"}
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,512 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：aGIiPuXeiSz4KLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,528 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,528 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/aGIiPuXeiSz4KLgtSiPXoVtvAiEiE/calendars/primary/events/ZUtwL09ydVZKdVRwU3ZFVS8vRVlIQT09_1645955100000
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,684 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,684 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：ZUtwL09ydVZKdVRwU3ZFVS8vRVlIQT09_1645955100000、166213675929589683
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,684 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：aGIiPuXeiSz4KLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,715 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,715 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/aGIiPuXeiSz4KLgtSiPXoVtvAiEiE/calendars/primary/events/ZUtwL09ydVZKdVRwU3ZFVS8vRVlIQT09_1645955100000
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,778 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：日程组织者：田宇航
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,778 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 17:50:02,778 
+线程ID:[28] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,240 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,302 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"213801500936498527"},"request_id":"525z6kvlw6e8"}
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,302 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：l2Y4DYu5BqKLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,334 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,334 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/l2Y4DYu5BqKLgtSiPXoVtvAiEiE/calendars/primary/events/RktGM0VhU2RHQk5XTlFuamZma0hjZz09
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,506 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,552 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：RktGM0VhU2RHQk5XTlFuamZma0hjZz09、213801500936498527
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,552 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：l2Y4DYu5BqKLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,584 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,584 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/l2Y4DYu5BqKLgtSiPXoVtvAiEiE/calendars/primary/events/RktGM0VhU2RHQk5XTlFuamZma0hjZz09
+ 
+
+ 
+记录时间：2022-02-26 18:35:43,662 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：郭文静
+ 
+
+ 
+记录时间：2022-02-26 18:35:44,099 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 18:35:44,099 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,286 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,349 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"0649265813858"},"request_id":"3vp85wtghgcl"}
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,349 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：B6jriSILYCBiS4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,380 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,380 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/B6jriSILYCBiS4G2iiG73bVFgiEiE/calendars/primary/events/T1dsUmkrNWNiUzIrRm53VHpyTjEzQT09_1646478000000
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,552 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,583 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：T1dsUmkrNWNiUzIrRm53VHpyTjEzQT09_1646478000000、0649265813858
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,599 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：B6jriSILYCBiS4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,614 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,614 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/B6jriSILYCBiS4G2iiG73bVFgiEiE/calendars/primary/events/T1dsUmkrNWNiUzIrRm53VHpyTjEzQT09_1646478000000
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,677 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：李金轩
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,708 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 19:05:06,708 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 19:09:32,262 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：钥匙:黑马
+ 
+
+ 
+记录时间：2022-02-26 19:09:32,434 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：13603214967
+ 
+
+ 
+记录时间：2022-02-26 19:09:32,512 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 19:09:32,512 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 19:09:32,512 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 19:09:32,528 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=032310346330512770&data=请到研发中心领取钥匙：黑马&name=盖鹏军
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,458 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,521 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"132458164321635905"},"request_id":"3ydmg58zonk2"}
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,521 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：e1vFdfiiOWVz4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,552 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,552 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/e1vFdfiiOWVz4G2iiG73bVFgiEiE/calendars/primary/events/WWlyQ00vZHdPdkxnemV2YUVYSm01Zz09_1646479800000
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,708 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,708 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：WWlyQ00vZHdPdkxnemV2YUVYSm01Zz09_1646479800000、132458164321635905
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,708 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：e1vFdfiiOWVz4G2iiG73bVFgiEiE
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,740 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,740 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/e1vFdfiiOWVz4G2iiG73bVFgiEiE/calendars/primary/events/WWlyQ00vZHdPdkxnemV2YUVYSm01Zz09_1646479800000
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,802 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：日程组织者：商俊帅
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,802 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 19:35:03,802 
+线程ID:[26] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,088 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,182 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"186269675120169101"},"request_id":"vueruucuudp8"}
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,182 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：I2m6iimWsnoiSiP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,213 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,213 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/I2m6iimWsnoiSiP9iSQUZdccpwiEiE/calendars/primary/events/TXlPZy90a2hSYnhWazkycVBNdU16dz09_1645963200000
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,416 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,416 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：TXlPZy90a2hSYnhWazkycVBNdU16dz09_1645963200000、186269675120169101
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,416 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：I2m6iimWsnoiSiP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,447 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,447 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/I2m6iimWsnoiSiP9iSQUZdccpwiEiE/calendars/primary/events/TXlPZy90a2hSYnhWazkycVBNdU16dz09_1645963200000
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,510 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：日程组织者：何伟康
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,557 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 20:05:04,557 
+线程ID:[16] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 20:26:54,591 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：钥匙：不死鸟
+ 
+
+ 
+记录时间：2022-02-26 20:26:54,998 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：13603214967
+ 
+
+ 
+记录时间：2022-02-26 20:26:55,092 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 20:26:55,092 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 20:26:55,092 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 20:26:55,123 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=032310346330512770&data=请到研发中心领取钥匙：不死鸟&name=盖鹏军
+ 
+
+ 
+记录时间：2022-02-26 20:32:05,186 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：钥匙：库房
+ 
+
+ 
+记录时间：2022-02-26 20:32:05,342 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：13603214967
+ 
+
+ 
+记录时间：2022-02-26 20:32:05,358 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 20:32:05,358 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 20:32:05,358 
+线程ID:[5] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 20:34:05,862 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：钥匙：库房
+ 
+
+ 
+记录时间：2022-02-26 20:34:06,018 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：13603214967
+ 
+
+ 
+记录时间：2022-02-26 20:34:06,034 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 20:34:06,034 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 20:34:06,034 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 20:34:06,050 
+线程ID:[20] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的资源信息：http://kms.tfjybj.com/kms/actionapi/ManagerMessage/GetSingleKey?ddID=032310346330512770&data=请到研发中心领取钥匙：库房&name=盖鹏军
+ 
+
+ 
+记录时间：2022-02-26 20:52:42,967 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：机器人消息接收回调具体的消息内容参数：钥匙：学习区
+ 
+
+ 
+记录时间：2022-02-26 20:52:43,123 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：判断用户是否存在职责链的信息：13603214967
+ 
+
+ 
+记录时间：2022-02-26 20:52:43,155 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：判断用权限职责链的信息：KMS
+ 
+
+ 
+记录时间：2022-02-26 20:52:43,155 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第一层资源信息：/actionapi/ManagerMessage
+ 
+
+ 
+记录时间：2022-02-26 20:52:43,155 
+线程ID:[32] 
+日志级别：  INFO  
+日志描述：用户功能实现职责链的第二层层资源名称信息：钥匙
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,885 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,900 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,947 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"19331647611191121"},"request_id":"vu04x94og9ji"}
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,947 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,947 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"132458164035488397"},"request_id":"5ykfsthqilul"}
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,947 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：e1vFdfiiOWVy4RQrmlaiPj5AiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,963 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,963 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/NmFQcGg4bXVpYm1penJCRFpRWkVSQT09_1645966800000
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,978 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:05:02,978 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/e1vFdfiiOWVy4RQrmlaiPj5AiEiE/calendars/primary/events/bXZmaitiSVFTMnVkbzZaTWVXODlOUT09_1645966800000
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,135 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,135 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：bXZmaitiSVFTMnVkbzZaTWVXODlOUT09_1645966800000、132458164035488397
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,135 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,135 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：e1vFdfiiOWVy4RQrmlaiPj5AiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,135 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：NmFQcGg4bXVpYm1penJCRFpRWkVSQT09_1645966800000、19331647611191121
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,135 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：ZYyfwQQSZO3iP9iSQUZdccpwiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,166 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,166 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/e1vFdfiiOWVy4RQrmlaiPj5AiEiE/calendars/primary/events/bXZmaitiSVFTMnVkbzZaTWVXODlOUT09_1645966800000
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,166 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,166 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/ZYyfwQQSZO3iP9iSQUZdccpwiEiE/calendars/primary/events/NmFQcGg4bXVpYm1penJCRFpRWkVSQT09_1645966800000
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,228 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：日程组织者：贺天远
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,228 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：日程组织者：金蒂
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,228 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,228 
+线程ID:[41] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,244 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 21:05:03,244 
+线程ID:[44] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 21:20:01,983 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:20:01,983 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,030 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"285623225720114450"},"request_id":"2y0v1bgz1p8k"}
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,030 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：BxqlzNBKDkoiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,030 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"183703270221533242"},"request_id":"5av5pl30jrhh"}
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,030 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Pme49ii78Yk8ER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,046 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,046 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/BxqlzNBKDkoiSdjq78tlRpAiEiE/calendars/primary/events/MFFNd3JyTDdTM2NmOGoxMjQ1cUgzdz09_1645967700000
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,061 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,061 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Pme49ii78Yk8ER6QGIevgXgiEiE/calendars/primary/events/ZnladDdaWWk1VW5HeGREdzdqNWFqQT09_1645967700000
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,202 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,202 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：MFFNd3JyTDdTM2NmOGoxMjQ1cUgzdz09_1645967700000、285623225720114450
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,202 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：BxqlzNBKDkoiSdjq78tlRpAiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,202 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,202 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：ZnladDdaWWk1VW5HeGREdzdqNWFqQT09_1645967700000、183703270221533242
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,202 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：Pme49ii78Yk8ER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,217 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,217 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/BxqlzNBKDkoiSdjq78tlRpAiEiE/calendars/primary/events/MFFNd3JyTDdTM2NmOGoxMjQ1cUgzdz09_1645967700000
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,217 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,217 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/Pme49ii78Yk8ER6QGIevgXgiEiE/calendars/primary/events/ZnladDdaWWk1VW5HeGREdzdqNWFqQT09_1645967700000
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,280 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：日程组织者：仇天朔
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,280 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,280 
+线程ID:[55] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,280 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：日程组织者：吴振硕
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,296 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 21:20:02,296 
+线程ID:[56] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,184 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,247 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"01286569423473"},"request_id":"105udk6r4vejl"}
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,247 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,278 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,278 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/dllDSkJJVDYxZmQvZDQzZ3JISm9Zdz09
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,434 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,434 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：dllDSkJJVDYxZmQvZDQzZ3JISm9Zdz09、01286569423473
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,434 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：M1MCoTcUUxKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,450 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,450 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/M1MCoTcUUxKmFtbFp0cDqAiEiE/calendars/primary/events/dllDSkJJVDYxZmQvZDQzZ3JISm9Zdz09
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,528 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：日程组织者：纪争光
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,950 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 21:27:36,950 
+线程ID:[68] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,727 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,727 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,774 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"166213675929589683"},"request_id":"5o3lkvsrfogo"}
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,774 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：aGIiPuXeiSz4KLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,790 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"036716295120974364"},"request_id":"3h0tix5c3s8y"}
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,790 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：WqjKYUHhNCKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,805 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,805 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/WqjKYUHhNCKmFtbFp0cDqAiEiE/calendars/primary/events/UU4rYTdycVNDWm0vWXJMYU5CVStnUT09_1645968600000
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,805 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,805 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/aGIiPuXeiSz4KLgtSiPXoVtvAiEiE/calendars/primary/events/eHJKcStOT1BVaEtsSFJiS2IrQnZRdz09_1645968600000
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,962 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,962 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：UU4rYTdycVNDWm0vWXJMYU5CVStnUT09_1645968600000、036716295120974364
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,962 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：WqjKYUHhNCKmFtbFp0cDqAiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,962 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,962 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：eHJKcStOT1BVaEtsSFJiS2IrQnZRdz09_1645968600000、166213675929589683
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,962 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：aGIiPuXeiSz4KLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,993 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,993 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/WqjKYUHhNCKmFtbFp0cDqAiEiE/calendars/primary/events/UU4rYTdycVNDWm0vWXJMYU5CVStnUT09_1645968600000
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,993 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 21:35:01,993 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/aGIiPuXeiSz4KLgtSiPXoVtvAiEiE/calendars/primary/events/eHJKcStOT1BVaEtsSFJiS2IrQnZRdz09_1645968600000
+ 
+
+ 
+记录时间：2022-02-26 21:35:02,056 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：日程组织者：刘延强
+ 
+
+ 
+记录时间：2022-02-26 21:35:02,056 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 21:35:02,056 
+线程ID:[75] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 21:35:02,071 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：日程组织者：田宇航
+ 
+
+ 
+记录时间：2022-02-26 21:35:02,071 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 21:35:02,071 
+线程ID:[76] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 
+
+ 
+记录时间：2022-02-26 22:13:36,849 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,021 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"211633513929715906"},"request_id":"48trq9b62az7"}
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,021 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：6RI89X61xFmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,037 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,037 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/6RI89X61xFmLgtSiPXoVtvAiEiE/calendars/primary/events/bkJuSDVKY1BWOXFleE95TGRXcTdBQT09
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,240 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,302 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：bkJuSDVKY1BWOXFleE95TGRXcTdBQT09、211633513929715906
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,302 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：6RI89X61xFmLgtSiPXoVtvAiEiE
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,318 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,318 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/6RI89X61xFmLgtSiPXoVtvAiEiE/calendars/primary/events/bkJuSDVKY1BWOXFleE95TGRXcTdBQT09
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,396 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：田泽凯
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,833 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：库房+false
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,833 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:库房+false
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,833 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：数组参数：库房--false
+ 
+
+ 
+记录时间：2022-02-26 22:13:37,833 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：发送会议室推送卡片消息字典参数：System.Collections.Generic.Dictionary`2[System.String,System.String]
+ 
+
+ 
+记录时间：2022-02-26 22:13:49,803 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：body体中参数：{"outTrackId":"2116335139297159061645884817834","corpId":"ding22b125a2c7cb0a8e","value":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9892112302596\",\"currentLoggedUserId\":\"509863309\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"509863309:2680652793\",\"platformBizId\":\"9892112302596\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/2/26 22:13:37\",\"calendarid\":\"bkJuSDVKY1BWOXFleE95TGRXcTdBQT09\",\" specialRoom\":\"false\",\"title\":\"库房\",\"usagetime\":\"2022/2/27 7:30:00-2022/2/27 7:45:00\"}}}","userId":"211633513929715906","content":"{\"context\":{\"senderId\":\"2680652793\",\"receiverId\":[\"2680652793\"],\"isRead\":\"1\",\"mid\":\"9892112302596\",\"currentLoggedUserId\":\"509863309\",\"downloadProgress\":\"-1\",\"isSingleConv\":\"1\",\"platform\":\"im\",\"cid\":\"509863309:2680652793\",\"platformBizId\":\"9892112302596\"},\"cardPrivateData\":{\"actionIds\":[\"2\"],\"params\":{\"result\":\"1\",\"date\":\"2022/2/26 22:13:37\",\"calendarid\":\"bkJuSDVKY1BWOXFleE95TGRXcTdBQT09\",\" specialRoom\":\"false\",\"title\":\"库房\",\"usagetime\":\"2022/2/27 7:30:00-2022/2/27 7:45:00\"}}}"}
+ 
+
+ 
+记录时间：2022-02-26 22:13:49,803 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：获取唯一卡片消息标识：2116335139297159061645884817834
+ 
+
+ 
+记录时间：2022-02-26 22:13:49,803 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：点击事件返回值：{"context":{"senderId":"2680652793","receiverId":["2680652793"],"isRead":"1","mid":"9892112302596","currentLoggedUserId":"509863309","downloadProgress":"-1","isSingleConv":"1","platform":"im","cid":"509863309:2680652793","platformBizId":"9892112302596"},"cardPrivateData":{"actionIds":["2"],"params":{"result":"1","date":"2022/2/26 22:13:37","calendarid":"bkJuSDVKY1BWOXFleE95TGRXcTdBQT09"," specialRoom":"false","title":"库房","usagetime":"2022/2/27 7:30:00-2022/2/27 7:45:00"}}}
+ 
+
+ 
+记录时间：2022-02-26 22:13:49,803 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：点击返回数据：2022/2/26 22:13:37
+ 
+
+ 
+记录时间：2022-02-26 22:13:49,896 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：返回参数日程类型：false
+ 
+
+ 
+记录时间：2022-02-26 22:13:50,537 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：点击返回按钮状态数据：bkJuSDVKY1BWOXFleE95TGRXcTdBQT09 :211633513929715906库房
+ 
+
+ 
+记录时间：2022-02-26 22:35:03,739 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 22:35:03,818 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：根据unionid获取用户ID日志:{"errcode":0,"errmsg":"ok","result":{"contact_type":0,"userid":"07615724424484"},"request_id":"vzm0vm4hblfw"}
+ 
+
+ 
+记录时间：2022-02-26 22:35:03,818 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：jWIJZ0NTC1wER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 22:35:03,833 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 22:35:03,833 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/jWIJZ0NTC1wER6QGIevgXgiEiE/calendars/primary/events/MDcxNEJNdDdUQWZ4NDJyZHZ0WnJLUT09_1646145000000
+ 
+
+ 
+记录时间：2022-02-26 22:35:04,005 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程事件类型ChangeType:created
+ 
+
+ 
+记录时间：2022-02-26 22:35:04,068 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程用户信息日程ID、钉ID：MDcxNEJNdDdUQWZ4NDJyZHZ0WnJLUT09_1646145000000、07615724424484
+ 
+
+ 
+记录时间：2022-02-26 22:35:04,068 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：具体获取单个日程详情接口参数：jWIJZ0NTC1wER6QGIevgXgiEiE
+ 
+
+ 
+记录时间：2022-02-26 22:35:04,099 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：获取访问token:dac1d6372f183279b7fdffbf41a36369
+ 
+
+ 
+记录时间：2022-02-26 22:35:04,099 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：HTTP Get请求参数：http://api.dingtalk.com/v1.0/calendar/users/jWIJZ0NTC1wER6QGIevgXgiEiE/calendars/primary/events/MDcxNEJNdDdUQWZ4NDJyZHZ0WnJLUT09_1646145000000
+ 
+
+ 
+记录时间：2022-02-26 22:35:04,161 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：日程组织者：白爱民
+ 
+
+ 
+记录时间：2022-02-26 22:35:04,177 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：判断日程是否需要发送会议室卡片,会议室名称：
+ 
+
+ 
+记录时间：2022-02-26 22:35:04,177 
+线程ID:[7] 
+日志级别：  INFO  
+日志描述：推送房间名称:false
+ 

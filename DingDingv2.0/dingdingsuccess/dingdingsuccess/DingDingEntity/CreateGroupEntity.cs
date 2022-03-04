@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年2月23日16点54分
+ * 描述：创建钉钉群
+ */
 
 namespace dingdingsuccess
 {

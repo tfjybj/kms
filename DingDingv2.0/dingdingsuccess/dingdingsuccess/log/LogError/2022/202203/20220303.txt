@@ -1,0 +1,382 @@
+
+ 
+记录时间：2022-03-03 11:52:11,812 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：归还钥匙回调函数：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ReturnKeyMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 240
+当前时间：1646279531812
+ 
+
+ 
+记录时间：2022-03-03 11:52:17,843 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：归还钥匙回调函数：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ReturnKeyMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 240
+当前时间：1646279537844
+ 
+
+ 
+记录时间：2022-03-03 11:52:50,235 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：归还钥匙回调函数：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ReturnKeyMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 240
+当前时间：1646279570235
+ 
+
+ 
+记录时间：2022-03-03 11:52:51,969 
+线程ID:[14] 
+日志级别：  ERROR 
+错误描述：归还钥匙回调函数：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ReturnKeyMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 240
+当前时间：1646279571970
+ 
+
+ 
+记录时间：2022-03-03 11:53:03,688 
+线程ID:[15] 
+日志级别：  ERROR 
+错误描述：归还钥匙回调函数：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ReturnKeyMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 240
+当前时间：1646279583689
+ 
+
+ 
+记录时间：2022-03-03 11:53:04,001 
+线程ID:[15] 
+日志级别：  ERROR 
+错误描述：归还钥匙回调函数：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ReturnKeyMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 240
+当前时间：1646279584001
+ 
+
+ 
+记录时间：2022-03-03 11:53:04,267 
+线程ID:[17] 
+日志级别：  ERROR 
+错误描述：归还钥匙回调函数：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ReturnKeyMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 240
+当前时间：1646279584267
+ 
+
+ 
+记录时间：2022-03-03 11:53:45,861 
+线程ID:[15] 
+日志级别：  ERROR 
+错误描述：归还钥匙回调函数：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ReturnKeyMessage() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 240
+当前时间：1646279625862
+ 
+
+ 
+记录时间：2022-03-03 17:30:43,416 
+线程ID:[16] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/18730628608/DwGDkdYHDn8DjyxZpFbrso
+当前时间：1646299843417
+ 
+
+ 
+记录时间：2022-03-03 17:31:47,402 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/18730628608/DwGDkdYHDn8DjyxZpFbrso
+当前时间：1646299907403
+ 
+
+ 
+记录时间：2022-03-03 17:31:59,012 
+线程ID:[17] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/18730628608/DwGDkdYHDn8DjyxZpFbrso
+当前时间：1646299919012
+ 
+
+ 
+记录时间：2022-03-03 17:32:07,231 
+线程ID:[15] 
+日志级别：  ERROR 
+错误描述：判断用权限职责链的错误信息：未将对象引用设置到对象的实例。
+具体信息：   在 dingdingsuccess.BobotHandler.GradeHandler.HandleRequest(String ddID, String content) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\BobotHandler\GradeHandler.cs:行号 43
+具体参数信息：http://auth2.dmsd.tech:9006/login/user/18730628608/DwGDkdYHDn8DjyxZpFbrso
+当前时间：1646299927231
+ 
+
+ 
+记录时间：2022-03-03 17:43:02,341 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：发送文本类型方法错误信息：MissingString--code: 400, String is mandatory for this action. request id: EBC8F2FF-60DB-78DF-AA07-9885C148D6CD
+当前时间：1646300582342
+ 
+
+ 
+记录时间：2022-03-03 17:43:14,263 
+线程ID:[13] 
+日志级别：  ERROR 
+错误描述：发送文本类型方法错误信息：MissingString--code: 400, String is mandatory for this action. request id: 52C018C3-BC9E-7491-B884-5ED640862C07
+当前时间：1646300594264
+ 
+
+ 
+记录时间：2022-03-03 17:43:14,373 
+线程ID:[15] 
+日志级别：  ERROR 
+错误描述：发送文本类型方法错误信息：MissingString--code: 400, String is mandatory for this action. request id: 3339E40C-85D2-7BDC-A6D4-CCC84D349C26
+当前时间：1646300594373
+ 
+
+ 
+记录时间：2022-03-03 18:03:29,389 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：发送文本类型方法错误信息：MissingString--code: 400, String is mandatory for this action. request id: 8559D55C-4A2C-7718-8456-F164AD691D08
+当前时间：1646301809389
+ 
+
+ 
+记录时间：2022-03-03 18:03:29,498 
+线程ID:[45] 
+日志级别：  ERROR 
+错误描述：发送文本类型方法错误信息：MissingString--code: 400, String is mandatory for this action. request id: F2AD5D71-C5F8-7BA5-B650-542831DDF8F7
+当前时间：1646301809499
+ 
+
+ 
+记录时间：2022-03-03 18:03:29,608 
+线程ID:[41] 
+日志级别：  ERROR 
+错误描述：发送文本类型方法错误信息：MissingString--code: 400, String is mandatory for this action. request id: EBE5C8A0-7135-7B29-99A6-FCE80196BEFC
+当前时间：1646301809608
+ 
+
+ 
+记录时间：2022-03-03 18:08:38,662 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302118663
+ 
+
+ 
+记录时间：2022-03-03 18:08:48,538 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302128538
+ 
+
+ 
+记录时间：2022-03-03 18:08:51,100 
+线程ID:[49] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302131101
+ 
+
+ 
+记录时间：2022-03-03 18:08:53,803 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302133804
+ 
+
+ 
+记录时间：2022-03-03 18:09:05,304 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302145304
+ 
+
+ 
+记录时间：2022-03-03 18:09:10,710 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302150711
+ 
+
+ 
+记录时间：2022-03-03 18:09:11,335 
+线程ID:[49] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302151336
+ 
+
+ 
+记录时间：2022-03-03 18:09:11,632 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302151633
+ 
+
+ 
+记录时间：2022-03-03 18:09:11,866 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302151867
+ 
+
+ 
+记录时间：2022-03-03 18:09:12,054 
+线程ID:[49] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302152054
+ 
+
+ 
+记录时间：2022-03-03 18:09:12,241 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302152242
+ 
+
+ 
+记录时间：2022-03-03 18:09:12,507 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302152508
+ 
+
+ 
+记录时间：2022-03-03 18:09:12,648 
+线程ID:[49] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302152648
+ 
+
+ 
+记录时间：2022-03-03 18:09:12,804 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302152805
+ 
+
+ 
+记录时间：2022-03-03 18:09:13,007 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302153008
+ 
+
+ 
+记录时间：2022-03-03 18:09:13,242 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302153242
+ 
+
+ 
+记录时间：2022-03-03 18:09:13,476 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302153476
+ 
+
+ 
+记录时间：2022-03-03 18:09:13,710 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302153711
+ 
+
+ 
+记录时间：2022-03-03 18:09:13,960 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302153961
+ 
+
+ 
+记录时间：2022-03-03 18:09:14,179 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302154180
+ 
+
+ 
+记录时间：2022-03-03 18:09:19,304 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302159305
+ 
+
+ 
+记录时间：2022-03-03 18:09:19,554 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302159555
+ 
+
+ 
+记录时间：2022-03-03 18:09:19,710 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302159711
+ 
+
+ 
+记录时间：2022-03-03 18:09:19,867 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302159867
+ 
+
+ 
+记录时间：2022-03-03 18:09:20,070 
+线程ID:[39] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302160070
+ 
+
+ 
+记录时间：2022-03-03 18:09:20,273 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：管理员钥匙归还回调地址错误信息：未将对象引用设置到对象的实例。   具体信息：   在 dingdingsuccess.Controllers.DDCallBackController.ManagerReturnKey() 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\DDCallBackController.cs:行号 441
+当前时间：1646302160273
+ 
+
+ 
+记录时间：2022-03-03 18:53:42,436 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：钉钉事件订阅回调接口错误信息：值不能为 null。
+参数名: name 
+具体信息：   在 System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   在 System.Reflection.Assembly.CreateInstance(String typeName, Boolean ignoreCase, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   在 System.Reflection.Assembly.CreateInstance(String typeName)
+   在 dingdingsuccess.LimitBLL.GetConfig.CreateConcreteClass(String section, String eventType) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\LimitBLL\GetConfig.cs:行号 40
+   在 dingdingsuccess.Controllers.ValuesController.DingDingCallBack(String signature, String timestamp, String nonce) 位置 C:\Users\m1360\Desktop\DingDingv2.0\dingdingsuccess\dingdingsuccess\Controllers\ValuesController.cs:行号 89
+当前时间：1646304822421
+ 

@@ -34,7 +34,7 @@ namespace dingdingsuccess.Controllers
             }
             catch (Exception e)
             {
-                LoggerHelper.Error("发送钉钉领取钥匙卡片消息：" + e.Message + "  具体信息：" + e.StackTrace);
+                LoggerHelper.Error("发送钉钉领取钥匙卡片消息：" + e.Message + "\n具体信息：" + e.StackTrace);
                 return result;
             }
 
@@ -103,6 +103,7 @@ namespace dingdingsuccess.Controllers
         public string SendInquiryCard(string userID, string content)
         {
             string result = null;
+           
             try
             {
                 result = sendCardMessage.SendInquiryCard(userID, content);
