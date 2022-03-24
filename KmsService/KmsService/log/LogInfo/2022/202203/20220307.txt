@@ -1,0 +1,136 @@
+
+ 
+记录时间：2022-03-07 21:26:42,677 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lADPD3IruDWrevLNAwTNAn8_639_772.jpg","boss":false,"dept_id_list":[572069183,70986001],"dept_order_list":[{"dept_id":572069183,"order":176271523970535512},{"dept_id":70986001,"order":176354004569911510}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":572069183,"leader":false},{"dept_id":70986001,"leader":false}],"mobile":"18730628608","name":"武梓龙","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"6JSiijtVHbwYiSdjq78tlRpAiEiE","userid":"163844601727292492"},"request_id":"7lgkhwpizair"}
+当前时间：1646659602676
+ 
+
+ 
+记录时间：2022-03-07 21:26:43,196 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"武梓龙","id":"6JSiijtVHbwYiSdjq78tlRpAiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-03-07T13:22:04Z","description":"","end":{"dateTime":"2022-03-07T22:30:00+08:00","timeZone":"Asia/Shanghai"},"id":"OWI4RmtzVFFzTUlJQk1ySWZkRWhtdz09","isAllDay":false,"location":{"displayName":"库房外"},"organizer":{"displayName":"武梓龙","id":"6JSiijtVHbwYiSdjq78tlRpAiEiE","self":true},"reminders":[{"method":"dingtalk","minutes":"15"}],"requestId":"97A8F06F-D3A0-7BA1-9C82-C7C014C6DF2B","start":{"dateTime":"2022-03-07T21:30:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"测试","updateTime":"2022-03-07T13:22:04Z"}
+当前时间：1646659603196
+ 
+
+ 
+记录时间：2022-03-07 21:26:43,367 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lADPD3IruDWrevLNAwTNAn8_639_772.jpg","boss":false,"dept_id_list":[572069183,70986001],"dept_order_list":[{"dept_id":572069183,"order":176271523970535512},{"dept_id":70986001,"order":176354004569911510}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":572069183,"leader":false},{"dept_id":70986001,"leader":false}],"mobile":"18730628608","name":"武梓龙","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"6JSiijtVHbwYiSdjq78tlRpAiEiE","userid":"163844601727292492"},"request_id":"3x1k9npjq36v"}
+当前时间：1646659603367
+ 
+
+ 
+记录时间：2022-03-07 21:26:43,481 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"武梓龙","id":"6JSiijtVHbwYiSdjq78tlRpAiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-03-07T13:22:04Z","description":"","end":{"dateTime":"2022-03-07T22:30:00+08:00","timeZone":"Asia/Shanghai"},"id":"OWI4RmtzVFFzTUlJQk1ySWZkRWhtdz09","isAllDay":false,"location":{"displayName":"库房外"},"organizer":{"displayName":"武梓龙","id":"6JSiijtVHbwYiSdjq78tlRpAiEiE","self":true},"reminders":[{"method":"dingtalk","minutes":"15"}],"requestId":"6B0700A1-3C00-7FB8-886C-3BF892200B9C","start":{"dateTime":"2022-03-07T21:30:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"测试","updateTime":"2022-03-07T13:22:04Z"}
+当前时间：1646659603481
+ 
+
+ 
+记录时间：2022-03-07 22:07:57,401 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用开锁方法:代码走到这里了163844601727292492、UWl5NDF6RENINnUvYWVOSzZZKytadz09
+当前时间：1646662077399
+ 
+
+ 
+记录时间：2022-03-07 22:07:57,968 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：判断之外:代码走到这里了2022/3/7 22:06:34UWl5NDF6RENINnUvYWVOSzZZKytadz09
+当前时间：1646662077968
+ 
+
+ 
+记录时间：2022-03-07 22:10:50,374 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用开锁方法:代码走到这里了163844601727292492、STNQN2hKNklSOWg4N0s1ZzVpMlVCUT09
+当前时间：1646662250375
+ 
+
+ 
+记录时间：2022-03-07 22:10:50,597 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：判断之外:代码走到这里了STNQN2hKNklSOWg4N0s1ZzVpMlVCUT09
+当前时间：1646662250598
+ 
+
+ 
+记录时间：2022-03-07 22:10:56,438 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：判断之内：代码走到这里了
+当前时间：1646662256438
+ 
+
+ 
+记录时间：2022-03-07 22:11:19,800 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用开锁方法:代码走到这里了163844601727292492、STNQN2hKNklSOWg4N0s1ZzVpMlVCUT09
+当前时间：1646662279800
+ 
+
+ 
+记录时间：2022-03-07 22:11:19,926 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：判断之外:代码走到这里了STNQN2hKNklSOWg4N0s1ZzVpMlVCUT09
+当前时间：1646662279927
+ 
+
+ 
+记录时间：2022-03-07 22:11:21,925 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：判断之内：代码走到这里了
+当前时间：1646662281925
+ 
+
+ 
+记录时间：2022-03-07 22:12:58,600 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：调用开锁方法:代码走到这里了163844601727292492、STNQN2hKNklSOWg4N0s1ZzVpMlVCUT09
+当前时间：1646662378600
+ 
+
+ 
+记录时间：2022-03-07 22:12:58,722 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：判断之外:代码走到这里了STNQN2hKNklSOWg4N0s1ZzVpMlVCUT09
+当前时间：1646662378722
+ 
+
+ 
+记录时间：2022-03-07 22:13:00,697 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：判断之内：代码走到这里了
+当前时间：1646662380697
+ 
+
+ 
+记录时间：2022-03-07 22:13:10,983 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：用户点击开锁开启的锁号：0d
+当前时间：1646662390983
+ 
+
+ 
+记录时间：2022-03-07 22:13:11,901 
+线程ID:[14] 
+日志级别：  INFO  
+日志描述：推送归还钥匙卡片消息："0"
+当前时间：1646662391902
+ 

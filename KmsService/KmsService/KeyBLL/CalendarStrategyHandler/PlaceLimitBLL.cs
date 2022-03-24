@@ -27,10 +27,8 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
         public override string CalendarPushRoomBLL(string calendarID, string userID)
         {
             string roomName = null;
-
             string startTime = calendarModel.start.dateTime.Date.ToString("yyyy-MM-dd");
             string endTime = calendarModel.end.dateTime.Date.ToString("yyyy-MM-dd");
-
 
             SelectCalendarInfoDAL selectCalendarInfo = new SelectCalendarInfoDAL();
 
@@ -44,18 +42,27 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
                     TimeSpan endSpan = Convert.ToDateTime(calendarInfos[i].EndTime).TimeOfDay;
                     TimeSpan newStartSpan = calendarModel.start.dateTime.TimeOfDay;
                     TimeSpan newEndSpan = calendarModel.end.dateTime.TimeOfDay;
-                    if ((newStartSpan > startSpan && newStartSpan < endSpan) || (newEndSpan > startSpan && newEndSpan < endSpan))
+                    if ((newStartSpan >= startSpan && newStartSpan <= endSpan) || (newEndSpan >= startSpan && newEndSpan <= endSpan))
                     {
-                        string content = string.Format("您{0}-{1}申请的{2}会议室已被申请,可以申请其他会议室", calendarModel.start.dateTime.ToString("HH:mm:ss"), calendarModel.end.dateTime.ToString("HH:mm:ss"), calendarModel.location.displayName);
-                        string url = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", userID, content);
-                        httpHelper.HttpPost(url);
-                        return roomName;
+                        if (userID==calendarInfos[i].OrganizerID)
+                        {
+                           string content = string.Format("您{0}-{1}已经申请了{2}会议室,请勿重复申请", calendarModel.start.dateTime.ToString("HH:mm:ss"), calendarModel.end.dateTime.ToString("HH:mm:ss"), calendarModel.location.displayName);
+                            string url = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", userID, content);
+                            httpHelper.HttpPost(url);
+                        }
+                        else
+                        {
+                            string content = string.Format("您{0}-{1}申请的{2}会议室已被{3}申请,请勿重复申请", calendarModel.start.dateTime.ToString("HH:mm:ss"), calendarModel.end.dateTime.ToString("HH:mm:ss"), calendarModel.location.displayName, calendarInfos[i].Organizer);
+                            string url = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", userID, content);
+                            httpHelper.HttpPost(url);
+                            return roomName;
+                        }
                     }
                 }
             }
             //取出基本数据中使用下限时间和使用上限时间
-            BasicDataDAL basicDataDAL = new BasicDataDAL();
-            BasicDataEntity basicData = basicDataDAL.SelectAllBasicData();
+            BasicDataBLL basicDataBll = new BasicDataBLL();
+            BasicDataEntity basicData = basicDataBll.SelectALLBasicData(calendarModel.location.displayName);
 
             int upperTime = basicData.UpperTime;
             int lowerTime = basicData.LowerTime;
@@ -67,7 +74,6 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
 
             //获取会议室最小使用人数
             SelectRoomInfoDAL selectRoomInfo = new SelectRoomInfoDAL();
-            List<string> minUseNumber = selectRoomInfo.SelectRoomPeople();
             //判断日程有无地点
             if (calendarModel.location != null)
             {
@@ -81,7 +87,7 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
                 if ((useTime >= lowerTime) || (useTime <= upperTime))
                 {
                     //判断人数是否符合限制
-                    if (players >= Convert.ToInt32(minUseNumber[Invariable.Zero]))
+                    if (players >= Convert.ToInt32(basicData.MinUseNumber))
                     {
                         roomName = roomInfoEntity.RoomName + "+true";
                     }

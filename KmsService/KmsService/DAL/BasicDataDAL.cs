@@ -5,8 +5,12 @@
  */
 
 using System;
+using System.Collections.Generic;
 using System.Data;
 using KmsService.Entity;
+using MySql;
+using MySql.Data.MySqlClient;
+
 namespace KmsService.DAL
 {
     public class BasicDataDAL
@@ -22,20 +26,46 @@ namespace KmsService.DAL
         /// 查询基本数据配置表全部信息
         /// </summary>
         /// <returns>基本数据配置表实体</returns>
-        public BasicDataEntity SelectAllBasicData()
+        public BasicDataEntity SelectAllBasicData(string roomName)
         {
-            string sql = "select id,upper_time,lower_time,create_time,update_time from t_basicdata";
-            DataTable table = sqlHelper.ExecuteQuery(sql, CommandType.Text);
+            string sql = "select room_name,before_take_key,after_return_key,approver,min_use_number,upper_time,lower_time,create_time,update_time from t_basicdata where room_name=@roomName";
+            MySqlParameter[] mySqls = new MySqlParameter[] 
+            {
+                new MySqlParameter("@roomName",roomName)
+            };
+            DataTable table = sqlHelper.ExecuteQuery(sql,mySqls, CommandType.Text);
             BasicDataEntity basicData = new BasicDataEntity();
             foreach (DataRow row in table.Rows)
             {
-                basicData.ID = Convert.ToInt32(row["id"]);
+                basicData.RoomName = row["room_name"].ToString();
+                basicData.BeforeTakeKey = Convert.ToInt32(row["before_take_key"]);
+                basicData.AfterReturnKey = Convert.ToInt32(row["after_return_key"]);
+                basicData.Approver = row["approver"].ToString();
+                basicData.MinUseNumber = Convert.ToInt32(row["min_use_number"]);
                 basicData.UpperTime = Convert.ToInt32(row["upper_time"]);
                 basicData.LowerTime = Convert.ToInt32(row["lower_time"]);
                 basicData.CreateTime = row["create_time"].ToString();
                 basicData.UpdateTime = row["update_time"].ToString();
             }
             return basicData;
+        }
+
+        /// <summary>
+        /// 查询会议室最小使用人数
+        /// </summary>
+        /// <returns>集合</returns>
+        public List<string> SelectMinUseNumber()
+        {
+            string sql = "select DISTINCT min_use_number from t_basicdata where min_use_number is not NULL";
+            SQLHelper helper = new SQLHelper();
+            DataTable roomPeopleTable = helper.ExecuteQuery(sql, CommandType.Text);
+            List<string> roomPeopleList = new List<string>();
+            foreach (DataRow row in roomPeopleTable.Rows)
+            {
+                roomPeopleList.Add(row["min_use_number"].ToString());
+            }
+
+            return roomPeopleList;
         }
 
         ///// <summary>

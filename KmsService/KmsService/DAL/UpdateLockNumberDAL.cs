@@ -5,6 +5,11 @@ namespace KmsService.DAL
 {
     public class UpdateLockNumberDAL
     {
+        /// <summary>
+        /// 更新会议室表锁id根据会议室名称
+        /// </summary>
+        /// <param name="roomName">会议室名称</param>
+        /// <param name="lockNumber">锁ID</param>
         public int UpdateLockState(string roomID, string lockNumber)
         {
             string sql = "update t_room set lock_number = @LockNumber,update_time =now() where room_name =@roomID";

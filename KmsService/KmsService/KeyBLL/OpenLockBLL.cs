@@ -5,6 +5,10 @@ using KmsService.Log4;
 using System.Configuration;
 using System.Threading;
 using KmsService.KeyBLL.Scheduled;
+using KmsService.PointInterface;
+using KmsService.AuthInterface;
+using KmsService.DingDingModel;
+using KmsService.DingDingInterface;
 namespace KmsService.KeyBLL
 {
     /// <summary>
@@ -13,7 +17,6 @@ namespace KmsService.KeyBLL
     public class OpenLockBLL
     {
         //private static bool Implement = true;
-
         HttpHelper http = new HttpHelper();
         //string eventID = null;
         /// <summary>
@@ -22,7 +25,7 @@ namespace KmsService.KeyBLL
         /// <param name="keyNumber">钥匙ID</param>
         public void Open(string userId, string eventID)
         {
-
+            LoggerHelper.Info("调用开锁方法:代码走到这里了"+userId+"、"+eventID);
             try
             {
                
@@ -65,12 +68,27 @@ namespace KmsService.KeyBLL
                     string url = ConfigurationManager.ConnectionStrings["returnKeyCard"].ConnectionString + string.Format("?roomName={0}&calendarID={1}&userID={2}", roomID, calendarID, organizerID);
 
                     string urlResult = http.HttpGet(url);
-                    //创建会议结束时发送归还钥匙消息的定时任务
-                    EndScheduledJob endScheduledJob = new EndScheduledJob();
-                    DateTime endJobTime = Convert.ToDateTime(calendarInfo.EndTime).AddMinutes(-10);
-                    endScheduledJob.EndScheduledTask(endJobTime.ToString());
+
                     
                     LoggerHelper.Info("推送归还钥匙卡片消息：" + urlResult);//把执行的结果展示在日志中
+
+                    if (roomID==ConfigurationManager.ConnectionStrings["insideRoom"].ConnectionString || roomID == ConfigurationManager.ConnectionStrings["outsideRoom"].ConnectionString)
+                    {
+
+                    }
+                    else
+                    {
+                        AddIntegral addIntegral = new AddIntegral();
+                        GetUnionID unionID = new GetUnionID();
+                        GetUnionIDModel unionIDModel = unionID.GetDingDingUnionID(userId);
+                        string phoneNumber = unionIDModel.result.mobile;
+                        GetUserToken getUserToken = new GetUserToken();
+                        UserTokenModel authID = getUserToken.GetToken(phoneNumber);
+                        UserTokenModel userToken= getUserToken.GetToken("superAdmin");
+                        string token = userToken.data.token;
+                        string userAuthID = authID.data.userId;
+                        addIntegral.AddPoints(token, userAuthID);
+                    }
                 }
             }
 
@@ -79,15 +97,6 @@ namespace KmsService.KeyBLL
                 LoggerHelper.Error("调用开锁方法的错误信息：" + ex.Message + "堆栈信息：" + ex.StackTrace);
             }
 
-        }
-
-        //if (result > 0) //调用D层更新会议室状态的方法, 判断影响条数是否>0
-        //{
-        //    throw new Exception("开锁成功");      //开锁成功
-        //}
-        //else
-        //{
-        //    throw new Exception("开锁失败");     //否则，开锁失败
-        //}
+        }       
     }
 }
