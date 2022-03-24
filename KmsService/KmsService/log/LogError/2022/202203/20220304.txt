@@ -1,0 +1,30 @@
+
+ 
+记录时间：2022-03-04 14:49:00,456 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+堆栈信息：   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0, Object arg1)
+   在 KmsService.KeyBLL.CalendarStrategyHandler.ManagerTimeSectionBLL.CalendarPushRoomBLL(String calendarID, String userID)
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID)
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID)
+所需参数：日程ID、userID：RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09、164052301629282389
+当前时间：1646376540457
+ 
+
+ 
+记录时间：2022-03-04 14:49:44,497 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+堆栈信息：   在 System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   在 System.String.Format(String format, Object arg0, Object arg1)
+   在 KmsService.KeyBLL.CalendarStrategyHandler.ManagerTimeSectionBLL.CalendarPushRoomBLL(String calendarID, String userID)
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID)
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID)
+所需参数：日程ID、userID：RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09、164052301629282389
+当前时间：1646376584497
+ 

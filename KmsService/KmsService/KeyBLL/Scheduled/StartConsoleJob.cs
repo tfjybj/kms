@@ -13,6 +13,7 @@ namespace KmsService.KeyBLL.Scheduled
     /// </summary>
     public class StartConsoleJob : IJob
     {
+
         /// <summary>
         /// 领取钥匙的定时任务执行逻辑
         /// </summary>
@@ -22,10 +23,6 @@ namespace KmsService.KeyBLL.Scheduled
             await Task.Run(() => {
                 BeforeMeetingStartBLL before = new BeforeMeetingStartBLL();//会议前30分中领取钥匙
                 before.BeforeMeetingStart();
-
-                CancelCardBLL cancel = new CancelCardBLL();
-                cancel.Cancel();//消息卡片作废
-                
             });
         }
     }

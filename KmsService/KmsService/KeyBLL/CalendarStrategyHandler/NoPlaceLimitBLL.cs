@@ -27,17 +27,6 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
         public override string CalendarPushRoomBLL(string calendarID, string userID)
         {
             string roomName = null;
-
-
-            //取出基本数据中使用下限时间和使用上限时间
-            BasicDataDAL basicDataDAL = new BasicDataDAL();
-            BasicDataEntity basicData = basicDataDAL.SelectAllBasicData();
-
-            int upperTime = basicData.UpperTime;
-            int lowerTime = basicData.LowerTime;
-
-            TimeSpan timeSpan = calendarModel.end.dateTime - calendarModel.start.dateTime;
-            int useTime = Convert.ToInt32(timeSpan.TotalMinutes);
             //判断日程中有无地点
             if (calendarModel.location == null)
             {
@@ -48,14 +37,21 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
                 {
                     return roomName;
                 }
+                //取出基本数据中使用下限时间和使用上限时间
+                BasicDataBLL basicDataBll = new BasicDataBLL();
+                BasicDataEntity basicData = basicDataBll.SelectALLBasicData(roomName);
 
-                SelectRoomInfoDAL selectRoomInfo = new SelectRoomInfoDAL();
-                RoomInfoEntity roomInfoEntity = selectRoomInfo.SelectRoomInfo(roomName);
+                int upperTime = basicData.UpperTime;
+                int lowerTime = basicData.LowerTime;
+
+                TimeSpan timeSpan = calendarModel.end.dateTime - calendarModel.start.dateTime;
+                int useTime = Convert.ToInt32(timeSpan.TotalMinutes);
+
                 //判断是否符合时间限制
                 if ((lowerTime <= useTime) || (useTime <= upperTime))
                 {
                     //判断是否符合人数限制
-                    if (calendarModel.attendees.Count() >= roomInfoEntity.MinUseNumber)
+                    if (calendarModel.attendees.Count() >= basicData.MinUseNumber)
                     {
                         roomName = roomName + "+true";
 
@@ -68,7 +64,7 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
                 }
                 else
                 {
-                    roomName = roomInfoEntity.RoomName + "+false";
+                    roomName = basicData.RoomName + "+false";
                 }
                 return roomName;
 

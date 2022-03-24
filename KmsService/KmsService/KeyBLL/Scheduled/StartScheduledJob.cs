@@ -30,8 +30,6 @@ namespace KmsService.KeyBLL.Scheduled
               .WithIdentity(cron)
               .WithCronSchedule(cron) //秒 分 时 某一天 月 周 年(可选参数)
               .Build();
-
-
             //4.将job和trigger加入到作业调度池中
             scheduler.ScheduleJob(job, _CronTrigger);
             //5.开启调度

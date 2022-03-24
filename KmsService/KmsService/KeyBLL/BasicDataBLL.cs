@@ -20,13 +20,13 @@ namespace KmsService.KeyBLL
         /// 查询基本数据配置表全部信息
         /// </summary>
         /// <returns></returns>
-        public BasicDataEntity SelectALLBasicData()
+        public BasicDataEntity SelectALLBasicData(string roomName)
         {
             BasicDataEntity basicDataEntity = new BasicDataEntity();
             try
             {
                 BasicDataDAL basicData = new BasicDataDAL();
-                basicDataEntity = basicData.SelectAllBasicData();
+                basicDataEntity = basicData.SelectAllBasicData(roomName);
             }
             catch (Exception ex)
             {

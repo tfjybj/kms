@@ -19,24 +19,7 @@ namespace dingdingsuccess.BobotHandler
         {
             string authurl;
             string url;
-            #region 循环权限返回值中的具体资源，进行资源名称和消息内容判断是否匹配
-            //foreach (var item in userResourceEntity.data.resourcesTree)
-            //{
-            //    if (content.Contains(item.name))
-            //    {
-            //        if (item.name.Contains("无参"))
-            //        {
-            //            httpHelper.HttpPost(item.url);
-            //        }
-            //        else
-            //        {
 
-            //        }
-
-            //    }
-
-            //}
-            #endregion
 
             try
             {

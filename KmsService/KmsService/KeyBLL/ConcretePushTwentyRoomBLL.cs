@@ -24,8 +24,8 @@ namespace KmsService.KeyBLL
         {
             string roomName = null;
 
-            SelectRoomInfoDAL selectRoomInfo = new SelectRoomInfoDAL();
-            List<string> roomPeopleList = selectRoomInfo.SelectRoomPeople();
+            BasicDataDAL selectRoomInfo = new BasicDataDAL();
+            List<string> roomPeopleList = selectRoomInfo.SelectMinUseNumber();
             //判断参会人数在会议室最低使用人数和会议室使用上限人数之间
             if (participants >= Convert.ToInt32(roomPeopleList[Invariable.Zero]) && participants < Convert.ToInt32(roomPeopleList[Invariable.One]))
             {

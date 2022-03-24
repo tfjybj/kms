@@ -4,7 +4,8 @@ using System.Linq;
 using System.Web;
 using KmsService.DAL;
 using KmsService.Entity;
-
+using System.Configuration;
+using KmsService.Log4;
 namespace KmsService.KeyBLL
 {
     public class CancelCardBLL
@@ -40,26 +41,26 @@ namespace KmsService.KeyBLL
                     roomName = item.RoomName;//查出符合条件的教室
 
                     SelectRoomInfoDAL roomInfo = new SelectRoomInfoDAL();
-                    
+
                     RoomInfoEntity RoomInformation = roomInfo.SelectRoomInfo(roomName);//查出教室的锁号
                     string lockstate = RoomInformation.LockNumber + "isLock";//锁号+锁的关闭状态
                     //当查询到的教室的状态是否是开
                     BeforeMeetingDAL before = new BeforeMeetingDAL();
-                    
                     string state = before.RoomState(roomName);
                     //string newState = state.Substring(2, 6);
 
-                    if (state.Contains("used"))//字符串中不包含isopen
-                    {
-                        UpdateLockStateDAL updateLockState = new UpdateLockStateDAL();
-                        updateLockState.UpdateLockState(roomName, lockstate);//修改教室的状态
+                    UpdateLockStateDAL updateLockState = new UpdateLockStateDAL();
+                    updateLockState.UpdateLockState(roomName, lockstate);//修改教室的状态
+                    string url = ConfigurationManager.ConnectionStrings["updateCard"].ConnectionString + string.Format("?roomName={0}&OutTrackId={1}", roomName, newtrackid);//卡片消息作废
+                    LoggerHelper.Info("卡片过期的url地址：" + url);
+                    before.UpdateIsEnd(calendar);//更新isend状态
+                    string urlResult = httphelper.HttpGet(url);
+                    LoggerHelper.Info("卡片过期的url执行结果：" + urlResult);
+                    //卡片过期就删除日程表中此日程记录
+                    UpdateCalendar updateCalendar = new UpdateCalendar();
+                    updateCalendar.UpdateIsDelete(calendar);
 
-                        string url = string.Format("http://kms.tfjybj.com/kms/actionapi/SendMessage/UpdateReceiveCard?roomName={0}&OutTrackId={1}", roomName, newtrackid);//消息卡片作废
-                        
-                        
-                        before.UpdateIsEnd(calendar);//更新isend状态
-                        httphelper.HttpGet(url);
-                    }
+
 
                 }
 

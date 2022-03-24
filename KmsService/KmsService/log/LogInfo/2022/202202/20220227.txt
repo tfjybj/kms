@@ -1,0 +1,154 @@
+
+ 
+记录时间：2022-02-27 10:32:28,955 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"o5g2otkv9e0m"}
+ 
+
+ 
+记录时间：2022-02-27 10:32:29,346 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-02-27T02:26:59Z","description":"","end":{"dateTime":"2022-02-27T10:45:00+08:00","timeZone":"Asia/Shanghai"},"id":"ZDdGbjQzUmNkaUE1SlljdTZnVnVyUT09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"2A4B2FB5-2D8F-7A96-8B89-443090F39FF1","start":{"dateTime":"2022-02-27T10:30:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"最后一次测试了","updateTime":"2022-02-27T02:26:59Z"}
+ 
+
+ 
+记录时间：2022-02-27 10:32:30,182 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉发送审批实例结果ok
+ 
+
+ 
+记录时间：2022-02-27 10:32:30,183 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：审批实例ID：DHMkbjNrQ_6ELZqVdHzuUA06541645929150
+ 
+
+ 
+记录时间：2022-02-27 10:32:30,466 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取审批实例详情接口的结果：{"errcode":0,"errmsg":"ok","process_instance":{"approver_userids":["164052301629282389"],"attached_process_instance_ids":[],"biz_action":"NONE","business_id":"202202271032000309343","create_time":"2022-02-27 10:32:30","form_component_values":[{"component_type":"TextField","id":"TextField_1JYQDGPB5QIO0","name":"会议室选择","value":"黑马"},{"component_type":"TextField","id":"TextField_S4O47CI4KYO0","name":"开始时间","value":"2022\/2\/27 10:30:00"},{"component_type":"TextField","id":"TextField_ROCKYCXIBSG0","name":"结束时间","value":"2022\/2\/27 10:45:00"},{"component_type":"TextareaField","id":"TextareaField_1VXONOMNSPPC0","name":"使用说明","value":"最后一次测试了"}],"operation_records":[{"date":"2022-02-27 10:32:30","operation_result":"NONE","operation_type":"START_PROCESS_INSTANCE","userid":"164052301629282389"}],"originator_dept_id":"0","originator_dept_name":"天赋吉运(北京)科技有限公司","originator_userid":"164052301629282389","result":"","status":"RUNNING","tasks":[{"activity_id":"b6951627-703e-41ba-9d9b-636825a0197e","create_time":"2022-02-27 10:32:30","task_result":"NONE","task_status":"RUNNING","taskid":"72904899946","url":"?procInsId=DHMkbjNrQ_6ELZqVdHzuUA06541645929150&taskId=72904899946&businessId=202202271032000309343","userid":"164052301629282389"}],"title":"王梦杰提交的会议室预定"},"request_id":"3uepuc5j3kup"}
+ 
+
+ 
+记录时间：2022-02-27 10:34:11,111 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"zjk0ufatueu4"}
+ 
+
+ 
+记录时间：2022-02-27 10:34:11,344 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-02-27T02:26:59Z","description":"","end":{"dateTime":"2022-02-27T10:45:00+08:00","timeZone":"Asia/Shanghai"},"id":"ZDdGbjQzUmNkaUE1SlljdTZnVnVyUT09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"AE51C718-4199-772B-A6DE-0A7B4B537C63","start":{"dateTime":"2022-02-27T10:30:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"最后一次测试了","updateTime":"2022-02-27T02:26:59Z"}
+ 
+
+ 
+记录时间：2022-02-27 10:34:11,822 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉发送审批实例结果ok
+ 
+
+ 
+记录时间：2022-02-27 10:34:11,822 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：审批实例ID：9F83sTt1RTa4hSrbbO1Bgw06541645929251
+ 
+
+ 
+记录时间：2022-02-27 10:34:12,069 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取审批实例详情接口的结果：{"errcode":0,"errmsg":"ok","process_instance":{"approver_userids":["164052301629282389"],"attached_process_instance_ids":[],"biz_action":"NONE","business_id":"202202271034000116635","create_time":"2022-02-27 10:34:12","form_component_values":[{"component_type":"TextField","id":"TextField_1JYQDGPB5QIO0","name":"会议室选择","value":"黑马"},{"component_type":"TextField","id":"TextField_S4O47CI4KYO0","name":"开始时间","value":"2022\/2\/27 10:30:00"},{"component_type":"TextField","id":"TextField_ROCKYCXIBSG0","name":"结束时间","value":"2022\/2\/27 10:45:00"},{"component_type":"TextareaField","id":"TextareaField_1VXONOMNSPPC0","name":"使用说明","value":"最后一次测试了"}],"operation_records":[{"date":"2022-02-27 10:34:11","operation_result":"NONE","operation_type":"START_PROCESS_INSTANCE","userid":"164052301629282389"}],"originator_dept_id":"0","originator_dept_name":"天赋吉运(北京)科技有限公司","originator_userid":"164052301629282389","result":"","status":"RUNNING","tasks":[{"activity_id":"16ac1a09-94f6-426f-8d8e-5fca59722cd7","create_time":"2022-02-27 10:34:12","task_result":"NONE","task_status":"RUNNING","taskid":"72904951717","url":"?procInsId=9F83sTt1RTa4hSrbbO1Bgw06541645929251&taskId=72904951717&businessId=202202271034000116635","userid":"164052301629282389"}],"title":"王梦杰提交的会议室预定"},"request_id":"zvvgrudctgmk"}
+ 
+
+ 
+记录时间：2022-02-27 10:35:32,894 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"vm7cj5kpf7jh"}
+ 
+
+ 
+记录时间：2022-02-27 10:35:33,014 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-02-27T02:26:59Z","description":"","end":{"dateTime":"2022-02-27T10:45:00+08:00","timeZone":"Asia/Shanghai"},"id":"ZDdGbjQzUmNkaUE1SlljdTZnVnVyUT09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"F7CC8C6B-0004-7511-B21D-CDB7431F4B8B","start":{"dateTime":"2022-02-27T10:30:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"最后一次测试了","updateTime":"2022-02-27T02:26:59Z"}
+ 
+
+ 
+记录时间：2022-02-27 10:35:48,065 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"pnchcikx2pam"}
+ 
+
+ 
+记录时间：2022-02-27 10:35:48,172 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-02-27T02:26:59Z","description":"","end":{"dateTime":"2022-02-27T10:45:00+08:00","timeZone":"Asia/Shanghai"},"id":"ZDdGbjQzUmNkaUE1SlljdTZnVnVyUT09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"3F1550B1-5A5B-7164-8B60-58330939E117","start":{"dateTime":"2022-02-27T10:30:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"最后一次测试了","updateTime":"2022-02-27T02:26:59Z"}
+ 
+
+ 
+记录时间：2022-02-27 10:35:48,667 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉发送审批实例结果ok
+ 
+
+ 
+记录时间：2022-02-27 10:35:48,667 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：审批实例ID：IMpwXqbqSk-yYu-iIiz1Iw06541645929348
+ 
+
+ 
+记录时间：2022-02-27 10:35:48,929 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取审批实例详情接口的结果：{"errcode":0,"errmsg":"ok","process_instance":{"approver_userids":["164052301629282389"],"attached_process_instance_ids":[],"biz_action":"NONE","business_id":"202202271035000482597","create_time":"2022-02-27 10:35:49","form_component_values":[{"component_type":"TextField","id":"TextField_1JYQDGPB5QIO0","name":"会议室选择","value":"黑马"},{"component_type":"TextField","id":"TextField_S4O47CI4KYO0","name":"开始时间","value":"2022\/2\/27 10:30:00"},{"component_type":"TextField","id":"TextField_ROCKYCXIBSG0","name":"结束时间","value":"2022\/2\/27 10:45:00"},{"component_type":"TextareaField","id":"TextareaField_1VXONOMNSPPC0","name":"使用说明","value":"最后一次测试了"}],"operation_records":[{"date":"2022-02-27 10:35:48","operation_result":"NONE","operation_type":"START_PROCESS_INSTANCE","userid":"164052301629282389"}],"originator_dept_id":"0","originator_dept_name":"天赋吉运(北京)科技有限公司","originator_userid":"164052301629282389","result":"","status":"RUNNING","tasks":[{"activity_id":"11e9568c-25ce-4a0d-97ad-9502a104dc3e","create_time":"2022-02-27 10:35:49","task_result":"NONE","task_status":"RUNNING","taskid":"72822185603","url":"?procInsId=IMpwXqbqSk-yYu-iIiz1Iw06541645929348&taskId=72822185603&businessId=202202271035000482597","userid":"164052301629282389"}],"title":"王梦杰提交的会议室预定"},"request_id":"vt2vna6m5p4t"}
+ 
+
+ 
+记录时间：2022-02-27 10:38:35,108 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"46pq6j1qds6u"}
+ 
+
+ 
+记录时间：2022-02-27 10:38:35,489 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-02-27T02:26:59Z","description":"","end":{"dateTime":"2022-02-27T10:45:00+08:00","timeZone":"Asia/Shanghai"},"id":"ZDdGbjQzUmNkaUE1SlljdTZnVnVyUT09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"C16D3957-C937-7212-87AD-887CC5BFFA63","start":{"dateTime":"2022-02-27T10:30:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"最后一次测试了","updateTime":"2022-02-27T02:26:59Z"}
+ 
+
+ 
+记录时间：2022-02-27 10:38:36,236 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉发送审批实例结果ok
+ 
+
+ 
+记录时间：2022-02-27 10:38:36,237 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：审批实例ID：ido3C1MrQCSU9pPRzo1Ymw06541645929516
+ 
+
+ 
+记录时间：2022-02-27 10:38:36,417 
+线程ID:[10] 
+日志级别：  INFO  
+日志描述：调用钉钉获取审批实例详情接口的结果：{"errcode":0,"errmsg":"ok","process_instance":{"approver_userids":["164052301629282389"],"attached_process_instance_ids":[],"biz_action":"NONE","business_id":"202202271038000360958","create_time":"2022-02-27 10:38:36","form_component_values":[{"component_type":"TextField","id":"TextField_1JYQDGPB5QIO0","name":"会议室选择","value":"黑马"},{"component_type":"TextField","id":"TextField_S4O47CI4KYO0","name":"开始时间","value":"2022\/2\/27 10:30:00"},{"component_type":"TextField","id":"TextField_ROCKYCXIBSG0","name":"结束时间","value":"2022\/2\/27 10:45:00"},{"component_type":"TextareaField","id":"TextareaField_1VXONOMNSPPC0","name":"使用说明","value":"最后一次测试了"}],"operation_records":[{"date":"2022-02-27 10:38:36","operation_result":"NONE","operation_type":"START_PROCESS_INSTANCE","userid":"164052301629282389"}],"originator_dept_id":"0","originator_dept_name":"天赋吉运(北京)科技有限公司","originator_userid":"164052301629282389","result":"","status":"RUNNING","tasks":[{"activity_id":"e636c0ee-51b1-476f-b3d1-0340d08a7443","create_time":"2022-02-27 10:38:36","task_result":"NONE","task_status":"RUNNING","taskid":"72855758010","url":"?procInsId=ido3C1MrQCSU9pPRzo1Ymw06541645929516&taskId=72855758010&businessId=202202271038000360958","userid":"164052301629282389"}],"title":"王梦杰提交的会议室预定"},"request_id":"ao5b3eaq6osr"}
+ 

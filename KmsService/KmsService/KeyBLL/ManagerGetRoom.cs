@@ -17,46 +17,29 @@ namespace KmsService.KeyBLL
         /// </summary>
         /// <param name="room">管理员发送消息内容</param>
         /// <returns></returns>
-        public string GetRoom(string room)
+        public string GetRoom(string room,string managerID)
         {
-            string roomName = null;
+            
             try
             {
-                SelectRoomInfoDAL selectRoomInfo = new SelectRoomInfoDAL();
-                if (room.Contains("：")||room.Contains(":"))
-                {
-                    //中文冒号切割字符串
-                    string[] cArray = room.Split('：');
-                    foreach (var item in cArray)
-                    {
-                        roomName = selectRoomInfo.SelectRoomName(item).RoomName;
-                       
-                    }
-                    if (roomName!=null)
-                    {
-                        return roomName;
-                    }
-                    else
-                    {
-                        string[] eArray = room.Split(':');
-                        foreach (var item in eArray)
-                        {
-                            roomName = selectRoomInfo.SelectRoomName(item).RoomName;
-                            
-                        }
-                        return roomName;
-                    }
-
-
-                    //英文冒号切割字符串
-
-                }
-                return roomName;
+                //职责链进行处理管理员使用钥匙的业务
+                ManagerGetKeyHandler.GetRoomHandler contentHandler=new ManagerGetKeyHandler.ContentHandler();
+                ManagerGetKeyHandler.GetRoomHandler roomHandler =new ManagerGetKeyHandler.RoomHandler();
+                ManagerGetKeyHandler.GetRoomHandler timeSectionHandler =new ManagerGetKeyHandler.TimeSectionHandler();
+                ManagerGetKeyHandler.GetRoomHandler managerOccupiedHandler =new ManagerGetKeyHandler.ManagerOccupiedHandler();
+                ManagerGetKeyHandler.GetRoomHandler userOccupieHandler=new ManagerGetKeyHandler.UserOccupiedHandler();
+                ManagerGetKeyHandler.GetRoomHandler isExistRoom=new ManagerGetKeyHandler.IsExistRoomHandler();
+                contentHandler.SetSuccessor(isExistRoom);
+                isExistRoom.SetSuccessor(userOccupieHandler);
+                userOccupieHandler.SetSuccessor(managerOccupiedHandler);
+                managerOccupiedHandler.SetSuccessor(roomHandler);
+                roomHandler.SetSuccessor(timeSectionHandler);               
+                return contentHandler.GetRoom(room, managerID);
             }
             catch (Exception e)
             {
-                LoggerHelper.Error("管理员发送消息获取消息中的关键字错误信息：" + e.Message + "堆栈信息：" + e.StackTrace);
-                return roomName;
+                LoggerHelper.Error("管理员发送消息获取消息中的关键字错误信息：" + e.Message + "\n堆栈信息：" + e.StackTrace);
+                return null;
             }
 
 
@@ -73,13 +56,13 @@ namespace KmsService.KeyBLL
             {
                 if (record.InsertRecord(managerRecord) == 0)
                 {
-                    throw new Exception("插入失败");
+                    LoggerHelper.Info("管理员领取钥匙插入记录失败：" + managerRecord.user_id + "\n卡片id：" + managerRecord.get_out_track_id);
                 }
             }
             catch (Exception e)
             {
 
-                LoggerHelper.Error("管理员领取钥匙记录插入信息：" + e.Message + "    具体信息：" + e.StackTrace);
+                LoggerHelper.Error("管理员领取钥匙记录插入信息：" + e.Message + "\n具体信息：" + e.StackTrace);
             }
         }
 
@@ -93,13 +76,13 @@ namespace KmsService.KeyBLL
             {
                 if (record.UpdateCancelRecord(cardID) == 0)
                 {
-                    throw new Exception("更新失败");
+                    LoggerHelper.Info("更新失败,卡片ID：" + cardID);
                 }
             }
             catch (Exception e)
             {
 
-                LoggerHelper.Error("作废卡片，更新卡片是否可使用记录：" + e.Message + "    具体信息：" + e.StackTrace);
+                LoggerHelper.Error("作废卡片，更新卡片是否可使用记录：" + e.Message + "\n具体信息：" + e.StackTrace);
             }
 
 
@@ -118,7 +101,7 @@ namespace KmsService.KeyBLL
             }
             catch (Exception e)
             {
-                LoggerHelper.Error("管理员领取钥匙记录更新错误信息信息：" + e.Message + "    具体信息：" + e.StackTrace);
+                LoggerHelper.Error("管理员领取钥匙记录更新错误信息信息：" + e.Message + "\n具体信息：" + e.StackTrace);
                 return 0;
                 
             }
@@ -144,7 +127,7 @@ namespace KmsService.KeyBLL
             catch (Exception e)
             {
 
-                LoggerHelper.Error("管理员归还钥匙记录：" + e.Message + "    具体信息：" + e.StackTrace);
+                LoggerHelper.Error("管理员归还钥匙记录：" + e.Message + "\n具体信息：" + e.StackTrace);
             }
         }
 

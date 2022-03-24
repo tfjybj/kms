@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Web;
-using dingdingsuccess.DingDingInterface;
-using Newtonsoft.Json;
-using dingdingsuccess.AuthEntity;
+﻿using dingdingsuccess.AuthEntity;
 using dingdingsuccess.Log4;
+using Newtonsoft.Json;
+using System;
+using System.Configuration;
 namespace dingdingsuccess.BobotHandler
 {
     public class GradeHandler : DialogueHandler
@@ -16,16 +12,12 @@ namespace dingdingsuccess.BobotHandler
         /// </summary>
         /// <param name="ddID"></param>
         /// <param name="content"></param>
-        public override void HandleRequest(string ddID,string content)
+        public override void HandleRequest(string ddID, string content)
         {
             //string userUrl;
-            string userResourceUrl=null;
+            string userResourceUrl = null;
 
 
-            ////根据钉钉ID获取用户手机号
-            //userUrl = string.Format(ConfigurationManager.ConnectionStrings["getUserByDingid"].ConnectionString, ddID);
-            //httpHelper.HttpGet(userUrl);
-            //userEntity = JsonConvert.DeserializeObject<AuthUserEntity>(httpHelper.HttpGet(userUrl));
 
             try
             {
@@ -40,14 +32,14 @@ namespace dingdingsuccess.BobotHandler
                 }
                 else
                 {
-                    LoggerHelper.Info("判断用权限职责链的信息："+userResourceEntity.data.productEnglishName);
+                    LoggerHelper.Info("判断用权限职责链的信息：" + userResourceEntity.data.productEnglishName);
                     successor.HandleRequest(ddID, content);
                 }
             }
             catch (Exception e)
             {
-                LoggerHelper.Error("判断用权限职责链的错误信息：" + e.Message + "\n具体信息：" + e.StackTrace+"\n具体参数信息："+userResourceUrl);
-                
+                LoggerHelper.Error("判断用权限职责链的错误信息：" + e.Message + "\n具体信息：" + e.StackTrace + "\n具体参数信息：" + userResourceUrl);
+
             }
 
 

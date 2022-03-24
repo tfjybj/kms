@@ -1,0 +1,32 @@
+
+ 
+记录时间：2022-03-06 21:02:28,636 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/3/6 21:02:28  结束时间：2022/3/6 21:02:28 总 时 间：28秒
+        Form：
+ 
+
+ 
+记录时间：2022-03-06 21:02:28,646 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：Action执行时间监控：ControllerName：HomeController ActionName:Index 开始时间：2022/3/6 21:02:28  结束时间：2022/3/6 21:02:28 总 时 间：42秒
+        Form：
+ 
+
+ 
+记录时间：2022-03-06 21:02:30,656 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/3/6 21:02:28  结束时间：2022/3/6 21:02:30 总 时 间：28秒
+        Form：
+ 
+
+ 
+记录时间：2022-03-06 21:02:30,656 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：View视图生成时间监控：ControllerName：HomeController ViewName:Index 开始时间：2022/3/6 21:02:28  结束时间：2022/3/6 21:02:30 总 时 间：42秒
+        Form：
+ 
