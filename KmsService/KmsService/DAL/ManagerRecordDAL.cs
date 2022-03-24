@@ -7,6 +7,8 @@ using System.Data;
 using MySql.Data.MySqlClient;
 using KmsService.Entity;
 using System;
+using System.Collections.Generic;
+
 namespace KmsService.DAL
 {
     public class ManagerRecordDAL
@@ -15,6 +17,37 @@ namespace KmsService.DAL
         public ManagerRecordDAL()
         {
             sqlHelper = new SQLHelper();
+        }
+
+        /// <summary>
+        /// 查询管理员表某个会议室正在使用的管理员
+        /// </summary>
+        /// <param name="roomName">房间名称</param>
+        /// <returns>管理员实体集合</returns>
+        public List<ManagerRecordEntity> SelectSameTimeManagerUse(string roomName)
+        {
+            string sql = "SELECT manager_name,key_name,user_id,get_time,is_return_key,is_cancel FROM t_manager_record WHERE key_name=@roomName AND get_time is NOT null and to_days(create_time)=to_days(now()) and is_return_key = @isReturnKey and is_cancel = @isCancel";
+            MySqlParameter[] mySqlParameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@roomName",roomName),
+                new MySqlParameter("@isReturnKey","0"),
+                new MySqlParameter("@isCancel","0")
+            };
+            List<ManagerRecordEntity> managerRecords = new List<ManagerRecordEntity>();
+            DataTable managerRecordDataTable = sqlHelper.ExecuteQuery(sql,mySqlParameters,CommandType.Text);
+            foreach (DataRow row in managerRecordDataTable.Rows)
+            {
+                managerRecords.Add(new ManagerRecordEntity() 
+                { 
+                    manager_name=row["manager_name"].ToString(),
+                    key_name = row["key_name"].ToString(),
+                    user_id=row["user_id"].ToString(),
+                    get_time = row["get_time"].ToString(),
+                    is_return_key = row["is_return_key"].ToString(),
+                    is_cancel = row["is_cancel"].ToString()
+                });
+            }
+            return managerRecords;
         }
 
         /// <summary>
@@ -109,17 +142,40 @@ namespace KmsService.DAL
         /// </summary>
         /// <param name="returnCardID">归还钥匙卡片ID</param>
         /// <returns>钥匙名称</returns>
-        public string SelectReturnKey(string returnCardID)
+        public ManagerRecordEntity SelectReturnKey(string returnCardID)
         {
-            string returnKeyName = null;
-            string sql = "select key_name from t_manager_record where return_out_track_id=@returnCardID and is_return_key='0'";
+           
+            string sql = "select key_name,user_id from t_manager_record where return_out_track_id=@returnCardID and is_return_key='0'";
             MySqlParameter[] mysql = new MySqlParameter[] { new MySqlParameter("@returnCardID", returnCardID) };
             DataTable dataTable = sqlHelper.ExecuteQuery(sql, mysql, CommandType.Text);
+            ManagerRecordEntity record = new ManagerRecordEntity();
             foreach (DataRow item in dataTable.Rows)
             {
-                returnKeyName = item["key_name"].ToString();
+                record.key_name = item["key_name"].ToString();
+                record.user_id = item["user_id"].ToString();
             }
-            return returnKeyName;
+            return record;
+        }
+
+        /// <summary>
+        /// 查询正在使用中的记录
+        /// </summary>
+        /// <param name="roomName">会议室名称</param>
+        /// <returns></returns>
+        public ManagerRecordEntity SelectOccupiedRecord(string roomName)
+        {
+            string sql = "select * from t_manager_record where  key_name=@roomName  and to_days(get_time)=to_days(now()) and is_return_key=0";
+            MySqlParameter[] mysql = new MySqlParameter[] { new MySqlParameter("@roomName", roomName) };
+            DataTable dataTable = sqlHelper.ExecuteQuery(sql, mysql, CommandType.Text);
+            ManagerRecordEntity Occupiedrecord = new ManagerRecordEntity();
+            foreach (DataRow item in dataTable.Rows)
+            {
+                Occupiedrecord.key_name = item["key_name"].ToString();
+                Occupiedrecord.user_id = item["user_id"].ToString();
+                Occupiedrecord.manager_name=item["manager_name"].ToString();
+                
+            }
+            return Occupiedrecord;
         }
 
 

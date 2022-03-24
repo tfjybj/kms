@@ -24,8 +24,8 @@ namespace KmsService.KeyBLL
         {
             string roomName = null;
 
-            SelectRoomInfoDAL selectRoomInfo = new SelectRoomInfoDAL();
-            List<string> roomPeopleList = selectRoomInfo.SelectRoomPeople();
+            BasicDataDAL selectRoomInfo = new BasicDataDAL();
+            List<string> roomPeopleList = selectRoomInfo.SelectMinUseNumber();
             //判断参会人数大于等于40
             if (participants >= Convert.ToInt32(roomPeopleList[2]))
             {

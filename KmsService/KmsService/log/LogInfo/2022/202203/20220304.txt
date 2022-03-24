@@ -1,0 +1,136 @@
+
+ 
+记录时间：2022-03-04 14:47:00,420 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：用户发起日程调用推送会议室方法：RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09、164052301629282389
+当前时间：1646376420420
+ 
+
+ 
+记录时间：2022-03-04 14:47:00,964 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[100734529,100561515,70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512},{"dept_id":100734529,"order":176271524270372512},{"dept_id":100561515,"order":176271524050311512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":100734529,"leader":false},{"dept_id":100561515,"leader":false},{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"zvh6h1a9sjhn"}
+当前时间：1646376420965
+ 
+
+ 
+记录时间：2022-03-04 14:47:01,329 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-03-04T06:45:31Z","description":"","end":{"dateTime":"2022-03-04T14:52:00+08:00","timeZone":"Asia/Shanghai"},"id":"RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"9C84526F-1E08-7D89-A0F5-F51E41AB543B","start":{"dateTime":"2022-03-04T14:50:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"测试一下：判断管理员是否使用","updateTime":"2022-03-04T06:45:31Z"}
+当前时间：1646376421329
+ 
+
+ 
+记录时间：2022-03-04 14:47:34,639 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：用户发起日程推送的会议室名称：黑马+false
+当前时间：1646376454639
+ 
+
+ 
+记录时间：2022-03-04 14:47:52,971 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：用户发起日程调用推送会议室方法：RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09、164052301629282389
+当前时间：1646376472972
+ 
+
+ 
+记录时间：2022-03-04 14:47:53,105 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[100734529,100561515,70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512},{"dept_id":100734529,"order":176271524270372512},{"dept_id":100561515,"order":176271524050311512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":100734529,"leader":false},{"dept_id":100561515,"leader":false},{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"qkqdd8vq6itu"}
+当前时间：1646376473106
+ 
+
+ 
+记录时间：2022-03-04 14:47:53,216 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-03-04T06:45:31Z","description":"","end":{"dateTime":"2022-03-04T14:52:00+08:00","timeZone":"Asia/Shanghai"},"id":"RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"9B5D5073-2C25-7FD0-8A3F-B35608F9ACB1","start":{"dateTime":"2022-03-04T14:50:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"测试一下：判断管理员是否使用","updateTime":"2022-03-04T06:45:31Z"}
+当前时间：1646376473217
+ 
+
+ 
+记录时间：2022-03-04 14:49:27,390 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：用户发起日程调用推送会议室方法：RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09、164052301629282389
+当前时间：1646376567390
+ 
+
+ 
+记录时间：2022-03-04 14:49:27,606 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[100734529,100561515,70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512},{"dept_id":100734529,"order":176271524270372512},{"dept_id":100561515,"order":176271524050311512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":100734529,"leader":false},{"dept_id":100561515,"leader":false},{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"5evgei9f1z3a"}
+当前时间：1646376567606
+ 
+
+ 
+记录时间：2022-03-04 14:49:27,854 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-03-04T06:45:31Z","description":"","end":{"dateTime":"2022-03-04T14:52:00+08:00","timeZone":"Asia/Shanghai"},"id":"RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"EC0D853A-F128-752E-836C-5AADB6190FEA","start":{"dateTime":"2022-03-04T14:50:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"测试一下：判断管理员是否使用","updateTime":"2022-03-04T06:45:31Z"}
+当前时间：1646376567854
+ 
+
+ 
+记录时间：2022-03-04 14:49:46,951 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：用户发起日程调用推送会议室方法：RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09、164052301629282389
+当前时间：1646376586951
+ 
+
+ 
+记录时间：2022-03-04 14:49:47,094 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[100734529,100561515,70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512},{"dept_id":100734529,"order":176271524270372512},{"dept_id":100561515,"order":176271524050311512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":100734529,"leader":false},{"dept_id":100561515,"leader":false},{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"xd9kivd2gecb"}
+当前时间：1646376587094
+ 
+
+ 
+记录时间：2022-03-04 14:49:47,200 
+线程ID:[12] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-03-04T06:45:31Z","description":"","end":{"dateTime":"2022-03-04T14:52:00+08:00","timeZone":"Asia/Shanghai"},"id":"RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"319EB3E8-F39E-7F0B-8297-835B21C0DD04","start":{"dateTime":"2022-03-04T14:50:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"测试一下：判断管理员是否使用","updateTime":"2022-03-04T06:45:31Z"}
+当前时间：1646376587200
+ 
+
+ 
+记录时间：2022-03-04 14:53:42,773 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：用户发起日程调用推送会议室方法：RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09、164052301629282389
+当前时间：1646376822772
+ 
+
+ 
+记录时间：2022-03-04 14:53:43,324 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：调用钉钉根据用户的userID获取用户信息的结果：{"errcode":0,"errmsg":"ok","result":{"active":true,"admin":false,"avatar":"https:\/\/static-legacy.dingtalk.com\/media\/lALPDeREVhqzIfvNAmbNAmY_614_614.png","boss":false,"dept_id_list":[100734529,100561515,70986001],"dept_order_list":[{"dept_id":70986001,"order":176353128549431512},{"dept_id":100734529,"order":176271524270372512},{"dept_id":100561515,"order":176271524050311512}],"exclusive_account":false,"hide_mobile":false,"job_number":"","leader_in_dept":[{"dept_id":100734529,"leader":false},{"dept_id":100561515,"leader":false},{"dept_id":70986001,"leader":false}],"mobile":"17692619963","name":"王梦杰","real_authed":true,"senior":false,"state_code":"86","title":"","union_emp_ext":{},"unionid":"ky4kC3mWeILZvQcr6rQWOgiEiE","userid":"164052301629282389"},"request_id":"nkdgopji7sab"}
+当前时间：1646376823324
+ 
+
+ 
+记录时间：2022-03-04 14:53:43,653 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：调用钉钉获取单个日程详情的结果：{"attendees":[{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","responseStatus":"accepted","self":true}],"createTime":"2022-03-04T06:45:31Z","description":"","end":{"dateTime":"2022-03-04T14:52:00+08:00","timeZone":"Asia/Shanghai"},"id":"RVdza1pnQ1loVTQxU3B3MGp5NE1Pdz09","isAllDay":false,"location":{"displayName":"黑马"},"organizer":{"displayName":"王梦杰","id":"ky4kC3mWeILZvQcr6rQWOgiEiE","self":true},"requestId":"A51A513D-3BAB-7F7C-B061-801A4F867EB2","start":{"dateTime":"2022-03-04T14:50:00+08:00","timeZone":"Asia/Shanghai"},"status":"confirmed","summary":"测试一下：判断管理员是否使用","updateTime":"2022-03-04T06:45:31Z"}
+当前时间：1646376823654
+ 
+
+ 
+记录时间：2022-03-04 14:54:12,254 
+线程ID:[9] 
+日志级别：  INFO  
+日志描述：用户发起日程推送的会议室名称：
+当前时间：1646376852255
+ 

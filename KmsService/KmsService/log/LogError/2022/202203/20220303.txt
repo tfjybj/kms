@@ -1,0 +1,26 @@
+
+ 
+记录时间：2022-03-03 09:19:38,502 
+线程ID:[17] 
+日志级别：  ERROR 
+错误描述：用户点击同意自动发送审批方法错误信息：：调用：SendApprove方法，我抛一个异常，它就走不了下面代码了。
+堆栈信息：   在 KmsService.KeyBLL.SendApproveBLL.SendApprove(String calendarID, String userID, String roomName) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\SendApproveBLL.cs:行号 65
+所需参数：日程ID、userID：aWlqa080OGg4dFZibmczR1ZiVnBlQT09164052301629282389
+当前时间：1646270378503
+ 
+
+ 
+记录时间：2022-03-03 09:37:29,954 
+线程ID:[49] 
+日志级别：  ERROR 
+错误描述：调用判断审批是否同意方法的错误信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'calendar_is_void' in 'field list'
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 KmsService.DAL.SQLHelper.ExecuteNonQuery(String cmdText, MySqlParameter[] paras, CommandType type) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\DAL\SQLHelper.cs:行号 76
+   在 KmsService.DAL.UpdateCalendar.UpdateCalendarVoid(String calendarID, String state) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\DAL\UpdateCalendar.cs:行号 63
+   在 KmsService.KeyBLL.SendApproveBLL.GetApproveResult(ApproveInstanceModel approveContent) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\KeyBLL\SendApproveBLL.cs:行号 301
+ 

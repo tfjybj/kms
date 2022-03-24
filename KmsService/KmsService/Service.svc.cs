@@ -1,12 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
-using KmsService;
 using KmsService.AuthInterface;
 using KmsService.DAL;
 using KmsService.DingDingInterface;
@@ -14,75 +8,115 @@ using KmsService.DingDingModel;
 using KmsService.Entity;
 using KmsService.KeyBLL;
 using KmsService.KeyBLL.CalendarStrategyHandler;
-
+using KmsService.KeyBLL.RoomConfigurationHandler;
+using KmsService.KeyBLL.SendApproveHandler;
+using KmsService.PointInterface;
 namespace KmsService
 {
     // 注意: 使用“重构”菜单上的“重命名”命令，可以同时更改代码、svc 和配置文件中的类名“Service1”。
     // 注意: 为了启动 WCF 测试客户端以测试此服务，请在解决方案资源管理器中选择 Service1.svc 或 Service1.svc.cs，然后开始调试。
     public class Service : IService
     {
-        #region 更新教室数据基础表
+        #region 获取审批人
+        public List<AllusersEntitiesItem> GetApprover()
+        {
+            GetApproverBLL getApproverBLL = new GetApproverBLL();
+            return getApproverBLL.GetApprover();
+        }
+        #endregion
+        #region 管理员会议室配置
+        public bool ModifyRoom(string basicDataStr, BasicDataEntity newBasicData, BasicDataEntity oldBasicData, List<string> allLockNumber)
+        {
+            ModifyRoomBLL modifyRoomBLL = new ModifyRoomBLL();
+            return modifyRoomBLL.ModifyRoom(basicDataStr, newBasicData, oldBasicData, allLockNumber);
+        }
+        #endregion
 
+        #region 更新教室数据基础表        
         /// <summary>
-        /// 更新教室名称
+        /// 取出所有教室信息
         /// </summary>
-        /// <param name="ID">教室id</param>
-        /// <param name="caName">新的教室名称</param>
-        /// <returns></returns>
-        public int UpdateRoomName(string ID, string caName)
+        /// <returns>基本数据配置信息</returns>
+        public DataTable SelectBasicData()
         {
-            ModifyConfiguration modify = new ModifyConfiguration();
-            return modify.UpdateRoomName(ID, caName);
-        }
-
-        /// <summary>
-        /// 最少使用人数
-        /// </summary>
-        /// <param name="ID"></param>
-        /// <param name="minUseNumber"></param>
-        /// <returns></returns>
-        public int UpdateMinUseNumber(string ID, string minUseNumber)
-        {
-            ModifyConfiguration modify = new ModifyConfiguration();
-            return modify.UpdateMinUseNumber(ID, minUseNumber);
-        }
-
-        public int UpdateBeforeTakeKey(string ID, string beforeTakeKey)//会议前*分钟取钥匙
-        {
-            ModifyConfiguration modify = new ModifyConfiguration();
-            return modify.UpdateBeforeTakeKey(ID, beforeTakeKey);
-        }
-
-        public int UpdateAfterReturnKey(string ID, string afterReturnKey)//会议前*分钟归还钥匙
-        {
-            ModifyConfiguration modify = new ModifyConfiguration();
-            return modify.UpdateAfterReturnKey(ID, afterReturnKey);
-        }
-
-        public int UpdateUpperTime(string ID, string upperTime)//会议最长使用时间
-        {
-            ModifyConfiguration modify = new ModifyConfiguration();
-            return modify.UpdateUpperTime(ID, upperTime);
-        }
-
-        public int UpdateLowerTime(string ID, string lowerTime)//会议最少使用时间
-        {
-            ModifyConfiguration modify = new ModifyConfiguration();
-            return modify.UpdateLowerTime(ID, lowerTime);
-        }
-
-        public DataTable SelectBasicData()//取出所有教室信息
-        {
-            ModifyConfiguration modify = new ModifyConfiguration();
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
             return modify.SelectBasicData();
         }
 
-        public bool CaNameIsExists(string caName)//判断教室名称是否已存在
+        /// <summary>
+        /// 判断教室名称是否已存在
+        /// </summary>
+        /// <param name="roomName">教室名称</param>
+        /// <returns>受影响的条数</returns>
+        public bool RoomNameIsExists(string roomName)
         {
-            ModifyConfiguration modify = new ModifyConfiguration();
-            return modify.CaNameIsExists(caName);
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
+            return modify.RoomNameIsExists(roomName);
         }
 
+        /// <summary>
+        /// 判断是否存在此教室id
+        /// </summary>
+        /// <param name="caName">教室名称</param>
+        /// <returns>true:存在此id的教室；false：不存在此i的教室</returns>
+        public bool RoomIdIsExists(string roomId)
+        {
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
+            return modify.RoomIdIsExists(roomId);
+        }
+        /// <summary>
+        /// 更新基本数据配置表
+        /// </summary>
+        /// <param name="basicDataEntity">基本数据配置实体</param>
+        /// <returns>受影响的条数</returns>
+        public int UpdateBasicData(BasicDataEntity basicDataEntity)
+        {
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
+            return modify.UpdateBasicData(basicDataEntity);
+        }
+
+        /// <summary>
+        /// 添加教室
+        /// </summary>
+        /// <param name="basicDataEntity">基本数据配置实体</param>
+        /// <returns>受影响的条数</returns>
+        public int InsertMetting(BasicDataEntity basicDataEntity)
+        {
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
+            return modify.InsertMetting(basicDataEntity);
+        }
+
+        /// <summary>
+        /// 删除会议室
+        /// </summary>
+        /// <param name="roomId">会议室id</param>
+        /// <returns>受影响的条数</returns>
+        public int DeleteMetting(string roomId)
+        {
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
+            return modify.DeleteMetting(roomId);
+        }
+
+        // 获取t_room表已经使用了的锁的编号               
+        public List<string> GetLockNumber()
+        {
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
+            return modify.GetLockNumber();
+        }
+
+        // 更新t_room表会议室名称
+        public int UpdateRoomName(int id, string roomName)
+        {
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
+            return modify.UpdateRoomName(id, roomName);
+        }
+
+        // t_room表添加教室               
+        public int InsertRoomMetting(RoomInfoEntity roomEntity)
+        {
+            ModifyConfigurationDAL modify = new ModifyConfigurationDAL();
+            return modify.InsertRoomMetting(roomEntity);
+        }
         #endregion 更新教室数据基础表
 
         //private MQTTServer mqtt = MQTTServer.Instance();
@@ -163,11 +197,7 @@ namespace KmsService
 
         #endregion 用户半小时前领钥匙，会议结束前提示还钥匙，消息卡片作废
 
-        //public int UpdateState(string lockNumber)
-        //{
-        //    OpenLockDAL open = new OpenLockDAL();
-        //    return open.UpdateState(lockNumber);
-        //}
+
         /// <summary>
         /// 获取审批实例ID
         /// </summary>
@@ -355,6 +385,8 @@ namespace KmsService
 
         #region 每周会议室使用情况推送-会议室名称
 
+
+
         /// <summary>
         ///申请人一周使用最多的时间段
         /// </summary>
@@ -404,12 +436,47 @@ namespace KmsService
         /// 获取要发给的所有用户的dingdingID
         /// </summary>
         /// <returns>dingdingID的集合</returns>
-        public List<string> AllDingDingID()
+        //public List<string> AllDingDingID()
+        //{
+        //    PersonReportBLL personReportBLL = new PersonReportBLL();
+        //    return personReportBLL.AllDingDingID();
+        //}
+
+
+        public void RemoveWeekDuplication()//7天需要发送报表的用户，把报表中没有的用户筛选出来，后面会添加到报表中
         {
-            PersonReportBLL personReportBLL = new PersonReportBLL();
-            return personReportBLL.AllDingDingID();
+            PersonReportBLL personReport = new PersonReportBLL();
+            personReport.RemoveWeekDuplication();
         }
 
+
+        public void RemoveMonthDuplication()//30天需要发送报表的用户，把报表中没有的用户筛选出来，后面会添加到报表中
+        {
+            PersonReportBLL personReport = new PersonReportBLL();
+            personReport.RemoveMonthDuplication();
+        }
+
+        /// <summary>
+        /// 根据用户的需求，把月推送改为周推送，周推送改为月推送
+        /// </summary>
+        /// <param name="ddID"></param>
+        /// <param name="state"></param>
+        public void ModifyState(string ddID, string state)
+        {
+            PersonReportDAL personreport = new PersonReportDAL();
+            personreport.ModifyState(ddID, state);
+        }
+
+        /// <summary>
+        /// 获取用户要推送的状态
+        /// </summary>
+        /// <param name="ddID"></param>
+        /// <returns></returns>
+        public string UserPushState(string ddID)
+        {
+            PersonReportBLL personreport = new PersonReportBLL();
+            return personreport.UserPushState(ddID);
+        }
         #endregion 每周会议室使用情况推送-发送的所有人
 
         #region 还钥匙
@@ -453,23 +520,24 @@ namespace KmsService
 
         #region 发送审批并且自动同意或者不自动同意
 
-        public void SendApprove(string calendarID, string userID, string roomName)
+        public void SendApprove(string calendarID, string userID, string roomName, string approveType)
         {
-            SendApproveBLL sendApprove = new SendApproveBLL();
-            sendApprove.SendApprove(calendarID, userID, roomName);
+            KeyBLL.SendApproveHandler.SendApproveBLL sendApprove = new KeyBLL.SendApproveHandler.SendApproveBLL();
+            sendApprove.SendApprove(calendarID, userID, roomName, approveType);
+
         }
         #region 判断审批是否同意
         public void GetApproveResult(ApproveInstanceModel approveContent)
         {
-            new SendApproveBLL().GetApproveResult(approveContent);
+            new GetApproveResultBLL().GetApproveResult(approveContent);
         }
         #endregion
 
-        public void AutoSendApprove(string calendarID, string userID, string roomName)
-        {
-            SendApproveBLL sendApprove = new SendApproveBLL();
-            sendApprove.AutoSendApprove(calendarID, userID, roomName);
-        }
+        //public void AutoSendApprove(string calendarID, string userID, string roomName)
+        //{
+        //    SendApproveBLL sendApprove = new SendApproveBLL();
+        //    sendApprove.AutoSendApprove(calendarID, userID, roomName);
+        //}
 
         #endregion 发送审批并且自动同意或者不自动同意
 
@@ -485,10 +553,10 @@ namespace KmsService
 
         #region 查询基本数据配置表全部信息
 
-        public BasicDataEntity SelectAllBasicData()
+        public BasicDataEntity SelectAllBasicData(string roomName)
         {
             BasicDataDAL basicData = new BasicDataDAL();
-            return basicData.SelectAllBasicData();
+            return basicData.SelectAllBasicData(roomName);
         }
 
         #endregion 查询基本数据配置表全部信息
@@ -539,9 +607,9 @@ namespace KmsService
         }
 
         #region 管理员发送消息获取消息中的关键字
-        public string GetRoom(string room)
+        public string GetRoom(string room, string managerID)
         {
-            return new ManagerGetRoom().GetRoom(room);
+            return new ManagerGetRoom().GetRoom(room, managerID);
 
         }
         #endregion
@@ -610,6 +678,18 @@ namespace KmsService
         public ManagerRecordEntity SelectGetRecord(string cardID)
         {
             return new ManagerGetRoom().SelectGetRecord(cardID);
+        }
+
+        /// <summary>
+        /// 申请会议室加分
+        /// </summary>
+        /// <param name="token">积分机器人token</param>
+        /// <param name="authID">用户权限ID</param>
+        /// <returns></returns>
+        public string AddPoints(string token, string authID)
+        {
+            AddIntegral addIntegral = new AddIntegral();
+            return addIntegral.AddPoints(token, authID); 
         }
 
         #endregion

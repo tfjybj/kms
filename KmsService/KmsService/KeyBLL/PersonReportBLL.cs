@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using KmsService.DAL;
 using KmsService.Log4;
-
 namespace KmsService.KeyBLL
 {
     public class PersonReportBLL
     {
-        private PersonReportDAL personReportDAL = new PersonReportDAL();
+        public  PersonReportDAL personReportDAL = new PersonReportDAL();
 
         /// <summary>
         /// 申请人的一周组织会议的次数
@@ -65,9 +64,89 @@ namespace KmsService.KeyBLL
             return maxTime;
         }
 
-        public List<string> AllDingDingID()
+        //public List<string> AllDingDingID()
+        //{
+        //   // return personReportDAL.AllddID();
+        //}
+
+
+        #region 7天需要发送报表的用户，把报表中没有的用户筛选出来，后面会添加到报表中
+        public void  RemoveWeekDuplication()
         {
-            return personReportDAL.AllddID();
+          List<string> caldar_id=  personReportDAL.WeekddID();//获取需要推送周报的数据用户
+            //List<string> report_id = personReportDAL.month();//获取需要推送月报的用户数据
+            List<string> report_id = personReportDAL.Report();//报表中所有的钉钉id
+            List<string> sameID = null;//存放两个表中相同的数据id
+            foreach (var item in caldar_id)//日程表和报表中相同的集合，删除日程表中的id
+            {
+                if (report_id.Contains(item))
+                {
+                    sameID = new List<string>() { item }; 
+                    caldar_id.Remove(item);//删除相同的id
+                }
+                
+            }
+            foreach (var addID in caldar_id)//把多出来的值添加到数据库中
+            {
+                personReportDAL.AddOrganizerID(addID);
+            }
+            foreach (var allddID in sameID)
+            {
+                personReportDAL.AddOrganizerID(allddID);//判断有哪些id是需要7天发一次的
+            }
+           
+
+        }
+        #endregion
+
+        #region 30天需要发送报表的用户，把报表中没有的用户筛选出来，后面会添加到报表中
+        public void  RemoveMonthDuplication()
+        {
+            List<string> caldar_id = personReportDAL.MonthddID();//获取日程表中需要推送月报的用户
+            List<string> report_id = personReportDAL.Report();//报表中所有的钉钉id
+            List<string> sameID=null ;//存放两个集合重复的数据
+            foreach (var item in caldar_id)//把两个表中重复的数据删除
+            {
+                if (report_id.Contains(item))
+                {
+                     sameID  = new List<string>() { item };//接收两个集合重复的id
+
+
+                caldar_id.Remove(item);//把重复的id删除
+                }
+            }
+            foreach (var addID in caldar_id)//把多出来的值添加到报表数据库中
+            {
+                personReportDAL.AddOrganizerID(addID);//调用添加数据的方法
+            }
+
+            foreach (var allddID in sameID)//给需要月发送的用户发送报表
+            {
+                personReportDAL.Month(allddID);
+            }
+
+            
+        }
+        #endregion
+        /// <summary>
+        /// 用户状态为月推送时，修改状态为周推送，周推送改为月推送
+        /// </summary>
+        /// <param name="ddID"></param>
+        /// <returns></returns>
+        public void ModifyState(string ddID,string state)
+        {
+             personReportDAL.ModifyState(ddID,state); 
+
+        }
+        /// <summary>
+        /// 获取用户的推送状态
+        /// </summary>
+        /// <param name="ddID"></param>
+        /// <returns></returns>
+        public string UserPushState(string ddID)
+        {
+            return personReportDAL.UserPushState(ddID);
+             
         }
     }
 }
