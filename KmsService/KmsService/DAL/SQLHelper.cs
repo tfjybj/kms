@@ -109,7 +109,6 @@ namespace KmsService.DAL
             cmd = new MySqlCommand(cmdText, GetConn());
             cmd.CommandType = type;
             cmd.Parameters.AddRange(paras);
-
             using (sdr = cmd.ExecuteReader(CommandBehavior.CloseConnection))
             {
                 dataTable.Load(sdr);

@@ -1,0 +1,32 @@
+
+ 
+记录时间：2022-02-27 10:32:30,691 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：用户点击同意自动发送审批：Data too long for column 'lock_state' at row 5堆栈信息：   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 KmsService.DAL.SQLHelper.ExecuteNonQuery(String cmdText, MySqlParameter[] paras, CommandType type) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\DAL\SQLHelper.cs:行号 76
+   在 KmsService.DAL.UpdateLockStateDAL.UpdateLockState(String roomName, String lockState) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\DAL\UpdateLockStateDAL.cs:行号 17
+   在 KmsService.KeyBLL.SendApproveBLL.SendApprove(String calendarID, String userID, String roomName) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\KeyBLL\SendApproveBLL.cs:行号 128所需参数：日程ID、userID：ZDdGbjQzUmNkaUE1SlljdTZnVnVyUT09164052301629282389
+ 
+
+ 
+记录时间：2022-02-27 10:34:12,185 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：用户点击同意自动发送审批：Data too long for column 'lock_state' at row 5堆栈信息：   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 KmsService.DAL.SQLHelper.ExecuteNonQuery(String cmdText, MySqlParameter[] paras, CommandType type) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\DAL\SQLHelper.cs:行号 76
+   在 KmsService.DAL.UpdateLockStateDAL.UpdateLockState(String roomName, String lockState) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\DAL\UpdateLockStateDAL.cs:行号 17
+   在 KmsService.KeyBLL.SendApproveBLL.SendApprove(String calendarID, String userID, String roomName) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\KeyBLL\SendApproveBLL.cs:行号 128所需参数：日程ID、userID：ZDdGbjQzUmNkaUE1SlljdTZnVnVyUT09164052301629282389
+ 

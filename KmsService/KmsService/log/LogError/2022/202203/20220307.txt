@@ -1,0 +1,40 @@
+
+ 
+记录时间：2022-03-07 21:26:49,849 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：调用是否插入数据库的错误信息：MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Parameter '@calendarIsVoid' must be defined.
+   在 MySql.Data.MySqlClient.Statement.SerializeParameter(MySqlParameterCollection parameters, MySqlPacket packet, String parmName, Int32 parameterIndex)
+   在 MySql.Data.MySqlClient.Statement.InternalBindParameters(String sql, MySqlParameterCollection parameters, MySqlPacket packet)
+   在 MySql.Data.MySqlClient.Statement.BindParameters()
+   在 MySql.Data.MySqlClient.PreparableStatement.Execute()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 KmsService.DAL.SQLHelper.ExecuteNonQuery(String cmdText, MySqlParameter[] paras, CommandType type) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DAL\SQLHelper.cs:行号 76
+   在 KmsService.DAL.InsertCalendarDateDAL.InsertCalendar(CalendarInfoEntity calendarInfo) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DAL\InsertCalendarDateDAL.cs:行号 38
+   在 KmsService.KeyBLL.SendApproveHandler.InsertCalendarInfoBLL.SendApproveBLL(String calendarID, String userID, String roomName, String approveType) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\SendApproveHandler\InsertCalendarInfoBLL.cs:行号 53
+当前时间：1646659609850
+ 
+
+ 
+记录时间：2022-03-07 22:11:14,956 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：调用开锁方法的错误信息：对象不能从 DBNull 转换为其他类型。堆栈信息：   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 KmsService.DAL.SelectRoomInfoDAL.SelectRoomInfo(String roomName) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DAL\SelectRoomInfoDAL.cs:行号 34
+   在 KmsService.KeyBLL.OpenLockBLL.Open(String userId, String eventID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\OpenLockBLL.cs:行号 54
+当前时间：1646662274957
+ 
+
+ 
+记录时间：2022-03-07 22:12:54,632 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：调用开锁方法的错误信息：对象不能从 DBNull 转换为其他类型。堆栈信息：   在 System.DBNull.System.IConvertible.ToInt32(IFormatProvider provider)
+   在 System.Convert.ToInt32(Object value)
+   在 KmsService.DAL.SelectRoomInfoDAL.SelectRoomInfo(String roomName) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DAL\SelectRoomInfoDAL.cs:行号 34
+   在 KmsService.KeyBLL.OpenLockBLL.Open(String userId, String eventID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\OpenLockBLL.cs:行号 54
+当前时间：1646662374632
+ 

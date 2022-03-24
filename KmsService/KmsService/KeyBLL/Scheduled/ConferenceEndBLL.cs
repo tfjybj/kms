@@ -4,7 +4,7 @@
  * 描述：会议结束时发送归还钥匙提醒的代码
  */
 using System;
-
+using KmsService.Log4;
 namespace KmsService.KeyBLL.Scheduled
 {
     /// <summary>
@@ -18,6 +18,7 @@ namespace KmsService.KeyBLL.Scheduled
         /// <param name="dateTime">定时任务执行时间</param>
         public void GetConferenceEndKey(string dateTime)
         {
+            LoggerHelper.Info("发送归还钥匙提醒的定时任务的执行时间："+dateTime);
             //获取cron表达式
             CronGenerade getCron = new CronGenerade();
             string cron = getCron.GetCron(Convert.ToDateTime(dateTime).AddSeconds(5).ToString());

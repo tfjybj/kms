@@ -1,0 +1,11 @@
+
+ 
+记录时间：2022-02-28 08:50:52,749 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：用户点击同意自动发送审批：Fatal error encountered during command execution.堆栈信息：   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 KmsService.DAL.SQLHelper.ExecuteNonQuery(String cmdText, MySqlParameter[] paras, CommandType type) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\DAL\SQLHelper.cs:行号 76
+   在 KmsService.DAL.InsertCalendarDateDAL.InsertCalendar(CalendarInfoEntity calendarInfo) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\DAL\InsertCalendarDateDAL.cs:行号 39
+   在 KmsService.KeyBLL.SendApproveBLL.SendApprove(String calendarID, String userID, String roomName) 位置 E:\Key\开发环境\kms-新版后端\kms\KmsService\KmsService\KeyBLL\SendApproveBLL.cs:行号 120所需参数：日程ID、userID：Rmo4MWZPWVNsUlZNK0JVemF6dnJ0UT092669160061179688068
+ 

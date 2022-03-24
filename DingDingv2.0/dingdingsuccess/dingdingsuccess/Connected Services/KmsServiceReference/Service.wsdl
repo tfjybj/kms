@@ -232,12 +232,6 @@
   <wsdl:message name="IService_GetApproveResult_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetApproveResultResponse" />
   </wsdl:message>
-  <wsdl:message name="IService_AutoSendApprove_InputMessage">
-    <wsdl:part name="parameters" element="tns:AutoSendApprove" />
-  </wsdl:message>
-  <wsdl:message name="IService_AutoSendApprove_OutputMessage">
-    <wsdl:part name="parameters" element="tns:AutoSendApproveResponse" />
-  </wsdl:message>
   <wsdl:message name="IService_ReturnKeyLate_InputMessage">
     <wsdl:part name="parameters" element="tns:ReturnKeyLate" />
   </wsdl:message>
@@ -494,10 +488,6 @@
     <wsdl:operation name="GetApproveResult">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/GetApproveResult" message="tns:IService_GetApproveResult_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService/GetApproveResultResponse" message="tns:IService_GetApproveResult_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="AutoSendApprove">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/AutoSendApprove" message="tns:IService_AutoSendApprove_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/AutoSendApproveResponse" message="tns:IService_AutoSendApprove_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="ReturnKeyLate">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/ReturnKeyLate" message="tns:IService_ReturnKeyLate_InputMessage" />
@@ -900,15 +890,6 @@
     </wsdl:operation>
     <wsdl:operation name="GetApproveResult">
       <soap:operation soapAction="http://tempuri.org/IService/GetApproveResult" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="AutoSendApprove">
-      <soap:operation soapAction="http://tempuri.org/IService/AutoSendApprove" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

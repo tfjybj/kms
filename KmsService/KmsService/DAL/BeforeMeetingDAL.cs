@@ -18,7 +18,7 @@ namespace KmsService.DAL
             //实例化日程信息类型list集合
             List<CalendarInfoEntity> calendarList = new List<CalendarInfoEntity>();
 
-            string sql = "select organizer_id, end_time,room_name,calendar_id,start_time,get_time from t_calendar where is_start =1 and return_time is Null and is_end=0";
+            string sql = "select organizer_id, end_time,room_name,calendar_id,start_time,get_time from t_calendar where is_start =1 and return_time is Null and is_end=0 and is_delete=0";
             DataTable dt = sQLHelper.ExecuteQuery(sql, CommandType.Text);
 
             //将返回的钉钉id和会议结束时间遍历到list集合中
@@ -29,7 +29,7 @@ namespace KmsService.DAL
                     RoomName = row["room_name"].ToString().Trim(),      //会议室ID
                     CalendarID = row["calendar_id"].ToString().Trim(),   //日程ID
                     OrganizerID = row["organizer_id"].ToString().Trim(),   //钉钉id
-                    EndTime = row["end_time"].ToString().Trim(),     //会议结束时间
+                    EndTime = row["end_time"].ToString().Trim(),//会议结束时间
                     StartTime = row["start_time"].ToString(),
                     GetTime = row["get_time"].ToString()
                 });
@@ -44,7 +44,7 @@ namespace KmsService.DAL
         /// <returns></returns>
         public int UpdateReturnTime(string calendarID)
         {
-            string sql = "update t_calendar set return_time = now() where calendar_id = @calendarID";
+            string sql = "update t_calendar set return_time = now() where calendar_id = @calendarID and is_delete=0";
             MySqlParameter[] sqlParameters = new MySqlParameter[]
             {
                 new MySqlParameter("@calendarID",calendarID)
@@ -58,7 +58,7 @@ namespace KmsService.DAL
         /// <returns></returns>
         public List<CalendarInfoEntity> BeforeMeetingStart()
         {
-            string sql = "select organizer_id ,calendar_id,room_name, start_time  from t_calendar where is_start=0";
+            string sql = "select organizer_id ,calendar_id,room_name, start_time  from t_calendar where is_start=0 and is_delete=0";
 
             DataTable result = sQLHelper.ExecuteQuery(sql, CommandType.Text);
 
@@ -128,7 +128,7 @@ namespace KmsService.DAL
         /// </summary>
         public List<CalendarInfoEntity> CancelCard()
         {
-            string sql = "select room_name ,out_track_id, organizer_id, calendar_id, start_time  from t_calendar where is_start=1 and is_end=0";
+            string sql = "select room_name ,out_track_id, organizer_id, calendar_id, start_time  from t_calendar where is_start=1 and is_end=0 and is_delete=0 and get_time is Null";
             DataTable result = sQLHelper.ExecuteQuery(sql, CommandType.Text);
             List<CalendarInfoEntity> information = new List<CalendarInfoEntity>();
 
