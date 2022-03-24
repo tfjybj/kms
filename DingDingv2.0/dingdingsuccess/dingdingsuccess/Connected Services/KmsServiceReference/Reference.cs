@@ -955,6 +955,12 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
         [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Process_Instance", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
         [System.SerializableAttribute()]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.CalendarInfoEntity>))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.CalendarInfoEntity))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.RoomInfoEntity))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.BasicDataEntity))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ManagerRecordEntity))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ErrorInfoEntity))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.DingMessageModel))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.Link))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.SendApproveModel))]
@@ -985,12 +991,6 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ApproveInstanceModel))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<string>))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<object>))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.CalendarInfoEntity>))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.CalendarInfoEntity))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.RoomInfoEntity))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.BasicDataEntity))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ManagerRecordEntity))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ErrorInfoEntity))]
         public partial class Process_Instance : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
             
             [System.NonSerializedAttribute()]
@@ -1608,6 +1608,570 @@ namespace dingdingsuccess.KmsServiceReference {
                 if ((propertyChanged != null)) {
                     propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
                 }
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="RoomInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
+    [System.SerializableAttribute()]
+    public partial class RoomInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreateTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FrontMinField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LockNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LockStateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int MinUseNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RoomNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UpdateTimeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreateTime {
+            get {
+                return this.CreateTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreateTimeField, value) != true)) {
+                    this.CreateTimeField = value;
+                    this.RaisePropertyChanged("CreateTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FrontMin {
+            get {
+                return this.FrontMinField;
+            }
+            set {
+                if ((this.FrontMinField.Equals(value) != true)) {
+                    this.FrontMinField = value;
+                    this.RaisePropertyChanged("FrontMin");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int ID {
+            get {
+                return this.IDField;
+            }
+            set {
+                if ((this.IDField.Equals(value) != true)) {
+                    this.IDField = value;
+                    this.RaisePropertyChanged("ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LockNumber {
+            get {
+                return this.LockNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LockNumberField, value) != true)) {
+                    this.LockNumberField = value;
+                    this.RaisePropertyChanged("LockNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LockState {
+            get {
+                return this.LockStateField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LockStateField, value) != true)) {
+                    this.LockStateField = value;
+                    this.RaisePropertyChanged("LockState");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int MinUseNumber {
+            get {
+                return this.MinUseNumberField;
+            }
+            set {
+                if ((this.MinUseNumberField.Equals(value) != true)) {
+                    this.MinUseNumberField = value;
+                    this.RaisePropertyChanged("MinUseNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RoomName {
+            get {
+                return this.RoomNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RoomNameField, value) != true)) {
+                    this.RoomNameField = value;
+                    this.RaisePropertyChanged("RoomName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string UpdateTime {
+            get {
+                return this.UpdateTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UpdateTimeField, value) != true)) {
+                    this.UpdateTimeField = value;
+                    this.RaisePropertyChanged("UpdateTime");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="BasicDataEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
+    [System.SerializableAttribute()]
+    public partial class BasicDataEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreateTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int LowerTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UpdateTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int UpperTimeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreateTime {
+            get {
+                return this.CreateTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreateTimeField, value) != true)) {
+                    this.CreateTimeField = value;
+                    this.RaisePropertyChanged("CreateTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int ID {
+            get {
+                return this.IDField;
+            }
+            set {
+                if ((this.IDField.Equals(value) != true)) {
+                    this.IDField = value;
+                    this.RaisePropertyChanged("ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int LowerTime {
+            get {
+                return this.LowerTimeField;
+            }
+            set {
+                if ((this.LowerTimeField.Equals(value) != true)) {
+                    this.LowerTimeField = value;
+                    this.RaisePropertyChanged("LowerTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string UpdateTime {
+            get {
+                return this.UpdateTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UpdateTimeField, value) != true)) {
+                    this.UpdateTimeField = value;
+                    this.RaisePropertyChanged("UpdateTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int UpperTime {
+            get {
+                return this.UpperTimeField;
+            }
+            set {
+                if ((this.UpperTimeField.Equals(value) != true)) {
+                    this.UpperTimeField = value;
+                    this.RaisePropertyChanged("UpperTime");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ManagerRecordEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
+    [System.SerializableAttribute()]
+    public partial class ManagerRecordEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime create_timeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string get_out_track_idField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string get_timeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string idField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string is_cancelField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string is_return_keyField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string key_nameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string manager_nameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string return_out_track_idField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.DateTime update_timeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string user_idField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime create_time {
+            get {
+                return this.create_timeField;
+            }
+            set {
+                if ((this.create_timeField.Equals(value) != true)) {
+                    this.create_timeField = value;
+                    this.RaisePropertyChanged("create_time");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string get_out_track_id {
+            get {
+                return this.get_out_track_idField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.get_out_track_idField, value) != true)) {
+                    this.get_out_track_idField = value;
+                    this.RaisePropertyChanged("get_out_track_id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string get_time {
+            get {
+                return this.get_timeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.get_timeField, value) != true)) {
+                    this.get_timeField = value;
+                    this.RaisePropertyChanged("get_time");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string id {
+            get {
+                return this.idField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.idField, value) != true)) {
+                    this.idField = value;
+                    this.RaisePropertyChanged("id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string is_cancel {
+            get {
+                return this.is_cancelField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.is_cancelField, value) != true)) {
+                    this.is_cancelField = value;
+                    this.RaisePropertyChanged("is_cancel");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string is_return_key {
+            get {
+                return this.is_return_keyField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.is_return_keyField, value) != true)) {
+                    this.is_return_keyField = value;
+                    this.RaisePropertyChanged("is_return_key");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string key_name {
+            get {
+                return this.key_nameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.key_nameField, value) != true)) {
+                    this.key_nameField = value;
+                    this.RaisePropertyChanged("key_name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string manager_name {
+            get {
+                return this.manager_nameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.manager_nameField, value) != true)) {
+                    this.manager_nameField = value;
+                    this.RaisePropertyChanged("manager_name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string return_out_track_id {
+            get {
+                return this.return_out_track_idField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.return_out_track_idField, value) != true)) {
+                    this.return_out_track_idField = value;
+                    this.RaisePropertyChanged("return_out_track_id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.DateTime update_time {
+            get {
+                return this.update_timeField;
+            }
+            set {
+                if ((this.update_timeField.Equals(value) != true)) {
+                    this.update_timeField = value;
+                    this.RaisePropertyChanged("update_time");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string user_id {
+            get {
+                return this.user_idField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.user_idField, value) != true)) {
+                    this.user_idField = value;
+                    this.RaisePropertyChanged("user_id");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ErrorInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
+    [System.SerializableAttribute()]
+    public partial class ErrorInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LockNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RoomNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TimeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LockNumber {
+            get {
+                return this.LockNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LockNumberField, value) != true)) {
+                    this.LockNumberField = value;
+                    this.RaisePropertyChanged("LockNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Name {
+            get {
+                return this.NameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NameField, value) != true)) {
+                    this.NameField = value;
+                    this.RaisePropertyChanged("Name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RoomName {
+            get {
+                return this.RoomNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RoomNameField, value) != true)) {
+                    this.RoomNameField = value;
+                    this.RaisePropertyChanged("RoomName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Time {
+            get {
+                return this.TimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TimeField, value) != true)) {
+                    this.TimeField = value;
+                    this.RaisePropertyChanged("Time");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
             }
         }
     }
@@ -3010,570 +3574,6 @@ namespace dingdingsuccess.KmsServiceReference {
         }
     }
     
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="RoomInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
-    [System.SerializableAttribute()]
-    public partial class RoomInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CreateTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int FrontMinField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IDField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string LockNumberField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string LockStateField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int MinUseNumberField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string RoomNameField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string UpdateTimeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string CreateTime {
-            get {
-                return this.CreateTimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CreateTimeField, value) != true)) {
-                    this.CreateTimeField = value;
-                    this.RaisePropertyChanged("CreateTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int FrontMin {
-            get {
-                return this.FrontMinField;
-            }
-            set {
-                if ((this.FrontMinField.Equals(value) != true)) {
-                    this.FrontMinField = value;
-                    this.RaisePropertyChanged("FrontMin");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int ID {
-            get {
-                return this.IDField;
-            }
-            set {
-                if ((this.IDField.Equals(value) != true)) {
-                    this.IDField = value;
-                    this.RaisePropertyChanged("ID");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string LockNumber {
-            get {
-                return this.LockNumberField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.LockNumberField, value) != true)) {
-                    this.LockNumberField = value;
-                    this.RaisePropertyChanged("LockNumber");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string LockState {
-            get {
-                return this.LockStateField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.LockStateField, value) != true)) {
-                    this.LockStateField = value;
-                    this.RaisePropertyChanged("LockState");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int MinUseNumber {
-            get {
-                return this.MinUseNumberField;
-            }
-            set {
-                if ((this.MinUseNumberField.Equals(value) != true)) {
-                    this.MinUseNumberField = value;
-                    this.RaisePropertyChanged("MinUseNumber");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string RoomName {
-            get {
-                return this.RoomNameField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.RoomNameField, value) != true)) {
-                    this.RoomNameField = value;
-                    this.RaisePropertyChanged("RoomName");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string UpdateTime {
-            get {
-                return this.UpdateTimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.UpdateTimeField, value) != true)) {
-                    this.UpdateTimeField = value;
-                    this.RaisePropertyChanged("UpdateTime");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="BasicDataEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
-    [System.SerializableAttribute()]
-    public partial class BasicDataEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CreateTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IDField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int LowerTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string UpdateTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int UpperTimeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string CreateTime {
-            get {
-                return this.CreateTimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CreateTimeField, value) != true)) {
-                    this.CreateTimeField = value;
-                    this.RaisePropertyChanged("CreateTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int ID {
-            get {
-                return this.IDField;
-            }
-            set {
-                if ((this.IDField.Equals(value) != true)) {
-                    this.IDField = value;
-                    this.RaisePropertyChanged("ID");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int LowerTime {
-            get {
-                return this.LowerTimeField;
-            }
-            set {
-                if ((this.LowerTimeField.Equals(value) != true)) {
-                    this.LowerTimeField = value;
-                    this.RaisePropertyChanged("LowerTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string UpdateTime {
-            get {
-                return this.UpdateTimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.UpdateTimeField, value) != true)) {
-                    this.UpdateTimeField = value;
-                    this.RaisePropertyChanged("UpdateTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int UpperTime {
-            get {
-                return this.UpperTimeField;
-            }
-            set {
-                if ((this.UpperTimeField.Equals(value) != true)) {
-                    this.UpperTimeField = value;
-                    this.RaisePropertyChanged("UpperTime");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ManagerRecordEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
-    [System.SerializableAttribute()]
-    public partial class ManagerRecordEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime create_timeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string get_out_track_idField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string get_timeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string idField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string is_cancelField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string is_return_keyField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string key_nameField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string manager_nameField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string return_out_track_idField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.DateTime update_timeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string user_idField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime create_time {
-            get {
-                return this.create_timeField;
-            }
-            set {
-                if ((this.create_timeField.Equals(value) != true)) {
-                    this.create_timeField = value;
-                    this.RaisePropertyChanged("create_time");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string get_out_track_id {
-            get {
-                return this.get_out_track_idField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.get_out_track_idField, value) != true)) {
-                    this.get_out_track_idField = value;
-                    this.RaisePropertyChanged("get_out_track_id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string get_time {
-            get {
-                return this.get_timeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.get_timeField, value) != true)) {
-                    this.get_timeField = value;
-                    this.RaisePropertyChanged("get_time");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string id {
-            get {
-                return this.idField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.idField, value) != true)) {
-                    this.idField = value;
-                    this.RaisePropertyChanged("id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string is_cancel {
-            get {
-                return this.is_cancelField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.is_cancelField, value) != true)) {
-                    this.is_cancelField = value;
-                    this.RaisePropertyChanged("is_cancel");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string is_return_key {
-            get {
-                return this.is_return_keyField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.is_return_keyField, value) != true)) {
-                    this.is_return_keyField = value;
-                    this.RaisePropertyChanged("is_return_key");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string key_name {
-            get {
-                return this.key_nameField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.key_nameField, value) != true)) {
-                    this.key_nameField = value;
-                    this.RaisePropertyChanged("key_name");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string manager_name {
-            get {
-                return this.manager_nameField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.manager_nameField, value) != true)) {
-                    this.manager_nameField = value;
-                    this.RaisePropertyChanged("manager_name");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string return_out_track_id {
-            get {
-                return this.return_out_track_idField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.return_out_track_idField, value) != true)) {
-                    this.return_out_track_idField = value;
-                    this.RaisePropertyChanged("return_out_track_id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.DateTime update_time {
-            get {
-                return this.update_timeField;
-            }
-            set {
-                if ((this.update_timeField.Equals(value) != true)) {
-                    this.update_timeField = value;
-                    this.RaisePropertyChanged("update_time");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string user_id {
-            get {
-                return this.user_idField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.user_idField, value) != true)) {
-                    this.user_idField = value;
-                    this.RaisePropertyChanged("user_id");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ErrorInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
-    [System.SerializableAttribute()]
-    public partial class ErrorInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string LockNumberField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NameField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string RoomNameField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string TimeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string LockNumber {
-            get {
-                return this.LockNumberField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.LockNumberField, value) != true)) {
-                    this.LockNumberField = value;
-                    this.RaisePropertyChanged("LockNumber");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Name {
-            get {
-                return this.NameField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NameField, value) != true)) {
-                    this.NameField = value;
-                    this.RaisePropertyChanged("Name");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string RoomName {
-            get {
-                return this.RoomNameField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.RoomNameField, value) != true)) {
-                    this.RoomNameField = value;
-                    this.RaisePropertyChanged("RoomName");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Time {
-            get {
-                return this.TimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.TimeField, value) != true)) {
-                    this.TimeField = value;
-                    this.RaisePropertyChanged("Time");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="KmsServiceReference.IService")]
     public interface IService {
@@ -3789,22 +3789,16 @@ namespace dingdingsuccess.KmsServiceReference {
         System.Threading.Tasks.Task<string> PushRoomNameAsync(int participants);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/SendApprove", ReplyAction="http://tempuri.org/IService/SendApproveResponse")]
-        void SendApprove(string calendarID, string userID, string roomName);
+        void SendApprove(string calendarID, string userID, string roomName, string approveType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/SendApprove", ReplyAction="http://tempuri.org/IService/SendApproveResponse")]
-        System.Threading.Tasks.Task SendApproveAsync(string calendarID, string userID, string roomName);
+        System.Threading.Tasks.Task SendApproveAsync(string calendarID, string userID, string roomName, string approveType);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetApproveResult", ReplyAction="http://tempuri.org/IService/GetApproveResultResponse")]
         void GetApproveResult(dingdingsuccess.KmsServiceReference.ApproveInstanceModel approveContent);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetApproveResult", ReplyAction="http://tempuri.org/IService/GetApproveResultResponse")]
         System.Threading.Tasks.Task GetApproveResultAsync(dingdingsuccess.KmsServiceReference.ApproveInstanceModel approveContent);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/AutoSendApprove", ReplyAction="http://tempuri.org/IService/AutoSendApproveResponse")]
-        void AutoSendApprove(string calendarID, string userID, string roomName);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/AutoSendApprove", ReplyAction="http://tempuri.org/IService/AutoSendApproveResponse")]
-        System.Threading.Tasks.Task AutoSendApproveAsync(string calendarID, string userID, string roomName);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/ReturnKeyLate", ReplyAction="http://tempuri.org/IService/ReturnKeyLateResponse")]
         void ReturnKeyLate(string calendarID, string userid);
@@ -4222,12 +4216,12 @@ namespace dingdingsuccess.KmsServiceReference {
             return base.Channel.PushRoomNameAsync(participants);
         }
         
-        public void SendApprove(string calendarID, string userID, string roomName) {
-            base.Channel.SendApprove(calendarID, userID, roomName);
+        public void SendApprove(string calendarID, string userID, string roomName, string approveType) {
+            base.Channel.SendApprove(calendarID, userID, roomName, approveType);
         }
         
-        public System.Threading.Tasks.Task SendApproveAsync(string calendarID, string userID, string roomName) {
-            return base.Channel.SendApproveAsync(calendarID, userID, roomName);
+        public System.Threading.Tasks.Task SendApproveAsync(string calendarID, string userID, string roomName, string approveType) {
+            return base.Channel.SendApproveAsync(calendarID, userID, roomName, approveType);
         }
         
         public void GetApproveResult(dingdingsuccess.KmsServiceReference.ApproveInstanceModel approveContent) {
@@ -4236,14 +4230,6 @@ namespace dingdingsuccess.KmsServiceReference {
         
         public System.Threading.Tasks.Task GetApproveResultAsync(dingdingsuccess.KmsServiceReference.ApproveInstanceModel approveContent) {
             return base.Channel.GetApproveResultAsync(approveContent);
-        }
-        
-        public void AutoSendApprove(string calendarID, string userID, string roomName) {
-            base.Channel.AutoSendApprove(calendarID, userID, roomName);
-        }
-        
-        public System.Threading.Tasks.Task AutoSendApproveAsync(string calendarID, string userID, string roomName) {
-            return base.Channel.AutoSendApproveAsync(calendarID, userID, roomName);
         }
         
         public void ReturnKeyLate(string calendarID, string userid) {

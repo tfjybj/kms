@@ -1,0 +1,110 @@
+
+ 
+记录时间：2022-03-06 10:27:28,769 
+线程ID:[11] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'return is null and is_delete=0' at line 1
+堆栈信息：   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 KmsService.DAL.SQLHelper.ExecuteQuery(String cmdText, MySqlParameter[] paras, CommandType type) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DAL\SQLHelper.cs:行号 112
+   在 KmsService.DAL.SelectCalendarInfoDAL.SelectWareHouse(String roomName) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DAL\SelectCalendarInfoDAL.cs:行号 221
+   在 KmsService.KeyBLL.CalendarStrategyHandler.OutsideWareHouseBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\OutsideWareHouseBLL.cs:行号 28
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\SpecialLimitBLL.cs:行号 39
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\CalendarApproveBLL.cs:行号 46
+所需参数：日程ID、userID：QXBVTTNja3BmcGdUNGJuV1RxeEdVQT09、164052301629282389
+当前时间：1646533648769
+ 
+
+ 
+记录时间：2022-03-06 10:44:40,998 
+线程ID:[45] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：未将对象引用设置到对象的实例。
+堆栈信息：   在 KmsService.DingDingInterface.SelectCalendar.SelectCalendarInfo(String userID, String CalendarID, String eventID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DingDingInterface\SelectCalendar.cs:行号 22
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\SpecialLimitBLL.cs:行号 31
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\CalendarApproveBLL.cs:行号 46
+所需参数：日程ID、userID：Y3ppdTlycUhJRGFmZ0pBSlcxMFNLQT09、04531426031217479
+当前时间：1646534680999
+ 
+
+ 
+记录时间：2022-03-06 10:44:45,822 
+线程ID:[45] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：未将对象引用设置到对象的实例。
+堆栈信息：   在 KmsService.DingDingInterface.SelectCalendar.SelectCalendarInfo(String userID, String CalendarID, String eventID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DingDingInterface\SelectCalendar.cs:行号 22
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\SpecialLimitBLL.cs:行号 31
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\CalendarApproveBLL.cs:行号 46
+所需参数：日程ID、userID：bUtlc0o5Ri83Y0YxeWd2WStXQ2U4UT09、01322363433323487634
+当前时间：1646534685822
+ 
+
+ 
+记录时间：2022-03-06 10:47:43,707 
+线程ID:[50] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：未将对象引用设置到对象的实例。
+堆栈信息：   在 KmsService.DingDingInterface.SelectCalendar.SelectCalendarInfo(String userID, String CalendarID, String eventID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DingDingInterface\SelectCalendar.cs:行号 22
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\SpecialLimitBLL.cs:行号 31
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\CalendarApproveBLL.cs:行号 46
+所需参数：日程ID、userID：cnlQMEtLb0FxcjZJaUh4TGRxU3YzUT09、502327064738202693
+当前时间：1646534863708
+ 
+
+ 
+记录时间：2022-03-06 11:01:13,282 
+线程ID:[38] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：未将对象引用设置到对象的实例。
+堆栈信息：   在 KmsService.DingDingInterface.SelectCalendar.SelectCalendarInfo(String userID, String CalendarID, String eventID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DingDingInterface\SelectCalendar.cs:行号 22
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\SpecialLimitBLL.cs:行号 31
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\CalendarApproveBLL.cs:行号 46
+所需参数：日程ID、userID：d0lhWnljRXJ2bVZhbjFVMGF6SkJNQT09、502327064738202693
+当前时间：1646535673282
+ 
+
+ 
+记录时间：2022-03-06 11:09:41,174 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：发送领取钥匙卡片错误信息：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 KmsService.KeyBLL.BeforeMeetingStartBLL.BeforeMeetingStart() 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\BeforeMeetingStartBLL.cs:行号 35
+当前时间：1646536181175
+ 
+
+ 
+记录时间：2022-03-06 11:27:13,574 
+线程ID:[26] 
+日志级别：  ERROR 
+错误描述：调用判断审批是否同意方法的错误信息：System.ArgumentOutOfRangeException: 添加或减去的值产生无法表示的 DateTime。
+参数名: value
+   在 System.DateTime.AddTicks(Int64 value)
+   在 KmsService.KeyBLL.SendApproveBLL.GetApproveResult(ApproveInstanceModel approveContent) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\SendApproveBLL.cs:行号 287
+当前时间：1646537233574
+ 
+
+ 
+记录时间：2022-03-06 11:27:14,518 
+线程ID:[26] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：未将对象引用设置到对象的实例。
+堆栈信息：   在 KmsService.DingDingInterface.SelectCalendar.SelectCalendarInfo(String userID, String CalendarID, String eventID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\DingDingInterface\SelectCalendar.cs:行号 22
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\SpecialLimitBLL.cs:行号 31
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\CalendarApproveBLL.cs:行号 46
+所需参数：日程ID、userID：c1QxWnpBNXZDMUE2TjRvcE5KdFNDQT09、220145194326444613
+当前时间：1646537234519
+ 
+
+ 
+记录时间：2022-03-06 11:32:48,170 
+线程ID:[70] 
+日志级别：  ERROR 
+错误描述：调用超时归还钥匙方法错误信息：未将对象引用设置到对象的实例。
+堆栈信息：   在 KmsService.KeyBLL.ReturnKeyLateBLL.ReturnKeyLate(String calendarID, String userid) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\ReturnKeyLateBLL.cs:行号 47
+报异常的方法名称：System.String ReturnKeyLate(System.String, System.String)
+调用MinusPoints方法的参数：OrganizerID、token、userId164052301629282389、、
+当前时间：1646537568171
+ 

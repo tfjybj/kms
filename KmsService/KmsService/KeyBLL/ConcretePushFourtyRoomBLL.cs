@@ -22,8 +22,8 @@ namespace KmsService.KeyBLL
         /// <returns>会议室名称</returns>
         public override string HandleRequest(int participants)
         {
-            SelectRoomInfoDAL selectRoomInfo = new SelectRoomInfoDAL();
-            List<string> roomPeopleList = selectRoomInfo.SelectRoomPeople();
+            BasicDataDAL selectRoomInfo = new BasicDataDAL();
+            List<string> roomPeopleList = selectRoomInfo.SelectMinUseNumber();
 
             string roomName = null;
             //判断参会人数在二十到四十之间

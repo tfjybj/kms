@@ -40,7 +40,7 @@ namespace dingdingsuccess.CardMessageBLL
                     {"agree","申请" },
                     { "refuse","拒绝"},
                     { "calendarid",calendarID},
-                    { "CallbackRouteKey","KMS-CardMessage"},//对应会议室申请卡片消息的回调函数的映射地址
+                    { "CallbackRouteKey","CardMessage"},//对应会议室申请卡片消息的回调函数的映射地址
                     { "userid",userID},
                     { "specialRoom",sArray[1].ToString()},
                     { "CardTemplateId",GetConfig.GetConfigValue("cardID","PushRoomCard")},
@@ -81,7 +81,7 @@ namespace dingdingsuccess.CardMessageBLL
                 { "date",roomName},
                 { "userid",userID},
                 { "outTrackId",userID+GetTimeStamp()},
-                 { "CallbackRouteKey","KMS-GetKeyMessage"},//对应领取钥匙卡片消息的回调函数的映射地址
+                 { "CallbackRouteKey","GetKeyMessage"},//对应领取钥匙卡片消息的回调函数的映射地址
                 { "CardTemplateId",GetConfig.GetConfigValue("cardID","GetKeyCard")}
             };
 
@@ -122,7 +122,7 @@ namespace dingdingsuccess.CardMessageBLL
                     { "userid",userID},
                     { "datetime",content},
                     { "outTrackId",userID+GetTimeStamp()},//标识卡片的唯一ID
-                    { "CallbackRouteKey","KMS-DutyCallBack"},//对应领取钥匙卡片消息的回调函数的映射地址
+                    { "CallbackRouteKey","DutyCallBack"},//对应领取钥匙卡片消息的回调函数的映射地址
                     { "true","1"},
                     { "false","0"},
                     { "CardTemplateId",GetConfig.GetConfigValue("cardID","DutyCard")}
@@ -160,7 +160,7 @@ namespace dingdingsuccess.CardMessageBLL
                 { "date",roomName},
 
                 { "outTrackId",OutTrackId},
-                 {"CallbackRouteKey","KMS-GetKeyMessage"},//对应领取钥匙卡片消息的回调函数的映射地址
+                 {"CallbackRouteKey","GetKeyMessage"},//对应领取钥匙卡片消息的回调函数的映射地址
                 { "CardTemplateId",GetConfig.GetConfigValue("cardID","GetKeyCard")},
                 {"overtime", "1" }
             };
@@ -196,7 +196,7 @@ namespace dingdingsuccess.CardMessageBLL
                     { "PromptText",ConfigurationManager.ConnectionStrings["PromptText"].ConnectionString},
                     { "userid",userID},
                     { "outTrackId",userID+GetTimeStamp()},
-                    { "CallbackRouteKey","KMS-ReturnKeyMessage"},//对应归还钥匙卡片消息的回调函数的映射地址
+                    { "CallbackRouteKey","ReturnKeyMessage"},//对应归还钥匙卡片消息的回调函数的映射地址
                     { "CardTemplateId",GetConfig.GetConfigValue("cardID","ReturnKeyCard")}
 
                 };
@@ -251,7 +251,7 @@ namespace dingdingsuccess.CardMessageBLL
 
                 { "userid",managerID},
                 { "outTrackId",managerID+GetTimeStamp()},
-                { "CallbackRouteKey","KMS-ManagerGetKey"},//对应归还钥匙卡片消息的回调函数的映射地址
+                { "CallbackRouteKey","ManagerGetKey"},//对应归还钥匙卡片消息的回调函数的映射地址
                 { "CardTemplateId","3fe7d715-25dc-4b62-ad69-e1384aee0664"}
 
             };
@@ -315,7 +315,7 @@ namespace dingdingsuccess.CardMessageBLL
             {
                 { "userid",managerID},
                 { "outTrackId",managerID+GetTimeStamp()},
-                { "CallbackRouteKey","KMS-ManagerGetKey"},//对应归还钥匙卡片消息的回调函数的映射地址
+                { "CallbackRouteKey","ManagerGetKey"},//对应归还钥匙卡片消息的回调函数的映射地址
                 { "CardTemplateId",GetConfig.GetConfigValue("cardID","ManagerGetKeyCard")},
                 { "agree","领取" },
                 { "cancel","取消"},
@@ -349,7 +349,7 @@ namespace dingdingsuccess.CardMessageBLL
                     { "PromptText",ConfigurationManager.ConnectionStrings["PromptText"].ConnectionString},
                     { "userid",userID},
                     { "outTrackId",userID+GetTimeStamp()},
-                    { "CallbackRouteKey","KMS-ManagerReturnKey"},//对应归还钥匙卡片消息的回调函数的映射地址
+                    { "CallbackRouteKey","ManagerReturnKey"},//对应归还钥匙卡片消息的回调函数的映射地址
                     { "CardTemplateId",GetConfig.GetConfigValue("cardID","ReturnKeyCard")}
 
                 };

@@ -48,5 +48,30 @@ namespace KmsService.PointInterface
             LoggerHelper.Info("调用积分接口的返回结果：" + result);
             return result;
         }
+
+        /// <summary>
+        /// 加分
+        /// </summary>
+        /// <param name="token">用户对应的token值</param>
+        /// <param name="authID">权限ID</param>
+        /// <returns></returns>
+        public string AddPoints(string token,string authID)
+        {
+            string url = ConfigurationManager.ConnectionStrings["pointURL"].ConnectionString;
+            PointModel[] pointModel = new PointModel[] { new PointModel() };
+
+            pointModel[0].integral =3 ;
+            pointModel[0].pluginId = "pluginId_Kms";
+            pointModel[0].primaryId = "Kms";
+            pointModel[0].reason = "由于您积极主动申请会议室，奖励大米积分3分";
+            pointModel[0].typeKey = "typeKey_Kms";
+            pointModel[0].userId = authID;
+
+            string jsonData = JsonConvert.SerializeObject(pointModel);
+            HttpHelper httpHelper = new HttpHelper();
+            string result = httpHelper.HttpPost(url, jsonData, token);
+            LoggerHelper.Info("调用加分接口的返回值：" + result);
+            return result;
+        }
     }
 }
