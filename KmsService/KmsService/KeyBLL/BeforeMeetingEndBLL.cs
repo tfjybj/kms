@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using KmsService.Entity;
 using KmsService.Log4;
 using KmsService.DAL;
+using System.Configuration;
+using KmsService.KeyBLL.Scheduled;
 namespace KmsService.KeyBLL
 {
     public class BeforeMeetingEndBLL
@@ -29,22 +29,29 @@ namespace KmsService.KeyBLL
 
                 if (Convert.ToDateTime(nowTime) >= Convert.ToDateTime(sendTime))
                 {
-                    //打印返回数据信息
-                    LoggerHelper.Info("查询数据库返回的值：" + "会议室名称:" + roomName + "\n日程ID:" + calendarID + "\n组织者ID:" + organizerID + "\n会议结束时间:" + endTime + "\n发送消息卡片时间" + sendTime);
-                    string content = string.Format("请及时归还您{0}申请的{1}钥匙", startTime, roomName);
+                    if (item.GetTime != "")
+                    {
+                        //打印返回数据信息
+                        LoggerHelper.Info("查询数据库返回的值：" + "会议室名称:" + roomName + "\n日程ID:" + calendarID + "\n组织者ID:" + organizerID + "\n会议结束时间:" + endTime + "\n发送消息卡片时间" + sendTime);
+                        string content = string.Format("请及时归还您{0}申请的{1}钥匙", startTime, roomName);
+                        LoggerHelper.Info("会议开始时间：" + startTime);
+                        LoggerHelper.Info("会议结束时间：" + endTime);
+                        LoggerHelper.Info("发送消息内容：" + content);
+                        string url = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", organizerID, content);
+                        //调用消息卡片接口
+                        string result = helper.HttpPost(url);
 
-                    LoggerHelper.Info("会议开始时间：" + startTime);
-                    LoggerHelper.Info("会议结束时间：" + endTime);
-                    LoggerHelper.Info("发送消息内容：" + content);
-                    string url = string.Format("http://kms.tfjybj.com/kms/actionapi/SendMessage/SendRotbotText?userID={0}&content={1}", organizerID, content);
-                    //调用消息卡片接口
-                    //string url = string.Format("http://d-kms.tfjybj.com/kms/actionapi/SendMessage/SendReturnKey?roomName={0}&calendarID={1}&userID={2}", roomName, calendarID, organizerID);
-                    string result = helper.HttpPost(url);
+                        LoggerHelper.Info("调用接口返回的结果为：" + result);
 
-                    LoggerHelper.Info("调用接口返回的结果为：" + result);
+                        //更新发送归还钥匙消息卡片状态
+                        beforeMeetingDAL.UpdateIsEnd(calendarID);
+                    }
+                    else
+                    {
+                        ConferenceEndBLL conferenceEnd = new ConferenceEndBLL();
+                        conferenceEnd.GetConferenceEndKey(DateTime.Now.AddMinutes(5).ToString());
+                    }
 
-                    //更新发送归还钥匙消息卡片状态
-                    beforeMeetingDAL.UpdateIsEnd(calendarID);
                 }
             }
         }

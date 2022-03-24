@@ -498,6 +498,7 @@
         <xs:element minOccurs="0" name="calendarID" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
         <xs:element minOccurs="0" name="roomName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="approveType" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -514,20 +515,6 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="GetApproveResultResponse">
-    <xs:complexType>
-      <xs:sequence />
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="AutoSendApprove">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="calendarID" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="userID" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="roomName" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="AutoSendApproveResponse">
     <xs:complexType>
       <xs:sequence />
     </xs:complexType>

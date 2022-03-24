@@ -1,0 +1,15 @@
+
+ 
+记录时间：2022-03-01 16:04:26,609 
+线程ID:[11] 
+日志级别：  ERROR 
+错误描述：用户发起日程推送的会议室名称的错误信息：索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+堆栈信息：   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SameTimeLimitBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\SameTimeLimitBLL.cs:行号 34
+   在 KmsService.KeyBLL.CalendarStrategyHandler.SpecialLimitBLL.CalendarPushRoomBLL(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\SpecialLimitBLL.cs:行号 39
+   在 KmsService.KeyBLL.CalendarStrategyHandler.CalendarApproveBLL.PushRoom(String calendarID, String userID) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\CalendarStrategyHandler\CalendarApproveBLL.cs:行号 41
+所需参数：日程ID、userID：cTF1RmJRWXpEOUpPZGJ3dzkzN2V2dz09、2669160061179688068
+当前时间：1646121866609
+ 

@@ -1,0 +1,10 @@
+
+ 
+记录时间：2022-03-02 15:40:26,276 
+线程ID:[11] 
+日志级别：  ERROR 
+错误描述：用户点击同意自动发送审批方法错误信息：：调用：SendApprove方法，我抛一个异常，它就走不了下面代码了。
+堆栈信息：   在 KmsService.KeyBLL.SendApproveBLL.SendApprove(String calendarID, String userID, String roomName) 位置 E:\Key\开发环境\kms-NewVersion\kms\KmsService\KmsService\KeyBLL\SendApproveBLL.cs:行号 66
+所需参数：日程ID、userID：Zmt1RThpQk1KWThJbGgxTHA2YWtBQT09164052301629282389
+当前时间：1646206826276
+ 
