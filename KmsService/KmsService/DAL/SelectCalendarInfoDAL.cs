@@ -14,12 +14,18 @@ namespace KmsService.DAL
 {
     public class SelectCalendarInfoDAL
     {
+        /// <summary>
+        /// 查询日程表信息
+        /// </summary>
+        /// <param name="calendarID">日程ID</param>
+        /// <returns>日程实体</returns>
         public CalendarInfoEntity SelectCalendarInfo(string calendarID)
         {
-            string sql = "select calendar_id,content,start_time,end_time,return_time,room_name,attend_count,organizer,organizer_id,send_people,create_time,update_time,get_time from t_calendar  where calendar_id=@calendarID";
+            string sql = "select calendar_id,content,start_time,end_time,return_time,room_name,attend_count,organizer,organizer_id,send_people,create_time,update_time,get_time from t_calendar  where calendar_id=@calendarID and is_delete=@isDelete ";
             MySqlParameter[] mySqls = new MySqlParameter[]
             {
-                new MySqlParameter("@calendarID",calendarID)
+                new MySqlParameter("@calendarID",calendarID),
+                new MySqlParameter("@isDelete",Invariable.Zero)
             };
 
             SQLHelper helper = new SQLHelper();
@@ -56,12 +62,13 @@ namespace KmsService.DAL
         /// <returns>日程信息集合</returns>
         public List<CalendarInfoEntity> SelectCalendarTime(string roomName, string startTime, string endTime)
         {
-            string sql = "SELECT calendar_id,room_name,start_time,end_time FROM t_calendar where return_time IS	NOT NULL AND room_name =@roomName AND end_time LIKE @endTime AND start_time LIKE @startTime";
+            string sql = "SELECT calendar_id,room_name,organizer,organizer_id,start_time,end_time FROM t_calendar where return_time IS NULL AND room_name =@roomName AND end_time LIKE @endTime AND start_time LIKE @startTime and is_delete=@isDelete and get_time is not null";
             MySqlParameter[] mySqls = new MySqlParameter[]
             {
                 new  MySqlParameter("@roomName",roomName),
                 new MySqlParameter("@startTime",startTime+'%'),
-                new MySqlParameter("@endTime",endTime+'%')
+                new MySqlParameter("@endTime",endTime+'%'),
+                new MySqlParameter("@isDelete",Invariable.Zero)
             };
             SQLHelper helper = new SQLHelper();
             DataTable selectCalendarTimeDataTable = helper.ExecuteQuery(sql, mySqls, CommandType.Text);
@@ -72,6 +79,8 @@ namespace KmsService.DAL
                 {
                     CalendarID = row["calendar_id"].ToString(),
                     RoomName = row["room_name"].ToString(),
+                    Organizer = row["organizer"].ToString(),
+                    OrganizerID = row["organizer_id"].ToString(),
                     StartTime = row["start_time"].ToString(),
                     EndTime = row["end_time"].ToString()
                 });
@@ -89,11 +98,12 @@ namespace KmsService.DAL
         /// <returns>日程信息集合</returns>
         public List<CalendarInfoEntity> SelectSameTimePlace(string organizerID, string startTime)
         {
-            string sql = "SELECT calendar_id,room_name,organizer,start_time,end_time FROM t_calendar WHERE organizer_id=@organizerID AND start_time Like @startTime";
+            string sql = "SELECT calendar_id,room_name,organizer,start_time,end_time FROM t_calendar WHERE organizer_id=@organizerID AND start_time Like @startTime and is_delete=@isDelete and return_time Is NULL";
             MySqlParameter[] mySqls = new MySqlParameter[]
             {
                 new MySqlParameter("@organizerID",organizerID),
-                new MySqlParameter("@startTime",'%'+startTime+'%')
+                new MySqlParameter("@startTime",'%'+startTime+'%'),
+                new MySqlParameter("@isDelete",Invariable.Zero)
             };
             SQLHelper helper = new SQLHelper();
             DataTable sameTimePlaceTable = helper.ExecuteQuery(sql, mySqls, CommandType.Text);
@@ -119,24 +129,107 @@ namespace KmsService.DAL
         /// <returns>日程信息集合</returns>
         public CalendarInfoEntity SelectApproveContent(string approveID)
         {
-            string sql = "select calendar_id,start_time from t_calendar where approve_id=@approveID";
+            string sql = "select calendar_id,room_name,start_time,end_time from t_calendar where approve_id=@approveID and is_delete=@isDelete";
             MySqlParameter[] mySqls = new MySqlParameter[]
             {
-                new MySqlParameter("@approveID",approveID)
+                new MySqlParameter("@approveID",approveID),
+                new MySqlParameter("@isDelete",Invariable.Zero)
             };
             SQLHelper helper = new SQLHelper();
             DataTable sameTimePlaceTable = helper.ExecuteQuery(sql, mySqls, CommandType.Text);
-
             CalendarInfoEntity calendarInfo = new CalendarInfoEntity();
-           
-
-         
             foreach (DataRow row in sameTimePlaceTable.Rows)
             {
 
                 calendarInfo.CalendarID = row["calendar_id"].ToString();
+                calendarInfo.RoomName = row["room_name"].ToString();
                 calendarInfo.StartTime = row["start_time"].ToString();
+                calendarInfo.EndTime = row["end_time"].ToString();
+            }
+            return calendarInfo;
+        }
 
+        /// <summary>
+        /// 根据会议室名称查询预约预约会议室的用户集合，且未使用
+        /// </summary>
+        /// <param name="roomName">会议室名称</param>
+        /// <returns>返回当前会议室预约但未使用的集合</returns>
+        public List<CalendarInfoEntity> SelectUseRecord(string roomName)
+        {
+            string sql = "select * from t_calendar where  room_name=@roomName and get_time is null and to_days(start_time)=to_days(now()) and is_delete =0";
+            MySqlParameter[] mySqlParameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@roomName",roomName)
+            };
+            SQLHelper helper = new SQLHelper();
+            DataTable dataTable = helper.ExecuteQuery(sql, mySqlParameters, CommandType.Text);
+            List<CalendarInfoEntity> calendar = new List<CalendarInfoEntity>();
+            foreach (DataRow item in dataTable.Rows)
+            {
+                calendar.Add(
+                    new CalendarInfoEntity
+                    {
+                        StartTime = item["start_time"].ToString(),
+                        EndTime = item["end_time"].ToString(),
+                        Organizer = item["organizer"].ToString(),
+                        OrganizerID = item["organizer_id"].ToString(),
+                        RoomName = item["room_name"].ToString()
+                    });
+            }
+            return calendar;
+        }
+
+
+        /// <summary>
+        /// 根据房间名称查询正在使用中的用户记录
+        /// </summary>
+        /// <param name="roomName">房间名称</param>
+        /// <returns></returns>
+        public CalendarInfoEntity SelectOccupiedRecord(string roomName)
+        {
+            string sql = "select * from t_calendar where  room_name=@roomName  and to_days(get_time)=to_days(now()) and return_time is NULL and is_delete=0";
+            MySqlParameter[] mySqlParameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@roomName",roomName)
+            };
+            SQLHelper helper = new SQLHelper();
+            DataTable dataTable = helper.ExecuteQuery(sql, mySqlParameters, CommandType.Text);
+            CalendarInfoEntity calendar = new CalendarInfoEntity();
+            foreach (DataRow item in dataTable.Rows)
+            {
+
+                calendar.StartTime = item["start_time"].ToString();
+                calendar.EndTime = item["end_time"].ToString();
+                calendar.Organizer = item["organizer"].ToString();
+                calendar.OrganizerID = item["organizer_id"].ToString();
+
+            }
+            return calendar;
+
+        }
+
+        /// <summary>
+        /// 根据房间名称查询正在使用中的会议室记录
+        /// </summary>
+        /// <param name="roomName">房间名称</param>
+        /// <returns></returns>
+        public CalendarInfoEntity SelectWareHouse(string roomName)
+        {
+            string sql = "select * from t_calendar where room_name like @roomName and to_days(create_time)=to_days(now()) and return_time is null and is_delete=0";
+            MySqlParameter[] mySqls = new MySqlParameter[]
+            {
+                new MySqlParameter("@roomName","%"+roomName+"%")
+            };
+            CalendarInfoEntity calendarInfo = new CalendarInfoEntity();
+            SQLHelper helper = new SQLHelper();
+            DataTable dataTable = helper.ExecuteQuery(sql, mySqls, CommandType.Text);
+            foreach (DataRow row in dataTable.Rows)
+            {
+                calendarInfo.CalendarID = row["calendar_id"].ToString();
+                calendarInfo.RoomName = row["room_name"].ToString();
+                calendarInfo.Organizer = row["organizer"].ToString();
+                calendarInfo.StartTime = row["start_time"].ToString();
+                calendarInfo.EndTime = row["end_time"].ToString();
             }
             return calendarInfo;
         }

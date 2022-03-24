@@ -13,6 +13,9 @@ using dingdingsuccess.LimitBLL;
 
 namespace dingdingsuccess.DingDingInterface
 {
+    /// <summary>
+    /// 机器人发送文本消息
+    /// </summary>
     public class RobotSendText
     {
 

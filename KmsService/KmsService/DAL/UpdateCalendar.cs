@@ -1,6 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Data;
-
+using KmsService.Log4;
 namespace KmsService.DAL
 {
     /// <summary>
@@ -75,6 +75,23 @@ namespace KmsService.DAL
             {
                 new MySqlParameter("@calendarID",calendarID),
                 new MySqlParameter("@approveID",approveID)
+            };
+            SQLHelper helper = new SQLHelper();
+            return helper.ExecuteNonQuery(sql, mySqlParameters, CommandType.Text);
+        }
+
+        /// <summary>
+        /// 更新is_delete字段为1
+        /// </summary>
+        /// <param name="calendarID">日程ID</param>
+        /// <returns>受影响行数</returns>
+        public int UpdateIsDelete(string calendarID)
+        {
+            string sql = "update t_calendar set is_delete=@isDelete where calendar_id=@calendarID";
+            MySqlParameter[] mySqlParameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@calendarID",calendarID),
+                new MySqlParameter("@isDelete","1")
             };
             SQLHelper helper = new SQLHelper();
             return helper.ExecuteNonQuery(sql, mySqlParameters, CommandType.Text);

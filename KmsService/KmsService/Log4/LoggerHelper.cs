@@ -26,7 +26,7 @@ namespace KmsService.Log4
             }
             else
             {
-                LogError.Error(errorMsg);
+                LogError.Error(errorMsg + "\n当前时间：" + GetTimeStamp());
             }
         }
 
@@ -43,7 +43,7 @@ namespace KmsService.Log4
             }
             else
             {
-                LogInfo.Info(msg);
+                LogInfo.Info(msg + "\n当前时间：" + GetTimeStamp());
             }
         }
 
@@ -53,7 +53,30 @@ namespace KmsService.Log4
         /// <param name="msg"></param>
         public static void Monitor(string msg)
         {
-            LogMonitor.Info(msg);
+            LogMonitor.Info(msg + "\n当前时间：" + GetTimeStamp());
         }
+
+        #region 获取当前时间的时间戳
+        /// <summary>
+        /// 获取当前时间的时间戳
+        /// </summary>
+        /// <returns>时间戳</returns>
+        private static string GetTimeStamp()
+        {
+            //DateTime dateStart = new DateTime(1970, 1, 1, 8, 0, 0);
+            //int timeStamp = Convert.ToInt32((DateTime.Now - dateStart).TotalSeconds);
+
+            //TimeSpan ts = new TimeSpan(DateTime.Now.Ticks);
+            //;
+            //long time = (DateTime.Now.ToUniversalTime().Ticks - 621355968000000000) / 10000000;
+
+            //return ts.TotalSeconds.ToString();
+            //获取当前时间戳，截至毫秒
+            double intResult = 0;
+            System.DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new System.DateTime(1970, 1, 1));
+            intResult = (DateTime.Now - startTime).TotalMilliseconds;
+            return Math.Round(intResult, 0).ToString();
+        }
+        #endregion
     }
 }

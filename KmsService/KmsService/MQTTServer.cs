@@ -67,6 +67,7 @@ namespace KmsService
         /// <param name="content">锁号</param>
         public void OpenLock(string content)
         {
+            LoggerHelper.Info("用户点击开锁开启的锁号："+content);
             string topic = "94B97E901E90/ControlData";
 
             ////实例化Mqtt客户端
@@ -108,7 +109,7 @@ namespace KmsService
         /// </summary>
         public void MqttSubscribe()
         {
-
+            LoggerHelper.Info("订阅");
             string topic = "94B97E901E90/StatusData";
 
             // 实例化Mqtt客户端
@@ -215,6 +216,7 @@ namespace KmsService
             {
                 string[] topic = { "94B97E901E90/StatusData" };
                 this.client.Unsubscribe(topic);
+                
             }
 
 
@@ -231,23 +233,40 @@ namespace KmsService
 
             string xxLockNumber = keyState.Substring(0, 2);
             string xxlockState = keyState.Substring(2, 6);
+            ManagerRecordEntity managerRecordEntity = null;
             try
             {
                 ManagerRecordDAL managerRecord = new ManagerRecordDAL();
-                string roomName = managerRecord.SelectReturnKey(ReturnCardID);
-
-                if (roomName != null)
+                 managerRecordEntity = managerRecord.SelectReturnKey(ReturnCardID);
+               
+                if (ReturnCardID != null)
                 {
-                    LoggerHelper.Info("管理员动态归还钥匙roomName的值:"+roomName);
+                    LoggerHelper.Info("管理员动态归还钥匙roomName的值:" + managerRecordEntity.key_name + "\n" + managerRecordEntity.user_id);
                     //修改room表中lockstate为xxisLock条件是roomName=calendarInfo.roomID
                     UpdateLockStateDAL updateLock = new UpdateLockStateDAL();
-                    updateLock.UpdateLockState(roomName, LockState);
+                    updateLock.UpdateLockState(managerRecordEntity.key_name, LockState);
 
                     UpdateLockNumberDAL updateLockNumber = new UpdateLockNumberDAL();
-                    updateLockNumber.UpdateLockState(roomName, xxLockNumber);
+                    int uLockState = updateLockNumber.UpdateLockState(managerRecordEntity.key_name, xxLockNumber);
 
                     ManagerRecordDAL record = new ManagerRecordDAL();
-                    record.UpdateReturnKey(ReturnCardID);
+                    int uManagergetkey = record.UpdateReturnKey(ReturnCardID);
+                    //更新管理员领取记录，插入归还标识
+
+                    //判断是否信息更新成功
+                    if (uLockState > 0 && uManagergetkey > 0)
+                    {
+                        string url = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", managerRecordEntity.user_id, managerRecordEntity.key_name + "钥匙归还成功");
+                        HttpHelper httpHelper = new HttpHelper();
+                        httpHelper.HttpPost(url);
+                    }
+                    else
+                    {
+                        string url = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", managerRecordEntity.user_id, managerRecordEntity.key_name + "钥匙归还失败，请联系开发人员");
+                        HttpHelper httpHelper = new HttpHelper();
+                        httpHelper.HttpPost(url);
+                    }
+
                     ReturnCardID = null;
 
                 }
