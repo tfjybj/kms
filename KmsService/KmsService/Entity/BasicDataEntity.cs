@@ -93,6 +93,13 @@ namespace KmsService.Entity
             set { approver = value; }
         }
 
+        private string approverID;
+        public string ApproverID
+        {
+            get { return approverID; }
+            set { approverID = value; }
+        }
+
         /// <summary>
         /// 创建时间
         /// </summary>

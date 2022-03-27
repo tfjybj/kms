@@ -85,7 +85,7 @@ namespace KmsService.DAL
         {
             LoggerHelper.Info("更新基本数据配置表：" + "id：" + basicDataEntity.ID + "，会议室名称" + basicDataEntity.RoomName + "，最少使用人数" + basicDataEntity.MinUseNumber + ",会议开始前*分钟取钥匙" + basicDataEntity.BeforeTakeKey + "，会议结束前*分钟还钥匙" + basicDataEntity.AfterReturnKey + "，会议室使用时间上限" + basicDataEntity.UpperTime + "，会议室使用时间下限" + basicDataEntity.LowerTime + "，审批人" + basicDataEntity.Approver);
 
-            string sql = "update t_basicdata set room_name=@roomName ,min_use_number=@minUseNumber,before_take_key=@beforeTakeKey,after_return_key=@afterReturnKey,upper_time=@upperTime,lower_time=@lowerTime,approver=@approver  where id=@id";
+            string sql = "update t_basicdata set room_name=@roomName ,min_use_number=@minUseNumber,before_take_key=@beforeTakeKey,after_return_key=@afterReturnKey,upper_time=@upperTime,lower_time=@lowerTime,approver=@approver,approver_id=@approverID  where id=@id";
             MySqlParameter[] sqlParameters = new MySqlParameter[]
             {
                 new MySqlParameter("@roomName",basicDataEntity.RoomName),
@@ -95,6 +95,7 @@ namespace KmsService.DAL
                 new MySqlParameter("@upperTime",basicDataEntity.UpperTime),
                 new MySqlParameter("@lowerTime",basicDataEntity.LowerTime),
                 new MySqlParameter("@approver",basicDataEntity.Approver),
+                new MySqlParameter("@approverID",basicDataEntity.ApproverID),
                 new MySqlParameter("@id",basicDataEntity.ID)
             };
 
