@@ -206,6 +206,7 @@
   <ItemGroup>
     <Compile Include="AuthEntity\AuthUserEntity.cs" />
     <Compile Include="AuthEntity\AuthUserResourceEntity.cs" />
+    <Compile Include="BobotHandler\BasicConfigurationHandler.cs" />
     <Compile Include="BobotHandler\GradeHandler.cs" />
     <Compile Include="BobotHandler\DialogueHandler.cs" />
     <Compile Include="BobotHandler\PhoneHandler.cs" />
