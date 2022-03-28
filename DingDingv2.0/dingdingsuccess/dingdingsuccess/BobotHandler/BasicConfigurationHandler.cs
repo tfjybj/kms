@@ -16,6 +16,7 @@ namespace dingdingsuccess.BobotHandler
         {
             foreach (var item in userResourceEntity.data.resourcesTree)//遍历资源
             {
+                LoggerHelper.Info("遍历资源：判断是否是会议室资源");
                 if (item.name == "会议室")
                 {
                     authurl = item.url;
@@ -37,6 +38,12 @@ namespace dingdingsuccess.BobotHandler
 
                             httpHelper.HttpPost(url);
 
+                        }
+                        else
+                        {
+                            LoggerHelper.Info("管理员会议室设置配置资源判断未通过" + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
+
+                            successor.HandleRequest(ddID, content);
                         }
 
                     }
