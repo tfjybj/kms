@@ -33,7 +33,7 @@ namespace dingdingsuccess.BobotHandler
                             LoggerHelper.Info("用户功能实现职责链的接口地址：" + authurl + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
 
                             string basicUrl = ConfigurationManager.ConnectionStrings["BasicConfiguration"].ConnectionString;
-                            url = string.Format(authurl,ddID,basicUrl);
+                            url = string.Format(authurl,ddID, basicUrl);
 
                             LoggerHelper.Info("用户功能实现职责链的资源信息：" + url + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
 
