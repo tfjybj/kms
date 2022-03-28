@@ -289,11 +289,12 @@ namespace dingdingsuccess.Controllers
                 DialogueHandler gradeHandler = new GradeHandler();
                 DialogueHandler phoneHandler = new PhoneHandler();
                 DialogueHandler resourcesHandler = new ResourcesHandler();
+                DialogueHandler basicCongiguration = new BasicConfigurationHandler();
 
                 phoneHandler.SetSuccessor(gradeHandler);
                 gradeHandler.SetSuccessor(resourcesHandler);
                 phoneHandler.HandleRequest(userid, datatext);
-
+                resourcesHandler.SetSuccessor(basicCongiguration);
             }
             catch (Exception e)
             {
