@@ -73,7 +73,7 @@ namespace KmsService.KeyBLL.SendApproveHandler
             {
                 //通过userid获取手机号
                 GetUnionID getUnion = new GetUnionID();
-                GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(approver);
+                GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(basicDataEntity.ApproverID);
                 //通过手机号获取用户信息
                 GetUserToken getUserToken = new GetUserToken();
                 UserTokenModel userToken = getUserToken.GetToken(getUnionID.result.mobile);
