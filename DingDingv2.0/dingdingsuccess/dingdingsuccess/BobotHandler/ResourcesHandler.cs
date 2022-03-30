@@ -56,8 +56,7 @@ namespace dingdingsuccess.BobotHandler
             }
             catch (Exception e)
             {
-                LoggerHelper.Error("用户功能实现职责链的错误信息：" + e.Message + "\n具体信息：" + e.StackTrace);
-                
+                LoggerHelper.Error("用户功能实现职责链的错误信息：" + e.Message + "\n具体信息：" + e.StackTrace);                
             }
 
         }
