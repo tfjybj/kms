@@ -41,7 +41,7 @@ namespace dingdingsuccess.BobotHandler
                                 LoggerHelper.Info("用户功能实现职责链的资源信息：" + url + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
 
                                 httpHelper.HttpPost(url);
-                                throw new Exception("查找成功");
+                                throw new Exception("管理员会议室配置查找成功");
                             }
                         }
                     }
@@ -53,9 +53,9 @@ namespace dingdingsuccess.BobotHandler
 
                 successor.HandleRequest(ddID, content);
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                LoggerHelper.Info("查找成功");
+                LoggerHelper.Error("用户功能实现职责链的信息：" + e.Message + "\n具体信息：" + e.StackTrace);
             }
         }
     }
