@@ -6,14 +6,21 @@
 
 using MySql.Data.MySqlClient;
 using System;
-using System.Collections.Generic;
 using System.Data;
 using KmsService.Entity;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// room表操作类
+    /// </summary>
     public class SelectRoomInfoDAL
     {
+        /// <summary>
+        /// 查询会议室信息
+        /// </summary>
+        /// <param name="roomName"></param>
+        /// <returns>会议室信息实体</returns>
         public RoomInfoEntity SelectRoomInfo(string roomName)
         {
             string sql = "select id,lock_number,room_name,lock_state,front_min,min_use_number,create_time,update_time from t_room where room_name=@roomName";
@@ -43,7 +50,7 @@ namespace KmsService.DAL
         /// 根据房间名称查询房间
         /// </summary>
         /// <param name="roomName"></param>
-        /// <returns></returns>
+        /// <returns>会议室信息实体</returns>
         public RoomInfoEntity SelectRoomName(string roomName)
         {
             string sql = "select id,lock_number,room_name,lock_state,front_min,min_use_number,create_time,update_time from t_room where room_name=@roomName";

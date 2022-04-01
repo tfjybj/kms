@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：打日志方法
+ */
+using System;
 
 namespace KmsService.Log4
 {
@@ -16,8 +21,8 @@ namespace KmsService.Log4
         /// <summary>
         /// 记录Error日志
         /// </summary>
-        /// <param name="errorMsg"></param>
-        /// <param name="ex"></param>
+        /// <param name="errorMsg">错误信息</param>
+        /// <param name="ex">异常对象</param>
         public static void Error(string errorMsg, Exception ex = null)
         {
             if (ex != null)
@@ -33,8 +38,8 @@ namespace KmsService.Log4
         /// <summary>
         /// 记录Info日志
         /// </summary>
-        /// <param name="msg"></param>
-        /// <param name="ex"></param>
+        /// <param name="errorMsg">错误信息</param>
+        /// <param name="ex">异常对象</param>
         public static void Info(string msg, Exception ex = null)
         {
             if (ex != null)
@@ -50,7 +55,7 @@ namespace KmsService.Log4
         /// <summary>
         /// 记录Monitor日志
         /// </summary>
-        /// <param name="msg"></param>
+        /// <param name="msg">记录信息</param>
         public static void Monitor(string msg)
         {
             LogMonitor.Info(msg + "\n当前时间：" + GetTimeStamp());

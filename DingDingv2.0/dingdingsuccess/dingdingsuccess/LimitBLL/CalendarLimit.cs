@@ -7,7 +7,7 @@ namespace dingdingsuccess.LimitBLL
 {
 
     /// <summary>
-    /// 
+    /// 处理日程事件信息业务
     /// </summary>
     public class CalendarLimit
     {
@@ -49,38 +49,6 @@ namespace dingdingsuccess.LimitBLL
         }
 
 
-        /// <summary>
-        /// 判断日程时间是否合格
-        /// </summary>
-        /// <param name="state">开始时间</param>
-        /// <param name="end">结束时间</param>
-        /// <returns></returns>
-        private bool IsTime(DateTime state, DateTime end)
-        {
-            bool result = false;
-            //判断日程开始时间是否合格
-            LoggerHelper.Info("判断时间大小：" + DateTime.Compare(state, DateTime.Now));
-            if (DateTime.Compare(state, DateTime.Now) < 0)
-            {
-                return result;
-            }
 
-            TimeSpan timeSpan = end - state;
-            double time = timeSpan.TotalMinutes;
-            BasicDataEntity basicData = client.SelectAllBasicData();
-            LoggerHelper.Info("下限时间：" + basicData.LowerTime + "上限时间：" + basicData.UpperTime + "日程分钟数：" + time);
-            //判断日程使用时长是否超时
-            if (time < basicData.LowerTime)
-            {
-                
-                return false;
-            }
-            if (time <= basicData.UpperTime)
-            {
-                return true;
-            }
-            
-            return result;
-        }
     }
 }

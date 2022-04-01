@@ -1,10 +1,9 @@
-﻿
-
-
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年2月23日10点30分
+ * 描述：日志类
+ */
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace dingdingsuccess.Log4
 {
@@ -49,7 +48,7 @@ namespace dingdingsuccess.Log4
             }
             else
             {
-                LogInfo.Info(msg+"\n当前时间："+ GetTimeStamp());
+                LogInfo.Info(msg + "\n当前时间：" + GetTimeStamp());
             }
         }
 

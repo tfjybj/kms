@@ -1,4 +1,9 @@
-﻿using KmsService.DingDingInterface;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：审批类，传入参所判断审批是否通过
+ */
+using KmsService.DingDingInterface;
 using KmsService.DingDingModel;
 
 namespace KmsService.KeyBLL

@@ -16,7 +16,7 @@ namespace KmsService.DingDingInterface
         /// <summary>
         /// 获取访问token
         /// </summary>
-        /// <returns></returns>
+        /// <returns>返回调用结果</returns>
         public string GetAccessToken()
         {
             string appKey = ConfigurationManager.ConnectionStrings["appkey"].ConnectionString;

@@ -1,4 +1,9 @@
-﻿using KmsService.Entity;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年4月1日10:02:37
+ * 描述：修改配置信息D层操作类
+ */
+using KmsService.Entity;
 using KmsService.Log4;
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
@@ -13,7 +18,7 @@ namespace KmsService.DAL
         /// <summary>
         ///  取出所有教室信息
         /// </summary>
-        /// <returns></returns>
+        /// <returns>数据表</returns>
         public DataTable SelectBasicData()
         {
             //try
@@ -33,7 +38,7 @@ namespace KmsService.DAL
         /// 判断教室名称是否已经存在
         /// </summary>
         /// <param name="caName">教室名称</param>
-        /// <returns></returns>
+        /// <returns>bool</returns>
         public bool RoomNameIsExists(string roomName)
         {
             bool flag = false;
@@ -85,7 +90,7 @@ namespace KmsService.DAL
         {
             LoggerHelper.Info("更新基本数据配置表：" + "id：" + basicDataEntity.ID + "，会议室名称" + basicDataEntity.RoomName + "，最少使用人数" + basicDataEntity.MinUseNumber + ",会议开始前*分钟取钥匙" + basicDataEntity.BeforeTakeKey + "，会议结束前*分钟还钥匙" + basicDataEntity.AfterReturnKey + "，会议室使用时间上限" + basicDataEntity.UpperTime + "，会议室使用时间下限" + basicDataEntity.LowerTime + "，审批人" + basicDataEntity.Approver);
 
-            string sql = "update t_basicdata set room_name=@roomName ,min_use_number=@minUseNumber,before_take_key=@beforeTakeKey,after_return_key=@afterReturnKey,upper_time=@upperTime,lower_time=@lowerTime,approver=@approver  where id=@id";
+            string sql = "update t_basicdata set room_name=@roomName ,min_use_number=@minUseNumber,before_take_key=@beforeTakeKey,after_return_key=@afterReturnKey,upper_time=@upperTime,lower_time=@lowerTime,approver=@approver,approver_id=@approverID  where id=@id";
             MySqlParameter[] sqlParameters = new MySqlParameter[]
             {
                 new MySqlParameter("@roomName",basicDataEntity.RoomName),
@@ -95,6 +100,7 @@ namespace KmsService.DAL
                 new MySqlParameter("@upperTime",basicDataEntity.UpperTime),
                 new MySqlParameter("@lowerTime",basicDataEntity.LowerTime),
                 new MySqlParameter("@approver",basicDataEntity.Approver),
+                new MySqlParameter("@approverID",basicDataEntity.ApproverID),
                 new MySqlParameter("@id",basicDataEntity.ID)
             };
 
@@ -106,7 +112,7 @@ namespace KmsService.DAL
         /// </summary>
         /// <param name="id"></param>
         /// <param name="roomName"></param>
-        /// <returns></returns>
+        /// <returns>受影响行数</returns>
         public int UpdateRoomName(int id, string roomName)
         {
             LoggerHelper.Info("更新t_room表：" + "id：" + id + "，会议室名称" + roomName);
@@ -124,7 +130,7 @@ namespace KmsService.DAL
         /// t_basicdata表添加教室
         /// </summary>
         /// <param name="basicDataEntity"></param>
-        /// <returns></returns>
+        /// <returns>受影响行数</returns>
         public int InsertMetting(BasicDataEntity basicDataEntity)
         {
             LoggerHelper.Info("添加教室：" + "id：" + basicDataEntity.ID + "，会议室名称" + basicDataEntity.RoomName + "，最少使用人数" + basicDataEntity.MinUseNumber + ",会议开始前*分钟取钥匙" + basicDataEntity.BeforeTakeKey + "，会议结束前*分钟还钥匙" + basicDataEntity.AfterReturnKey + "，会议室使用时间上限" + basicDataEntity.UpperTime + "，会议室使用时间下限" + basicDataEntity.LowerTime + "，审批人" + basicDataEntity.Approver);
@@ -150,7 +156,7 @@ namespace KmsService.DAL
         /// t_room表添加教室
         /// </summary>
         /// <param name="roomEntity"></param>
-        /// <returns></returns>
+        /// <returns>受影响行数</returns>
         public int InsertRoomMetting(RoomInfoEntity roomEntity)
         {
             LoggerHelper.Info("添加教室：" + "自增ID：" + roomEntity.ID + "，会议室名称：" + roomEntity.RoomName + "锁编号：" + roomEntity.LockNumber + "，锁的状态：" + roomEntity.LockState);
@@ -171,7 +177,7 @@ namespace KmsService.DAL
         /// <summary>
         /// 获取t_room表已经使用了的锁的编号
         /// </summary>
-        /// <returns></returns>
+        /// <returns>List集合</returns>
         public List<string> GetLockNumber()
         {
             //实例化一个List集合用于存储所有已经使用了的锁的编号

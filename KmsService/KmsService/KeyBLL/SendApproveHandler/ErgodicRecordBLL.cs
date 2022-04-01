@@ -13,6 +13,9 @@ using System.Configuration;
 
 namespace KmsService.KeyBLL.SendApproveHandler
 {
+    /// <summary>
+    /// 重复日程
+    /// </summary>
     public class ErgodicRecordBLL : SendApproveHandlerBLL
     {
         /// <summary>
@@ -22,8 +25,7 @@ namespace KmsService.KeyBLL.SendApproveHandler
         /// <param name="userID">钉ID</param>
         /// <param name="roomName">会议室名称</param>
         /// <param name="approveType">审批类型</param>
-        /// <returns></returns>
-        /// <exception cref="Exception"></exception>
+        /// <returns>空值</returns>
         public override string SendApproveBLL(string calendarID, string userID, string roomName, string approveType)
         {
             //判断日程表中是否存在此日程记录

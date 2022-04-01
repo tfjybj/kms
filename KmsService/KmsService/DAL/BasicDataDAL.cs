@@ -13,6 +13,9 @@ using MySql.Data.MySqlClient;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 基本数据类
+    /// </summary>
     public class BasicDataDAL
     {
         private SQLHelper sqlHelper;
@@ -28,7 +31,7 @@ namespace KmsService.DAL
         /// <returns>基本数据配置表实体</returns>
         public BasicDataEntity SelectAllBasicData(string roomName)
         {
-            string sql = "select room_name,before_take_key,after_return_key,approver,min_use_number,upper_time,lower_time,create_time,update_time from t_basicdata where room_name=@roomName";
+            string sql = "select room_name,before_take_key,after_return_key,approver,approver_id,min_use_number,upper_time,lower_time,create_time,update_time from t_basicdata where room_name=@roomName";
             MySqlParameter[] mySqls = new MySqlParameter[] 
             {
                 new MySqlParameter("@roomName",roomName)
@@ -41,6 +44,7 @@ namespace KmsService.DAL
                 basicData.BeforeTakeKey = Convert.ToInt32(row["before_take_key"]);
                 basicData.AfterReturnKey = Convert.ToInt32(row["after_return_key"]);
                 basicData.Approver = row["approver"].ToString();
+                basicData.ApproverID = row["approver_id"].ToString();
                 basicData.MinUseNumber = Convert.ToInt32(row["min_use_number"]);
                 basicData.UpperTime = Convert.ToInt32(row["upper_time"]);
                 basicData.LowerTime = Convert.ToInt32(row["lower_time"]);

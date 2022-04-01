@@ -9,6 +9,9 @@ using KmsService.DingDingModel;
 
 namespace KmsService.AuthInterface
 {
+    /// <summary>
+    /// 获取部门id
+    /// </summary>
     public class GetUserDeptID
     {
         /// <summary>

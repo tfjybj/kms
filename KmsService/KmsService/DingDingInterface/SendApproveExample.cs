@@ -11,6 +11,9 @@ using KmsService.Log4;
 
 namespace KmsService.DingDingInterface
 {
+    /// <summary>
+    /// 发送审批
+    /// </summary>
     public class SendApproveExample
     {
         /// <summary>

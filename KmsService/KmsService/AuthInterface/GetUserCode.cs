@@ -10,6 +10,9 @@ using KmsService.DingDingModel;
 
 namespace KmsService.AuthInterface
 {
+    /// <summary>
+    /// 获取用户信息
+    /// </summary>
     public class GetUserCode
     {
         /// <summary>
