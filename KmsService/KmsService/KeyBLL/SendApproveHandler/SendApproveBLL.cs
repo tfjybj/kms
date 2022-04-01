@@ -4,13 +4,12 @@
  * 描述：设置职责链上下级
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace KmsService.KeyBLL.SendApproveHandler
 {
+    /// <summary>
+    /// 发送审批
+    /// </summary>
     public class SendApproveBLL
     {
         /// <summary>

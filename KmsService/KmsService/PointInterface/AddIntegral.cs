@@ -30,16 +30,6 @@ namespace KmsService.PointInterface
             pointModel[0].typeKey = "typeKey_Kms";
             pointModel[0].userId = authID;
 
-            //定义参数
-            //var json_rep = new
-            //{
-            //    integral = -1,
-            //    pluginId = "pluginId_Kms",
-            //    primaryId = "Kms",
-            //    reason = "由于您未及时归还钥匙，扣除大米积分5分",
-            //    typeKey = "typeKey_Kms",
-            //    userId = userID
-            //};
             //将参数转为string类型
             string jsonData = JsonConvert.SerializeObject(pointModel);
             //执行url

@@ -19,7 +19,7 @@ namespace KmsService.KeyBLL
         /// <summary>
         /// 查询基本数据配置表全部信息
         /// </summary>
-        /// <returns></returns>
+        /// <returns>基本数据实体</returns>
         public BasicDataEntity SelectALLBasicData(string roomName)
         {
             BasicDataEntity basicDataEntity = new BasicDataEntity();

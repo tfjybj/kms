@@ -1,12 +1,15 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：获取审批人信息
+ */
+using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 获取审批人
+    /// </summary>
     public class GetApproverBLL
     {
         /// <summary>

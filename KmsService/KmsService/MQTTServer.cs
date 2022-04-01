@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：mqtt服务
+ */
+using System;
 using System.Configuration;
 using System.Text;
 using uPLibrary.Networking.M2Mqtt;
@@ -9,6 +14,9 @@ using KmsService.KeyBLL;
 using KmsService.Log4;
 namespace KmsService
 {
+    /// <summary>
+    /// mqtt服务操作类
+    /// </summary>
     public class MQTTServer
     {
         private static MQTTServer mQTTServer;
@@ -23,37 +31,15 @@ namespace KmsService
         private static string host = "zw.dmsd.tech";
         private MqttClient client = new MqttClient(host);
 
-        private static void Client_MqttMsgUnsubscribed(object sender, MqttMsgUnsubscribedEventArgs e)
-        {
-
-        }
-
-        private static void Client_ConnectionClosed(object sender, EventArgs e)
-        {
-
-        }
-        public void DisConnect()
-        {
-            //MqttClient client = new MqttClient(host);
-            string[] topic = { "94B97E901E90/StatusData" };
-            //await client.DisconnectAsync();
-            //client.UnsubscribeAsync(topic);
-            client = new MqttClient(host);
-            client.ConnectionClosed += Client_ConnectionClosed;
-
-            client.Disconnect();
-            client.MqttMsgUnsubscribed += Client_MqttMsgUnsubscribed;
-            client.Unsubscribe(topic);
-        }
-
-
-
-
+        /// <summary>
+        /// 单例类
+        /// </summary>
+        /// <returns></returns>
         public static MQTTServer Instance()
         {
             if (mQTTServer == null)
             {
-                 mQTTServer = new MQTTServer();
+                mQTTServer = new MQTTServer();
             }
             return mQTTServer;
         }
@@ -67,7 +53,7 @@ namespace KmsService
         /// <param name="content">锁号</param>
         public void OpenLock(string content)
         {
-            LoggerHelper.Info("用户点击开锁开启的锁号："+content);
+            LoggerHelper.Info("用户点击开锁开启的锁号：" + content);
             string topic = "94B97E901E90/ControlData";
 
             ////实例化Mqtt客户端
@@ -127,9 +113,11 @@ namespace KmsService
 
 
 
-
+        /// <summary>
+        /// 打印订阅的发布端消息
+        /// </summary>
         public void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
-        {           // 打印订阅的发布端消息
+        {
             string mqttMsg = Encoding.UTF8.GetString(e.Message);
 
             string xxLockNumber = mqttMsg.Substring(0, 2);
@@ -147,12 +135,8 @@ namespace KmsService
                 {
                     ManagerReturnKey(mqttMsg);
                 }
-
             }
-
         }
-
-
 
         /// <summary>
         /// 动态绑定
@@ -196,8 +180,8 @@ namespace KmsService
                     if (uLockStateResult > 0 && uReturnTimeResult > 0)
                     {
                         string url = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", calendarInfo.OrganizerID, calendarInfo.RoomName + "钥匙归还成功");
-                    HttpHelper httpHelper = new HttpHelper();
-                    httpHelper.HttpPost(url);
+                        HttpHelper httpHelper = new HttpHelper();
+                        httpHelper.HttpPost(url);
                     }
                     else
                     {
@@ -216,7 +200,7 @@ namespace KmsService
             {
                 string[] topic = { "94B97E901E90/StatusData" };
                 this.client.Unsubscribe(topic);
-                
+
             }
 
 
@@ -227,7 +211,7 @@ namespace KmsService
         /// <summary>
         /// 管理员动态归还钥匙
         /// </summary>
-        /// <param name="keyState"></param>
+        /// <param name="keyState">锁状态</param>
         public void ManagerReturnKey(string keyState)
         {
 
@@ -237,8 +221,8 @@ namespace KmsService
             try
             {
                 ManagerRecordDAL managerRecord = new ManagerRecordDAL();
-                 managerRecordEntity = managerRecord.SelectReturnKey(ReturnCardID);
-               
+                managerRecordEntity = managerRecord.SelectReturnKey(ReturnCardID);
+
                 if (ReturnCardID != null)
                 {
                     LoggerHelper.Info("管理员动态归还钥匙roomName的值:" + managerRecordEntity.key_name + "\n" + managerRecordEntity.user_id);
@@ -280,16 +264,7 @@ namespace KmsService
             {
                 string[] topic = { "94B97E901E90/StatusData" };
                 this.client.Unsubscribe(topic);
-
-
-
             }
-
-
-
-
         }
-
-
     }
 }

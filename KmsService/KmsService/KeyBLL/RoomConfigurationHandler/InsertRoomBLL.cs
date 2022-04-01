@@ -1,8 +1,11 @@
-﻿using KmsService.Entity;
+﻿/*
+ * 创建人：邓礼梅
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：插入新教室
+ */
+using KmsService.Entity;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using KmsService.Log4;
 
 namespace KmsService.KeyBLL.RoomConfigurationHandler
@@ -10,6 +13,15 @@ namespace KmsService.KeyBLL.RoomConfigurationHandler
     //插入新教室
     class InsertRoomBLL : RoomConfigurationHandlerBLL
     {
+
+        /// <summary>
+        /// 插入新教室
+        /// </summary>
+        /// <param name="basicDataStr">会议室信息字符串</param>
+        /// <param name="newBasicData">修改之后的基本数据实体</param>
+        /// <param name="oldBasicData">修改前的基本数据实体</param>
+        /// <param name="allLockNumber">所有锁号</param>
+        /// <returns>bool</returns>
         public override bool ModifyRoom(string basicDataStr, BasicDataEntity newBasicData, BasicDataEntity oldBasicData, List<string> allLockNumber)
         {
             //获取要添加的会议室信息

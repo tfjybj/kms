@@ -3,6 +3,9 @@ using KmsService.DingDingModel;
 using System.Configuration;
 namespace KmsService.AuthInterface
 {
+    /// <summary>
+    /// 获取用户token
+    /// </summary>
     public class GetUserToken
     {
         /// <summary>
@@ -12,6 +15,7 @@ namespace KmsService.AuthInterface
         /// <returns></returns>
         public UserTokenModel GetToken(string phoneNumber)
         {
+            //URL地址
             string url = ConfigurationManager.ConnectionStrings["authURL"].ConnectionString;
 
             HttpHelper helper = new HttpHelper();
