@@ -5,13 +5,13 @@ public partial class PersonalDataReport : System.Web.UI.Page
 {
     string dingDingID;
     ServiceClient service = new ServiceClient();
-    //string state ="0";
+    
     public  void Page_Load(object sender, EventArgs e)
     {
         //定时任务.PersonReportBAL personReportBLL = new PersonReportBAL();
-         dingDingID = Request.QueryString.ToString();//截取钉钉id
+        // dingDingID = Request.QueryString.ToString();//截取钉钉id
 
-        // dingDingID = "2669160061179688068";
+        dingDingID = "2669160061179688068";
         txtRoomUsage.Text = Convert.ToString(service.WeekUseCount(dingDingID));//开会的次数
 
         MaxTimeSlot.Text = Convert.ToString(service.WeekUseTime(dingDingID));//最多的时间段
@@ -21,8 +21,12 @@ public partial class PersonalDataReport : System.Web.UI.Page
     }
 
 
-
-    protected void Button1_Click(object sender, EventArgs e)
+    /// <summary>
+    /// 点击按钮切换状态，0为周推送，1为月推送
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    protected void ChangeState_Click(object sender, EventArgs e)
     {
         string state = service.UserPushState(dingDingID);
         
@@ -36,8 +40,6 @@ public partial class PersonalDataReport : System.Web.UI.Page
             Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "success", "alert('已成功为您修改为月推送！')", true);
             System.Web.UI.ScriptManager.RegisterStartupScript(this.UpdatePanel1, this.GetType(), "unReport", "alert(' 已成功为您修改为月推送！ ');", true);
 
-
-           // txt1.Text = "yue";
             
         }
         else if (state=="1")
