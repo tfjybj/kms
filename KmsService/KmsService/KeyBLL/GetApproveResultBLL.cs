@@ -1,5 +1,5 @@
 ﻿/*
- * 创建人：王梦杰
+ * 创建人：邓礼梅
  * 时间：2022年1月6日16:08:40
  * 描述：判断审批是否同意
  */
@@ -11,7 +11,9 @@ using KmsService.Log4;
 using KmsService.KeyBLL.Scheduled;
 namespace KmsService.KeyBLL
 {
-    //发日程自动发送审批
+    /// <summary>
+    /// 发送日程自动发送审批
+    /// </summary>
     public class GetApproveResultBLL
     {
         /// <summary>
@@ -45,7 +47,7 @@ namespace KmsService.KeyBLL
 
                         DateTime startTime = Convert.ToDateTime(calendarInfo.StartTime).AddMinutes(-(basicDataEntity.BeforeTakeKey));
 
-                        
+
                         int startResult = DateTime.Compare(startTime, DateTime.Now);
                         LoggerHelper.Info("领取钥匙的时间值比较结果：" + startResult);
                         if (startResult > 0)

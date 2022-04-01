@@ -10,6 +10,9 @@ using System.Data;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 会议室名字操作类
+    /// </summary>
     public class SelectRoomNameDAL
     {
         /// <summary>

@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿/*
+ * 创建人：武梓龙
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：发生错误时获取的信息
+ */
 using KmsService.DAL;
 using KmsService.Entity;
 using KmsService.DingDingInterface;
@@ -9,6 +10,9 @@ using KmsService.DingDingModel;
 
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 错误信息类
+    /// </summary>
     public class ErrorRemindBLL
     {
         /// <summary>
@@ -17,7 +21,7 @@ namespace KmsService.KeyBLL
         /// <param name="userID">用户ID</param>
         /// <param name="eventID">日程ID</param>
         /// <param name="RoomName">会议室名称</param>
-        /// <returns></returns>
+        /// <returns>错误信息实体</returns>
         public ErrorInfoEntity ErrorRemind(string userID,string eventID,string RoomName)
         {
             SelectCalendar selectCalendar = new SelectCalendar();

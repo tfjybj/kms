@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * 创建人：盖鹏军
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：管理员领取钥匙
+ */
+using System;
 using KmsService.DAL;
 using KmsService.Entity;
 using KmsService.Log4;

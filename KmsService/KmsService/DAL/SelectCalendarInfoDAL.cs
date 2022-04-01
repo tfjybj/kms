@@ -3,15 +3,16 @@
  * 创建时间：2021年12月21日16点26分
  * 描述：根据日程ID查询信息
  */
-
 using MySql.Data.MySqlClient;
-using System;
 using System.Collections.Generic;
 using System.Data;
 using KmsService.Entity;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 日程信息
+    /// </summary>
     public class SelectCalendarInfoDAL
     {
         /// <summary>
@@ -156,7 +157,7 @@ namespace KmsService.DAL
         /// <returns>返回当前会议室预约但未使用的集合</returns>
         public List<CalendarInfoEntity> SelectUseRecord(string roomName)
         {
-            string sql = "select * from t_calendar where  room_name=@roomName and get_time is null and to_days(start_time)=to_days(now()) and is_delete =0";
+            string sql = "select start_time,end_time,organizer,organizer_id,room_name from t_calendar where  room_name=@roomName and get_time is null and to_days(start_time)=to_days(now()) and is_delete =0";
             MySqlParameter[] mySqlParameters = new MySqlParameter[]
             {
                 new MySqlParameter("@roomName",roomName)
@@ -184,10 +185,10 @@ namespace KmsService.DAL
         /// 根据房间名称查询正在使用中的用户记录
         /// </summary>
         /// <param name="roomName">房间名称</param>
-        /// <returns></returns>
+        /// <returns>日程实体</returns>
         public CalendarInfoEntity SelectOccupiedRecord(string roomName)
         {
-            string sql = "select * from t_calendar where  room_name=@roomName  and to_days(get_time)=to_days(now()) and return_time is NULL and is_delete=0";
+            string sql = "select start_time,end_time,organizer,organizer_id from t_calendar where  room_name=@roomName and to_days(get_time)=to_days(now()) and return_time is NULL and is_delete=0";
             MySqlParameter[] mySqlParameters = new MySqlParameter[]
             {
                 new MySqlParameter("@roomName",roomName)
@@ -212,10 +213,10 @@ namespace KmsService.DAL
         /// 根据房间名称查询正在使用中的会议室记录
         /// </summary>
         /// <param name="roomName">房间名称</param>
-        /// <returns></returns>
+        /// <returns>日程实体</returns>
         public CalendarInfoEntity SelectWareHouse(string roomName)
         {
-            string sql = "select * from t_calendar where room_name like @roomName and to_days(create_time)=to_days(now()) and return_time is null and is_delete=0";
+            string sql = "select calendar_id,room_name,organizer,start_time,end_time from t_calendar where room_name like @roomName and to_days(create_time)=to_days(now()) and return_time is null and is_delete=0";
             MySqlParameter[] mySqls = new MySqlParameter[]
             {
                 new MySqlParameter("@roomName","%"+roomName+"%")

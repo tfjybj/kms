@@ -1,9 +1,12 @@
-﻿using KmsService.Entity;
+﻿/*
+ * 创建人：邓礼梅
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：会议室配置限制
+ */
+using KmsService.Entity;
 using KmsService.Log4;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace KmsService.KeyBLL.RoomConfigurationHandler
 {

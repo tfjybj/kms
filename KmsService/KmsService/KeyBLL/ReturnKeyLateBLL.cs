@@ -16,6 +16,9 @@ using KmsService.PointInterface;
 
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 超时归还钥匙
+    /// </summary>
     public class ReturnKeyLateBLL
     {
         /// <summary>

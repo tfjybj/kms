@@ -16,7 +16,7 @@ namespace KmsService.DingDingInterface
         /// 获取审批实例详情
         /// </summary>
         /// <param name="processInstance">OA审批ID</param>
-        /// <returns></returns>
+        /// <returns>审批实体</returns>
         public ApproveContentTask GetApproveContent(string processInstance)
         {
             AccessToken accessToken = new AccessToken();
