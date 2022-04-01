@@ -1,12 +1,13 @@
-﻿using Newtonsoft.Json;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年1月1日10点30分
+ * 描述：钉钉事件回调接口
+ */
+using dingdingsuccess.EventStrategy;
+using dingdingsuccess.LimitBLL;
+using dingdingsuccess.Log4;
 using Newtonsoft.Json.Linq;
 using System.Web.Http;
-using dingdingsuccess.Log4;
-using dingdingsuccess.CardMessageBLL;
-using dingdingsuccess.DingDingInterface;
-using dingdingsuccess.DingDingEntity;
-using dingdingsuccess.LimitBLL;
-using dingdingsuccess.EventStrategy;
 
 namespace dingdingsuccess.Controllers
 {
@@ -15,7 +16,7 @@ namespace dingdingsuccess.Controllers
         Logger log = Logger.GetLogger("class_name");
 
 
-        
+
 
         /// <summary>
         /// 钉钉回调事件方法
@@ -42,7 +43,7 @@ namespace dingdingsuccess.Controllers
             //取出事件类型字段
             string EventType = jToken["EventType"].ToString();
 
-           
+
             try
             {
                 #region 判断日程事件
@@ -87,25 +88,25 @@ namespace dingdingsuccess.Controllers
                 EventType eventType;
                 //根据事件类型到配置文件获取对应类通过反射进行实例化
                 eventType = GetConfig.CreateConcreteClass("EventStrategy", EventType);
-                if (null!=eventType)
+                if (null != eventType)
                 {
                     eventType.ActEvent(returnDate);
                 }
                 else
                 {
-                    LoggerHelper.Info("反射实例化对应策略类失败，传入事件类型："+EventType+"\n具体位置："+LoggerHelper.GetCurSourceFileName()+"\n行数："+LoggerHelper.GetLineNum());
+                    LoggerHelper.Info("反射实例化对应策略类失败，传入事件类型：" + EventType + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
                 }
-                
+
             }
             catch (System.Exception e)
             {
                 LoggerHelper.Error("钉钉事件订阅回调接口错误信息：" + e.Message + " \n具体信息：" + e.StackTrace);
-                 
+
             }
 
 
 
-            
+
             //将json串中的指定值取出           
             var msg = dingTalkEncryptor.getEncryptedMap("success");
             DingDingBackEntity back = new DingDingBackEntity();

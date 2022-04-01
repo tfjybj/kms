@@ -15,6 +15,557 @@ namespace dingdingsuccess.KmsServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="BasicDataEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
+    [System.SerializableAttribute()]
+    public partial class BasicDataEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int AfterReturnKeyField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ApproverField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ApproverIDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int BeforeTakeKeyField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreateTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int LowerTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int MinUseNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RoomNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UpdateTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int UpperTimeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int AfterReturnKey {
+            get {
+                return this.AfterReturnKeyField;
+            }
+            set {
+                if ((this.AfterReturnKeyField.Equals(value) != true)) {
+                    this.AfterReturnKeyField = value;
+                    this.RaisePropertyChanged("AfterReturnKey");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Approver {
+            get {
+                return this.ApproverField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ApproverField, value) != true)) {
+                    this.ApproverField = value;
+                    this.RaisePropertyChanged("Approver");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string ApproverID {
+            get {
+                return this.ApproverIDField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ApproverIDField, value) != true)) {
+                    this.ApproverIDField = value;
+                    this.RaisePropertyChanged("ApproverID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int BeforeTakeKey {
+            get {
+                return this.BeforeTakeKeyField;
+            }
+            set {
+                if ((this.BeforeTakeKeyField.Equals(value) != true)) {
+                    this.BeforeTakeKeyField = value;
+                    this.RaisePropertyChanged("BeforeTakeKey");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreateTime {
+            get {
+                return this.CreateTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreateTimeField, value) != true)) {
+                    this.CreateTimeField = value;
+                    this.RaisePropertyChanged("CreateTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int ID {
+            get {
+                return this.IDField;
+            }
+            set {
+                if ((this.IDField.Equals(value) != true)) {
+                    this.IDField = value;
+                    this.RaisePropertyChanged("ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int LowerTime {
+            get {
+                return this.LowerTimeField;
+            }
+            set {
+                if ((this.LowerTimeField.Equals(value) != true)) {
+                    this.LowerTimeField = value;
+                    this.RaisePropertyChanged("LowerTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int MinUseNumber {
+            get {
+                return this.MinUseNumberField;
+            }
+            set {
+                if ((this.MinUseNumberField.Equals(value) != true)) {
+                    this.MinUseNumberField = value;
+                    this.RaisePropertyChanged("MinUseNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RoomName {
+            get {
+                return this.RoomNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RoomNameField, value) != true)) {
+                    this.RoomNameField = value;
+                    this.RaisePropertyChanged("RoomName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string UpdateTime {
+            get {
+                return this.UpdateTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UpdateTimeField, value) != true)) {
+                    this.UpdateTimeField = value;
+                    this.RaisePropertyChanged("UpdateTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int UpperTime {
+            get {
+                return this.UpperTimeField;
+            }
+            set {
+                if ((this.UpperTimeField.Equals(value) != true)) {
+                    this.UpperTimeField = value;
+                    this.RaisePropertyChanged("UpperTime");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AllusersEntitiesItem", Namespace="http://schemas.datacontract.org/2004/07/")]
+    [System.SerializableAttribute()]
+    public partial class AllusersEntitiesItem : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string createTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string dingIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string emailField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string idField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string isSelectField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string nameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string passwordField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string phoneField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string tenantIdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string userCodeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string createTime {
+            get {
+                return this.createTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.createTimeField, value) != true)) {
+                    this.createTimeField = value;
+                    this.RaisePropertyChanged("createTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string dingId {
+            get {
+                return this.dingIdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.dingIdField, value) != true)) {
+                    this.dingIdField = value;
+                    this.RaisePropertyChanged("dingId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string email {
+            get {
+                return this.emailField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.emailField, value) != true)) {
+                    this.emailField = value;
+                    this.RaisePropertyChanged("email");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string id {
+            get {
+                return this.idField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.idField, value) != true)) {
+                    this.idField = value;
+                    this.RaisePropertyChanged("id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string isSelect {
+            get {
+                return this.isSelectField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.isSelectField, value) != true)) {
+                    this.isSelectField = value;
+                    this.RaisePropertyChanged("isSelect");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.nameField, value) != true)) {
+                    this.nameField = value;
+                    this.RaisePropertyChanged("name");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string password {
+            get {
+                return this.passwordField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.passwordField, value) != true)) {
+                    this.passwordField = value;
+                    this.RaisePropertyChanged("password");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string phone {
+            get {
+                return this.phoneField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.phoneField, value) != true)) {
+                    this.phoneField = value;
+                    this.RaisePropertyChanged("phone");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string tenantId {
+            get {
+                return this.tenantIdField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.tenantIdField, value) != true)) {
+                    this.tenantIdField = value;
+                    this.RaisePropertyChanged("tenantId");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string userCode {
+            get {
+                return this.userCodeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.userCodeField, value) != true)) {
+                    this.userCodeField = value;
+                    this.RaisePropertyChanged("userCode");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="RoomInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
+    [System.SerializableAttribute()]
+    public partial class RoomInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CreateTimeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int FrontMinField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IDField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LockNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LockStateField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int MinUseNumberField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RoomNameField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UpdateTimeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string CreateTime {
+            get {
+                return this.CreateTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CreateTimeField, value) != true)) {
+                    this.CreateTimeField = value;
+                    this.RaisePropertyChanged("CreateTime");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int FrontMin {
+            get {
+                return this.FrontMinField;
+            }
+            set {
+                if ((this.FrontMinField.Equals(value) != true)) {
+                    this.FrontMinField = value;
+                    this.RaisePropertyChanged("FrontMin");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int ID {
+            get {
+                return this.IDField;
+            }
+            set {
+                if ((this.IDField.Equals(value) != true)) {
+                    this.IDField = value;
+                    this.RaisePropertyChanged("ID");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LockNumber {
+            get {
+                return this.LockNumberField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LockNumberField, value) != true)) {
+                    this.LockNumberField = value;
+                    this.RaisePropertyChanged("LockNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LockState {
+            get {
+                return this.LockStateField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LockStateField, value) != true)) {
+                    this.LockStateField = value;
+                    this.RaisePropertyChanged("LockState");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int MinUseNumber {
+            get {
+                return this.MinUseNumberField;
+            }
+            set {
+                if ((this.MinUseNumberField.Equals(value) != true)) {
+                    this.MinUseNumberField = value;
+                    this.RaisePropertyChanged("MinUseNumber");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RoomName {
+            get {
+                return this.RoomNameField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RoomNameField, value) != true)) {
+                    this.RoomNameField = value;
+                    this.RaisePropertyChanged("RoomName");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string UpdateTime {
+            get {
+                return this.UpdateTimeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UpdateTimeField, value) != true)) {
+                    this.UpdateTimeField = value;
+                    this.RaisePropertyChanged("UpdateTime");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CalendarInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
     [System.SerializableAttribute()]
     public partial class CalendarInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
@@ -955,12 +1506,16 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
         [System.Runtime.Serialization.DataContractAttribute(Name="ApproveContentTask.Process_Instance", Namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel")]
         [System.SerializableAttribute()]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.BasicDataEntity))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.RoomInfoEntity))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.CalendarInfoEntity>))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.CalendarInfoEntity))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.RoomInfoEntity))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.BasicDataEntity))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ManagerRecordEntity))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ErrorInfoEntity))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<string>))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<object>))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.AllusersEntitiesItem>))]
+        [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.AllusersEntitiesItem))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.DingMessageModel))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.Link))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.SendApproveModel))]
@@ -989,8 +1544,6 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.AgreeRequestModel))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.Request))]
         [System.Runtime.Serialization.KnownTypeAttribute(typeof(dingdingsuccess.KmsServiceReference.ApproveInstanceModel))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<string>))]
-        [System.Runtime.Serialization.KnownTypeAttribute(typeof(System.Collections.Generic.List<object>))]
         public partial class Process_Instance : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
             
             [System.NonSerializedAttribute()]
@@ -1608,272 +2161,6 @@ namespace dingdingsuccess.KmsServiceReference {
                 if ((propertyChanged != null)) {
                     propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
                 }
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="RoomInfoEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
-    [System.SerializableAttribute()]
-    public partial class RoomInfoEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CreateTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int FrontMinField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IDField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string LockNumberField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string LockStateField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int MinUseNumberField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string RoomNameField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string UpdateTimeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string CreateTime {
-            get {
-                return this.CreateTimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CreateTimeField, value) != true)) {
-                    this.CreateTimeField = value;
-                    this.RaisePropertyChanged("CreateTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int FrontMin {
-            get {
-                return this.FrontMinField;
-            }
-            set {
-                if ((this.FrontMinField.Equals(value) != true)) {
-                    this.FrontMinField = value;
-                    this.RaisePropertyChanged("FrontMin");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int ID {
-            get {
-                return this.IDField;
-            }
-            set {
-                if ((this.IDField.Equals(value) != true)) {
-                    this.IDField = value;
-                    this.RaisePropertyChanged("ID");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string LockNumber {
-            get {
-                return this.LockNumberField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.LockNumberField, value) != true)) {
-                    this.LockNumberField = value;
-                    this.RaisePropertyChanged("LockNumber");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string LockState {
-            get {
-                return this.LockStateField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.LockStateField, value) != true)) {
-                    this.LockStateField = value;
-                    this.RaisePropertyChanged("LockState");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int MinUseNumber {
-            get {
-                return this.MinUseNumberField;
-            }
-            set {
-                if ((this.MinUseNumberField.Equals(value) != true)) {
-                    this.MinUseNumberField = value;
-                    this.RaisePropertyChanged("MinUseNumber");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string RoomName {
-            get {
-                return this.RoomNameField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.RoomNameField, value) != true)) {
-                    this.RoomNameField = value;
-                    this.RaisePropertyChanged("RoomName");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string UpdateTime {
-            get {
-                return this.UpdateTimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.UpdateTimeField, value) != true)) {
-                    this.UpdateTimeField = value;
-                    this.RaisePropertyChanged("UpdateTime");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="BasicDataEntity", Namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity")]
-    [System.SerializableAttribute()]
-    public partial class BasicDataEntity : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CreateTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IDField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int LowerTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string UpdateTimeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int UpperTimeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string CreateTime {
-            get {
-                return this.CreateTimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CreateTimeField, value) != true)) {
-                    this.CreateTimeField = value;
-                    this.RaisePropertyChanged("CreateTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int ID {
-            get {
-                return this.IDField;
-            }
-            set {
-                if ((this.IDField.Equals(value) != true)) {
-                    this.IDField = value;
-                    this.RaisePropertyChanged("ID");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int LowerTime {
-            get {
-                return this.LowerTimeField;
-            }
-            set {
-                if ((this.LowerTimeField.Equals(value) != true)) {
-                    this.LowerTimeField = value;
-                    this.RaisePropertyChanged("LowerTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string UpdateTime {
-            get {
-                return this.UpdateTimeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.UpdateTimeField, value) != true)) {
-                    this.UpdateTimeField = value;
-                    this.RaisePropertyChanged("UpdateTime");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int UpperTime {
-            get {
-                return this.UpperTimeField;
-            }
-            set {
-                if ((this.UpperTimeField.Equals(value) != true)) {
-                    this.UpperTimeField = value;
-                    this.RaisePropertyChanged("UpperTime");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
             }
         }
     }
@@ -3578,41 +3865,23 @@ namespace dingdingsuccess.KmsServiceReference {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="KmsServiceReference.IService")]
     public interface IService {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateRoomName", ReplyAction="http://tempuri.org/IService/UpdateRoomNameResponse")]
-        int UpdateRoomName(string ID, string caName);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/ModifyRoom", ReplyAction="http://tempuri.org/IService/ModifyRoomResponse")]
+        bool ModifyRoom(string basicDataStr, dingdingsuccess.KmsServiceReference.BasicDataEntity newBasicData, dingdingsuccess.KmsServiceReference.BasicDataEntity oldBasicData, System.Collections.Generic.List<string> allLockNumber);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateRoomName", ReplyAction="http://tempuri.org/IService/UpdateRoomNameResponse")]
-        System.Threading.Tasks.Task<int> UpdateRoomNameAsync(string ID, string caName);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/ModifyRoom", ReplyAction="http://tempuri.org/IService/ModifyRoomResponse")]
+        System.Threading.Tasks.Task<bool> ModifyRoomAsync(string basicDataStr, dingdingsuccess.KmsServiceReference.BasicDataEntity newBasicData, dingdingsuccess.KmsServiceReference.BasicDataEntity oldBasicData, System.Collections.Generic.List<string> allLockNumber);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateMinUseNumber", ReplyAction="http://tempuri.org/IService/UpdateMinUseNumberResponse")]
-        int UpdateMinUseNumber(string ID, string minUseNumber);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetApprover", ReplyAction="http://tempuri.org/IService/GetApproverResponse")]
+        System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.AllusersEntitiesItem> GetApprover();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateMinUseNumber", ReplyAction="http://tempuri.org/IService/UpdateMinUseNumberResponse")]
-        System.Threading.Tasks.Task<int> UpdateMinUseNumberAsync(string ID, string minUseNumber);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetApprover", ReplyAction="http://tempuri.org/IService/GetApproverResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.AllusersEntitiesItem>> GetApproverAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateBeforeTakeKey", ReplyAction="http://tempuri.org/IService/UpdateBeforeTakeKeyResponse")]
-        int UpdateBeforeTakeKey(string ID, string beforeTakeKey);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateBasicData", ReplyAction="http://tempuri.org/IService/UpdateBasicDataResponse")]
+        int UpdateBasicData(dingdingsuccess.KmsServiceReference.BasicDataEntity basicDataEntity);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateBeforeTakeKey", ReplyAction="http://tempuri.org/IService/UpdateBeforeTakeKeyResponse")]
-        System.Threading.Tasks.Task<int> UpdateBeforeTakeKeyAsync(string ID, string beforeTakeKey);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateAfterReturnKey", ReplyAction="http://tempuri.org/IService/UpdateAfterReturnKeyResponse")]
-        int UpdateAfterReturnKey(string ID, string afterReturnKey);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateAfterReturnKey", ReplyAction="http://tempuri.org/IService/UpdateAfterReturnKeyResponse")]
-        System.Threading.Tasks.Task<int> UpdateAfterReturnKeyAsync(string ID, string afterReturnKey);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateUpperTime", ReplyAction="http://tempuri.org/IService/UpdateUpperTimeResponse")]
-        int UpdateUpperTime(string ID, string upperTime);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateUpperTime", ReplyAction="http://tempuri.org/IService/UpdateUpperTimeResponse")]
-        System.Threading.Tasks.Task<int> UpdateUpperTimeAsync(string ID, string upperTime);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateLowerTime", ReplyAction="http://tempuri.org/IService/UpdateLowerTimeResponse")]
-        int UpdateLowerTime(string ID, string lowerTime);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateLowerTime", ReplyAction="http://tempuri.org/IService/UpdateLowerTimeResponse")]
-        System.Threading.Tasks.Task<int> UpdateLowerTimeAsync(string ID, string lowerTime);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateBasicData", ReplyAction="http://tempuri.org/IService/UpdateBasicDataResponse")]
+        System.Threading.Tasks.Task<int> UpdateBasicDataAsync(dingdingsuccess.KmsServiceReference.BasicDataEntity basicDataEntity);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/SelectBasicData", ReplyAction="http://tempuri.org/IService/SelectBasicDataResponse")]
         System.Data.DataTable SelectBasicData();
@@ -3620,11 +3889,47 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/SelectBasicData", ReplyAction="http://tempuri.org/IService/SelectBasicDataResponse")]
         System.Threading.Tasks.Task<System.Data.DataTable> SelectBasicDataAsync();
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/CaNameIsExists", ReplyAction="http://tempuri.org/IService/CaNameIsExistsResponse")]
-        bool CaNameIsExists(string caName);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/RoomNameIsExists", ReplyAction="http://tempuri.org/IService/RoomNameIsExistsResponse")]
+        bool RoomNameIsExists(string roomName);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/CaNameIsExists", ReplyAction="http://tempuri.org/IService/CaNameIsExistsResponse")]
-        System.Threading.Tasks.Task<bool> CaNameIsExistsAsync(string caName);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/RoomNameIsExists", ReplyAction="http://tempuri.org/IService/RoomNameIsExistsResponse")]
+        System.Threading.Tasks.Task<bool> RoomNameIsExistsAsync(string roomName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/InsertMetting", ReplyAction="http://tempuri.org/IService/InsertMettingResponse")]
+        int InsertMetting(dingdingsuccess.KmsServiceReference.BasicDataEntity basicDataEntity);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/InsertMetting", ReplyAction="http://tempuri.org/IService/InsertMettingResponse")]
+        System.Threading.Tasks.Task<int> InsertMettingAsync(dingdingsuccess.KmsServiceReference.BasicDataEntity basicDataEntity);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/RoomIdIsExists", ReplyAction="http://tempuri.org/IService/RoomIdIsExistsResponse")]
+        bool RoomIdIsExists(string roomId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/RoomIdIsExists", ReplyAction="http://tempuri.org/IService/RoomIdIsExistsResponse")]
+        System.Threading.Tasks.Task<bool> RoomIdIsExistsAsync(string roomId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/DeleteMetting", ReplyAction="http://tempuri.org/IService/DeleteMettingResponse")]
+        int DeleteMetting(string roomId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/DeleteMetting", ReplyAction="http://tempuri.org/IService/DeleteMettingResponse")]
+        System.Threading.Tasks.Task<int> DeleteMettingAsync(string roomId);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetLockNumber", ReplyAction="http://tempuri.org/IService/GetLockNumberResponse")]
+        System.Collections.Generic.List<string> GetLockNumber();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/GetLockNumber", ReplyAction="http://tempuri.org/IService/GetLockNumberResponse")]
+        System.Threading.Tasks.Task<System.Collections.Generic.List<string>> GetLockNumberAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateRoomName", ReplyAction="http://tempuri.org/IService/UpdateRoomNameResponse")]
+        int UpdateRoomName(int id, string roomName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateRoomName", ReplyAction="http://tempuri.org/IService/UpdateRoomNameResponse")]
+        System.Threading.Tasks.Task<int> UpdateRoomNameAsync(int id, string roomName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/InsertRoomMetting", ReplyAction="http://tempuri.org/IService/InsertRoomMettingResponse")]
+        int InsertRoomMetting(dingdingsuccess.KmsServiceReference.RoomInfoEntity roomEntity);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/InsertRoomMetting", ReplyAction="http://tempuri.org/IService/InsertRoomMettingResponse")]
+        System.Threading.Tasks.Task<int> InsertRoomMettingAsync(dingdingsuccess.KmsServiceReference.RoomInfoEntity roomEntity);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UpdateDutyName", ReplyAction="http://tempuri.org/IService/UpdateDutyNameResponse")]
         int UpdateDutyName(string OldDutyName, string NewDutyName);
@@ -3740,6 +4045,18 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/PushRoom", ReplyAction="http://tempuri.org/IService/PushRoomResponse")]
         System.Threading.Tasks.Task<string> PushRoomAsync(string calendarID, string userID);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/RemoveWeekDuplication", ReplyAction="http://tempuri.org/IService/RemoveWeekDuplicationResponse")]
+        void RemoveWeekDuplication();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/RemoveWeekDuplication", ReplyAction="http://tempuri.org/IService/RemoveWeekDuplicationResponse")]
+        System.Threading.Tasks.Task RemoveWeekDuplicationAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/RemoveMonthDuplication", ReplyAction="http://tempuri.org/IService/RemoveMonthDuplicationResponse")]
+        void RemoveMonthDuplication();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/RemoveMonthDuplication", ReplyAction="http://tempuri.org/IService/RemoveMonthDuplicationResponse")]
+        System.Threading.Tasks.Task RemoveMonthDuplicationAsync();
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/SendMessageUser", ReplyAction="http://tempuri.org/IService/SendMessageUserResponse")]
         void SendMessageUser();
         
@@ -3782,6 +4099,18 @@ namespace dingdingsuccess.KmsServiceReference {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/AgreeRequestInfo", ReplyAction="http://tempuri.org/IService/AgreeRequestInfoResponse")]
         System.Threading.Tasks.Task<string> AgreeRequestInfoAsync(dingdingsuccess.KmsServiceReference.AgreeRequestModel model, dingdingsuccess.KmsServiceReference.Request agreeRequest);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/ModifyState", ReplyAction="http://tempuri.org/IService/ModifyStateResponse")]
+        void ModifyState(string ddID, string state);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/ModifyState", ReplyAction="http://tempuri.org/IService/ModifyStateResponse")]
+        System.Threading.Tasks.Task ModifyStateAsync(string ddID, string state);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UserPushState", ReplyAction="http://tempuri.org/IService/UserPushStateResponse")]
+        string UserPushState(string ddID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/UserPushState", ReplyAction="http://tempuri.org/IService/UserPushStateResponse")]
+        System.Threading.Tasks.Task<string> UserPushStateAsync(string ddID);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/PushRoomName", ReplyAction="http://tempuri.org/IService/PushRoomNameResponse")]
         string PushRoomName(int participants);
         
@@ -3813,10 +4142,10 @@ namespace dingdingsuccess.KmsServiceReference {
         System.Threading.Tasks.Task DynamicReturnKeyAsync(string calendarID);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/SelectAllBasicData", ReplyAction="http://tempuri.org/IService/SelectAllBasicDataResponse")]
-        dingdingsuccess.KmsServiceReference.BasicDataEntity SelectAllBasicData();
+        dingdingsuccess.KmsServiceReference.BasicDataEntity SelectAllBasicData(string roomName);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/SelectAllBasicData", ReplyAction="http://tempuri.org/IService/SelectAllBasicDataResponse")]
-        System.Threading.Tasks.Task<dingdingsuccess.KmsServiceReference.BasicDataEntity> SelectAllBasicDataAsync();
+        System.Threading.Tasks.Task<dingdingsuccess.KmsServiceReference.BasicDataEntity> SelectAllBasicDataAsync(string roomName);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/WeekRoomName", ReplyAction="http://tempuri.org/IService/WeekRoomNameResponse")]
         string WeekRoomName(string dingDingID);
@@ -3835,12 +4164,6 @@ namespace dingdingsuccess.KmsServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/WeekUseCount", ReplyAction="http://tempuri.org/IService/WeekUseCountResponse")]
         System.Threading.Tasks.Task<string> WeekUseCountAsync(string dingDingID);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/AllDingDingID", ReplyAction="http://tempuri.org/IService/AllDingDingIDResponse")]
-        System.Collections.Generic.List<string> AllDingDingID();
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/AllDingDingID", ReplyAction="http://tempuri.org/IService/AllDingDingIDResponse")]
-        System.Threading.Tasks.Task<System.Collections.Generic.List<string>> AllDingDingIDAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/DutyReceiveKey", ReplyAction="http://tempuri.org/IService/DutyReceiveKeyResponse")]
         void DutyReceiveKey(string userID);
@@ -3907,6 +4230,18 @@ namespace dingdingsuccess.KmsServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/ErrorRemind", ReplyAction="http://tempuri.org/IService/ErrorRemindResponse")]
         System.Threading.Tasks.Task<dingdingsuccess.KmsServiceReference.ErrorInfoEntity> ErrorRemindAsync(string userID, string eventID, string RoomName);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/AddPoints", ReplyAction="http://tempuri.org/IService/AddPointsResponse")]
+        string AddPoints(string token, string authID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/AddPoints", ReplyAction="http://tempuri.org/IService/AddPointsResponse")]
+        System.Threading.Tasks.Task<string> AddPointsAsync(string token, string authID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/DeleteCalendar", ReplyAction="http://tempuri.org/IService/DeleteCalendarResponse")]
+        void DeleteCalendar(string calendarID);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService/DeleteCalendar", ReplyAction="http://tempuri.org/IService/DeleteCalendarResponse")]
+        System.Threading.Tasks.Task DeleteCalendarAsync(string calendarID);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -3936,52 +4271,28 @@ namespace dingdingsuccess.KmsServiceReference {
                 base(binding, remoteAddress) {
         }
         
-        public int UpdateRoomName(string ID, string caName) {
-            return base.Channel.UpdateRoomName(ID, caName);
+        public bool ModifyRoom(string basicDataStr, dingdingsuccess.KmsServiceReference.BasicDataEntity newBasicData, dingdingsuccess.KmsServiceReference.BasicDataEntity oldBasicData, System.Collections.Generic.List<string> allLockNumber) {
+            return base.Channel.ModifyRoom(basicDataStr, newBasicData, oldBasicData, allLockNumber);
         }
         
-        public System.Threading.Tasks.Task<int> UpdateRoomNameAsync(string ID, string caName) {
-            return base.Channel.UpdateRoomNameAsync(ID, caName);
+        public System.Threading.Tasks.Task<bool> ModifyRoomAsync(string basicDataStr, dingdingsuccess.KmsServiceReference.BasicDataEntity newBasicData, dingdingsuccess.KmsServiceReference.BasicDataEntity oldBasicData, System.Collections.Generic.List<string> allLockNumber) {
+            return base.Channel.ModifyRoomAsync(basicDataStr, newBasicData, oldBasicData, allLockNumber);
         }
         
-        public int UpdateMinUseNumber(string ID, string minUseNumber) {
-            return base.Channel.UpdateMinUseNumber(ID, minUseNumber);
+        public System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.AllusersEntitiesItem> GetApprover() {
+            return base.Channel.GetApprover();
         }
         
-        public System.Threading.Tasks.Task<int> UpdateMinUseNumberAsync(string ID, string minUseNumber) {
-            return base.Channel.UpdateMinUseNumberAsync(ID, minUseNumber);
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<dingdingsuccess.KmsServiceReference.AllusersEntitiesItem>> GetApproverAsync() {
+            return base.Channel.GetApproverAsync();
         }
         
-        public int UpdateBeforeTakeKey(string ID, string beforeTakeKey) {
-            return base.Channel.UpdateBeforeTakeKey(ID, beforeTakeKey);
+        public int UpdateBasicData(dingdingsuccess.KmsServiceReference.BasicDataEntity basicDataEntity) {
+            return base.Channel.UpdateBasicData(basicDataEntity);
         }
         
-        public System.Threading.Tasks.Task<int> UpdateBeforeTakeKeyAsync(string ID, string beforeTakeKey) {
-            return base.Channel.UpdateBeforeTakeKeyAsync(ID, beforeTakeKey);
-        }
-        
-        public int UpdateAfterReturnKey(string ID, string afterReturnKey) {
-            return base.Channel.UpdateAfterReturnKey(ID, afterReturnKey);
-        }
-        
-        public System.Threading.Tasks.Task<int> UpdateAfterReturnKeyAsync(string ID, string afterReturnKey) {
-            return base.Channel.UpdateAfterReturnKeyAsync(ID, afterReturnKey);
-        }
-        
-        public int UpdateUpperTime(string ID, string upperTime) {
-            return base.Channel.UpdateUpperTime(ID, upperTime);
-        }
-        
-        public System.Threading.Tasks.Task<int> UpdateUpperTimeAsync(string ID, string upperTime) {
-            return base.Channel.UpdateUpperTimeAsync(ID, upperTime);
-        }
-        
-        public int UpdateLowerTime(string ID, string lowerTime) {
-            return base.Channel.UpdateLowerTime(ID, lowerTime);
-        }
-        
-        public System.Threading.Tasks.Task<int> UpdateLowerTimeAsync(string ID, string lowerTime) {
-            return base.Channel.UpdateLowerTimeAsync(ID, lowerTime);
+        public System.Threading.Tasks.Task<int> UpdateBasicDataAsync(dingdingsuccess.KmsServiceReference.BasicDataEntity basicDataEntity) {
+            return base.Channel.UpdateBasicDataAsync(basicDataEntity);
         }
         
         public System.Data.DataTable SelectBasicData() {
@@ -3992,12 +4303,60 @@ namespace dingdingsuccess.KmsServiceReference {
             return base.Channel.SelectBasicDataAsync();
         }
         
-        public bool CaNameIsExists(string caName) {
-            return base.Channel.CaNameIsExists(caName);
+        public bool RoomNameIsExists(string roomName) {
+            return base.Channel.RoomNameIsExists(roomName);
         }
         
-        public System.Threading.Tasks.Task<bool> CaNameIsExistsAsync(string caName) {
-            return base.Channel.CaNameIsExistsAsync(caName);
+        public System.Threading.Tasks.Task<bool> RoomNameIsExistsAsync(string roomName) {
+            return base.Channel.RoomNameIsExistsAsync(roomName);
+        }
+        
+        public int InsertMetting(dingdingsuccess.KmsServiceReference.BasicDataEntity basicDataEntity) {
+            return base.Channel.InsertMetting(basicDataEntity);
+        }
+        
+        public System.Threading.Tasks.Task<int> InsertMettingAsync(dingdingsuccess.KmsServiceReference.BasicDataEntity basicDataEntity) {
+            return base.Channel.InsertMettingAsync(basicDataEntity);
+        }
+        
+        public bool RoomIdIsExists(string roomId) {
+            return base.Channel.RoomIdIsExists(roomId);
+        }
+        
+        public System.Threading.Tasks.Task<bool> RoomIdIsExistsAsync(string roomId) {
+            return base.Channel.RoomIdIsExistsAsync(roomId);
+        }
+        
+        public int DeleteMetting(string roomId) {
+            return base.Channel.DeleteMetting(roomId);
+        }
+        
+        public System.Threading.Tasks.Task<int> DeleteMettingAsync(string roomId) {
+            return base.Channel.DeleteMettingAsync(roomId);
+        }
+        
+        public System.Collections.Generic.List<string> GetLockNumber() {
+            return base.Channel.GetLockNumber();
+        }
+        
+        public System.Threading.Tasks.Task<System.Collections.Generic.List<string>> GetLockNumberAsync() {
+            return base.Channel.GetLockNumberAsync();
+        }
+        
+        public int UpdateRoomName(int id, string roomName) {
+            return base.Channel.UpdateRoomName(id, roomName);
+        }
+        
+        public System.Threading.Tasks.Task<int> UpdateRoomNameAsync(int id, string roomName) {
+            return base.Channel.UpdateRoomNameAsync(id, roomName);
+        }
+        
+        public int InsertRoomMetting(dingdingsuccess.KmsServiceReference.RoomInfoEntity roomEntity) {
+            return base.Channel.InsertRoomMetting(roomEntity);
+        }
+        
+        public System.Threading.Tasks.Task<int> InsertRoomMettingAsync(dingdingsuccess.KmsServiceReference.RoomInfoEntity roomEntity) {
+            return base.Channel.InsertRoomMettingAsync(roomEntity);
         }
         
         public int UpdateDutyName(string OldDutyName, string NewDutyName) {
@@ -4152,6 +4511,22 @@ namespace dingdingsuccess.KmsServiceReference {
             return base.Channel.PushRoomAsync(calendarID, userID);
         }
         
+        public void RemoveWeekDuplication() {
+            base.Channel.RemoveWeekDuplication();
+        }
+        
+        public System.Threading.Tasks.Task RemoveWeekDuplicationAsync() {
+            return base.Channel.RemoveWeekDuplicationAsync();
+        }
+        
+        public void RemoveMonthDuplication() {
+            base.Channel.RemoveMonthDuplication();
+        }
+        
+        public System.Threading.Tasks.Task RemoveMonthDuplicationAsync() {
+            return base.Channel.RemoveMonthDuplicationAsync();
+        }
+        
         public void SendMessageUser() {
             base.Channel.SendMessageUser();
         }
@@ -4208,6 +4583,22 @@ namespace dingdingsuccess.KmsServiceReference {
             return base.Channel.AgreeRequestInfoAsync(model, agreeRequest);
         }
         
+        public void ModifyState(string ddID, string state) {
+            base.Channel.ModifyState(ddID, state);
+        }
+        
+        public System.Threading.Tasks.Task ModifyStateAsync(string ddID, string state) {
+            return base.Channel.ModifyStateAsync(ddID, state);
+        }
+        
+        public string UserPushState(string ddID) {
+            return base.Channel.UserPushState(ddID);
+        }
+        
+        public System.Threading.Tasks.Task<string> UserPushStateAsync(string ddID) {
+            return base.Channel.UserPushStateAsync(ddID);
+        }
+        
         public string PushRoomName(int participants) {
             return base.Channel.PushRoomName(participants);
         }
@@ -4248,12 +4639,12 @@ namespace dingdingsuccess.KmsServiceReference {
             return base.Channel.DynamicReturnKeyAsync(calendarID);
         }
         
-        public dingdingsuccess.KmsServiceReference.BasicDataEntity SelectAllBasicData() {
-            return base.Channel.SelectAllBasicData();
+        public dingdingsuccess.KmsServiceReference.BasicDataEntity SelectAllBasicData(string roomName) {
+            return base.Channel.SelectAllBasicData(roomName);
         }
         
-        public System.Threading.Tasks.Task<dingdingsuccess.KmsServiceReference.BasicDataEntity> SelectAllBasicDataAsync() {
-            return base.Channel.SelectAllBasicDataAsync();
+        public System.Threading.Tasks.Task<dingdingsuccess.KmsServiceReference.BasicDataEntity> SelectAllBasicDataAsync(string roomName) {
+            return base.Channel.SelectAllBasicDataAsync(roomName);
         }
         
         public string WeekRoomName(string dingDingID) {
@@ -4278,14 +4669,6 @@ namespace dingdingsuccess.KmsServiceReference {
         
         public System.Threading.Tasks.Task<string> WeekUseCountAsync(string dingDingID) {
             return base.Channel.WeekUseCountAsync(dingDingID);
-        }
-        
-        public System.Collections.Generic.List<string> AllDingDingID() {
-            return base.Channel.AllDingDingID();
-        }
-        
-        public System.Threading.Tasks.Task<System.Collections.Generic.List<string>> AllDingDingIDAsync() {
-            return base.Channel.AllDingDingIDAsync();
         }
         
         public void DutyReceiveKey(string userID) {
@@ -4374,6 +4757,22 @@ namespace dingdingsuccess.KmsServiceReference {
         
         public System.Threading.Tasks.Task<dingdingsuccess.KmsServiceReference.ErrorInfoEntity> ErrorRemindAsync(string userID, string eventID, string RoomName) {
             return base.Channel.ErrorRemindAsync(userID, eventID, RoomName);
+        }
+        
+        public string AddPoints(string token, string authID) {
+            return base.Channel.AddPoints(token, authID);
+        }
+        
+        public System.Threading.Tasks.Task<string> AddPointsAsync(string token, string authID) {
+            return base.Channel.AddPointsAsync(token, authID);
+        }
+        
+        public void DeleteCalendar(string calendarID) {
+            base.Channel.DeleteCalendar(calendarID);
+        }
+        
+        public System.Threading.Tasks.Task DeleteCalendarAsync(string calendarID) {
+            return base.Channel.DeleteCalendarAsync(calendarID);
         }
     }
 }

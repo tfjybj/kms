@@ -693,5 +693,15 @@ namespace KmsService
         }
 
         #endregion
+
+        /// <summary>
+        /// 日程取消删除会议室 申请
+        /// </summary>
+        /// <param name="calendarID">日程ID</param>
+        public void DeleteCalendar(string calendarID)
+        {
+            UpdateCalendar updateCalendar = new UpdateCalendar();
+            updateCalendar.UpdateIsDelete(calendarID);
+        }
     }
 }

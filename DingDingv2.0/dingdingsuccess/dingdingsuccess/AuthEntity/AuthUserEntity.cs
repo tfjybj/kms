@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年4月1日10点29分
+ * 描述：接收权限用户实体
+ */
 namespace dingdingsuccess.AuthEntity
 {
     /// <summary>

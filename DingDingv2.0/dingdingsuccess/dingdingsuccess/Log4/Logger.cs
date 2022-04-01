@@ -1,11 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年2月23日10点30分
+ * 描述：打印程序日志
+ */
+using System;
 using System.IO;
-using System.Linq;
-using System.Web;
 
 namespace dingdingsuccess
 {
+    /// <summary>
+    /// 打印日志
+    /// </summary>
     public class Logger
     {
         private static readonly Logger Logg = new Logger();

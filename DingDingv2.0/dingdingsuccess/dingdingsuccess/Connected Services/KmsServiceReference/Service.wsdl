@@ -4,47 +4,30 @@
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
       <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
       <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
-      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
-      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity" />
-      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" />
-      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity" />
+      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/" />
+      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" />
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="IService_UpdateRoomName_InputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateRoomName" />
+  <wsdl:message name="IService_ModifyRoom_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyRoom" />
   </wsdl:message>
-  <wsdl:message name="IService_UpdateRoomName_OutputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateRoomNameResponse" />
+  <wsdl:message name="IService_ModifyRoom_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyRoomResponse" />
   </wsdl:message>
-  <wsdl:message name="IService_UpdateMinUseNumber_InputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateMinUseNumber" />
+  <wsdl:message name="IService_GetApprover_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetApprover" />
   </wsdl:message>
-  <wsdl:message name="IService_UpdateMinUseNumber_OutputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateMinUseNumberResponse" />
+  <wsdl:message name="IService_GetApprover_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetApproverResponse" />
   </wsdl:message>
-  <wsdl:message name="IService_UpdateBeforeTakeKey_InputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateBeforeTakeKey" />
+  <wsdl:message name="IService_UpdateBasicData_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBasicData" />
   </wsdl:message>
-  <wsdl:message name="IService_UpdateBeforeTakeKey_OutputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateBeforeTakeKeyResponse" />
-  </wsdl:message>
-  <wsdl:message name="IService_UpdateAfterReturnKey_InputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateAfterReturnKey" />
-  </wsdl:message>
-  <wsdl:message name="IService_UpdateAfterReturnKey_OutputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateAfterReturnKeyResponse" />
-  </wsdl:message>
-  <wsdl:message name="IService_UpdateUpperTime_InputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateUpperTime" />
-  </wsdl:message>
-  <wsdl:message name="IService_UpdateUpperTime_OutputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateUpperTimeResponse" />
-  </wsdl:message>
-  <wsdl:message name="IService_UpdateLowerTime_InputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateLowerTime" />
-  </wsdl:message>
-  <wsdl:message name="IService_UpdateLowerTime_OutputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateLowerTimeResponse" />
+  <wsdl:message name="IService_UpdateBasicData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBasicDataResponse" />
   </wsdl:message>
   <wsdl:message name="IService_SelectBasicData_InputMessage">
     <wsdl:part name="parameters" element="tns:SelectBasicData" />
@@ -52,11 +35,47 @@
   <wsdl:message name="IService_SelectBasicData_OutputMessage">
     <wsdl:part name="parameters" element="tns:SelectBasicDataResponse" />
   </wsdl:message>
-  <wsdl:message name="IService_CaNameIsExists_InputMessage">
-    <wsdl:part name="parameters" element="tns:CaNameIsExists" />
+  <wsdl:message name="IService_RoomNameIsExists_InputMessage">
+    <wsdl:part name="parameters" element="tns:RoomNameIsExists" />
   </wsdl:message>
-  <wsdl:message name="IService_CaNameIsExists_OutputMessage">
-    <wsdl:part name="parameters" element="tns:CaNameIsExistsResponse" />
+  <wsdl:message name="IService_RoomNameIsExists_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RoomNameIsExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertMetting_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMetting" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertMetting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_RoomIdIsExists_InputMessage">
+    <wsdl:part name="parameters" element="tns:RoomIdIsExists" />
+  </wsdl:message>
+  <wsdl:message name="IService_RoomIdIsExists_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RoomIdIsExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteMetting_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMetting" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteMetting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMettingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLockNumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLockNumber" />
+  </wsdl:message>
+  <wsdl:message name="IService_GetLockNumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLockNumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateRoomName_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRoomName" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateRoomName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRoomNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertRoomMetting_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertRoomMetting" />
+  </wsdl:message>
+  <wsdl:message name="IService_InsertRoomMetting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertRoomMettingResponse" />
   </wsdl:message>
   <wsdl:message name="IService_UpdateDutyName_InputMessage">
     <wsdl:part name="parameters" element="tns:UpdateDutyName" />
@@ -172,6 +191,18 @@
   <wsdl:message name="IService_PushRoom_OutputMessage">
     <wsdl:part name="parameters" element="tns:PushRoomResponse" />
   </wsdl:message>
+  <wsdl:message name="IService_RemoveWeekDuplication_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveWeekDuplication" />
+  </wsdl:message>
+  <wsdl:message name="IService_RemoveWeekDuplication_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveWeekDuplicationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_RemoveMonthDuplication_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveMonthDuplication" />
+  </wsdl:message>
+  <wsdl:message name="IService_RemoveMonthDuplication_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveMonthDuplicationResponse" />
+  </wsdl:message>
   <wsdl:message name="IService_SendMessageUser_InputMessage">
     <wsdl:part name="parameters" element="tns:SendMessageUser" />
   </wsdl:message>
@@ -213,6 +244,18 @@
   </wsdl:message>
   <wsdl:message name="IService_AgreeRequestInfo_OutputMessage">
     <wsdl:part name="parameters" element="tns:AgreeRequestInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_ModifyState_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyState" />
+  </wsdl:message>
+  <wsdl:message name="IService_ModifyState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UserPushState_InputMessage">
+    <wsdl:part name="parameters" element="tns:UserPushState" />
+  </wsdl:message>
+  <wsdl:message name="IService_UserPushState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserPushStateResponse" />
   </wsdl:message>
   <wsdl:message name="IService_PushRoomName_InputMessage">
     <wsdl:part name="parameters" element="tns:PushRoomName" />
@@ -267,12 +310,6 @@
   </wsdl:message>
   <wsdl:message name="IService_WeekUseCount_OutputMessage">
     <wsdl:part name="parameters" element="tns:WeekUseCountResponse" />
-  </wsdl:message>
-  <wsdl:message name="IService_AllDingDingID_InputMessage">
-    <wsdl:part name="parameters" element="tns:AllDingDingID" />
-  </wsdl:message>
-  <wsdl:message name="IService_AllDingDingID_OutputMessage">
-    <wsdl:part name="parameters" element="tns:AllDingDingIDResponse" />
   </wsdl:message>
   <wsdl:message name="IService_DutyReceiveKey_InputMessage">
     <wsdl:part name="parameters" element="tns:DutyReceiveKey" />
@@ -340,38 +377,62 @@
   <wsdl:message name="IService_ErrorRemind_OutputMessage">
     <wsdl:part name="parameters" element="tns:ErrorRemindResponse" />
   </wsdl:message>
+  <wsdl:message name="IService_AddPoints_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPoints" />
+  </wsdl:message>
+  <wsdl:message name="IService_AddPoints_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteCalendar_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCalendar" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteCalendar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteCalendarResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService">
-    <wsdl:operation name="UpdateRoomName">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateRoomName" message="tns:IService_UpdateRoomName_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateRoomNameResponse" message="tns:IService_UpdateRoomName_OutputMessage" />
+    <wsdl:operation name="ModifyRoom">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ModifyRoom" message="tns:IService_ModifyRoom_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ModifyRoomResponse" message="tns:IService_ModifyRoom_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="UpdateMinUseNumber">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateMinUseNumber" message="tns:IService_UpdateMinUseNumber_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateMinUseNumberResponse" message="tns:IService_UpdateMinUseNumber_OutputMessage" />
+    <wsdl:operation name="GetApprover">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetApprover" message="tns:IService_GetApprover_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetApproverResponse" message="tns:IService_GetApprover_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="UpdateBeforeTakeKey">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateBeforeTakeKey" message="tns:IService_UpdateBeforeTakeKey_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateBeforeTakeKeyResponse" message="tns:IService_UpdateBeforeTakeKey_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="UpdateAfterReturnKey">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateAfterReturnKey" message="tns:IService_UpdateAfterReturnKey_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateAfterReturnKeyResponse" message="tns:IService_UpdateAfterReturnKey_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="UpdateUpperTime">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateUpperTime" message="tns:IService_UpdateUpperTime_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateUpperTimeResponse" message="tns:IService_UpdateUpperTime_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="UpdateLowerTime">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateLowerTime" message="tns:IService_UpdateLowerTime_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateLowerTimeResponse" message="tns:IService_UpdateLowerTime_OutputMessage" />
+    <wsdl:operation name="UpdateBasicData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateBasicData" message="tns:IService_UpdateBasicData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateBasicDataResponse" message="tns:IService_UpdateBasicData_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="SelectBasicData">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/SelectBasicData" message="tns:IService_SelectBasicData_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService/SelectBasicDataResponse" message="tns:IService_SelectBasicData_OutputMessage" />
     </wsdl:operation>
-    <wsdl:operation name="CaNameIsExists">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/CaNameIsExists" message="tns:IService_CaNameIsExists_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/CaNameIsExistsResponse" message="tns:IService_CaNameIsExists_OutputMessage" />
+    <wsdl:operation name="RoomNameIsExists">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/RoomNameIsExists" message="tns:IService_RoomNameIsExists_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/RoomNameIsExistsResponse" message="tns:IService_RoomNameIsExists_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertMetting">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InsertMetting" message="tns:IService_InsertMetting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InsertMettingResponse" message="tns:IService_InsertMetting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RoomIdIsExists">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/RoomIdIsExists" message="tns:IService_RoomIdIsExists_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/RoomIdIsExistsResponse" message="tns:IService_RoomIdIsExists_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMetting">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeleteMetting" message="tns:IService_DeleteMetting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeleteMettingResponse" message="tns:IService_DeleteMetting_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLockNumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/GetLockNumber" message="tns:IService_GetLockNumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/GetLockNumberResponse" message="tns:IService_GetLockNumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRoomName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateRoomName" message="tns:IService_UpdateRoomName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateRoomNameResponse" message="tns:IService_UpdateRoomName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertRoomMetting">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/InsertRoomMetting" message="tns:IService_InsertRoomMetting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/InsertRoomMettingResponse" message="tns:IService_InsertRoomMetting_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="UpdateDutyName">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateDutyName" message="tns:IService_UpdateDutyName_InputMessage" />
@@ -449,6 +510,14 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService/PushRoom" message="tns:IService_PushRoom_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService/PushRoomResponse" message="tns:IService_PushRoom_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="RemoveWeekDuplication">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/RemoveWeekDuplication" message="tns:IService_RemoveWeekDuplication_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/RemoveWeekDuplicationResponse" message="tns:IService_RemoveWeekDuplication_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveMonthDuplication">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/RemoveMonthDuplication" message="tns:IService_RemoveMonthDuplication_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/RemoveMonthDuplicationResponse" message="tns:IService_RemoveMonthDuplication_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="SendMessageUser">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/SendMessageUser" message="tns:IService_SendMessageUser_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService/SendMessageUserResponse" message="tns:IService_SendMessageUser_OutputMessage" />
@@ -476,6 +545,14 @@
     <wsdl:operation name="AgreeRequestInfo">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/AgreeRequestInfo" message="tns:IService_AgreeRequestInfo_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService/AgreeRequestInfoResponse" message="tns:IService_AgreeRequestInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyState">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/ModifyState" message="tns:IService_ModifyState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/ModifyStateResponse" message="tns:IService_ModifyState_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserPushState">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UserPushState" message="tns:IService_UserPushState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UserPushStateResponse" message="tns:IService_UserPushState_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="PushRoomName">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/PushRoomName" message="tns:IService_PushRoomName_InputMessage" />
@@ -512,10 +589,6 @@
     <wsdl:operation name="WeekUseCount">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/WeekUseCount" message="tns:IService_WeekUseCount_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService/WeekUseCountResponse" message="tns:IService_WeekUseCount_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="AllDingDingID">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService/AllDingDingID" message="tns:IService_AllDingDingID_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService/AllDingDingIDResponse" message="tns:IService_AllDingDingID_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="DutyReceiveKey">
       <wsdl:input wsaw:Action="http://tempuri.org/IService/DutyReceiveKey" message="tns:IService_DutyReceiveKey_InputMessage" />
@@ -561,11 +634,19 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService/ErrorRemind" message="tns:IService_ErrorRemind_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService/ErrorRemindResponse" message="tns:IService_ErrorRemind_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="AddPoints">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/AddPoints" message="tns:IService_AddPoints_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/AddPointsResponse" message="tns:IService_AddPoints_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCalendar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeleteCalendar" message="tns:IService_DeleteCalendar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeleteCalendarResponse" message="tns:IService_DeleteCalendar_OutputMessage" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="UpdateRoomName">
-      <soap:operation soapAction="http://tempuri.org/IService/UpdateRoomName" style="document" />
+    <wsdl:operation name="ModifyRoom">
+      <soap:operation soapAction="http://tempuri.org/IService/ModifyRoom" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -573,8 +654,8 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="UpdateMinUseNumber">
-      <soap:operation soapAction="http://tempuri.org/IService/UpdateMinUseNumber" style="document" />
+    <wsdl:operation name="GetApprover">
+      <soap:operation soapAction="http://tempuri.org/IService/GetApprover" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -582,35 +663,8 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="UpdateBeforeTakeKey">
-      <soap:operation soapAction="http://tempuri.org/IService/UpdateBeforeTakeKey" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="UpdateAfterReturnKey">
-      <soap:operation soapAction="http://tempuri.org/IService/UpdateAfterReturnKey" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="UpdateUpperTime">
-      <soap:operation soapAction="http://tempuri.org/IService/UpdateUpperTime" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="UpdateLowerTime">
-      <soap:operation soapAction="http://tempuri.org/IService/UpdateLowerTime" style="document" />
+    <wsdl:operation name="UpdateBasicData">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateBasicData" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -627,8 +681,62 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-    <wsdl:operation name="CaNameIsExists">
-      <soap:operation soapAction="http://tempuri.org/IService/CaNameIsExists" style="document" />
+    <wsdl:operation name="RoomNameIsExists">
+      <soap:operation soapAction="http://tempuri.org/IService/RoomNameIsExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMetting">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertMetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RoomIdIsExists">
+      <soap:operation soapAction="http://tempuri.org/IService/RoomIdIsExists" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMetting">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteMetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLockNumber">
+      <soap:operation soapAction="http://tempuri.org/IService/GetLockNumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRoomName">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateRoomName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertRoomMetting">
+      <soap:operation soapAction="http://tempuri.org/IService/InsertRoomMetting" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -807,6 +915,24 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="RemoveWeekDuplication">
+      <soap:operation soapAction="http://tempuri.org/IService/RemoveWeekDuplication" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveMonthDuplication">
+      <soap:operation soapAction="http://tempuri.org/IService/RemoveMonthDuplication" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="SendMessageUser">
       <soap:operation soapAction="http://tempuri.org/IService/SendMessageUser" style="document" />
       <wsdl:input>
@@ -863,6 +989,24 @@
     </wsdl:operation>
     <wsdl:operation name="AgreeRequestInfo">
       <soap:operation soapAction="http://tempuri.org/IService/AgreeRequestInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyState">
+      <soap:operation soapAction="http://tempuri.org/IService/ModifyState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserPushState">
+      <soap:operation soapAction="http://tempuri.org/IService/UserPushState" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -944,15 +1088,6 @@
     </wsdl:operation>
     <wsdl:operation name="WeekUseCount">
       <soap:operation soapAction="http://tempuri.org/IService/WeekUseCount" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="AllDingDingID">
-      <soap:operation soapAction="http://tempuri.org/IService/AllDingDingID" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1052,6 +1187,24 @@
     </wsdl:operation>
     <wsdl:operation name="ErrorRemind">
       <soap:operation soapAction="http://tempuri.org/IService/ErrorRemind" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPoints">
+      <soap:operation soapAction="http://tempuri.org/IService/AddPoints" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCalendar">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteCalendar" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
