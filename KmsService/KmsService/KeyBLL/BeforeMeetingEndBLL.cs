@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：会议开始之后归还钥匙提醒消息发送
+ */
+using System;
 using System.Collections.Generic;
 using KmsService.Entity;
 using KmsService.Log4;
@@ -7,6 +12,9 @@ using System.Configuration;
 using KmsService.KeyBLL.Scheduled;
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 会议开始后
+    /// </summary>
     public class BeforeMeetingEndBLL
     {
         public void SendReturnMessage()

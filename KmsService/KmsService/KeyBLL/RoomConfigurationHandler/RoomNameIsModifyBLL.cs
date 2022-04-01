@@ -1,16 +1,26 @@
-﻿using KmsService.DAL;
+﻿/*
+ * 创建人：邓礼梅
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：会议室配置限制
+ */
 using KmsService.Entity;
 using KmsService.Log4;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+
 
 namespace KmsService.KeyBLL.RoomConfigurationHandler
 {
     //会议室名称是否进行了修改
     class RoomNameIsModifyBLL : RoomConfigurationHandlerBLL
     {
+        /// <summary>
+        /// 会议室名称是否进行了修改
+        /// </summary>
+        /// <param name="basicDataStr">会议室信息字符串</param>
+        /// <param name="newBasicData">修改之后的基本数据实体</param>
+        /// <param name="oldBasicData">修改前的基本数据实体</param>
+        /// <param name="allLockNumber">所有锁号</param>
+        /// <returns>bool</returns>
         public override bool ModifyRoom(string basicDataStr, BasicDataEntity newBasicData, BasicDataEntity oldBasicData, List<string> allLockNumber)
         {
             LoggerHelper.Info("【管理员会议室配置】会议室名称是否进行了修改：" + "修改之前的会议室名称：" + newBasicData.RoomName + "，修改之后的会议室名称：" + oldBasicData.RoomName);

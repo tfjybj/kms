@@ -1,4 +1,9 @@
-﻿using dingdingsuccess.AuthEntity;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年4月1日10点30分
+ * 描述：判断用户是否存在于本产品项目下
+ */
+using dingdingsuccess.AuthEntity;
 using dingdingsuccess.Log4;
 using Newtonsoft.Json;
 using System;

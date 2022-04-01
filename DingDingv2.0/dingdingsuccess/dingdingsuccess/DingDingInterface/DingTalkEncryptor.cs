@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年1月1日10点30分
+ * 描述：钉钉回调事件使用的开发平台加解密方法，钉钉事件回调的接口使用
+ */
+using System;
 using System.Text;
 using System.Security.Cryptography;
 using System.Collections.Generic;

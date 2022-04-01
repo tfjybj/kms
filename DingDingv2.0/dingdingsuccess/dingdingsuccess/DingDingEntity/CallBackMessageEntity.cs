@@ -7,7 +7,9 @@
 namespace dingdingsuccess.DingDingEntity
 {
 
-
+    /// <summary>
+    /// 卡片实体
+    /// </summary>
     public class CallBackMessageEntity
     {
         public string outTrackId { get; set; }

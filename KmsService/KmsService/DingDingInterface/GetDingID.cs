@@ -1,7 +1,15 @@
-﻿using Newtonsoft.Json;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：获取dingID操作类
+ */
+using Newtonsoft.Json;
 
 namespace KmsService.DingDingInterface
 {
+    /// <summary>
+    /// 获取dingID
+    /// </summary>
     public class GetDingID
     {
         /// <summary>

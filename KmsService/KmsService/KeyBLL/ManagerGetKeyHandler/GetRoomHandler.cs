@@ -8,6 +8,9 @@ using KmsService.Entity;
 
 namespace KmsService.KeyBLL.ManagerGetKeyHandler
 {
+    /// <summary>
+    /// 管理员领取钥匙职责链父类
+    /// </summary>
     public abstract class GetRoomHandler
     {
         protected SendMessages sendMessages = new SendMessages();

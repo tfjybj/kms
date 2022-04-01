@@ -12,6 +12,9 @@ using System.Net;
 
 namespace KmsService.DingDingInterface
 {
+    /// <summary>
+    /// 审批ID获取类
+    /// </summary>
     public class ApproveID
     {
         /// <summary>
@@ -19,7 +22,7 @@ namespace KmsService.DingDingInterface
         /// </summary>
         /// <param name="startTime"></param>
         /// <param name="endTime"></param>
-        /// <returns></returns>
+        /// <returns>审批ID</returns>
         public string GetApproveID(DateTime startTime, DateTime endTime)
         {
             string result = null;

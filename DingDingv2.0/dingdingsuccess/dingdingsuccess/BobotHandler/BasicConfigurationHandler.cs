@@ -1,17 +1,27 @@
-﻿using dingdingsuccess.Log4;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年4月1日10点30分
+ * 描述：判断是否为配置资源命令
+ */
+using dingdingsuccess.Log4;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Web;
 
 namespace dingdingsuccess.BobotHandler
 {
+    /// <summary>
+    /// 管理员发送消息，配置会议室资源命令
+    /// </summary>
     public class BasicConfigurationHandler : DialogueHandler
     {
         string authurl;
         string url;
 
+        /// <summary>
+        /// 判断用户发送内容是否和资源匹配
+        /// </summary>
+        /// <param name="ddID"></param>
+        /// <param name="content"></param>
         public override void HandleRequest(string ddID, string content)
         {
             try
@@ -31,7 +41,7 @@ namespace dingdingsuccess.BobotHandler
                             if (content.Contains(textd.name))
                             {
 
-                                authurl = ConfigurationManager.ConnectionStrings["header"].ConnectionString + authurl + textd.url;
+                            authurl = ConfigurationManager.ConnectionStrings["header"].ConnectionString + authurl + textd.url;
 
                                 LoggerHelper.Info("用户功能实现职责链的接口地址：" + authurl + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
 
@@ -47,9 +57,8 @@ namespace dingdingsuccess.BobotHandler
                     }
 
 
-
-                }
-                LoggerHelper.Info("管理员会议室设置配置资源判断未通过" + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
+                
+            }
 
                 successor.HandleRequest(ddID, content);
             }

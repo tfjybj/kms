@@ -4,15 +4,10 @@
  * 时间：2022年1月6日14点58分
  * 描述：更新互动卡片消息
  */
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Threading.Tasks;
 using dingdingsuccess.Log4;
+using System;
+using System.Collections.Generic;
 using Tea;
-using Tea.Utils;
-using dingdingsuccess.DingDingEntity;
 
 namespace dingdingsuccess
 {
@@ -38,7 +33,7 @@ namespace dingdingsuccess
         /// 更新卡片信息
         /// </summary>
         /// <param name="cardDataCardParamMap">传入更新卡片所需参数</param>
-        public static void UdateCard(Dictionary<string ,string> cardDataCardParamMap)
+        public static void UdateCard(Dictionary<string, string> cardDataCardParamMap)
         {
             AlibabaCloud.SDK.Dingtalkim_1_0.Client client = CreateClient();
             AlibabaCloud.SDK.Dingtalkim_1_0.Models.UpdateInteractiveCardHeaders updateInteractiveCardHeaders = new AlibabaCloud.SDK.Dingtalkim_1_0.Models.UpdateInteractiveCardHeaders();
@@ -67,14 +62,14 @@ namespace dingdingsuccess
             AlibabaCloud.SDK.Dingtalkim_1_0.Models.UpdateInteractiveCardRequest updateInteractiveCardRequest = new AlibabaCloud.SDK.Dingtalkim_1_0.Models.UpdateInteractiveCardRequest
             {
                 OutTrackId = cardDataCardParamMap["outTrackId"].ToString(),
-                CardData = cardData,               
+                CardData = cardData,
                 UserIdType = 1,
                 CardOptions = cardOptions
 
             };
             try
             {
-                LoggerHelper.Info("更新卡片信息：" +updateInteractiveCardRequest.OutTrackId+ cardDataCardParamMap.Values+ "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
+                LoggerHelper.Info("更新卡片信息：" + updateInteractiveCardRequest.OutTrackId + cardDataCardParamMap.Values + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
                 client.UpdateInteractiveCardWithOptions(updateInteractiveCardRequest, updateInteractiveCardHeaders, new AlibabaCloud.TeaUtil.Models.RuntimeOptions());
             }
             catch (TeaException err)
@@ -82,7 +77,7 @@ namespace dingdingsuccess
                 if (!AlibabaCloud.TeaUtil.Common.Empty(err.Code) && !AlibabaCloud.TeaUtil.Common.Empty(err.Message))
                 {
                     // err 中含有 code 和 message 属性，可帮助开发定位问题
-                    LoggerHelper.Error("更新卡片错误信息："+"编码"+err.Code+","+err.Message+"\n堆栈信息"+err.StackTrace+"、"+err.Source);
+                    LoggerHelper.Error("更新卡片错误信息：" + "编码" + err.Code + "," + err.Message + "\n堆栈信息" + err.StackTrace + "、" + err.Source);
                 }
             }
             catch (Exception _err)

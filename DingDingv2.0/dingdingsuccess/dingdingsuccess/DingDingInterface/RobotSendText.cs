@@ -1,15 +1,15 @@
 ﻿// This file is auto-generated, don't edit it. Thanks.
-
+/*
+ * 创建人：盖鹏军
+ * 时间：2022年2月1日10点30分
+ * 描述：用户使用机器人发送文本消息
+ */
+using dingdingsuccess.LimitBLL;
+using dingdingsuccess.Log4;
 using Newtonsoft.Json;
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.IO;
-using System.Threading.Tasks;
-using dingdingsuccess.Log4;
 using Tea;
-using Tea.Utils;
-using dingdingsuccess.LimitBLL;
 
 namespace dingdingsuccess.DingDingInterface
 {

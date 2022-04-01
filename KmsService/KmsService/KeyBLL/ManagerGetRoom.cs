@@ -1,14 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿/*
+ * 创建人：盖鹏军
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：管理员申请会议室
+ */
+using System;
 using System.Threading;
-using System.Web;
 using KmsService.DAL;
 using KmsService.Entity;
 using KmsService.Log4;
 
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 管理员申请会议室类
+    /// </summary>
     public class ManagerGetRoom
     {
         ManagerRecordDAL record = new ManagerRecordDAL();
@@ -16,7 +21,7 @@ namespace KmsService.KeyBLL
         /// 管理员发送消息获取消息中的关键字
         /// </summary>
         /// <param name="room">管理员发送消息内容</param>
-        /// <returns></returns>
+        /// <returns>会议室名称</returns>
         public string GetRoom(string room,string managerID)
         {
             

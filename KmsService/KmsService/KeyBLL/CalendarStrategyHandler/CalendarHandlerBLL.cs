@@ -6,6 +6,9 @@
 using KmsService.DingDingModel;
 namespace KmsService.KeyBLL.CalendarStrategyHandler
 {
+    /// <summary>
+    /// 推送会议室名称的职责链抽象父类
+    /// </summary>
     public abstract class CalendarHandlerBLL
     {
         protected CalendarHandlerBLL successor;
