@@ -9,7 +9,6 @@ namespace KmsService.KeyBLL
 
      功能：给用户发消息的方法，
      */
-
     public class SendMessages
     {
         public void SendMessageUser()

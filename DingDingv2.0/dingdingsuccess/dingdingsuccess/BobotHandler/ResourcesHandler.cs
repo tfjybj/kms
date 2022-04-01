@@ -47,6 +47,8 @@ namespace dingdingsuccess.BobotHandler
                         else
                         {
                             LoggerHelper.Info("管理员领取钥匙资源判断未通过"+"\n具体位置："+LoggerHelper.GetCurSourceFileName()+"\n行数："+LoggerHelper.GetLineNum());
+
+                            //successor.HandleRequest(ddID, content);
                         }
 
                     }
