@@ -5,14 +5,10 @@
  * 时间：2022年1月6日14点58分
  * 描述：给用户发送互动卡片消息
  */
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Threading.Tasks;
 using dingdingsuccess.Log4;
+using System;
+using System.Collections.Generic;
 using Tea;
-using Tea.Utils;
 
 
 namespace dingdingsuccess
@@ -70,7 +66,7 @@ namespace dingdingsuccess
                     CardData = cardData,
                 };
 
-                
+
                 client.SendInteractiveCardWithOptions(sendInteractiveCardRequest, sendInteractiveCardHeaders, new AlibabaCloud.TeaUtil.Models.RuntimeOptions());
             }
             catch (TeaException err)
@@ -83,7 +79,7 @@ namespace dingdingsuccess
             }
             catch (Exception _err)
             {
-                LoggerHelper.Error("发送消息卡片接口错误日志："+_err.Message);
+                LoggerHelper.Error("发送消息卡片接口错误日志：" + _err.Message);
                 TeaException err = new TeaException(new Dictionary<string, object>
                 {
                     { "message", _err.Message }

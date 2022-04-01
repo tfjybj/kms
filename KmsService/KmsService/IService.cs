@@ -365,6 +365,11 @@ namespace KmsService
         [OperationContract]
         string AddPoints(string token, string authID);
 
+
+        #region 取消日程，删除日程会议室申请
+        [OperationContract]
+        void DeleteCalendar(string calendarID);
+        #endregion
     }
 
 }
