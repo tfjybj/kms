@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace KmsService.KeyBLL.Scheduled
 {
+    /// <summary>
+    /// 卡片过期job
+    /// </summary>
     public class OverdueJob
     {
         /// <summary>

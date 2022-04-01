@@ -1,11 +1,15 @@
-﻿using System;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年4月1日10点30分
+ * 描述：接收权限用户资源信息
+ */
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace dingdingsuccess.AuthEntity
 {
-
+    /// <summary>
+    /// 权限用户资源信息
+    /// </summary>
     public class AuthUserResourceEntity
     {
         public string code { get; set; }

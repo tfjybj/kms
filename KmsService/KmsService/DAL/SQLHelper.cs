@@ -1,4 +1,9 @@
-﻿using MySql.Data.MySqlClient;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2021年12月1日19:45:39
+ * 描述：基本数据配置表D层操作类
+ */
+using MySql.Data.MySqlClient;
 using System;
 using System.Configuration;
 using System.Data;

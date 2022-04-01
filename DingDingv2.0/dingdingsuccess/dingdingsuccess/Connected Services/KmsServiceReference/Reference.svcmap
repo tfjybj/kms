@@ -28,6 +28,7 @@
     <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="b56393b5-7514-4b58-bcaa-afee07d9b1bd" SourceId="1" SourceUrl="http://192.168.60.140:82/Service.svc?xsd=xsd3" />
     <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="29370d5a-8cd6-42e6-a013-32edced698c2" SourceId="1" SourceUrl="http://192.168.60.140:82/Service.svc?xsd=xsd4" />
     <MetadataFile FileName="Service55.xsd" MetadataType="Schema" ID="c7f851fc-cf5f-4905-8d5b-9f708653dd8c" SourceId="1" SourceUrl="http://192.168.60.140:82/Service.svc?xsd=xsd5" />
+    <MetadataFile FileName="Service521.xsd" MetadataType="Schema" ID="163597fc-0d51-4100-9d91-79b07cc870ce" SourceId="1" SourceUrl="http://192.168.60.140:82/Service.svc?xsd=xsd6" />
     <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="f9c31af3-fcf6-4d37-9947-6113fa6896f7" SourceId="1" SourceUrl="http://192.168.60.140:82/Service.svc?wsdl" />
     <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="5cadea0b-0d33-4b44-817f-912343fbb9fe" SourceId="1" SourceUrl="http://192.168.60.140:82/Service.svc?xsd=xsd0" />
     <MetadataFile FileName="Service4.xsd" MetadataType="Schema" ID="17143fc0-0184-4169-bdbc-79c350eb76aa" SourceId="1" SourceUrl="http://192.168.60.140:82/Service.svc?xsd=xsd1" />

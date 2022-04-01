@@ -1,7 +1,11 @@
-﻿using KmsService.DAL;
+﻿/*
+ * 创建人：盖鹏军
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：传入参数是否能够查到会议室职责
+ */
+using KmsService.DAL;
 using KmsService.Log4;
 using System;
-using System.Configuration;
 
 namespace KmsService.KeyBLL.ManagerGetKeyHandler
 {
@@ -13,9 +17,9 @@ namespace KmsService.KeyBLL.ManagerGetKeyHandler
         /// <summary>
         /// 判断用输入的领取钥匙口令是否正确
         /// </summary>
-        /// <param name="roomName"></param>
-        /// <param name="managerID"></param>
-        /// <returns></returns>
+        /// <param name="roomName">会议室名称</param>
+        /// <param name="managerID">管理员钉ID</param>
+        /// <returns>会议室名称</returns>
         public override string GetRoom(string roomName, string managerID)
         {
             try

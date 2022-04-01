@@ -1,6 +1,11 @@
-﻿using KmsService.DAL;
+﻿/*
+ * 创建人：盖鹏军
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：判断管理员是否有正在使用中的记录
+ */
+using KmsService.DAL;
 using KmsService.Entity;
-using System.Configuration;
+
 
 namespace KmsService.KeyBLL.ManagerGetKeyHandler
 {
@@ -12,9 +17,9 @@ namespace KmsService.KeyBLL.ManagerGetKeyHandler
         /// <summary>
         /// 判断是否用管理员已经使用此会议室
         /// </summary>
-        /// <param name="roomName"></param>
-        /// <param name="managerID"></param>
-        /// <returns></returns>
+        /// <param name="roomName">会议室名称</param>
+        /// <param name="managerID">管理员钉ID</param>
+        /// <returns>会议室名称</returns>
         public override string GetRoom(string roomName, string managerID)
         {
             ManagerRecordDAL managerRecord = new ManagerRecordDAL();

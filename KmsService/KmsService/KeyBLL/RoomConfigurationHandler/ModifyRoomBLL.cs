@@ -1,12 +1,16 @@
-﻿using KmsService.Entity;
-using KmsService.KeyBLL.MettingConfigurationHandler;
-using System;
+﻿/*
+ * 创建人：邓礼梅
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：修改教室
+ */
+using KmsService.Entity;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace KmsService.KeyBLL.RoomConfigurationHandler
 {
+    /// <summary>
+    /// 修改会议室信息
+    /// </summary>
     public class ModifyRoomBLL
     {
         /// <summary>
@@ -15,6 +19,7 @@ namespace KmsService.KeyBLL.RoomConfigurationHandler
         /// <param name="basicDataStr">要修改信息的字符串</param>
         /// <param name="newBasicData">修改之后的信息</param>
         /// <param name="oldBasicData">修改之前的信息</param>
+        /// <returns>bool</returns>
         public bool ModifyRoom(string basicDataStr, BasicDataEntity newBasicData, BasicDataEntity oldBasicData, List<string> allLockNumber)
         {
             RoomConfigurationHandlerBLL judge = new JudgeBLL();

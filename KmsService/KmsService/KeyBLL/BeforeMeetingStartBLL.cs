@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：会议开始前领取钥匙消息发送
+ */
+using System;
 using System.Collections.Generic;
 using KmsService.DAL;
 using KmsService.Entity;
@@ -6,6 +11,9 @@ using KmsService.Log4;
 using System.Configuration;
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 会议开始前
+    /// </summary>
     public class BeforeMeetingStartBLL
     {
         /// <summary>

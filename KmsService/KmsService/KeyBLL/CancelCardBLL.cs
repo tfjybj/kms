@@ -1,15 +1,25 @@
-﻿using System;
+﻿
+/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：卡片过期
+ */
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using KmsService.DAL;
 using KmsService.Entity;
 using System.Configuration;
 using KmsService.Log4;
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 卡片过期
+    /// </summary>
     public class CancelCardBLL
     {
+        /// <summary>
+        /// 卡片过期
+        /// </summary>
         public void Cancel()
         {
             HttpHelper httphelper = new HttpHelper();

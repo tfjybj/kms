@@ -10,6 +10,9 @@ using KmsService.Entity;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 日程信息类
+    /// </summary>
     public class InsertCalendarDateDAL
     {
         public int InsertCalendar(CalendarInfoEntity calendarInfo)

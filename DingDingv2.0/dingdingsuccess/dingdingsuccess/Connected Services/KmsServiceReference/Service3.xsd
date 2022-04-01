@@ -1,95 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity" />
-  <xs:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" />
-  <xs:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-  <xs:element name="UpdateRoomName">
+  <xs:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/KmsService.Entity" />
+  <xs:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/" />
+  <xs:import schemaLocation="http://192.168.60.140:82/Service.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" />
+  <xs:element name="ModifyRoom">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="caName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="basicDataStr" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="newBasicData" nillable="true" type="q1:BasicDataEntity" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="oldBasicData" nillable="true" type="q2:BasicDataEntity" />
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="allLockNumber" nillable="true" type="q3:ArrayOfstring" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="UpdateRoomNameResponse">
+  <xs:element name="ModifyRoomResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="UpdateRoomNameResult" type="xs:int" />
+        <xs:element minOccurs="0" name="ModifyRoomResult" type="xs:boolean" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="UpdateMinUseNumber">
+  <xs:element name="GetApprover">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetApproverResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="minUseNumber" nillable="true" type="xs:string" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/" minOccurs="0" name="GetApproverResult" nillable="true" type="q4:ArrayOfAllusersEntitiesItem" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="UpdateMinUseNumberResponse">
+  <xs:element name="UpdateBasicData">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="UpdateMinUseNumberResult" type="xs:int" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="basicDataEntity" nillable="true" type="q5:BasicDataEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="UpdateBeforeTakeKey">
+  <xs:element name="UpdateBasicDataResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="beforeTakeKey" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="UpdateBeforeTakeKeyResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="UpdateBeforeTakeKeyResult" type="xs:int" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="UpdateAfterReturnKey">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="afterReturnKey" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="UpdateAfterReturnKeyResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="UpdateAfterReturnKeyResult" type="xs:int" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="UpdateUpperTime">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="upperTime" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="UpdateUpperTimeResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="UpdateUpperTimeResult" type="xs:int" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="UpdateLowerTime">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="ID" nillable="true" type="xs:string" />
-        <xs:element minOccurs="0" name="lowerTime" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="UpdateLowerTimeResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="UpdateLowerTimeResult" type="xs:int" />
+        <xs:element minOccurs="0" name="UpdateBasicDataResult" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -117,17 +71,100 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="CaNameIsExists">
+  <xs:element name="RoomNameIsExists">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="caName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="roomName" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="CaNameIsExistsResponse">
+  <xs:element name="RoomNameIsExistsResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="CaNameIsExistsResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="RoomNameIsExistsResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMetting">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="basicDataEntity" nillable="true" type="q6:BasicDataEntity" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMettingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertMettingResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RoomIdIsExists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="roomId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RoomIdIsExistsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RoomIdIsExistsResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteMetting">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="roomId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteMettingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteMettingResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLockNumber">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLockNumberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetLockNumberResult" nillable="true" type="q7:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRoomName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+        <xs:element minOccurs="0" name="roomName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRoomNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateRoomNameResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertRoomMetting">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="roomEntity" nillable="true" type="q8:RoomInfoEntity" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertRoomMettingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertRoomMettingResult" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -167,7 +204,7 @@
   <xs:element name="CancelCardResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="CancelCardResult" nillable="true" type="q1:ArrayOfCalendarInfoEntity" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="CancelCardResult" nillable="true" type="q9:ArrayOfCalendarInfoEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -236,8 +273,8 @@
   <xs:element name="DingDingMessage">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="model" nillable="true" type="q2:DingMessageModel" />
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="link" nillable="true" type="q3:Link" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="model" nillable="true" type="q10:DingMessageModel" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="link" nillable="true" type="q11:Link" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -249,14 +286,14 @@
   <xs:element name="SendApproveTask">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="sendApproveModel" nillable="true" type="q4:SendApproveModel" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="sendApproveModel" nillable="true" type="q12:SendApproveModel" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="SendApproveTaskResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="SendApproveTaskResult" nillable="true" type="q5:SendApproveRe_valueModel" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="SendApproveTaskResult" nillable="true" type="q13:SendApproveRe_valueModel" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -285,7 +322,7 @@
   <xs:element name="GetApproveContentResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="GetApproveContentResult" nillable="true" type="q6:ApproveContentTask" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="GetApproveContentResult" nillable="true" type="q14:ApproveContentTask" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -299,7 +336,7 @@
   <xs:element name="GetDingIDResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="GetDingIDResult" nillable="true" type="q7:UserCodeModel" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="GetDingIDResult" nillable="true" type="q15:UserCodeModel" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -327,7 +364,7 @@
   <xs:element name="SelectRoomInfoResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="SelectRoomInfoResult" nillable="true" type="q8:RoomInfoEntity" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="SelectRoomInfoResult" nillable="true" type="q16:RoomInfoEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -339,7 +376,7 @@
   <xs:element name="BeforeMeetingEndResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="BeforeMeetingEndResult" nillable="true" type="q9:ArrayOfCalendarInfoEntity" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="BeforeMeetingEndResult" nillable="true" type="q17:ArrayOfCalendarInfoEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -351,7 +388,7 @@
   <xs:element name="BeforeMeetingStartResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="BeforeMeetingStartResult" nillable="true" type="q10:ArrayOfCalendarInfoEntity" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="BeforeMeetingStartResult" nillable="true" type="q18:ArrayOfCalendarInfoEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -365,7 +402,7 @@
   <xs:element name="CalendarDateResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="CalendarDateResult" nillable="true" type="q11:CalendarInfoEntity" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="CalendarDateResult" nillable="true" type="q19:CalendarInfoEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -382,6 +419,26 @@
       <xs:sequence>
         <xs:element minOccurs="0" name="PushRoomResult" nillable="true" type="xs:string" />
       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemoveWeekDuplication">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemoveWeekDuplicationResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemoveMonthDuplication">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RemoveMonthDuplicationResponse">
+    <xs:complexType>
+      <xs:sequence />
     </xs:complexType>
   </xs:element>
   <xs:element name="SendMessageUser">
@@ -420,7 +477,7 @@
   <xs:element name="SelectCalendarInfoResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="SelectCalendarInfoResult" nillable="true" type="q12:SelectCalendarModel" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="SelectCalendarInfoResult" nillable="true" type="q20:SelectCalendarModel" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -452,7 +509,7 @@
   <xs:element name="InsertCalendar">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="calendarInfo" nillable="true" type="q13:CalendarInfoEntity" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="calendarInfo" nillable="true" type="q21:CalendarInfoEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -466,8 +523,8 @@
   <xs:element name="AgreeRequestInfo">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="model" nillable="true" type="q14:AgreeRequestModel" />
-        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="agreeRequest" nillable="true" type="q15:Request" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="model" nillable="true" type="q22:AgreeRequestModel" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="agreeRequest" nillable="true" type="q23:Request" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -475,6 +532,33 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="AgreeRequestInfoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModifyState">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ddID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="state" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModifyStateResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UserPushState">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ddID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UserPushStateResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserPushStateResult" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -510,7 +594,7 @@
   <xs:element name="GetApproveResult">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="approveContent" nillable="true" type="q16:ApproveInstanceModel" />
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/KmsService.DingDingModel" minOccurs="0" name="approveContent" nillable="true" type="q24:ApproveInstanceModel" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -546,13 +630,15 @@
   </xs:element>
   <xs:element name="SelectAllBasicData">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element minOccurs="0" name="roomName" nillable="true" type="xs:string" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="SelectAllBasicDataResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="SelectAllBasicDataResult" nillable="true" type="q17:BasicDataEntity" />
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="SelectAllBasicDataResult" nillable="true" type="q25:BasicDataEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -595,18 +681,6 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="WeekUseCountResult" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="AllDingDingID">
-    <xs:complexType>
-      <xs:sequence />
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="AllDingDingIDResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AllDingDingIDResult" nillable="true" type="q18:ArrayOfstring" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -677,7 +751,7 @@
   <xs:element name="InsertRoomRecord">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="managerRecord" nillable="true" type="q19:ManagerRecordEntity" />
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="managerRecord" nillable="true" type="q26:ManagerRecordEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -735,7 +809,7 @@
   <xs:element name="SelectGetRecordResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="SelectGetRecordResult" nillable="true" type="q20:ManagerRecordEntity" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="SelectGetRecordResult" nillable="true" type="q27:ManagerRecordEntity" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -751,8 +825,35 @@
   <xs:element name="ErrorRemindResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="ErrorRemindResult" nillable="true" type="q21:ErrorInfoEntity" />
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/KmsService.Entity" minOccurs="0" name="ErrorRemindResult" nillable="true" type="q28:ErrorInfoEntity" />
       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPoints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="token" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="authID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPointsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddPointsResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCalendar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="calendarID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteCalendarResponse">
+    <xs:complexType>
+      <xs:sequence />
     </xs:complexType>
   </xs:element>
 </xs:schema>

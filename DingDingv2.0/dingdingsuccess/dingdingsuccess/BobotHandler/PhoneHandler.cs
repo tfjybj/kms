@@ -1,14 +1,19 @@
-﻿using dingdingsuccess.AuthEntity;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年4月1日10点30分
+ * 描述：判断用户是否存在
+ */
+using dingdingsuccess.AuthEntity;
+using dingdingsuccess.Log4;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Web;
-using dingdingsuccess.Log4;
 namespace dingdingsuccess.BobotHandler
 {
-    public class PhoneHandler:DialogueHandler
+    /// <summary>
+    /// 判断用户是否存在
+    /// </summary>
+    public class PhoneHandler : DialogueHandler
     {
 
         /// <summary>
@@ -27,7 +32,7 @@ namespace dingdingsuccess.BobotHandler
                 userEntity = JsonConvert.DeserializeObject<AuthUserEntity>(httpHelper.HttpGet(userUrl));
                 if (userEntity.message != "查询为空!")
                 {
-                    LoggerHelper.Info("判断用户是否存在职责链的信息："+userEntity.data.phone);
+                    LoggerHelper.Info("判断用户是否存在职责链的信息：" + userEntity.data.phone);
                     successor.HandleRequest(ddID, content);
                 }
                 else
@@ -38,7 +43,7 @@ namespace dingdingsuccess.BobotHandler
             catch (Exception e)
             {
                 LoggerHelper.Error("判断用户是否存在职责链的错误信息：" + e.Message + "  具体信息：" + e.StackTrace);
-                
+
             }
 
 

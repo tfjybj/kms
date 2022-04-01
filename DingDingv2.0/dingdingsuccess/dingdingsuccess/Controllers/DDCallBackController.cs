@@ -1,15 +1,18 @@
-﻿using Newtonsoft.Json.Linq;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年2月1日10点30分
+ * 描述：钉钉回调接口类
+ */
+using dingdingsuccess.BobotHandler;
+using dingdingsuccess.CardMessageBLL;
+using dingdingsuccess.DingDingEntity;
+using dingdingsuccess.DingDingInterface;
+using dingdingsuccess.KmsServiceReference;
+using dingdingsuccess.Log4;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Web.Http;
-using dingdingsuccess.Log4;
-using dingdingsuccess.DingDingEntity;
-using System;
-using Newtonsoft.Json;
-using dingdingsuccess.CardMessageBLL;
-using dingdingsuccess.KmsServiceReference;
-using System.Text.RegularExpressions;
-using dingdingsuccess.BobotHandler;
-using dingdingsuccess.DingDingInterface;
 namespace dingdingsuccess.Controllers
 {
     /// <summary>
@@ -265,6 +268,7 @@ namespace dingdingsuccess.Controllers
         #endregion
 
         #region 机器人消息接收回调
+        [HttpPost]
         public void ReceiveMessage()
         {
             string content;
@@ -289,11 +293,17 @@ namespace dingdingsuccess.Controllers
                 DialogueHandler gradeHandler = new GradeHandler();
                 DialogueHandler phoneHandler = new PhoneHandler();
                 DialogueHandler resourcesHandler = new ResourcesHandler();
+                DialogueHandler basicCongiguration = new BasicConfigurationHandler();
+
+                //phoneHandler.SetSuccessor(gradeHandler);
+                //gradeHandler.SetSuccessor(resourcesHandler);
+                //resourcesHandler.SetSuccessor(basicCongiguration);
 
                 phoneHandler.SetSuccessor(gradeHandler);
-                gradeHandler.SetSuccessor(resourcesHandler);
-                phoneHandler.HandleRequest(userid, datatext);
+                gradeHandler.SetSuccessor(basicCongiguration);
+                basicCongiguration.SetSuccessor(resourcesHandler);
 
+                phoneHandler.HandleRequest(userid, datatext);
             }
             catch (Exception e)
             {
@@ -403,6 +413,7 @@ namespace dingdingsuccess.Controllers
         /// 管理员归还钥匙回调地址
         /// ManagerReturnKey
         /// </summary>
+        [HttpPost]
         public void ManagerReturnKey()
         {
             string equestContent;
@@ -524,6 +535,16 @@ namespace dingdingsuccess.Controllers
 
                 LoggerHelper.Error("值班卡片回调函数错误信息：" + e.Message + "  具体信息：" + e.StackTrace);
             }
+        }
+        #endregion
+
+
+        #region 注册卡片回调地址
+        [HttpGet]
+        public string CallBackURL(string url)
+        {
+            CallBack callBack = new CallBack();
+            return callBack.BackMessage(url);
         }
         #endregion
     }

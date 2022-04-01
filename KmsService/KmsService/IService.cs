@@ -64,9 +64,6 @@ namespace KmsService
         int InsertRoomMetting(RoomInfoEntity roomEntity);
         #endregion 更新教室基础数据表
 
-        //更新值班人员姓名
-        [OperationContract]
-        int UpdateDutyName(string OldDutyName, string NewDutyName);
 
         //更新领取钥匙卡片消息的id
         [OperationContract]
@@ -94,8 +91,6 @@ namespace KmsService
         [OperationContract]
         string GetAccessToken();
 
-        [OperationContract]
-        void DingDingMessage(DingMessageModel model, Link link);
 
         [OperationContract]
         SendApproveRe_valueModel SendApproveTask(SendApproveModel sendApproveModel);
@@ -136,8 +131,6 @@ namespace KmsService
 
         #region 推送会议室
 
-        [OperationContract]
-        CalendarInfoEntity CalendarDate(string calendarID);
 
         [OperationContract]
         string PushRoom(string calendarID, string userID);
@@ -149,12 +142,6 @@ namespace KmsService
         void RemoveWeekDuplication();//7天需要发送报表的用户，把报表中没有的用户筛选出来，后面会添加到报表中
         [OperationContract]
         void RemoveMonthDuplication();//30天需要发送报表的用户，把报表中没有的用户筛选出来，后面会添加到报表中
-
-        [OperationContract]
-        void SendMessageUser();//给用户推送周报消息的方法
-
-        [OperationContract]
-        string SelectGroupID(string userID);
 
 
         /// <summary>
@@ -290,13 +277,6 @@ namespace KmsService
 
         #endregion 每周会议室使用情况推送-发送的所有人
 
-        #region 值班人员领取钥匙
-        [OperationContract]
-        void DutyReceiveKey(string userID);
-
-        [OperationContract]
-        void PushDutyMsg();
-        #endregion
 
         #region 管理员开锁
 
@@ -365,6 +345,11 @@ namespace KmsService
         [OperationContract]
         string AddPoints(string token, string authID);
 
+
+        #region 取消日程，删除日程会议室申请
+        [OperationContract]
+        void DeleteCalendar(string calendarID);
+        #endregion
     }
 
 }

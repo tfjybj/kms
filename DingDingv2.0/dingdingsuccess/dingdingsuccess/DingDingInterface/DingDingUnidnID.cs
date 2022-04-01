@@ -1,11 +1,15 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年2月1日10点30分
+ * 描述：根据unionid获取用户的钉钉ID
+ */
 using dingdingsuccess.Log4;
+using Newtonsoft.Json;
 namespace dingdingsuccess
 {
+    /// <summary>
+    /// 根据unionid获取用户的钉钉ID
+    /// </summary>
     public class DingDingUnidnID
     {
         /// <summary>

@@ -1,17 +1,24 @@
-﻿using Newtonsoft.Json;
-using System.Collections.Generic;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：获取unionID操作类
+ */
+using Newtonsoft.Json;
 using KmsService.DingDingModel;
 using KmsService.Log4;
 
 namespace KmsService.DingDingInterface
 {
+    /// <summary>
+    /// 获取unionID
+    /// </summary>
     public class GetUnionID
     {
         /// <summary>
-        /// 根据用户的user ID获取用户信息
+        /// 根据用户的userID获取用户信息
         /// </summary>
         /// <param name="userID">钉钉ID</param>
-        /// <returns></returns>
+        /// <returns>unionID实体</returns>
         public GetUnionIDModel GetDingDingUnionID(string userID)
         {
             //获取访问token
@@ -39,11 +46,6 @@ namespace KmsService.DingDingInterface
             GetUnionIDModel userModel = JsonConvert.DeserializeObject<GetUnionIDModel>(result);
 
             return userModel;
-            ////取出unionid
-            //List<string> list = new List<string>();
-            //list.Add(unionIDModel.result.unionid);
-            //list.Add(unionIDModel.result.mobile);
-            //return list;
         }
     }
 }

@@ -24,7 +24,7 @@ namespace KmsService.KeyBLL.SendApproveHandler
         /// <param name="userID">钉ID</param>
         /// <param name="roomName">会议室</param>
         /// <param name="approveType">审批类型</param>
-        /// <returns></returns>
+        /// <returns>空值</returns>
         public override string SendApproveBLL(string calendarID, string userID, string roomName, string approveType)
         {
             //调用钉钉接口获取单个日程详情
@@ -73,7 +73,7 @@ namespace KmsService.KeyBLL.SendApproveHandler
             {
                 //通过userid获取手机号
                 GetUnionID getUnion = new GetUnionID();
-                GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(approver);
+                GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(basicDataEntity.ApproverID);
                 //通过手机号获取用户信息
                 GetUserToken getUserToken = new GetUserToken();
                 UserTokenModel userToken = getUserToken.GetToken(getUnionID.result.mobile);

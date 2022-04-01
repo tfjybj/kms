@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Web;
+﻿/*
+ * 创建人：盖鹏军
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：判断会议室是否存在
+ */
 
 namespace KmsService.KeyBLL.ManagerGetKeyHandler
 {
@@ -14,9 +14,9 @@ namespace KmsService.KeyBLL.ManagerGetKeyHandler
         /// <summary>
         /// 判断会议室是否存在
         /// </summary>
-        /// <param name="roomName"></param>
-        /// <param name="managerID"></param>
-        /// <returns></returns>
+        /// <param name="roomName">会议室名称</param>
+        /// <param name="managerID">管理员钉ID</param>
+        /// <returns>会议室名称</returns>
         public override string GetRoom(string roomName, string managerID)
         {
             if (roomName!=null)
