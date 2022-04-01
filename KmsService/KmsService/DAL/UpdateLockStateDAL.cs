@@ -1,8 +1,16 @@
-﻿using MySql.Data.MySqlClient;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：room表D层操作类
+ */
+using MySql.Data.MySqlClient;
 using System.Data;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 锁状态操作类
+    /// </summary>
     public class UpdateLockStateDAL
     {
         /// <summary>

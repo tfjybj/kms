@@ -1,9 +1,17 @@
-﻿using System;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：申请人的一周组织会议的次数
+ */
+using System;
 using System.Collections.Generic;
 using KmsService.DAL;
 using KmsService.Log4;
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 用户报表
+    /// </summary>
     public class PersonReportBLL
     {
         public  PersonReportDAL personReportDAL = new PersonReportDAL();
@@ -30,7 +38,7 @@ namespace KmsService.KeyBLL
         /// <summary>
         /// 申请人的一周会议使用最多次数的教室
         /// <param name="ddID">申请人的钉钉id</param>
-        /// <returns></returns>
+        /// <returns>会议室名称</returns>
         public string MaxUsedRoom(string dingDingID)
         {
             string maxUseRoom = null;
@@ -49,7 +57,7 @@ namespace KmsService.KeyBLL
         /// 获取时间段最多的一条数据
         /// </summary>
         /// <param name="ddID">申请会议人的id</param>
-        /// <returns></returns>
+        /// <returns>时间段</returns>
         public string MaxStartTime(string dingDingID)
         {
             string maxTime = null;
@@ -132,7 +140,6 @@ namespace KmsService.KeyBLL
         /// 用户状态为月推送时，修改状态为周推送，周推送改为月推送
         /// </summary>
         /// <param name="ddID"></param>
-        /// <returns></returns>
         public void ModifyState(string ddID,string state)
         {
              personReportDAL.ModifyState(ddID,state); 
@@ -142,7 +149,7 @@ namespace KmsService.KeyBLL
         /// 获取用户的推送状态
         /// </summary>
         /// <param name="ddID"></param>
-        /// <returns></returns>
+        /// <returns>状态</returns>
         public string UserPushState(string ddID)
         {
             return personReportDAL.UserPushState(ddID);

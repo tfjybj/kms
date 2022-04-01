@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：给用户发消息的方法
+ */
 using System.Configuration;
-using KmsService.DAL;
-using KmsService.DingDingInterface;
 using KmsService.Log4;
 namespace KmsService.KeyBLL
 {
@@ -11,18 +13,6 @@ namespace KmsService.KeyBLL
      */
     public class SendMessages
     {
-        public void SendMessageUser()
-        {
-            PersonReportDAL prd = new PersonReportDAL();
-            PushWeeklyReport pwr = new PushWeeklyReport();
-            List<string> dd = prd.AllddID();//获取查到的钉id
-
-            foreach (var item in dd)
-            {
-                pwr.message(item.ToString());//调用message接口，把获取的id传入
-            }
-        }
-
         /// <summary>
         /// 机器人发送文本消息
         /// </summary>

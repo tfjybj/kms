@@ -1,9 +1,13 @@
-﻿using KmsService.DAL;
+﻿/*
+ * 创建人：盖鹏军
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：判断会议室房间是否使用职责
+ */
+using KmsService.DAL;
 using System;
 using KmsService.Log4;
 using KmsService.Entity;
 using System.Collections.Generic;
-using System.Configuration;
 
 namespace KmsService.KeyBLL.ManagerGetKeyHandler
 {
@@ -15,9 +19,9 @@ namespace KmsService.KeyBLL.ManagerGetKeyHandler
         /// <summary>
         /// 判断是否有用户已经预约了此会议室
         /// </summary>
-        /// <param name="roomName"></param>
-        /// <param name="managerID"></param>
-        /// <returns></returns>
+        /// <param name="roomName">会议室名称</param>
+        /// <param name="managerID">管理员钉ID</param>
+        /// <returns>会议室名称</returns>
         public override string GetRoom(string roomName, string managerID)
         {
 

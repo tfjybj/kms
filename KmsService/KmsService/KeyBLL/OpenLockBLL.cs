@@ -1,10 +1,14 @@
-﻿using System;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：开锁
+ */
+using System;
 using KmsService.DAL;
 using KmsService.Entity;
 using KmsService.Log4;
 using System.Configuration;
 using System.Threading;
-using KmsService.KeyBLL.Scheduled;
 using KmsService.PointInterface;
 using KmsService.AuthInterface;
 using KmsService.DingDingModel;

@@ -1,10 +1,17 @@
-﻿using Newtonsoft.Json;
-using System.Collections.Generic;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：调用钉钉查询日程详情操作
+ */
+using Newtonsoft.Json;
 using KmsService.DingDingModel;
 using KmsService.Log4;
 
 namespace KmsService.DingDingInterface
 {
+    /// <summary>
+    /// 查询日程详情操作类
+    /// </summary>
     public class SelectCalendar
     {
         /// <summary>

@@ -1,10 +1,18 @@
-﻿using MySql.Data.MySqlClient;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年4月1日09:59:18
+ * 描述：会议前D层操作类
+ */
+using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using System.Data;
 using KmsService.Entity;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 会议前DAL类
+    /// </summary>
     public class BeforeMeetingDAL
     {
         private SQLHelper sQLHelper = new SQLHelper();

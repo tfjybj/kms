@@ -9,6 +9,9 @@ using KmsService.Log4;
 
 namespace KmsService.KeyBLL
 {
+    /// <summary>
+    /// 还钥匙类
+    /// </summary>
     public class ReturnKeyBLL
     {
         /// <summary>

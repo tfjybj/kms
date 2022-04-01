@@ -1,6 +1,5 @@
 ﻿using MySql.Data.MySqlClient;
 using System.Data;
-using KmsService.Log4;
 namespace KmsService.DAL
 {
     /// <summary>
