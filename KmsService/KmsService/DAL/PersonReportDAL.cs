@@ -3,7 +3,6 @@
  *创建时间：2022年1月5日08:34:35
  *描述：推送用户每周会议室使用情况
  */
-
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -118,7 +117,7 @@ namespace KmsService.DAL
         /// <summary>
         /// 获取日程表中7天内的开过会议用户
         /// </summary>
-        /// <returns></returns>
+        /// <returns>List集合</returns>
         public List<string> WeekddID()
         {
             string sql = "select distinct organizer_id from t_calendar where DATE_SUB(curdate(),INTERVAL 7 DAY) <=date(start_time)  GROUP BY room_name ORDER BY count(1) desc";
@@ -131,14 +130,14 @@ namespace KmsService.DAL
                 dd.Add(row["organizer_id"].ToString());
             }
             return dd;
-            
+
         }
 
         /// <summary>
         /// 获取日程表中数据库中30天内的开过会议用户
         /// </summary>
-        /// <returns></returns>
-        public List<string > MonthddID()
+        /// <returns>List集合</returns>
+        public List<string> MonthddID()
         {
             string sql = "select distinct organizer_id from t_calendar where DATE_SUB(curdate(),INTERVAL 30 DAY) <=date(start_time)  GROUP BY room_name ORDER BY count(1) desc";
             DataTable result = sqlhelper.ExecuteQuery(sql, CommandType.Text);
@@ -150,31 +149,31 @@ namespace KmsService.DAL
                 dd.Add(row["organizer_id"].ToString());
             }
             return dd;
-            
+
         }
 
         /// <summary>
         /// 查询推送报表中为周推送的用户
         /// </summary>
-        /// <returns></returns>
-        public List<string > Week( string ddID)
+        /// <returns>List集合</returns>
+        public List<string> Week(string ddID)
         {
             string sql = "select organizer_id  t_push_report where push_cycle='0'";
             DataTable result = sqlhelper.ExecuteQuery(sql, CommandType.Text);
 
             List<string> organizerID = new List<string>();
-            foreach(DataRow row in result.Rows)
+            foreach (DataRow row in result.Rows)
             {
                 organizerID.Add(row["organizer_id"].ToString());
             }
             return organizerID;
-                
+
         }
         /// <summary>
         /// 查询推送报表中月推送的用户
         /// </summary>
-        /// <returns></returns>
-        public List<string> Month(string ddID )
+        /// <returns>List集合</returns>
+        public List<string> Month(string ddID)
         {
             string sql = "select organizer_id from t_push_cycle where push_cycle='1'";
             DataTable result = sqlhelper.ExecuteQuery(sql, CommandType.Text);
@@ -190,7 +189,7 @@ namespace KmsService.DAL
         /// <summary>
         /// 查询报表中的所有钉钉id
         /// </summary>
-        /// <returns></returns>
+        /// <returns>List集合</returns>
         public List<string> Report()
         {
             string sql = "select organizer_id  from t_push_report";
@@ -207,25 +206,24 @@ namespace KmsService.DAL
         /// <summary>
         /// 添加对比之后的报表中没有的用户
         /// </summary>
-        /// <returns></returns>
-        public int  AddOrganizerID( string ddID)
+        /// <returns>List集合</returns>
+        public int AddOrganizerID(string ddID)
         {
-           
+
             string sql = "insert into t_push_report(organizer_id,push_cycle) values(@ddID,'0')";
             MySqlParameter[] mySqlParameter = new MySqlParameter[]
             {
                 new MySqlParameter("@ddID",ddID)
             };
-           int result= sqlhelper.ExecuteNonQuery(sql, mySqlParameter, CommandType.Text);
+            int result = sqlhelper.ExecuteNonQuery(sql, mySqlParameter, CommandType.Text);
             return result;
         }
-       
+
         /// <summary>
         /// 用户状态为月推送时，修改状态为周推送,周推送修改为月推送
         /// </summary>
         /// <param name="ddID">用户钉钉id</param>
-        /// <returns></returns>
-        public void  ModifyState(string ddID,string state)
+        public void ModifyState(string ddID, string state)
         {
             string sql = "update t_push_report set push_cycle=@state where organizer_id=@ddID ";
             MySqlParameter[] mysql = new MySqlParameter[]
@@ -233,33 +231,32 @@ namespace KmsService.DAL
                 new MySqlParameter("@ddID",ddID),
                 new MySqlParameter("@state",state)
             };
-            int result = sqlhelper.ExecuteNonQuery(sql,mysql, CommandType.Text);
-           
+            int result = sqlhelper.ExecuteNonQuery(sql, mysql, CommandType.Text);
         }
 
         /// <summary>
         /// 获取数据库中用户的推送状态
         /// </summary>
         /// <param name="ddID">钉钉id</param>
-        /// <returns></returns>
-        public string  UserPushState(string ddID)
+        /// <returns>推送状态</returns>
+        public string UserPushState(string ddID)
         {
-            string state=null;
+            string state = null;
             string sql = "select push_cycle from t_push_report where organizer_id=@ddID";
             MySqlParameter[] mysql = new MySqlParameter[]
             {
                 new MySqlParameter("@ddID",ddID)
             };
 
-            DataTable result = sqlhelper.ExecuteQuery(sql,mysql, CommandType.Text);
+            DataTable result = sqlhelper.ExecuteQuery(sql, mysql, CommandType.Text);
 
-            foreach (DataRow row  in result.Rows)
+            foreach (DataRow row in result.Rows)
             {
                 state = row["push_cycle"].ToString();
             }
 
             return state;
-                
+
         }
     }
 }

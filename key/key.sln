@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "key", "key\", "{4314F8D9-8068-4ADD-84D2-D65487B4D2CD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55911"
+		Debug.AspNetCompiler.PhysicalPath = "key\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55911\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55911"
+		Release.AspNetCompiler.PhysicalPath = "key\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55911\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55911"
+		SlnRelativePath = "key\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4314F8D9-8068-4ADD-84D2-D65487B4D2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4314F8D9-8068-4ADD-84D2-D65487B4D2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4314F8D9-8068-4ADD-84D2-D65487B4D2CD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4314F8D9-8068-4ADD-84D2-D65487B4D2CD}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C5B3D2A-8F85-4580-9279-EAFB0BA3963B}
+	EndGlobalSection
+EndGlobal

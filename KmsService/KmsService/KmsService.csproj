@@ -234,41 +234,30 @@
     <Compile Include="AuthInterface\GetUserToken.cs" />
     <Compile Include="DAL\BasicDataDAL.cs" />
     <Compile Include="DAL\BeforeMeetingDAL.cs" />
-    <Compile Include="DAL\DeleteKeyInfoDAL.cs" />
     <Compile Include="DAL\InsertCalendarDateDAL.cs" />
-    <Compile Include="DAL\InsertKeyInfoDAL.cs" />
     <Compile Include="DAL\ManagerRecordDAL.cs" />
     <Compile Include="DAL\ModifyConfigurationDAL.cs" />
     <Compile Include="DAL\OpenLockDAL.cs" />
     <Compile Include="DAL\PersonReportDAL.cs" />
-    <Compile Include="DAL\PushMsgTimeDAL.cs" />
     <Compile Include="DAL\SelectAllRoomDAL.cs" />
-    <Compile Include="DAL\SelectCalendarIDDAL.cs" />
     <Compile Include="DAL\SelectCalendarInfoDAL.cs" />
-    <Compile Include="DAL\SelectDutyDAL.cs" />
     <Compile Include="DAL\SelectRoomInfoDAL.cs" />
     <Compile Include="DAL\SelectRoomNameDAL.cs" />
     <Compile Include="DAL\SQLHelper.cs" />
     <Compile Include="DAL\UpdateCalendar.cs" />
-    <Compile Include="DAL\UpdateDutyNameDAL.cs" />
     <Compile Include="DAL\UpdateLockNumberDAL.cs" />
     <Compile Include="DAL\UpdateLockStateDAL.cs" />
-    <Compile Include="DAL\UserGroupDAL.cs" />
     <Compile Include="DingDingInterface\AccessToken.cs" />
     <Compile Include="DingDingInterface\AgreeRequest.cs" />
     <Compile Include="DingDingInterface\ApproveContent.cs" />
     <Compile Include="DingDingInterface\ApproveID.cs" />
-    <Compile Include="DingDingInterface\ApproverMessage.cs" />
-    <Compile Include="DingDingInterface\DingUserInfo.cs" />
     <Compile Include="DingDingInterface\GetDingID.cs" />
     <Compile Include="DingDingInterface\GetUnionID.cs" />
-    <Compile Include="DingDingInterface\PushWeeklyReport.cs" />
     <Compile Include="DingDingInterface\SelectCalendar.cs" />
     <Compile Include="DingDingInterface\SendApproveExample.cs" />
     <Compile Include="DingDingModel\AgreeRequestModel.cs" />
     <Compile Include="DingDingModel\ApproveContentTask.cs" />
     <Compile Include="DingDingModel\ApproveInstanceModel.cs" />
-    <Compile Include="DingDingModel\DingMessageModel.cs" />
     <Compile Include="DingDingModel\DingUserInfoModel.cs" />
     <Compile Include="DingDingModel\GetUnionIDModel.cs" />
     <Compile Include="DingDingModel\PointModel.cs" />
@@ -292,7 +281,6 @@
     <Compile Include="KeyBLL\BasicDataBLL.cs" />
     <Compile Include="KeyBLL\BeforeMeetingEndBLL.cs" />
     <Compile Include="KeyBLL\BeforeMeetingStartBLL.cs" />
-    <Compile Include="KeyBLL\CalendarDataBLL.cs" />
     <Compile Include="KeyBLL\CalendarStrategyHandler\CalendarApproveBLL.cs" />
     <Compile Include="KeyBLL\CalendarStrategyHandler\CalendarHandlerBLL.cs" />
     <Compile Include="KeyBLL\CalendarStrategyHandler\InsideWareHouseBLL.cs" />
@@ -302,15 +290,12 @@
     <Compile Include="KeyBLL\CalendarStrategyHandler\PlaceLimitBLL.cs" />
     <Compile Include="KeyBLL\CalendarStrategyHandler\SameTimeLimitBLL.cs" />
     <Compile Include="KeyBLL\CalendarStrategyHandler\SpecialLimitBLL.cs" />
-    <Compile Include="KeyBLL\CalendarStrategyHandler\StorageDutyInfoBLL.cs" />
     <Compile Include="KeyBLL\CancelCardBLL.cs" />
     <Compile Include="KeyBLL\ConcretePushFourtyRoomBLL.cs" />
     <Compile Include="KeyBLL\ConcretePushLargeFourtyBLL.cs" />
     <Compile Include="KeyBLL\ConcretePushTwentyRoomBLL.cs" />
-    <Compile Include="KeyBLL\DateIsModifyBLL.cs" />
-    <Compile Include="KeyBLL\DutyReceiveKeyBLL.cs" />
     <Compile Include="KeyBLL\ErrorRemindBLL.cs" />
-    <Compile Include="AuthInterface\GetApproverBLL.cs" />
+    <Compile Include="KeyBLL\GetApproverBLL.cs" />
     <Compile Include="KeyBLL\ManagerGetKeyBLL.cs" />
     <Compile Include="KeyBLL\ManagerGetKeyHandler\ContentHandler.cs" />
     <Compile Include="KeyBLL\ManagerGetKeyHandler\IsExistRoomHandler.cs" />
@@ -322,7 +307,6 @@
     <Compile Include="KeyBLL\ManagerGetRoom.cs" />
     <Compile Include="KeyBLL\OpenLockBLL.cs" />
     <Compile Include="KeyBLL\PersonReportBLL.cs" />
-    <Compile Include="KeyBLL\PushDutyMsgBLL.cs" />
     <Compile Include="KeyBLL\PushHandlerBLL.cs" />
     <Compile Include="KeyBLL\PushRoomBLL.cs" />
     <Compile Include="KeyBLL\ReturnKeyBLL.cs" />
@@ -336,22 +320,16 @@
     <Compile Include="KeyBLL\RoomConfigurationHandler\RoomIdIsExistsBLL.cs" />
     <Compile Include="KeyBLL\RoomConfigurationHandler\RoomNameIsExistsBLL.cs" />
     <Compile Include="KeyBLL\RoomConfigurationHandler\RoomNameIsModifyBLL.cs" />
-    <Compile Include="KeyBLL\RoomConfigurationHandler\UpdateRoomBLL.cs" />
     <Compile Include="KeyBLL\Scheduled\ConferenceEndBLL.cs" />
     <Compile Include="KeyBLL\Scheduled\ConferenceOverdueBLL.cs" />
     <Compile Include="KeyBLL\Scheduled\ConferenceStartBLL.cs" />
     <Compile Include="KeyBLL\Scheduled\CronGenerade.cs" />
     <Compile Include="KeyBLL\Scheduled\EndConsoleJob.cs" />
     <Compile Include="KeyBLL\Scheduled\EndScheduledJob.cs" />
-    <Compile Include="KeyBLL\Scheduled\MonthPushReportJob.cs" />
-    <Compile Include="KeyBLL\Scheduled\MonthPushReport.cs" />
     <Compile Include="KeyBLL\Scheduled\OverdueJob.cs" />
     <Compile Include="KeyBLL\Scheduled\OverdueScheduled.cs" />
     <Compile Include="KeyBLL\Scheduled\StartConsoleJob.cs" />
     <Compile Include="KeyBLL\Scheduled\StartScheduledJob.cs" />
-    <Compile Include="KeyBLL\Scheduled\WeekPushReport.cs" />
-    <Compile Include="KeyBLL\Scheduled\WeekPushReportJob.cs" />
-    <Compile Include="KeyBLL\SelectGroupIDBLL.cs" />
     <Compile Include="KeyBLL\GetApproveResultBLL.cs" />
     <Compile Include="KeyBLL\SendApproveHandler\AutomaticSendApproveBLL.cs" />
     <Compile Include="KeyBLL\SendApproveHandler\ErgodicRecordBLL.cs" />
@@ -364,9 +342,6 @@
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="PointInterface\AddIntegral.cs" />
-    <Compile Include="Scheduler\Demo.cs" />
-    <Compile Include="Scheduler\MyRegistry.cs" />
-    <Compile Include="Scheduler\Scheduler.cs" />
     <Compile Include="Service.svc.cs">
       <DependentUpon>Service.svc</DependentUpon>
     </Compile>

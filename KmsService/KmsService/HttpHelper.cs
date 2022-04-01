@@ -11,6 +11,9 @@ using System.Text;
 
 namespace KmsService
 {
+    /// <summary>
+    /// http请求帮助类
+    /// </summary>
     public class HttpHelper
     {
         /// <summary>
