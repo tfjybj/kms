@@ -33,6 +33,7 @@ namespace dingdingsuccess.BobotHandler
                 else
                 {
                     LoggerHelper.Info("判断用权限职责链的信息：" + userResourceEntity.data.productEnglishName);
+
                     successor.HandleRequest(ddID, content);
                 }
             }

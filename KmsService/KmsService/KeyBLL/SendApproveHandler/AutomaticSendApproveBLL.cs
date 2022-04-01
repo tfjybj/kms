@@ -12,7 +12,7 @@ using KmsService.DingDingModel;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-
+using KmsService.Entity;
 namespace KmsService.KeyBLL.SendApproveHandler
 {
     public class AutomaticSendApproveBLL : SendApproveHandlerBLL
@@ -31,6 +31,9 @@ namespace KmsService.KeyBLL.SendApproveHandler
             SelectCalendar selectCalendar = new SelectCalendar();
             SelectCalendarModel calendarModel = selectCalendar.SelectCalendarInfo(userID, "primary", calendarID);
 
+            BasicDataDAL basicDataDAL = new BasicDataDAL();
+            BasicDataEntity basicDataEntity = basicDataDAL.SelectAllBasicData(roomName);
+
             //给发审批实体赋值
             SendApproveModel send = new SendApproveModel();
             Form_Component_Values fromName = new Form_Component_Values();
@@ -40,7 +43,7 @@ namespace KmsService.KeyBLL.SendApproveHandler
             send.agent_id = 10358038;
             send.originator_user_id = userID;
             send.process_code = processCode;
-            send.approvers = approver;
+            send.approvers = basicDataEntity.ApproverID;
             //send.cc_list = sendPeople;
             send.cc_position = postion;
             fromName.name = "会议室选择";
@@ -70,7 +73,7 @@ namespace KmsService.KeyBLL.SendApproveHandler
             {
                 //通过userid获取手机号
                 GetUnionID getUnion = new GetUnionID();
-                GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(approver);
+                GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(basicDataEntity.ApproverID);
                 //通过手机号获取用户信息
                 GetUserToken getUserToken = new GetUserToken();
                 UserTokenModel userToken = getUserToken.GetToken(getUnionID.result.mobile);
