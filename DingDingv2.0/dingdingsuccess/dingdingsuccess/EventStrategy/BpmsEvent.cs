@@ -1,4 +1,8 @@
-﻿
+﻿/*
+ * 创建人：盖鹏军
+ * 时间：2022年2月20日10点30分
+ * 描述：策略模式中审批事件策略，执行审批事件的业务
+ */
 using Newtonsoft.Json;
 using dingdingsuccess.KmsServiceReference;
 using dingdingsuccess.Log4;
@@ -10,6 +14,10 @@ namespace dingdingsuccess.EventStrategy
     /// </summary>
     public class BpmsEvent : EventType
     {
+        /// <summary>
+        /// 执行审批业务
+        /// </summary>
+        /// <param name="eventContent">审批事件信息</param>
         public override void ActEvent(string eventContent)
         {
             try

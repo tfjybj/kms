@@ -119,19 +119,6 @@ namespace KmsService
         }
         #endregion 更新教室数据基础表
 
-        //private MQTTServer mqtt = MQTTServer.Instance();
-
-        /// <summary>
-        /// 更新值班人员姓名
-        /// </summary>
-        /// <param name="OldDutyName">值班人员</param>
-        /// <param name="NewDutyName">替班人员</param>
-        /// <returns></returns>
-        public int UpdateDutyName(string OldDutyName, string NewDutyName)
-        {
-            UpdateDutyNameDAL updateDutyName = new UpdateDutyNameDAL();
-            return updateDutyName.UpdateDutyName(OldDutyName, NewDutyName);
-        }
 
         /// <summary>
         /// 获取教室的有关信息
@@ -257,20 +244,8 @@ namespace KmsService
             return deptID.GetDeptID(phoneNumber);
         }
 
-        public void DingDingMessage(DingMessageModel model, Link link)
-        {
-            ApproverMessage dingMessage = new ApproverMessage();
-            dingMessage.SendMessage(model, link);
-        }
-
         #region 用户推送消息
 
-        public void SendMessageUser()
-        {
-            SendMessages sm = new SendMessages();
-
-            sm.SendMessageUser();
-        }
 
         #endregion 用户推送消息
 
@@ -300,13 +275,6 @@ namespace KmsService
 
 
 
-        public CalendarInfoEntity CalendarDate(string calendarID)
-        {
-            CalendarDataBLL calendarData = new CalendarDataBLL();
-            return calendarData.calendarDate(calendarID);
-        }
-
-
         public SelectCalendarModel SelectCalendarInfo(string userID, string CalendarID, string eventID)
         {
             SelectCalendar selectCalendar = new SelectCalendar();
@@ -323,12 +291,6 @@ namespace KmsService
         {
             InsertCalendarDateDAL insert = new InsertCalendarDateDAL();
             return insert.InsertCalendar(calendarInfo);
-        }
-
-        public string SelectGroupID(string userID)
-        {
-            SelectGroupIDBLL selectGroup = new SelectGroupIDBLL();
-            return selectGroup.SelectGroupID(userID);
         }
 
         /// <summary>
@@ -573,24 +535,6 @@ namespace KmsService
 
         #region 值班人员领取钥匙
 
-        /// <summary>
-        /// 推送值班人员领取钥匙的卡片消息
-        /// </summary>
-        /// <param name="userID"></param>
-        public void DutyReceiveKey(string userID)
-        {
-            DutyReceiveKeyBLL dutyReceiveKeyBLL = new DutyReceiveKeyBLL();
-            dutyReceiveKeyBLL.DutyReceiveKey(userID);
-        }
-
-        /// <summary>
-        /// 推送是否为值班人员的卡片消息
-        /// </summary>
-        public void PushDutyMsg()
-        {
-            PushDutyMsgBLL pushDutyMsgBLL = new PushDutyMsgBLL();
-            pushDutyMsgBLL.PushDutyMsg();
-        }
 
         #endregion 值班人员领取钥匙
 
@@ -693,5 +637,15 @@ namespace KmsService
         }
 
         #endregion
+
+        /// <summary>
+        /// 日程取消删除会议室 申请
+        /// </summary>
+        /// <param name="calendarID">日程ID</param>
+        public void DeleteCalendar(string calendarID)
+        {
+            UpdateCalendar updateCalendar = new UpdateCalendar();
+            updateCalendar.UpdateIsDelete(calendarID);
+        }
     }
 }

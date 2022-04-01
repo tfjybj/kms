@@ -1,9 +1,17 @@
-﻿using System.Collections.Generic;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年1月11日19:45:39
+ * 描述：查询所有会议室D层操作类
+ */
+using System.Collections.Generic;
 using System.Data;
 using KmsService.Entity;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 查询所有会议室类
+    /// </summary>
     public class SelectAllRoomDAL
     {
         /// <summary>

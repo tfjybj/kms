@@ -16,9 +16,9 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
         /// <summary>
         /// 推送会议室
         /// </summary>
-        /// <param name="calendarID"></param>
-        /// <param name="userID"></param>
-        /// <returns></returns>
+        /// <param name="calendarID">日程ID</param>
+        /// <param name="userID">钉ID</param>
+        /// <returns>会议室名称</returns>
         public string PushRoom(string calendarID, string userID)
         {
             LoggerHelper.Info("用户发起日程调用推送会议室方法：" + calendarID + "、" + userID);

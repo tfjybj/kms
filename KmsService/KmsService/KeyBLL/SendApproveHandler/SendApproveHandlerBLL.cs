@@ -36,7 +36,7 @@ namespace KmsService.KeyBLL.SendApproveHandler
         /// <param name="userID">钉ID</param>
         /// <param name="roomName">会议室</param>
         /// <param name="approveType">审批类型</param>
-        /// <returns></returns>
+        /// <returns>空值</returns>
         public abstract string SendApproveBLL(string calendarID, string userID, string roomName,string approveType);
     }
 

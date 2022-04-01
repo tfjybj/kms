@@ -11,6 +11,9 @@ using System.Collections.Generic;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 管理员记录类
+    /// </summary>
     public class ManagerRecordDAL
     {
         private SQLHelper sqlHelper;
@@ -75,7 +78,7 @@ namespace KmsService.DAL
         /// 作废卡片，更新卡片是否可使用记录
         /// </summary>
         /// <param name="cardID">领取钥匙卡片ID</param>
-        /// <returns></returns>
+        /// <returns>受影响行数</returns>
         public int UpdateCancelRecord(string cardID)
         {
             string sql = "UPDATE t_manager_record SET is_cancel='1' WHERE get_out_track_id=@cardID";
@@ -88,7 +91,7 @@ namespace KmsService.DAL
         /// </summary>
         /// <param name="cardID">领取钥匙卡片ID</param>
         /// <param name="returncardid">归还钥匙卡片ID</param>
-        /// <returns></returns>
+        /// <returns>受影响行数</returns>
         public int UpdateGetKey(string cardID, string returncardid)
         {
 

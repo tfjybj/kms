@@ -13,6 +13,9 @@ using MySql.Data.MySqlClient;
 
 namespace KmsService.DAL
 {
+    /// <summary>
+    /// 基本数据类
+    /// </summary>
     public class BasicDataDAL
     {
         private SQLHelper sqlHelper;

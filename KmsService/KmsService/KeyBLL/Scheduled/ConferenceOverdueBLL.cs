@@ -1,7 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿/*
+ * 创建人：王梦杰
+ * 创建日期：2022年3月12日19:45:39
+ * 描述：开启发送归还钥匙提醒的定时任务
+ */
+using System;
 using KmsService.Log4;
 namespace KmsService.KeyBLL.Scheduled
 {
