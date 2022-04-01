@@ -51,6 +51,10 @@ namespace dingdingsuccess.EventStrategy
                 }
 
             }
+            if ("cancelled"==model.ChangeType)
+            {
+
+            }
         }
     }
 }
