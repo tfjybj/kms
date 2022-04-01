@@ -67,9 +67,9 @@ public partial class MettingConfiguration : System.Web.UI.Page
     /// <param name="e"></param>
     protected void GridView1_RowEditing(object sender, GridViewEditEventArgs e)
     {
-        //获取选中行
+        //获取要编辑的行
         GridView1.EditIndex = e.NewEditIndex;
-
+        
         //调用后端方法获取审批人
         List<AllusersEntitiesItem> list = service.GetApprover();
 
