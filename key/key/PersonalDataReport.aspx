@@ -34,12 +34,7 @@
 </script>--%>
           
         <div   style="height:35px; width :490px">
-            <%--<select align="right"  style="height:35px;width :200px" name="D1">
-                <option selected hidden disabled value ="">推送周期</option>
-                <option value="SevenDays">7天</option>
-                <option value="FourteenDays">14天</option>
-                <option value="OneMonth">30天</option>
-            </select>--%>
+           
 
             <label align="left" >点击右下侧按钮选择是周推送或月推送哦！</label>&nbsp;
         <%--    滑动按钮--%>
