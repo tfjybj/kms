@@ -51,7 +51,7 @@
 <asp:UpdatePanel ID="UpdatePanel1" runat="server" align="center">
 <ContentTemplate>
 <%--<asp:TextBox ID="txt1" runat="server" Width="150px" Height="25px"></asp:TextBox>--%>
-<asp:Button runat="server" Text="周/月"   onclick="Button1_Click"/>
+<asp:Button runat="server" Text="周/月"   onclick="ChangeState_Click"/>
 </ContentTemplate>
 </asp:UpdatePanel>
              
