@@ -1,0 +1,22 @@
+﻿#ButtonUse {
+/*    float:right*/
+}
+
+#ButtonNotUse {
+    float: right 
+}
+
+body {
+
+    width: 600px;
+    height: 350px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -225px 0 0 -400px;
+}
+
+LabelDefault {
+    font-style: oblique
+}
