@@ -1,0 +1,88 @@
+﻿body {   
+    height: 1386px;
+    width: 990px;
+    margin-bottom: 18px;
+}
+
+#left {
+    float: left;
+    margin-bottom: 0px;
+}
+#ImageButtonReturn {
+    float:left;
+}
+#Dynamic {
+    border:1px solid #808080;
+}
+
+
+#room {
+    font-size: 25px;
+    display: inline;
+}
+
+#title {
+    display: inline
+}
+
+#text {
+    display: inline
+}
+#imgReturn {
+    display: inline
+}
+
+
+
+/*滑动按钮*/
+.checke {
+    position: relative;
+    -webkit-appearance: none;
+    width: 84px;
+    height: 37px;
+    line-height: 44px;
+    background: #eee;
+    border-radius: 30px;
+    outline: none;
+    top: 4px;
+    left: -6px;
+}
+
+    .checke:before {
+        position: absolute;
+        left: 0;
+        content: '';
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: #eee;
+        box-shadow: 0px 0px 5px #ddd;
+        transition: all 0.2s linear;
+    }
+
+    .checke:checked {
+        background: #18ff0a;
+    }
+
+        .checke:checked:before {
+            left: 45px;
+            transition: all 0.2s linear;
+        }
+
+/*$(function () {
+
+   $(".checke").click(function () {
+
+       if (this.checked==true){
+
+           alert("选中");
+
+       }else{
+
+           alert("不选中");
+
+       }
+
+   })
+
+})*/
