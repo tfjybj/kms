@@ -56,7 +56,7 @@ namespace dingdingsuccess.EventStrategy
                 }
 
             }
-            if ("cancelled" == model.ChangeType)
+            if ("cancelled" == model.ChangeType|| "deleteView"==model.ChangeType)
             {
                 LoggerHelper.Info("日程事件类型ChangeType:" + model.ChangeType + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());
                 LoggerHelper.Info("日程事件用户信息日程ID、钉ID：" + model.CalendarEventId + "、" + userID + "\n具体位置：" + LoggerHelper.GetCurSourceFileName() + "\n行数：" + LoggerHelper.GetLineNum());

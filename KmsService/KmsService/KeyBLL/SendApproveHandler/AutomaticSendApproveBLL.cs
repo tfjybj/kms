@@ -74,11 +74,12 @@ namespace KmsService.KeyBLL.SendApproveHandler
                 //通过userid获取手机号
                 GetUnionID getUnion = new GetUnionID();
                 GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(basicDataEntity.ApproverID);
+                basicDataEntity = new BasicDataDAL().SelectAllBasicData(fromName.name);
                 //通过手机号获取用户信息
                 GetUserToken getUserToken = new GetUserToken();
                 UserTokenModel userToken = getUserToken.GetToken(getUnionID.result.mobile);
                 string ManagerName = userToken.data.name;
-                string message = string.Format("系统已为您发送申请，等待管理员({0})通过之后即可领取钥匙,如若着急请电话联系！\n领取钥匙卡片会在管理员通过审批后会议开始前30分钟发送给你", ManagerName);
+                string message = string.Format("系统已为您发送申请，等待管理员({0})通过之后即可领取钥匙,如若着急请电话联系！\n领取钥匙卡片会在管理员通过审批后会议开始前{1}分钟发送给你", ManagerName, basicDataEntity.BeforeTakeKey);
                 string adminURL = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", userID, message);
                 httpHelper.HttpPost(adminURL);
                 return null;
