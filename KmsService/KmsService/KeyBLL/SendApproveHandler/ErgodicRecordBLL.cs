@@ -61,8 +61,11 @@ namespace KmsService.KeyBLL.SendApproveHandler
                     return successor.SendApproveBLL(calendarID, userID, roomName, approveType);
                 }
             }
-             
-            return null;
+            else
+            {
+                return null;
+            }
+            return successor.SendApproveBLL(calendarID, userID, roomName, approveType);
         }
     }
 }

@@ -31,7 +31,7 @@ namespace KmsService.KeyBLL.CalendarStrategyHandler
             foreach (var item in managerRecords)
             {
                 TimeSpan managerSpan = Convert.ToDateTime(item.get_time).TimeOfDay;
-                if (managerSpan<=userStartSpan)
+                if (userStartSpan <= managerSpan && managerSpan <= userEndSpan)
                 {
                     string content = string.Format("您申请的{0}会议室已经被管理员：{1}申请了，请您另选其他时间段或申请别的会议室进行会议！",item.key_name,item.manager_name);
                     string url = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", userID, content);
