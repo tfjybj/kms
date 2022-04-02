@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Quartz;
 using Quartz.Impl;
+using ConsoleApp1;
 
 namespace 定时任务
 {
@@ -36,7 +37,7 @@ namespace 定时任务
     {
 
         /// <summary>
-        /// 定时任务
+        /// 定时任务 周
         /// </summary>
          public static void Show()
         {
@@ -49,8 +50,8 @@ namespace 定时任务
             //3.创建并配置一个触发器即trigger   1s执行一次
             ITrigger _CronTrigger = TriggerBuilder.Create()
               .WithIdentity("定时确认")
-              .WithCronSchedule("0 0/2 * * * ?  ") //秒 分 时 某一天 月 周 年(可选参数)每周日下午五点执行一次
-           // .WithCronSchedule("*/5 * * * * ?") //秒 分 时 某一天 月 周 年(可选参数)每5秒执行一次
+              .WithCronSchedule("0 15 10 ? * MON") //每周1执行一次
+           
               .Build();
             //4.将job和trigger加入到作业调度池中
             scheduler.ScheduleJob(job, _CronTrigger);
@@ -76,24 +77,27 @@ namespace 定时任务
                 await Task.Run(() =>
                 {
                     //要处理的逻辑
-                    //SendMessages send = new SendMessages();
-                    //send.SendMessageUser();
+                 
                     SendMessages sendreport = new SendMessages();
-                    //SendReportMessage sendreport = new SendReportMessage();
-                    // PersonReportDAL prd = new PersonReportDAL();
+                    
                     PersonReportDAL prd = new PersonReportDAL();
-                    List<string> ddWeek = prd.WeekddID();//获取需要一周发送的用户
+
+                    PersonReportBll prb = new PersonReportBll();
+
+                    prb.RemoveWeekDuplication();
+                    Dictionary <string ,string > ddWeek = prd.WeekddID();//获取需要一周发送的用户
                     string[] userID = new string[] { };
                     string result = "";
                     string text = "请查收您一周的会议室使用情况！";
                     Console.WriteLine("zx");
-                    for (int i = 0; i < ddWeek.Count; i++)
+                    foreach (var item in ddWeek.Keys)
                     {
-                        result = ddWeek[i] + ",";
+                        result = ddWeek[item] + ",";
                         result = result.Substring(0, result.LastIndexOf(","));
                         userID = result.Split(',');
                         sendreport.SendMessageUser(userID, text);//调用message接口
                     }
+
                     Console.WriteLine("执行一次");
                 });
 
@@ -106,7 +110,7 @@ namespace 定时任务
     {
 
         /// <summary>
-        /// 定时任务
+        /// 定时任务 月
         /// </summary>
         public static void Show()
         {
@@ -119,8 +123,8 @@ namespace 定时任务
             //3.创建并配置一个触发器即trigger   1s执行一次
             ITrigger _CronTrigger = TriggerBuilder.Create()
               .WithIdentity("定时确认")
-              .WithCronSchedule("0 0/2 * * * ? ") //秒 分 时 某一天 月 周 年(可选参数)每周日下午五点执行一次
-                                                 // .WithCronSchedule("*/5 * * * * ?") //秒 分 时 某一天 月 周 年(可选参数)每5秒执行一次
+              .WithCronSchedule("0 15 10 L * ?") //每月最后一天
+                                                 
               .Build();
             //4.将job和trigger加入到作业调度池中
             scheduler.ScheduleJob(job, _CronTrigger);
@@ -145,26 +149,29 @@ namespace 定时任务
             {
                 await Task.Run(() =>
                 {
-                    ////要处理的逻辑
-                    //SendMessages send = new SendMessages();
-                    //send.SendMessageUser();
+                    //要处理的逻辑
+               
                     SendMessages sendreport = new SendMessages();
-                    //SendReportMessage sendreport = new SendReportMessage();
-                    // PersonReportDAL prd = new PersonReportDAL();
+                   
                     PersonReportDAL prd = new PersonReportDAL();
 
-                    List<string> ddMonth = prd.MonthddID();//获取需要一个月发送的用户
+                    PersonReportBll prb = new PersonReportBll();
+
+                    //prb.RemoveMonthDuplication();//把报表中没有的钉钉id添加上
+
+                    Dictionary <string,string > ddMonth = prd.MonthddID();//获取需要一个月发送的用户
                     string[] userID = new string[] { };
                     string result = "";
                     string text = "请查收您一个月的会议室使用情况！";
                     Console.WriteLine("zx");
-                    for (int i = 0; i < ddMonth.Count; i++)
+                    foreach (var item in ddMonth.Keys)
                     {
-                        result = ddMonth[i] + ",";
+                        result = ddMonth[item] + ",";
                         result = result.Substring(0, result.LastIndexOf(","));
                         userID = result.Split(',');
                         sendreport.SendMessageUser(userID, text);//调用message接口
                     }
+                    
                     Console.WriteLine("执行一次");
                 });
 
