@@ -23,23 +23,14 @@ namespace 定时任务
             //PersonReportDAL prd = new PersonReportDAL();
             PushWeeklyReport pwr = new PushWeeklyReport();
            
-            //List<string> dd = prd.AllddID();//获取查到的钉id
-            //string[] userID = new string[] { };
-            //string result = "";
-
-            //给每个用户发送卡片消息
-            //for (int i = 0; i < dd.Count; i++)
-            //{
-            //    result = dd[i] + ",";
-            //    result = result.Substring(0, result.LastIndexOf(','));
-            //    userID = result.Split(',');
+            
                 Rootobject rootobject = new Rootobject();
 
                 rootobject.dingIds = ddID;
                 rootobject.groupName = "";
                 rootobject.messageContent =text ;
                 rootobject.messageSingleTitle = "会议室使用情况!!";
-                string url = string.Format("http://192.168.60.140/PersonalDataReport.aspx?{0}", ddID);
+                string url = string.Format("http://192.168.50.207/PersonalDataReport.aspx?{0}", ddID);
                 rootobject.messageSingleUrl = url;
                 rootobject.messageTitle = "会议使用情况";
                 rootobject.sender = "KMS";
