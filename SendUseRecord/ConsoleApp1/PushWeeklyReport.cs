@@ -22,7 +22,7 @@ namespace 定时任务
         public void Message(Rootobject rootobject)
         {
             //发送卡片消息的url
-            string url = "http://d-msg.dmsd.tech:8002/dingmessage/send/simpleCardMsg";
+            string url = "http://msg.dmsd.tech:8002/dingmessage/send/simpleCardMsg";
             
             
             string json = JsonConvert.SerializeObject(rootobject);//var类型强转为json串类型

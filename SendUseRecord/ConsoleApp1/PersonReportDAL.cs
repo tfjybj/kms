@@ -133,18 +133,19 @@ namespace 定时任务
         /// 获取日程表中7天内的开过会议用户
         /// </summary>
         /// <returns></returns>
-        public List<string> WeekddID()
-        {
-            string sql = "select distinct organizer_id from t_calendar where DATE_SUB(curdate(),INTERVAL 8 DAY) <=date(start_time)";
+        public Dictionary<string ,string > WeekddID()
+        { 
+            string sql = "select distinct organizer_id,organizer  from t_calendar where DATE_SUB(curdate(),INTERVAL 7 DAY) <=date(start_time)";
             DataTable result = sqlhelper.ExecuteQuery(sql, CommandType.Text);
             //把所有获取到的钉钉id放到一个集合里面
 
-            List<string> dd = new List<string>();
+           Dictionary<string ,string > dic=new Dictionary<string, string>();
             foreach (DataRow row in result.Rows)
             {
-                dd.Add(row["organizer_id"].ToString());
+                //dic.Add(row["organizer_id"].ToString());
+                dic.Add(row["organizer_id"].ToString(),row["organizer"].ToString ());
             }
-            return dd;
+            return dic;
 
         }
 
@@ -152,18 +153,19 @@ namespace 定时任务
         /// 获取日程表中数据库中30天内的开过会议用户
         /// </summary>
         /// <returns></returns>
-        public List<string> MonthddID()
+        public Dictionary <string ,string > MonthddID()
         {
-            string sql = "select distinct organizer_id from t_calendar where DATE_SUB(curdate(),INTERVAL 30 DAY) <=date(start_time)  ";
+            string sql = "select distinct organizer_id,organizer  from t_calendar where DATE_SUB(curdate(),INTERVAL 30 DAY) <=date(start_time)  ";
             DataTable result = sqlhelper.ExecuteQuery(sql, CommandType.Text);
             //把所有获取到的钉钉id放到一个集合里面
 
-            List<string> dd = new List<string>();
+            Dictionary<string, string> dic = new Dictionary<string, string>();
             foreach (DataRow row in result.Rows)
             {
-                dd.Add(row["organizer_id"].ToString());
+                //dic.Add(row["organizer_id"].ToString());
+                dic.Add(row["organizer_id"].ToString(), row["organizer"].ToString());
             }
-            return dd;
+            return dic;
 
         }
 
@@ -173,7 +175,7 @@ namespace 定时任务
         /// <returns></returns>
         public List<string> Week(string ddID)
         {
-            string sql = "select organizer_id  t_push_report where push_cycle='0'";
+            string sql = "select organizer_id from t_push_report where push_cycle='0'";
             DataTable result = sqlhelper.ExecuteQuery(sql, CommandType.Text);
 
             List<string> organizerID = new List<string>();
@@ -205,30 +207,32 @@ namespace 定时任务
         /// 查询报表中的所有钉钉id
         /// </summary>
         /// <returns></returns>
-        public List<string> Report()
+        public Dictionary<string ,string > Report()
         {
-            string sql = "select organizer_id  from t_push_report";
+            string sql = "select organizer_id ,organizer_name from t_push_report";
             DataTable result = sqlhelper.ExecuteQuery(sql, CommandType.Text);
 
-            List<string> organizerID = new List<string>();
+            Dictionary<string, string> dic = new Dictionary<string, string>();
             foreach (DataRow row in result.Rows)
             {
-                organizerID.Add(row["organizer_id"].ToString());
+                //organizerID.Add(row["organizer_id"].ToString());
+                dic.Add(row["organizer_id"].ToString(), row["organizer_name"].ToString());
             }
-            return organizerID;
+            return dic;
         }
 
         /// <summary>
         /// 添加对比之后的报表中没有的用户
         /// </summary>
         /// <returns></returns>
-        public int AddOrganizerID(string ddID)
+        public int AddOrganizerID(string ddID, string ddName)
         {
 
-            string sql = "insert into t_push_report(organizer_id,push_cycle) values(@ddID,'0')";
+            string sql = "insert into t_push_report(organizer_id,organizer_name,push_cycle) values(@ddID,@ddName,'0')";
             MySqlParameter[] mySqlParameter = new MySqlParameter[]
             {
-                new MySqlParameter("@ddID",ddID)
+                new MySqlParameter("@ddID",ddID),
+                new MySqlParameter("@ddName",ddName )
             };
             int result = sqlhelper.ExecuteNonQuery(sql, mySqlParameter, CommandType.Text);
             return result;
