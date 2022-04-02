@@ -22,7 +22,7 @@ namespace KmsService.KeyBLL
             HttpHelper helper = new HttpHelper();
             //url地址
             List<AllusersEntitiesItem> aproverNameList = new List<AllusersEntitiesItem>();
-            string userURL = ConfigurationManager.ConnectionStrings["authURL"].ConnectionString;
+            string userURL = ConfigurationManager.ConnectionStrings["approverNameURL"].ConnectionString;
 
             string result = helper.HttpGet(userURL);
             //将获取的json串反序列化给实体对象

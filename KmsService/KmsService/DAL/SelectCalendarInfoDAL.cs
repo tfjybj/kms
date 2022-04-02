@@ -63,7 +63,7 @@ namespace KmsService.DAL
         /// <returns>日程信息集合</returns>
         public List<CalendarInfoEntity> SelectCalendarTime(string roomName, string startTime, string endTime)
         {
-            string sql = "SELECT calendar_id,room_name,organizer,organizer_id,start_time,end_time FROM t_calendar where return_time IS NULL AND room_name =@roomName AND end_time LIKE @endTime AND start_time LIKE @startTime and is_delete=@isDelete and get_time is not null";
+            string sql = "SELECT calendar_id,room_name,organizer,organizer_id,start_time,end_time FROM t_calendar where return_time IS NULL AND room_name =@roomName AND end_time LIKE @endTime AND start_time LIKE @startTime and is_delete=@isDelete";
             MySqlParameter[] mySqls = new MySqlParameter[]
             {
                 new  MySqlParameter("@roomName",roomName),
