@@ -13,6 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Configuration;
 using KmsService.Entity;
+using KmsService.Log4;
 namespace KmsService.KeyBLL.SendApproveHandler
 {
     public class AutomaticSendApproveBLL : SendApproveHandlerBLL
@@ -73,13 +74,13 @@ namespace KmsService.KeyBLL.SendApproveHandler
             {
                 //通过userid获取手机号
                 GetUnionID getUnion = new GetUnionID();
-                GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(basicDataEntity.ApproverID);
-                basicDataEntity = new BasicDataDAL().SelectAllBasicData(fromName.name);
+                GetUnionIDModel getUnionID = getUnion.GetDingDingUnionID(basicDataEntity.ApproverID);                
+                LoggerHelper.Info("查询基础数据表信息：会议室名称、提前领取钥匙："+basicDataEntity.RoomName+"、" +(basicDataEntity.BeforeTakeKey-0));
                 //通过手机号获取用户信息
                 GetUserToken getUserToken = new GetUserToken();
                 UserTokenModel userToken = getUserToken.GetToken(getUnionID.result.mobile);
                 string ManagerName = userToken.data.name;
-                string message = string.Format("系统已为您发送申请，等待管理员({0})通过之后即可领取钥匙,如若着急请电话联系！\n领取钥匙卡片会在管理员通过审批后会议开始前{1}分钟发送给你", ManagerName, basicDataEntity.BeforeTakeKey);
+                string message = string.Format("系统已为您发送申请，等待管理员({0})通过之后即可领取钥匙,如若着急请电话联系！\n领取钥匙卡片会在管理员通过审批后会议开始前{1}分钟发送给你", ManagerName, (basicDataEntity.BeforeTakeKey-0));
                 string adminURL = ConfigurationManager.ConnectionStrings["textMessage"].ConnectionString + string.Format("?userID={0}&content={1}", userID, message);
                 httpHelper.HttpPost(adminURL);
                 return null;

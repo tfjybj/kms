@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using KmsService.AuthInterface;
 using KmsService.DAL;
@@ -644,7 +645,24 @@ namespace KmsService
         /// <param name="calendarID">日程ID</param>
         public void DeleteCalendar(string calendarID)
         {
-            UpdateCalendar updateCalendar = new UpdateCalendar();
+            UpdateCalendar updateCalendar = new UpdateCalendar();       
+            HttpHelper httpHelper = new HttpHelper();
+            CalendarInfoEntity calendarInfoEntity = new SelectCalendarInfoDAL().SelectCalendarInfo(calendarID);
+            if (calendarInfoEntity.OutTrackID!=null)
+            {
+                string trackid = calendarInfoEntity.OutTrackID;//卡片消息id
+                string newtrackid = null;
+                char[] chr = new char[] { '"' };
+                string[] result = trackid.Split(chr, StringSplitOptions.RemoveEmptyEntries);
+                for (int i = 0; i < result.Length; i++)
+                {
+                    newtrackid = result[i].ToString();
+                }
+                //如果已给用户发送领取钥匙卡片则将钥匙卡片进行过期处理
+                string url = ConfigurationManager.ConnectionStrings["updateCard"].ConnectionString + string.Format("?roomName={0}&OutTrackId={1}", calendarInfoEntity.RoomName, newtrackid);
+                httpHelper.HttpGet(url);
+
+            }
             updateCalendar.UpdateIsDelete(calendarID);
         }
     }
