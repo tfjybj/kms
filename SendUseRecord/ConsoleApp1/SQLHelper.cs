@@ -28,7 +28,7 @@ namespace 定时任务
         public SQLHelper()
         {
             //连接数据库
-            string connstr = "server=192.168.60.54;database=kms_dev;uid=kms;pwd=kms;Charset=utf8";
+            string connstr = "server=mysql.dmsd.tech;database=kms_prod;uid=kms;pwd=kms;Charset=utf8";
             conn = new MySqlConnection(connstr);
         }
         private MySqlConnection GetConn()

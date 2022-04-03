@@ -5,6 +5,7 @@
  */
 using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.Configuration;
 namespace KmsService.KeyBLL
 {
     /// <summary>
@@ -21,8 +22,9 @@ namespace KmsService.KeyBLL
             HttpHelper helper = new HttpHelper();
             //url地址
             List<AllusersEntitiesItem> aproverNameList = new List<AllusersEntitiesItem>();
-            string userUrl = "http://d-authtemp.dmsd.tech:9002/rbac/queryProjectRole/1234567890123456789012/DwGDkdYHDn8DjyxZpFbrso";
-            string result = helper.HttpGet(userUrl);
+            string userURL = ConfigurationManager.ConnectionStrings["approverNameURL"].ConnectionString;
+
+            string result = helper.HttpGet(userURL);
             //将获取的json串反序列化给实体对象
             Root authManager = JsonConvert.DeserializeObject<Root>(result);
             if (authManager.data[1].roleName == "审批人")

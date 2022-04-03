@@ -540,7 +540,7 @@ namespace dingdingsuccess.Controllers
 
 
         #region 注册卡片回调地址
-        [HttpGet]
+        [HttpPost]
         public string CallBackURL(string url)
         {
             CallBack callBack = new CallBack();
