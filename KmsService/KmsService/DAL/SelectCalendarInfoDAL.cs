@@ -22,7 +22,7 @@ namespace KmsService.DAL
         /// <returns>日程实体</returns>
         public CalendarInfoEntity SelectCalendarInfo(string calendarID)
         {
-            string sql = "select calendar_id,content,start_time,end_time,return_time,room_name,attend_count,organizer,organizer_id,send_people,create_time,update_time,get_time from t_calendar  where calendar_id=@calendarID and is_delete=@isDelete ";
+            string sql = "select calendar_id,content,start_time,end_time,return_time,room_name,attend_count,organizer,organizer_id,send_people,create_time,update_time,get_time,out_track_id from t_calendar  where calendar_id=@calendarID and is_delete=@isDelete ";
             MySqlParameter[] mySqls = new MySqlParameter[]
             {
                 new MySqlParameter("@calendarID",calendarID),
@@ -50,6 +50,7 @@ namespace KmsService.DAL
                 calendarInfo.CreateTime = row["create_time"].ToString();
                 calendarInfo.UpdateTime = row["update_time"].ToString();
                 calendarInfo.GetTime = row["get_time"].ToString();
+                calendarInfo.OutTrackID = row["out_track_id"].ToString();
             }
             return calendarInfo;
         }
